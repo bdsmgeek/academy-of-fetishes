@@ -1,9 +1,9 @@
-::  FetishPicker
+:: FetishPicker
 With this Fetish Picker, you can prevent some of the more controversial fetishes from appearing in the game.  But before you use it, know this:
 
 <ul>\
 <li>There are a lot more fetishes in the game than on the Fetish Picker list (<a href="https://www.patreon.com/AcademyOfFetishes" target="_blank" onclick="ga('send', 'event', 'visit-patreon', 'fetish-picker')">For a full fetish list, scroll to the bottom of my Patreon's about page.</a>).</li>
-<li>You should leave them to "Yes" if you can stomach the fetish because:</li>\
+<li>You should leave them to checked if you can stomach the fetish because:</li>\
 <ul>\
 <li>You will almost always be warned before you go into one of these fetishes and have a choice to avoid it.</li>
 <li>You may miss some story if you turn it off.</li>
@@ -11,77 +11,29 @@ With this Fetish Picker, you can prevent some of the more controversial fetishes
 </ul>\
 </ul>\
 
-Anal fisting: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_anal_fisting" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_anal_fisting" false>> No</label>
-Anal prolapse: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_prolapse" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_prolapse" false>> No</label>
-Armpit fetish: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_armpit" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_armpit" false>> No</label>
-Breast torture: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_breast_torture" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_breast_torture" false>> No</label>
-Cock and ball torture: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_cbt" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_cbt" false>> No</label>
-Diapers: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_diaper" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_diaper" false>> No</label>
-Enemas: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_enema" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_enema" false>> No</label>
-Farting/Queefs: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_farting" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_farting" false>> No</label>
-Foot Fetish: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_feet" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_feet" false>> No</label>
-Lactation: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_lactation" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_lactation" false>> No</label>
-Mother/Daughter: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_mom" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_mom" false>> No</label>
-Nipple torture: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_nipple" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_nipple" false>> No</label>
-Painal (painful anal): 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_painal" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_painal" false>> No</label>
-Puffy/Rosebutt Anuses: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_puffy_anus" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_puffy_anus" false>> No</label>
-Scat: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_scat" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_scat" false>> No</label>
-Sleep fetish: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_sleep" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_sleep" false>> No</label>
-Snot: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_snot" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_snot" false>> No</label>
-Spit: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_spit" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_spit" false>> No</label>
-Trans girls: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_trans" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_trans" false>> No</label>
-Twincest: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_twin" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_twin" false>> No</label>
-Urethra (pee hole) play: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_peehole" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_peehole" false>> No</label>
-Vaginal fisting: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_vaginal_fisting" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_vaginal_fisting" false>> No</label>
-Vomit: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_vomit" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_vomit" false>> No</label>
-Watersports (pee): 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_pee" true checked>> Yes</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fp_pee" false>> No</label>
+<label><<checkbox "$fp_anal_fisting" false true checked>> Anal fisting</label> 
+<label><<checkbox "$fp_prolapse" false true checked>> Anal prolapse</label>
+<label><<checkbox "$fp_armpit" false true checked>> Armpit fetish</label>
+<label><<checkbox "$fp_breast_torture" false true checked>> Breast torture</label>
+<label><<checkbox "$fp_cbt" false true checked>> Cock and ball torture</label>
+<label><<checkbox "$fp_diaper" false true checked>> Diapers</label>
+<label><<checkbox "$fp_enema" false true checked>> Enemas</label>
+<label><<checkbox "$fp_farting" false true checked>> Farting/Queefs</label>
+<label><<checkbox "$fp_feet" false true checked>> Foot Fetish</label>
+<label><<checkbox "$fp_lactation" false true checked>> Lactation</label>
+<label><<checkbox "$fp_mom" false true checked>> Mother/Daughter</label>
+<label><<checkbox "$fp_nipple" false true checked>> Nipple torture</label>
+<label><<checkbox "$fp_painal" false true checked>> Painal (painful anal)</label>
+<label><<checkbox "$fp_puffy_anus" false true checked>> Puffy/Rosebutt Anuses</label>
+<label><<checkbox "$fp_scat" false true checked>> Scat</label>
+<label><<checkbox "$fp_sleep" false true checked>> Sleep fetish</label>
+<label><<checkbox "$fp_snot" false true checked>> Snot</label>
+<label><<checkbox "$fp_spit" false true checked>> Spit</label>
+<label><<checkbox "$fp_trans" false true checked>> Trans girls</label>
+<label><<checkbox "$fp_twin" false true checked>> Twincest</label>
+<label><<checkbox "$fp_peehole" false true checked>> Urethra (pee hole) play</label>
+<label><<checkbox "$fp_vaginal_fisting" false true checked>> Vaginal fisting</label>
+<label><<checkbox "$fp_vomit" false true checked>> Vomit</label>
+<label><<checkbox "$fp_pee" false true checked>> Watersports (pee)</label>
 
 [["Create your character"->CreateYourCharacter]]
