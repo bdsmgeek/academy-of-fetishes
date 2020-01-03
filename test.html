@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<div id="store-area" hidden><!-- UUID://B5ABB3A9-F23E-425F-A6A8-D0928AAD845F// --><tw-storydata name="Academy of Fetishes" startnode="573" creator="Tweego" creator-version="2.0.0+089d4ca77e5b" ifid="B5ABB3A9-F23E-425F-A6A8-D0928AAD845F" zoom="1" format="SugarCube" format-version="2.28.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "Story Stylesheet" */
+	<div id="store-area" hidden><!-- UUID://B5ABB3A9-F23E-425F-A6A8-D0928AAD845F// --><tw-storydata name="Academy of Fetishes" startnode="572" creator="Tweego" creator-version="2.0.0+089d4ca77e5b" ifid="B5ABB3A9-F23E-425F-A6A8-D0928AAD845F" zoom="1" format="SugarCube" format-version="2.28.2" options="debug" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "Story Stylesheet" */
 .passage img {
   max-width: 100%;
   display: block;
@@ -14654,7 +14654,29 @@ Oh hey!  It looks like there are some camera scenes you haven&#39;t seen yet.
 
 &lt;&lt;script&gt;&gt;
 ga(&#39;send&#39;, &#39;event&#39;, &#39;game&#39;, &#39;completed&#39;);
-&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="565" name="CreateYourCharacter" tags="" position="600,7100" size="100,100">! Create your character
+&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="565" name="IntroArtClass1" tags="" position="600,7100" size="100,100">&quot;Before I continue,&quot; you say, &quot;Let&#39;s take a quick peek on the art class that&#39;s in session.&quot;  You stand back so you both can look through the window.
+
+There&#39;s a group of students facing their lecturing teacher.  The muffled conversation cannot be made out but suddenly the teacher starts disrobing.  Ms. Darwin&#39;s head bobs back in surprise.
+
+&quot;Now you understand,&quot; you say.
+
+With a neutral expression, she says, &quot;I wasn&#39;t prepared to see nudity, but it still looks like a normal art class to me.  Art classes have nude models all the time... Although it is a little unusual that in this case the teacher is the model.  Is that because of the budget cuts?&quot;
+
+You smile without answering. &quot;Let me ask you something.  Are you easily offended?&quot;
+
+&quot;Why?&quot; she waits for a reply that never comes and speaks again to break the silence. &quot;No, not at all.&quot;
+
+You smile. &quot;Then Let&#39;s step into this class and watch for a minute.&quot;
+
+You open the door and let Ms. Darwin walk in first.
+
+[[Continue.-&gt;Name Picked]]</tw-passagedata><tw-passagedata pid="566" name="IntroArtClass3" tags="" position="725,7100" size="100,100">Ms. Monet frowns for a moment but then perks up. &quot;I was just about to show the students something that I think is exactly what you&#39;re looking for.  I think you&#39;ll be very pleased with it!&quot;
+
+&quot;Very well then, continue.&quot;
+
+&quot;OK students.  I want you all to grab a new piece of sketch paper for this.  Remember for this piece I want you to focus on realism, OK?&quot;  Then Ms. Monet does something that Ms. Darwin would have never expected.
+
+[[Continue-&gt;FullBridge]]</tw-passagedata><tw-passagedata pid="567" name="CreateYourCharacter" tags="" position="850,7100" size="100,100">! Create your character
 
 Your last name is: &lt;&lt;textbox &quot;$name&quot; &quot;Shepard&quot;&gt;&gt;
 
@@ -14672,11 +14694,11 @@ You have a:
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;label&gt; &lt;&lt;radiobutton &quot;$mc_crotch&quot; &quot;vagina&quot;&gt;&gt; Vagina&lt;/label&gt;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;label&gt; &lt;&lt;radiobutton &quot;$mc_crotch&quot; &quot;both&quot;&gt;&gt; Both&lt;/label&gt;
 
-[[Start the game.-&gt;Beginning]]</tw-passagedata><tw-passagedata pid="566" name="FetishPicker" tags="" position="725,7100" size="100,100">With this Fetish Picker, you can prevent some of the more controversial fetishes from appearing in the game.  But before you use it, know this:
+[[Start the game.-&gt;Beginning]]</tw-passagedata><tw-passagedata pid="568" name="FetishPicker" tags="" position="975,7100" size="100,100">With this Fetish Picker, you can prevent some of the more controversial fetishes from appearing in the game.  But before you use it, know this:
 
 &lt;ul&gt;\
 &lt;li&gt;There are a lot more fetishes in the game than on the Fetish Picker list (&lt;a href=&quot;https://www.patreon.com/AcademyOfFetishes&quot; target=&quot;_blank&quot; onclick=&quot;ga(&#39;send&#39;, &#39;event&#39;, &#39;visit-patreon&#39;, &#39;fetish-picker&#39;)&quot;&gt;For a full fetish list, scroll to the bottom of my Patreon&#39;s about page.&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;You should leave them to &quot;Yes&quot; if you can stomach the fetish because:&lt;/li&gt;\
+&lt;li&gt;You should leave them to checked if you can stomach the fetish because:&lt;/li&gt;\
 &lt;ul&gt;\
 &lt;li&gt;You will almost always be warned before you go into one of these fetishes and have a choice to avoid it.&lt;/li&gt;
 &lt;li&gt;You may miss some story if you turn it off.&lt;/li&gt;
@@ -14709,29 +14731,44 @@ You have a:
 &lt;label&gt;&lt;&lt;checkbox &quot;$fp_vomit&quot; false true checked&gt;&gt; Vomit&lt;/label&gt;
 &lt;label&gt;&lt;&lt;checkbox &quot;$fp_pee&quot; false true checked&gt;&gt; Watersports (pee)&lt;/label&gt;
 
-[[&quot;Create your character&quot;-&gt;CreateYourCharacter]]</tw-passagedata><tw-passagedata pid="567" name="IntroArtClass1" tags="" position="850,7100" size="100,100">&quot;Before I continue,&quot; you say, &quot;Let&#39;s take a quick peek on the art class that&#39;s in session.&quot;  You stand back so you both can look through the window.
+[[&quot;Create your character&quot;-&gt;CreateYourCharacter]]</tw-passagedata><tw-passagedata pid="569" name="SchoolIntro1" tags="" position="1100,7100" size="100,100">&quot;Well,&quot; Ms. Darwin says, &quot;I know from our phone conversation that this is an all-girls school.  In fact, you don&#39;t even allow male teachers.&quot;
 
-There&#39;s a group of students facing their lecturing teacher.  The muffled conversation cannot be made out but suddenly the teacher starts disrobing.  Ms. Darwin&#39;s head bobs back in surprise.
+&quot;Mm-hm.&quot;
 
-&quot;Now you understand,&quot; you say.
+&quot;And it&#39;s in the middle of nowhere.&quot;
 
-With a neutral expression, she says, &quot;I wasn&#39;t prepared to see nudity, but it still looks like a normal art class to me.  Art classes have nude models all the time... Although it is a little unusual that in this case the teacher is the model.  Is that because of the budget cuts?&quot;
+&quot;That&#39;s right.  The nearest town is 20 miles away and the students sleep in campus dorms.  If you accept the job, you&#39;ll be sleeping in the teacher&#39;s dormitory.&quot;
 
-You smile without answering. &quot;Let me ask you something.  Are you easily offended?&quot;
+&quot;And,&quot; before continuing, Ms. Darwin pauses. &quot;I don&#39;t mean to offend, but I was a little weirded out that you exchanged my mobile phone with another one and took my keys.&quot;
 
-&quot;Why?&quot; she waits for a reply that never comes and speaks again to break the silence. &quot;No, not at all.&quot;
+&quot;Ah, yes,&quot; you say.  &quot;Sorry about that.  If you decline the job your mobile phone and keys will be returned to you, of course.  You probably noticed your new phone has no data and limited functionality.  It keeps the staff and students focused on their tasks. The mobile phone exchange is a strict requirement for anyone that stays or visits with us.
 
-You smile. &quot;Then Let&#39;s step into this class and watch for a minute.&quot;
+&quot;As for your keys,&quot; you say, &quot;well this is actually for your protection.  The students can be a little... mischievous.  We&#39;ve caught few pick pocketing in the past.  I&#39;d hate for one of them to steal your belongings.&quot;
 
-You open the door and let Ms. Darwin walk in first.
+You sense she&#39;s uncomfortable with your answer, but she doesn&#39;t contend it.  After clearing her throat, she says, &quot;I tried to find more information on the website, but it&#39;s pretty barren.  I really don&#39;t know anything else about the place.&quot;
 
-[[Continue.-&gt;Name Picked]]</tw-passagedata><tw-passagedata pid="568" name="IntroArtClass3" tags="" position="975,7100" size="100,100">Ms. Monet frowns for a moment but then perks up. &quot;I was just about to show the students something that I think is exactly what you&#39;re looking for.  I think you&#39;ll be very pleased with it!&quot;
+[[More School Details-&gt;SchoolIntro2]]</tw-passagedata><tw-passagedata pid="570" name="SchoolIntro2" tags="" position="1225,7100" size="100,100">You say, &quot;I don&#39;t want to scare you off, Ms. Darwin, but I think I would be doing you a disservice if I didn&#39;t tell you more.  You see, Saint Mary&#39;s School is funded as an experiment to educate delinquent students.  None of their crimes are violent, so rest assured, you&#39;ll be in no danger.  But, technically, this school is a minimum security prison.
 
-&quot;Very well then, continue.&quot;
+&quot;As such, we&#39;re left to our own devices with the assumption that we&#39;re giving these students an education they otherwise wouldn&#39;t receive.  But... because we&#39;ve been left to our own devices, we&#39;ve been free to experiment with our teaching methods.  Do you understand?&quot;
 
-&quot;OK students.  I want you all to grab a new piece of sketch paper for this.  Remember for this piece I want you to focus on realism, OK?&quot;  Then Ms. Monet does something that Ms. Darwin would have never expected.
+[[Continue-&gt;SchoolIntro3]]</tw-passagedata><tw-passagedata pid="571" name="SchoolIntro3" tags="" position="100,7225" size="100,100">&quot;Yes, I think I do,&quot; Ms. Darwin says.
 
-[[Continue-&gt;FullBridge]]</tw-passagedata><tw-passagedata pid="569" name="IntroWeek" tags="" position="1100,7100" size="100,100">&lt;&lt;if not $finished_self_photo&gt;&gt;\
+You furrow your brow. &quot;I don&#39;t think you do.  Come.  Let&#39;s look in on a class that&#39;s in session.&quot;  You open a drawer in your desk, drop your &lt;&lt;purse&gt;&gt; in, and lock it.
+
+You pass many classrooms on your walk, all of them abandoned long ago.  Inside, the desks are stacked on each other and covered in dust.
+
+&quot;Our funding is limited, so we had to cut back on most of our classes.  But last month all turned around.  That&#39;s one of the reasons we&#39;re so excited to have you here.  For me it symbolizes a turning point in our financial hardship.&quot;
+
+[[Continue-&gt;IntroArtClass1]]</tw-passagedata><tw-passagedata pid="572" name="Start" tags="" position="225,7225" size="100,100">&lt;&lt;img &quot;in_game_banner.png&quot;&gt;&gt;
+! You must be 18 years of age or older to play
+! All Characters Depicted are 18 years or older
+
+&#39;&#39;[[Continue-&gt;FetishPicker]]&#39;&#39;
+
+
+&lt;a href=&quot;http://academyoffetishes.com/changelog.md&quot; target=&quot;_blank&quot;&gt;Version: &lt;&lt;print setup.versionString()&gt;&gt; (Click for changelog)&lt;/a&gt;
+
+This is a work of fiction. Names, characters, places, and incidents are the products of the author&#39;s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is entirely coincidental.</tw-passagedata><tw-passagedata pid="573" name="IntroWeek" tags="" position="350,7225" size="100,100">&lt;&lt;if not $finished_self_photo&gt;&gt;\
 	[[You want to check on Ms. Monet&#39;s art class-&gt;SelfPhoto]]
 
 &lt;&lt;/if&gt;&gt;\
@@ -14763,44 +14800,7 @@ You open the door and let Ms. Darwin walk in first.
 	$finished_uniform_breast_inspection and
 	($week is 1)&gt;&gt;
 	&lt;&lt;set $hide_camera_links to true&gt;&gt;&lt;&lt;goto &quot;UnlockTransferStudents&quot;&gt;&gt;
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="570" name="SchoolIntro1" tags="" position="1225,7100" size="100,100">&quot;Well,&quot; Ms. Darwin says, &quot;I know from our phone conversation that this is an all-girls school.  In fact, you don&#39;t even allow male teachers.&quot;
-
-&quot;Mm-hm.&quot;
-
-&quot;And it&#39;s in the middle of nowhere.&quot;
-
-&quot;That&#39;s right.  The nearest town is 20 miles away and the students sleep in campus dorms.  If you accept the job, you&#39;ll be sleeping in the teacher&#39;s dormitory.&quot;
-
-&quot;And,&quot; before continuing, Ms. Darwin pauses. &quot;I don&#39;t mean to offend, but I was a little weirded out that you exchanged my mobile phone with another one and took my keys.&quot;
-
-&quot;Ah, yes,&quot; you say.  &quot;Sorry about that.  If you decline the job your mobile phone and keys will be returned to you, of course.  You probably noticed your new phone has no data and limited functionality.  It keeps the staff and students focused on their tasks. The mobile phone exchange is a strict requirement for anyone that stays or visits with us.
-
-&quot;As for your keys,&quot; you say, &quot;well this is actually for your protection.  The students can be a little... mischievous.  We&#39;ve caught few pick pocketing in the past.  I&#39;d hate for one of them to steal your belongings.&quot;
-
-You sense she&#39;s uncomfortable with your answer, but she doesn&#39;t contend it.  After clearing her throat, she says, &quot;I tried to find more information on the website, but it&#39;s pretty barren.  I really don&#39;t know anything else about the place.&quot;
-
-[[More School Details-&gt;SchoolIntro2]]</tw-passagedata><tw-passagedata pid="571" name="SchoolIntro2" tags="" position="100,7225" size="100,100">You say, &quot;I don&#39;t want to scare you off, Ms. Darwin, but I think I would be doing you a disservice if I didn&#39;t tell you more.  You see, Saint Mary&#39;s School is funded as an experiment to educate delinquent students.  None of their crimes are violent, so rest assured, you&#39;ll be in no danger.  But, technically, this school is a minimum security prison.
-
-&quot;As such, we&#39;re left to our own devices with the assumption that we&#39;re giving these students an education they otherwise wouldn&#39;t receive.  But... because we&#39;ve been left to our own devices, we&#39;ve been free to experiment with our teaching methods.  Do you understand?&quot;
-
-[[Continue-&gt;SchoolIntro3]]</tw-passagedata><tw-passagedata pid="572" name="SchoolIntro3" tags="" position="225,7225" size="100,100">&quot;Yes, I think I do,&quot; Ms. Darwin says.
-
-You furrow your brow. &quot;I don&#39;t think you do.  Come.  Let&#39;s look in on a class that&#39;s in session.&quot;  You open a drawer in your desk, drop your &lt;&lt;purse&gt;&gt; in, and lock it.
-
-You pass many classrooms on your walk, all of them abandoned long ago.  Inside, the desks are stacked on each other and covered in dust.
-
-&quot;Our funding is limited, so we had to cut back on most of our classes.  But last month all turned around.  That&#39;s one of the reasons we&#39;re so excited to have you here.  For me it symbolizes a turning point in our financial hardship.&quot;
-
-[[Continue-&gt;IntroArtClass1]]</tw-passagedata><tw-passagedata pid="573" name="Start" tags="" position="350,7225" size="100,100">&lt;&lt;img &quot;in_game_banner.png&quot;&gt;&gt;
-! You must be 18 years of age or older to play
-! All Characters Depicted are 18 years or older
-
-&#39;&#39;[[Continue-&gt;FetishPicker]]&#39;&#39;
-
-
-&lt;a href=&quot;http://academyoffetishes.com/changelog.md&quot; target=&quot;_blank&quot;&gt;Version: &lt;&lt;print setup.versionString()&gt;&gt; (Click for changelog)&lt;/a&gt;
-
-This is a work of fiction. Names, characters, places, and incidents are the products of the author&#39;s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is entirely coincidental.</tw-passagedata><tw-passagedata pid="574" name="Office" tags="noskip" position="475,7225" size="100,100">&lt;&lt;set $hide_camera_links to false&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="574" name="Office" tags="noskip" position="475,7225" size="100,100">&lt;&lt;set $hide_camera_links to false&gt;&gt;\
 &lt;&lt;include &quot;ProcessNewYearbookDetails&quot;&gt;&gt;\
 &lt;&lt;if $hucow and 
     (not $finished_hucow_transformation) and 
