@@ -1,4 +1,4 @@
-::  CharDetail [widget]
-<<widget chardetail>><<nobr>>
+::  CharDetail [widget nobr]
+<<widget chardetail>>
 <<run setup.ybAddDetail($args[0], $args[1])>>
-<</nobr>><</widget>>\
+<</widget>>\
