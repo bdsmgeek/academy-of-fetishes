@@ -1,0 +1,7 @@
+::  StoryAuthor
+<<script>>
+var patreonConversion = function() {
+	return ga('send', 'event', 'visit-patreon', 'sidebar-image', State.passage);
+}
+$('<a href="https://www.patreon.com/AcademyOfFetishes" target="_blank"><img src="images/patreon-medium-button.png" title="Support Academy of Fetishes"/></a>').bind("click", patreonConversion).appendTo("#story-author");
+<</script>>

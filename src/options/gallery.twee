@@ -1,0 +1,27 @@
+::  Gallery [noskip]
+<div id="gallery-container">\
+! Gallery
+<<nobr>>
+<img src="images/close.png" id="close-image" onclick="SugarCube.setup.hideGallery()"/>
+<div id="overlay">
+</div> 
+<div id="overlay-background" onclick="SugarCube.setup.hideGallery()">
+</div> 
+
+<<set $image_groups to setup.makeImageGroups()>>
+<<set _image_count to 0>>
+
+<div id="gallery">
+    <table>
+        <<for _groupIndex to 0; _groupIndex lt $image_groups.length; _groupIndex++>>
+            <tr>
+                <<for _imageIndex to 0; _imageIndex lt $image_groups[_groupIndex].length; _imageIndex++>>
+                    <td @data-index='_image_count' onclick="SugarCube.setup.showGalleryImage($(this).attr('data-index'))">[img["images/" + $image_groups[_groupIndex][_imageIndex]]]</td>
+                <<set _image_count++>>
+                <</for>>
+            </tr>
+        <</for>>
+    </table>
+    <<back>>
+</div>
+<</nobr>>

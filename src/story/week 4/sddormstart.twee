@@ -1,0 +1,8 @@
+::  SDDormStart
+Usually when school ends, you stay in the teacher's dormitory for the rest of the night.  But tonight, you are unable to sleep.  You sigh and look at the clock.  It's 1am.  The hooded pets are sleeping with their owners and you can't stop thinking about what they might be doing with each other.  So you get up, put your skeleton key around your neck, and walk outside to the student's dormitory in your silk pajamas.
+
+When you get inside, you walk the dark halls.  The door of each room has a little window you can peer in.  You look for signs of life. Most but not all of the rooms are dark.  <<include "SDDormLinks">><<nobr>>
+    <<if $olivia_likes_mia and $fp_peehole and $fp_pee>>
+        <<run $cameraPassagePool.push("OliviaMiaUrethraPlay")>> 
+    <</if>>
+<</nobr>>

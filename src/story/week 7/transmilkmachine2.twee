@@ -1,0 +1,11 @@
+::  TransMilkMachine2
+<<if $fp_cbt>>Ms. Tink said she built a machine specifically for Bailey.  No doubt it's a cruel and painful device.  It'll probably be something to torture her testicles.  Do you want to bring Bailey to the barn?
+
+[[Yes, bring Bailey.  She'll be tortured, but if you know her like you think you do, she'll enjoy it.|TransMilkMachine3][$bailey_can_be_milked to true]]
+
+[[No.->TransMilkMachine3]]
+
+[[You don't want to bring any trans girls to Ms. Tink.->Office]]
+<<else>>
+    <<include "TransMilkMachine3">>
+<</if>>

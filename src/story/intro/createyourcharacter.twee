@@ -1,0 +1,20 @@
+::  CreateYourCharacter
+! Create your character
+
+Your last name is: <<textbox "$name" "Shepard">>
+
+Preferred pronouns: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "male" checked>> He/Him/His</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "female">> She/Her/Hers</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "enby">> They/Them/Theirs</label>
+
+You have breasts: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_breasts" true>> Yes</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_breasts" false checked>> No</label>
+
+You have a: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "penis" checked>> Penis</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "vagina">> Vagina</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "both">> Both</label>
+
+[[Start the game.->Beginning]]

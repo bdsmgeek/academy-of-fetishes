@@ -1,0 +1,35 @@
+::  OliviaDiaperCheckupMiaClean
+Turning to Mia, you say, "Do you think you can take it from here?"
+
+Her eyes dart about before she says, "You mean, clean her?"
+
+"Mm-hmm.  I'll sit here and supervise, but I'd like to take a break and watch now."
+
+<<if $olivia_likes_mia>>\
+After thinking about it for a moment, the first thing Mia asks is, "Can I untie her?"
+
+You're not sure if that's a good idea, but when you glance at Olivia, you see her staring at the ceiling with her chin quivering.  She looks so defeated, she'd probably let you do anything you want to her.\
+<<else>>\
+When you glance at Olivia, you see her staring at the ceiling with her chin quivering.  You tell Mia, "It might be fun to untie her, first."
+
+Mia jerks her head back then shakes her head.  "No way.  She'd absolutely kill me."
+
+"I don't think so," you say.  "Just look at her."  After inspecting Olivia's demeanor, Mia understands.  Olivia's so defeated, she'd probably let Mia do anything she wants.\
+<</if>>
+
+Mia unfastens Olivia's legs first, but as soon as she unties Olivia's wrist, Olivia leaps toward Mia.  With a gasp, you lean forward as fast as you can to shield any harm to Mia, but as soon as you lay your hands on them, you realize you're the one who misread the situation.  Olivia didn't leap to attack Mia, she leaped to sob on Mia's shoulder.  
+
+As Olivia cries, Mia pats her back to soothe her.\
+<<if $odc_gagged>>\
+    <<set $odc_gagged to false>>\
+    After a while, Mia lifts her hands to the nape of Olivia's neck, and unfastens the gag.  It falls to the bed and Olivia's hand trembles as she wipes some of the slobber away from her mouth with her fingertips. \
+<</if>>\
+It doesn't seem like Olivia's going to stop crying any time soon.  Mia looks up at you with watery eyes and says, "I feel bad."  
+
+"I know," you say.  "She'll feel better once she's clean and has a good nights sleep."  Mia swallows hard, holds Olivia tight, and shakes her head.
+
+You walk to your cardboard box and place it on the foot of the bed so it's in reach, then you say, "Uh, it might be easiest if you lay her down on her back."  Mia sighs but agrees.  She pries Olivia off her and holds both her hands as she lowers her down to the bed.  While she's being let down, Olivia shivers like she's freezing to death, and when Mia releases Olivia's hands, it's like Olivia doesn't know what to do with them.  She settles on placing her thumbs by her mouth like one would if they were trying to warm their hands with their breath.
+
+[[Continue.->OliviaDiaperCheckupMiaClean2]]\
+<<chardetail "Olivia" "Mia put a fresh diaper on her.">>\
+<<chardetail "Mia" "She put a fresh diaper on Olivia.">>

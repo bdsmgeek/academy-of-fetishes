@@ -1,0 +1,28 @@
+::  CameraSetup
+When you started working with the Anonymous Benefactor, you would write stories at the end of the day to describe what transpired.  Back then, things were tame, but when AB began requesting more perverted classes, you begged for cameras to be installed everywhere because you were terrified someone would escape without you noticing.
+
+AB was hesitant to the idea because if any of the footage leaked to the public, you and them would be in real trouble.   You told them that a student escaping is a much higher risk than the footage being leaked, but they disagreed.
+
+After some negotiation, you convinced AB to install some closed-circuit television cameras without a record function.  This way, you can at least take roll call in the mornings and nights to make sure nobody's escaped.  Because they're closed circuit, only you will be able to watch them.
+
+Only you and AB know that they're installed. They're well hidden, and they're everywhere!  For example, each dorm room has six cameras.  This allows you to see any scene that unfolds in a room even if the students rearrange their furniture and block one of the cameras.
+
+You would have preferred to tell the teachers, but AB instructed you not to.  In the end, you're glad you listened, because you often catch them doing interesting things that they probably wouldn't do if they knew you were watching.
+
+You unlock a door in your office that leads to the surveillance TVs.  The room has another desk with two large, touch-screen monitors on it.  It's about the size of a closet and it can't fit much more than that.
+
+The smaller monitor is off to the side and has a grid on it.  Each cell of the grid shows a small video stream of what a camera is capturing.  If you touch one of the cells on that grid, a large video of it shows up on the larger monitor and lets you hear the audio.
+
+The equipment is pretty high tech.  You can drag your finger on the large monitor to change the angle of the camera and pinch and pull to zoom in and out, respectively.  Plus, the way it captures audio is amazing.  You can usually hear what people are saying even when they're whispering.
+
+Unfortunately, there's nothing interesting to be found on the TVs at this time.  It's between classes and the students are walking through the halls to get to their next class.
+	
+[[Office]]<<nobr>>
+<<set $camerasSetup to true>>
+<<if $fp_pee>>
+	<<run $cameraPassagePool.push("KiraPee")>>
+<</if>>
+<<run $cameraPassagePool.push("OliviaBullies")>>
+<<run $cameraPassagePool.push("OliviaPantsing")>>
+<<run $cameraPassagePool.push("MonetAndDarwin")>>
+<</nobr>>

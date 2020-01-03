@@ -1,0 +1,20 @@
+::  AbChase
+<<set $finished_ab_chase to true>>\
+<<if $mc_gender === "male">><<set _robe to "robe">><<else>><<set _robe to "nighty">><</if>>\
+<<if $chastity>>\
+You wake up in the middle of the night and realize you forgot to type an email to AB about the closing ceremony, so you hop out of bed, put on your _robe, and walk to your office.\
+<<else>>\
+You decide not to put the students in chastity, and you're sure you can come up with lots of creative ideas that'll please AB just the same.  As early as Monday, that's proven to be true:
+
+Ms. Waterloo decides to have an outdoor class for once.  Of course, without the indoor pool, it won’t be a swimming lesson.  Instead, the students have a relaxing hour sunbathing outside in the nude.  You come to watch, and Ms. Waterloo gives you the task of rubbing sunblock on every student's body.  Although it's a small class of 15 or so people, it takes you a full hour to apply lotion on everyone.
+
+Late that night, you wake up and realize you forgot to write AB an email about Ms. Waterloo's class, so you hop out of bed, put on your _robe, and walk to your office.\
+<</if>>
+
+Outside the dormitories, you have to cross the walkway to get to the school.  The moonlight shining off the dewy grass guides your path, but when you open the double doors to the school hallway, the darkness is almost disorienting, as though you're looking down an elevator shaft.  You can't see the end of the halls.  Blind, you grope for the light switch.  Fluorescent bulbs clink and buzz as they flicker on.  
+
+You're not usually at the school at this time of night.  Each step you take echoes. Maybe this email can wait until morning, but you've never been late with an email before, and the sooner you send it out, the sooner the school gets more funding.  
+
+Before you open your office door, you look through its textured window as if there may be someone on the other side.  Of course, it's empty.  Why would anyone be in there?  Stepping inside, you turn on the lights, and things start to feel normal again.  You're used to being alone in this room.  The hallway, on the other hand, is usually bustling with student activity.
+
+[[Continue.->AbChase2]]

@@ -1,0 +1,18 @@
+::  Engineering2
+Ms. Tink beckons you over to pick one of her plans. Her desk has many rolled up blueprints.  She picks one out and says, "You don't have to pick just one. Honestly, you don't have to pick any.  Just let me know!"
+
+<<if $has_futa_students>>\
+"I was told you have an art class," she says as she unrolls a blueprint.  "Well, these sturdy, metal easels would be perfect for that!"  It doesn't look like any easel you've ever seen before.  Essentially, it's a metal rectangular frame with long legs attached to it.  She continues, "They have loops along the inside and outside of the frame and more loops on the legs.  These can be used to tie or handcuff someone to the device in all sorts of ways.  You can really get creative with it.  The heavy tripod ensures that it can hold any student's weight and, no matter how hard they struggle, it won't bend or tip over."
+
+Should she build sturdy, metal easels: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_metal_easels" true checked>> Yes</label>\
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_metal_easels" false>> No</label>
+
+<</if>>\
+She says, "I'm very proud of this one.  It's made of spandex headgear that completely covers the eyes and has sound proofing at the ears that will dampen almost all external noise.  It folds over the wearer's head and has two metal loops at the back of the neck.  If you put a lock through both loops, it cannot be taken off.  A leather leash can be attached to the back loop or another loop on the front of the neck.  There is a nose hole and mouth hole so the wearer can speak.  They will not be mute,  but you can always put in a gag if you prefer them to be."
+
+Should she build sensory deprivation headgear: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_sensory_deprivation" true checked>> Yes</label>\
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_sensory_deprivation" false>> No</label>
+
+[[Continue.->EngineeringDeviceUnlocked]]

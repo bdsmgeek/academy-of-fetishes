@@ -1,0 +1,9 @@
+::  img [widget]
+<<widget 'img'>><<nobr>>
+    <<run $images_seen.push($args[0])>>
+    <<if settings.showImages>>
+        [img["images/" + $args[0]]]
+    <<else>>
+    //Hidden Image.  Change your settings to view.//
+    <</if>>
+<</nobr>><</widget>>\

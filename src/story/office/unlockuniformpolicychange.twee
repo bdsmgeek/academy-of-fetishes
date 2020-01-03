@@ -1,0 +1,14 @@
+::  UnlockUniformPolicyChange
+Back at the office you decide to type an email to the Anonymous Benefactor.
+
+"Dear Anonymous Benefactor,
+
+"I just came back from the physical education class and Mrs. Ball is doing a good job whipping those students into shape (figuratively... for now).  But, I'd like to change the PE uniforms.  They're baggy and unflattering.  In fact, they're so bad it's no exaggeration to say that in today's class they caused a distraction.
+
+"I'd like to buy some clothes that are more form fitting for the students.  The only problem is that we don't have the funds to pay for new uniforms.  Would you be interested in donating for this cause?
+
+"- Principal $name"
+
+You send the email and do some paperwork.  If you know AB, they're sure to agree to this.
+
+[[Continue->Office]]<<set $has_revealing_pe_outfits to true>>

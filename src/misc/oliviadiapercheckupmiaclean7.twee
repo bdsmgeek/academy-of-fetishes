@@ -1,0 +1,32 @@
+::  OliviaDiaperCheckupMiaClean7
+"Time to put a new diaper on," you say.  <<if not $odc_continue>>"You don't have to wear it tomorrow, but I think the muscle relaxant lube is still in effect, so I don't want you to soil your bed tonight."<</if>>
+
+Mia uses a wet wipe to clean the lube and juice from Olivia's vulva, then applies some baby powder.  Although its fragrance fills the room, there's still a hint of Olivia's mess in the air.  Soon, Olivia's vulva looks like it's covered in powdered sugar, except around the rim of her vagina, where some fresh juice seeps out.  
+
+Holding up the clean diaper, Mia inspects it and smiles.  She assures Olivia it's kind of cute, and you say her skirt will hide most of it, though that's probably not true.  When Olivia lifts her bottom to help Mia put it on, you shower Olivia with lots of praise for helping.  Olivia gives you a sour look, but she can barely keep her eyes open so she doesn't talk back.  
+
+<<if $odc_continue>>\
+"Now remember," you say.  "If you piddle or poo, you tell Mia to change you, OK?  Even if it's in the middle of class.  Mia, you can tell a teacher you have my permission to leave to help Olivia at any time, understand?  Actually, you can change her in class, if you want.  That'd be fine, too."
+
+Mia nods, then asks,<<else>>Mia asks,<</if>> "Can I stay here until she falls asleep?" <<if not $olivia_likes_mia>>
+
+"Oh," you say.  "You feel comfortable being alone with her?"
+
+"Uh-huh, you don't mind, right Olivia?" Olivia shuts her glistening eyes and shrugs.<</if>>
+
+You smile then say, "I think that's a great idea then.  Have fun, you two."
+
+As you pack up your box of things, you see Mia kissing the side of Olivia's waist again, but this time, she also massages Olivia's belly with her hand.  By the time you're leaving, her fingertips have slipped under the top of the crinkly diaper and seem just shy of grazing her vulva.  
+
+[[Office]]\
+<<nobr>>
+<<run setup.removeCameraScene("OliviaBullies")>>
+<<run setup.removeCameraScene("OliviaMiaUrethraPlay")>>
+<<run setup.removeCameraScene("OliviaPantsing")>>
+<<run setup.removeCameraScene("OliviaStealsClothes")>>
+<<if not $olivia_likes_mia>>
+    <<set $olivia_likes_mia to true>>
+    <<chardetail "Mia" "Olivia is now subservient to her.">>
+    <<chardetail "Olivia" "She is now subservient to Mia.">>
+<</if>>
+<</nobr>>

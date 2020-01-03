@@ -1,0 +1,32 @@
+::  RelayRace2
+The winning team consists of Olivia, Anna, Sarah, and \
+<<if $has_mothers>>Claire\
+<<elseif $has_futa_students>>Luna\
+<<else>>Mia\
+<</if>>.  All the activities have really worked everyone up, and the winners can't wait to get their devices off.  When Mrs. Ball unlocks each girl, their chastity belts clank on the floor.  They were on so tight, they leave imprints on their skin.  <<if $cd_spread>>
+
+Olivia is the last one to take hers off, because unfortunately, Mrs. Ball doesn't have a screw driver to loosen the speculums.  Two students have to help her pull it off, and in the process, stretch her holes even wider than intended.<</if>>
+
+The winners cover their crotches as they wait for further instructions, and Mrs. Ball says, "Alright, there's five minutes until the next class.  So get on with it."  Apparently, there are no rules and, on hearing the time limit, the winners throw all shame out the window, lay on their backs, and spread themselves.  
+
+Olivia says, "We don't have much time!" It doesn't seem like she's yelling at anyone in particular, anyone from the group of losers will do.  Some from the losing group look side to side to see if anyone else is going to go, and some of them bounce up and down like they need to use the restroom.  This is probably an affect of the aphrodisiac.  When Mia runs over to Olivia, the others from the losing group disperse to the winner of their choice like a pack of wild animals.\
+<<if $cd_female_estim or $cd_trans_estim>>\
+<<set _both to $cd_female_estim and $cd_trans_estim>>
+
+You open your <<purse>> and pull out the <<if _both>>controls of the electrical stimulation devices<<else>>control for the electrical stimulation device<</if>>.  Although \
+<<if _both>>Hannah and Fifa are both\
+<<elseif $cd_female_estim>>Hanna is\ 
+<<else>>Fifa is\
+<</if>> on the losing team, the extra stimulation should be a nice consolation prize.
+
+<<if _both>>It's funny how they both react the same way when you you turn increase the power.  They're sucking on a different winner's breast, and they both arch their backs and moan into the air, then suck on the nipple with more vigor. After a while, they slowly sway their hips side to side in to a suggestive rhythm.\
+<<else>>She's sucking on a breast, and when you increase the power, and she arches her back and moans into the air.  But after a second of adjustment, she sucks on the nipple with more vigor as she sways her hips side to side.\
+<</if>>
+
+<</if>><<if $cd_female_estim>>\
+Naturally, Hannah didn't run to her twin sister, Anna.  She ran to someone else because the twins are on awkward terms right now.  
+
+[[Bring Hannah to Anna.->RelayRaceTwins]]
+
+<</if>>\
+[[Continue.->RelayRace3]]

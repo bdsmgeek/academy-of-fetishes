@@ -1,0 +1,18 @@
+::  CostumeShowNextScene
+<<nobr>>
+<<if (not $finished_cs_cowgirl)>>
+    <<include "CostumeShowCowgirl">>
+<<elseif $fs_religious and (not $finished_cs_nun)>>
+    <<include "CostumeShowNun">>
+<<elseif (not $finished_cs_piercings)>>
+    <<include "CostumeShowPiercings">>
+<<elseif $fs_bondage and (not $finished_cs_twins_bondage)>>
+    <<include "CostumeShowTwinsBondage">>
+<<elseif (not $finished_cs_kitty)>>
+    <<include "CostumeShowKitty">>
+<<elseif (not $finished_cs_flower) and $fo_saw_anal>>
+    <<include "CostumeShowFlower">>
+<<else>>
+    <<include "CostumeShowEnd">>
+<</if>>
+<</nobr>>\

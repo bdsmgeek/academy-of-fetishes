@@ -1,0 +1,28 @@
+::  OliviaDiaperCheckupUntapeDiaper
+<<set $odc_untape_diaper to true>>\
+<<set _can_talk to $odc_oring_gag or (not $odc_gagged)>>\
+<<if not $odc_feel_wetness>>\
+    You sit on the bed with your legs crossed and pat the side.  "Join me?" you ask Mia.
+
+    <<if $olivia_likes_mia>>She furrows her brow, looks at Olivia, then shakes her head.  "Come on," you say.  "You need to be close to me to make sure I'm not hurting her, right?"  It's a thin premise, but enough to convince her to hop on the bed by your side.<<else>>She giggles nervously and hops up on the bed by your side.<</if>>
+
+<</if>>\
+You take a large changing mat and slide it under Olivia's body.  That way, no matter how much she struggles, she won't soil her sheets.
+
+Minutes pass before you continue.  Without saying a word, you lean in with outstretched hands and place them on either side of the diaper.  You were hoping the wait would pacify her, but she puts up a bit of a fight.  As she shakes her hips back and forth, you click your tongue.  "Tch, tch, tch.  I know, I know.  It really sucks, huh?"
+
+The noise of the tape echoes through the room when you rip it from one side.  As you unfasten the other side, you continuously shush her, but it doesn't do much to placate her cries.  Finally, the diaper is loose, though not removed.  For some reason, you're hesitant to remove it.  Olivia seems somewhat calm, like she's decided to accept her fate and <<if $olivia_likes_mia>>even<</if>> Mia seems to be waiting to take a peek.
+
+Before you remove the diaper, Olivia <<if _can_talk>>cries, "No," but it sounds halfhearted.<<else>>murmurs, but it sounds halfhearted.<</if>>  The diaper crinkles as you peel it from the top and lower it toward the bed.  You do this slowly, like you're unwrapping a present and you want to cherish the feeling of not knowing what's inside.
+
+When the top of Olivia's goosebump-covered vulva is revealed, you wonder if she can feel the temperature change.  After all, her crotch hasn't had much air circulation since she fell asleep.  Your thought is interrupted by the intense smell of urine<<if $fo_ass is "relaxant">> and feces<</if>>.  Mia holds her nose, but you nudge her to stop so Olivia doesn't become self-conscious.
+
+After placing the top of the diaper down on the bed, you take a moment to explore Olivia with your eyes.  Her pale labia majora are fat and puffy, but her inner lips are still in plain sight.  Looking a little closer, you see a few, thin, vertical wrinkles running down the labia majora that curve in toward her vagina, and a bit of her hood is poking out near the top, but most of it is hidden.  Something about the lips look sticky, and you imagine if you were to listen close, they would make a noise if you were to slowly part them with your thumbs.  Unfortunately, there's no hint of arousal, but given the circumstances, that's to be expected.
+
+<<if $fo_ass isnot "relaxant">>\
+    Her anus <<if $fo_saw_anal>>looks loose.  Almost baggy.  It droops down with a gape the shape of a small triangle, but it's clean.<<else>>is tight and puckered.<</if>>  Besides the small amount of urine on it, it's clean.\
+<<else>>\ 
+    The bottom half of the diaper isn't laying flat on the bed because it's stuck to her bottom and completely blocking your view of her anus. There's a strong scent of feces emanating from that direction.\
+<</if>>
+
+[[Continue.->OliviaDiaperCheckupChoices]]

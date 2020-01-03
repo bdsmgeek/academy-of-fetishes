@@ -1,0 +1,43 @@
+::  Office [noskip]
+<<set $hide_camera_links to false>>\
+<<include "ProcessNewYearbookDetails">>\
+<<if $hucow and 
+    (not $finished_hucow_transformation) and 
+    $visit_hucow_scene_in_x_office_visits lte 0 and
+    (not $pause_hucow_scenes)>>\
+	<<set $hide_camera_links to true>>\
+	<<goto "NextHucowOfficeScene">>\
+<<else>>\
+    <<nobr>>
+    <<set $office_visit_count++>>
+    <<set $visit_hucow_scene_in_x_office_visits -= 1>>
+    <<if not $fp_feet>>
+        <<set $finished_foot_measure to true>>
+    <</if>>
+    <</nobr>>You decide to stroll around your school to ensure things are living up to the Anonymous Benefactor's standards.  What do you want to do?
+
+    <<include "IntroWeek">>\
+    <<if $week >= 2>>\
+        <<include "TransferStudentWeek">>\
+    <</if>>\
+    <<if $week >= 3>>\
+        <<include "SwimmingWeek">>\
+    <</if>>\
+    <<if $week >= 4>>\
+        <<include "EngineeringWeek">>\
+    <</if>>\
+    <<if $week >= 5>>\
+        <<include "BioChemWeek">>\
+    <</if>>\
+    <<if $week >= 6>>\
+        <<include "HolyWeek">>\
+    <</if>>\
+    <<if $week >= 7>>\
+        <<include "FarmWeek">>\
+    <</if>>\
+    <<if $week >= 8>>\
+        <<include "FutureWeek">>\
+    <</if>>\
+    <<include "MiscWeek">>\
+    <<include "CameraScene">>\
+<</if>>\

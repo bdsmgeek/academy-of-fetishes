@@ -1,0 +1,6 @@
+::  PonyGirlPeLinkSnippet
+<<onetimelink "Take the pony girls to the trough." "PonyGirlPeWheelbarrow">>\
+<<if $anna_pursues_hannah>><<onetimelink "Visit the marching pony girls and their trainers." "PonyGirlPeMarch">><</if>>\
+<<if $fo_saw_anal>><<onetimelink "Visit pony girls that are being inspected by trainers." "PonyGirlPeBreed">><</if>>\
+<<if hasVisited("PonyGirlPeBreed") and $has_futa_students>><<onetimelink "Volunteer yourself to be bred by a trans girl." "PonyGirlPeSelfBred">><</if>>\
+[[You thank Mrs. Ball for her time and go back to your office.->Office]]

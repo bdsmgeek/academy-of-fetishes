@@ -1,0 +1,33 @@
+::  NewSwimsuits2
+The pool looks fantastic.  It's Olympic length and not very wide, but more than enough room for a small school like yours.  Your favorite thing about it is that it's an indoor pool so all the light in the room reflects off the water, making the walls and ceiling shimmer and glow a bluish green.  A quick dip of a finger reveals it's also heated.
+
+A student comes through the door and yells, "Wow!" The rest of the girls push through the doorway, each wearing their (currently) opaque, blue swimsuits.
+
+Another student says, "This is amazing!"
+
+A third student bounces as she says, "I wanna go in.  I wanna go!"
+
+"Now, now," you interrupt.  "Don't be rude, girls.  You haven't even introduced yourselves to your new teacher."
+
+In harmony, they all say, "Hi Ms. Waterloo!"
+
+Ms. Waterloo turns as she waves at them all.  "Hi girls!  I'm excited to be your new teacher, but before we jump in I'd like to ask, is there anyone here who doesn't know how to swim?"
+
+<<if $has_mothers>>\
+    When Amy raises her hand, Beth dips her chin and looks away.  Amy says, "I don't like to go to the deep end."\
+<<else>>\
+    Amy raises her hand and waits to be called on.  When Ms. Waterloo smiles and points at her, Amy says, "I don't like to go to the deep end."\
+<</if>>
+
+Ms. Waterloo grins as she places her palms on her knees and says to the class, "Not bad!  Normally there's at least one person who's terrified of water so you guys are pretty advanced.  What do you say for our first class, we just play?  You know, focus on having fun, hmm?  That is," she turns to look at you, "as long as Principal $name says it's OK."
+
+The girls look giddy as they wait for your reply.  You extend your arm toward the teacher and say, "Whatever you think is best, Ms. Waterloo.  It's your class."
+
+The students cheer as they disperse in different directions and jump into the water.  Before Ms. Waterloo enters, she asks you if you're going to join but before you have a chance to reply, she's swarmed with students begging for her attention.
+
+You smile at Ms. Waterloo and say, "Looks like you're in high demand.  Tell you what, I'm gonna walk back to my office to do some paperwork.  I'll join you in the pool when I come back in 30 minutes or so, kay?"
+
+You shut the door as you leave to give a better appearance of privacy, then rush to your office to check the cameras.
+
+[[Continue.->NewSwimsuits3]]\
+<<chardetail "Amy" "She's not a strong swimmer.">>

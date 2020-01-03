@@ -1,0 +1,17 @@
+::  ScavengerHuntRibbonPanties
+<<if $ribbon_around_panties>>It is easy to tell which one is the thinnest without even measuring.  One of the panties has a ribbon tied around it so the smallest point of the crotch is no longer than a centimeter.
+
+One of the students says, "Whose panties are those?"
+
+"Mine," Mia answers.
+
+"Why do you have a ribbon tied around your panties," Ms. Darwin asks Mia.
+
+"Ms. Monet said I wasn't allowed to take it off or clean them until I get back to the dorms.  It's really uncomfortable."  The students frown sympathetically,  especially the ones who had been in Ms. Monet's class.  They knew that those were not Mia's juices.
+
+Ms. Darwin turns to you and asks, "Does this count as the thinnest crotch or do we have to measure it with the ribbon off?"
+
+[["You have to take the ribbon off."]]
+
+[["That counts as the thinnest crotch."]]<<chardetail "Mia" "When Ms. Monet tied ribbons around a random pair of panties, those panties happened to belong to Mia.  Ms. Monet made Mia wear them with the ribbons on outside of class.">>
+<<else>><<goto "ScavengerHuntMeasurePanties">><</if>>

@@ -1,0 +1,7 @@
+::  she [widget]
+<<widget she>><<nobr>>
+<<if $mc_gender === "male">>he\
+<<elseif $mc_gender === "female">>her\
+<<else>>they\
+<</if>>
+<</nobr>><</widget>>\

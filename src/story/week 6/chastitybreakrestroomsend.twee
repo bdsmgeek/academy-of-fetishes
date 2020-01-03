@@ -1,0 +1,4 @@
+::  ChastityBreakRestroomsEnd
+Things seem under control now, so you step out of the restroom.  What do you want to do next?
+
+<<include "ChastityBreakLinksSnippet">>

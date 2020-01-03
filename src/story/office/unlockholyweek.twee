@@ -1,0 +1,13 @@
+::  UnlockHolyWeek
+<<set $week to 6>>\
+At the end of the week, you receive an email from AB.  It says, "Dear Principal $name,
+
+"Thank you for all the wonderful stories you shared this week.  The students seem to be advancing nicely, but I think we might want to slow that down for a change.  What I mean is, how about we have a 'chaste' week?  A week where all the students must be in chastity devices.  I'll leave the details up to you."
+
+Hmm.  You sit in your chair and think for a while.  Simply putting the girls in chastity for a week seems a little boring.  It might be fun to add a little teasing into the mix.  For example, maybe if the goal were to sexually frustrate the students while they're in chastity.  Perhaps you could coat the inside of the chastity devices with some of Mrs. Curie's aphrodisiac.  And, maybe you should adjust the curriculum to turn the students on as much as possible.  
+
+Then again, you're sure if you told AB you weren't interested in doing this, they'd understand.
+
+[[You would like the students to be in chastity devices.|UnlockHolyWeek2][$chastity to true]]
+
+[[You probably shouldn't put the students in chastity.  Tell AB you're not interested.|Office][$chastity to false]]

@@ -1,0 +1,22 @@
+::  EngineeringDeviceUnlocked
+<<if $has_sensory_deprivation or $has_metal_easels>>\
+"Hmm."  She nods as she touches her index finger to her lips.  "Excellent choice.  This isn't my first rodeo.  I'll get started immediately and have something before the middle of the week.  They'll be delivered before you know it."
+
+With she shakes your hand with both of hers.  "I can tell this is going to be a great collaboration.  I'm used to the principals of the schools being a little concerned when I describe the devices but you didn't even hesitate.  If inspiration strikes and I come up with something unique, would you want to hear about it?"
+
+"Of course," you reply.  "I'm always encouraging my teachers to be as creative as possible."
+
+Her face lights up and she shakes your hand harder.  "That's great!  No wonder the Anonymous Benefactor transferred me here.  He must of seen how my talents were being wasted at Palimo University."
+
+When she releases, you pat her on the shoulder and welcome her to the school.  "Unfortunately," you say, "I really must be going now to check on the other classes."
+
+She nods, runs back to her desk, and starts sketching on a piece of paper as if you've already left.
+
+<<if $has_sensory_deprivation>>[[Wait for class to start.->SD]]<<else>>[[Office->Office]]<</if>>\
+<<else>>\
+"Oh," she says, "you don't want me to build anything?"  She looks down and frowns for moment then looks up and says, "That's ok.  I'll still do a great job teaching these kids about engineering.  They'll be experts in no time."
+
+You thank her and leave.  On your way out you notice she's still standing there a little disappointed with your choice.
+
+[[Office]]\
+<</if>>

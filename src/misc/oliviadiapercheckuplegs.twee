@@ -1,0 +1,22 @@
+::  OliviaDiaperCheckupLegs
+<<set $odc_legs_tied to true>>\
+As you squat at the cardboard box and search for something to restrain Olivia's legs,
+<<if $olivia_likes_mia>>\
+    Mia stays by Olivia's side and rubs the back of her cuffed hand to soothe her, occasionally glancing at you with a disapproving frown.\
+<<else>>\
+    Mia stays by Olivia's side<<if $odc_tickled>> and uses the opportunity to study Olivia's chest while she waits<</if>>.\
+<</if>> Every so often, Olivia groans from exhaustion.
+
+"Ah!" you say.  "Found it!"  After untangling them from the other contents of the box, you pull out two long, purple straps.  They're nice and thick, like a martial arts belt, but they're much longer.
+
+<<if $odc_tickled>>\
+    Weakened from the tickling ordeal, Olivia doesn't put up much of a fight.  You loop a strap behind the back of her right knee and tie both ends snug around the right bedpost by her head.  Then, you do the same to her left knee.\
+<<else>>\
+    Olivia tries her best to fight you off with her legs, but after a few minutes, you capture one and loop a strap behind the back of her right knee.  You tie both ends of the strap snug around the right bedpost by her head.  The left leg is easier to catch because she has three other limbs restrained, but she fights you with every last ounce of strength.\
+<</if>>
+
+If she were on her feet, she'd look like someone leaning forward while sitting on a chair.  The straps do a good job of spreading her thighs and giving you easy access to her diaper, and most importantly, with her legs lifted out of the way, you have enough room to sit at the foot at the bed while you change her.  For a moment, you consider tying up her ankles because she can still flail her shins around, but with her knees and arms held in place, you decide it would be overkill.
+
+Olivia's probably never felt this vulnerable before.  <<if $odc_gagged>>Her eyes seem to be screaming for you to stop,<<else>>She begs you to stop,<</if>> so as a reminder, you say, "We just want to check your diaper and clean you up, it'll be over in no time."  But, hearing this doesn't seem to provide any peace of mind.
+
+[[Continue.->OliviaDiaperCheckupChoices]]

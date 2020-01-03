@@ -1,0 +1,21 @@
+::  UnlockBioChem3
+A week passes.  You're looking over some spreadsheets when you hear a knock on the door.  "Come in," you call.
+
+In walks Mrs. Curie.  She's wearing a pristine lab coat and some protective goggles on the top of her head.  She sits down across from your desk and looks pleased with herself.
+
+"Looks like you have some good news?" you say.
+
+"I do!  The good news is that I think I can come up with a compound that can induce lactation.  As you know, lactation can be induced by lowering a progesterone and estrogen while increasing prolactin levels."
+
+"Uhh," you say, "actually, I didn't know that."
+
+Her smile momentarily turns to a frown.  "Oh.  Anyway, I've found a completely different compound that can induce lactation.  You're probably wondering why we wouldn't just use the hormone therapy that already works, right?"
+
+"Uh..."
+
+She interrupts before you can answer. "Well the thing is, this new compound - I call it Novae Nubhim - is much more effective.  It will produce much more breast milk and it will produce it sooner than hormone therapy."  She steeples her fingers and taps them together.  "Well?  What do you think?"
+
+<<if $fp_lactation>>[[This is intriguing.  You ask her to tell you more.->HucowIntro]]
+
+<</if>>\
+[[Lactation?  You're not really into that.  Pass.->UnlockBioChem4]]

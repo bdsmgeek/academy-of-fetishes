@@ -1,0 +1,33 @@
+::  FistingOliviaABEmail
+When you get back at your office, you type up an email:  
+
+"Dear AB,
+
+"Just wanted to let you know that I was able to pull off your request and it went well.  Originally, we planned to have every student try out the lube, but Olivia created a disturbance so we made her the sole subject of the experiment.  She was quite embarrassed, but I needed to punish her for her repeated outbursts.  The good news is, I think she'll be nicer to her peers in the future.
+
+"Mrs. Curie had a variety of additives for the lubrication, but in the end, I went with \
+<<nobr>>
+<<switch $fo_vagina>>
+<<case "placebo">> traditional lube for
+<<case "menthol">> menthol for a tingly sensation in
+<<case "semen">> some semen I collected from the trans girls in
+<<case "relaxant">> muscle relaxant to loosen
+<</switch>>
+<</nobr>>\
+<<if $fp_anal_fisting and ($fo_vagina is $fo_ass)>> her vagina and ass. \
+<<elseif $fp_anal_fisting>> her vagina and \
+<<nobr>>
+<<switch $fo_ass>>
+<<case "placebo">> traditional lube for
+<<case "spicy">> something spicy in
+<<case "semen">> some semen I collected from the trans girls in
+<<case "deep">> something special that allowed her to be fisted deep in
+<<case "relaxant">> muscle relaxant to loosen her up and allow Mia to go deep in
+<</switch>>
+<</nobr>> her ass.\
+<<else>> her vagina.<</if>>
+
+"Sincerely,
+&nbsp;&nbsp;&nbsp;&nbsp;"Principal $name"
+
+[[Office]]

@@ -1,0 +1,31 @@
+::  JessieMilkMachine
+<<set $finished_jessie_milk_machine to true>>\
+Before Jessie sees Ms. Tink's milking machine, you want to have a conversation about it first.  Your first impression of the machine led you to believe it would be painful until <<if $milk_machine_trial_run>>you saw otherwise<<else>>it was explained to you<</if>>, but Jessie may not be as open minded as you are.  You're afraid she could freak out when she sees it, and the last thing you want is for it to be a stressful experience.  
+
+You call her and Ms. Tink into your office.  Ms. Tink shows up first, and you say, "Let me do all the talking.  I know Jessie, and she's very timid.  We don't want to scare her off."  
+
+When Jessie shows up, she already looks intimidated by Ms. Tink's presence.  You clear your throat to draw Jessie's attention, then describe the machine to her and ask if she'd be interested in using it.  At first, she's opposed to the idea, but that isn't much of a surprise.  Ms. Tink's about to go on a monologue about how safe and pleasurable the machine is, but you hold up your hand and give her a look.  She takes a step back and literally bites her lip.  Fortunately, you had prepared for this.  
+
+To Jessie you say, "What if we took you out of PE class to use the machine?  I know you're not Mrs. Ball's biggest fan."
+
+"Deal," she says.  
+
+You flinch.  There was no hesitation on her part.  "That's it?  That easy?"
+
+"That easy," she says, and she extends a hand over your desk to shake.  "I hate PE class.  I'd do anything to get out of it."
+
+Ms. Tink's mouth goes slack.  When you shake Jessie's hand, she looks at you in awe.  A smile grows on Jessie's face and she gets giddy.  "Wait, so, does this get me out of PE every day or just once?"  In her excitement she forgot to ask important questions like that.  She shakes her head and says, "It doesn't matter.  Getting out of PE just once is worth it."
+
+Ms. Tink takes a step forward while raising her finger and says, "Uh, we can do this every day if that's alright with you, Principal $name.  When Jessie's in PE class I'm normally taking lunch.  Plus, I get bored so easily.  With a long term project like this, it'd keep my mind occupied thinking about incremental adjustments." 
+
+Jessie bites her lip in anticipation of your response.  "Sure," you say.  "Why not."  Ms. Tink runs up to Jessie and shakes her shoulders from behind.  They both look ecstatic.
+
+"Can we start now," Ms. Tink asks.  Thinking it would enhance your bargaining position, you intentionally called them to your office minutes before Jessie's PE class.  
+
+"I don't see why not," you say.
+
+[[Follow them both to the barn.->JessieMilkMachine2]]
+
+[[Stay in your office while Jessie gets her beasts pumped.->Office]]
+\ <<chardetail "Jessie" "You and Ms. Tink put her in a milking machine.">>
+\ <<chardetail "Ms. Tink" "You and Ms. Tink put Jessie in a milking machine.">>

@@ -1,0 +1,4 @@
+::  YouPaintFuta3
+<<set $you_paint_futa_colors to ["green", "yellow", "orange", "black", "purple"]>>\
+<<set _color to $you_paint_futa_colors[0]>>\
+The time has finally come to break out the paint and make some abstract art!  You clean off your thick paintbrush and dip it in _color.  Where do you want to paint? <<include "YouPaintFutaPaintingLinks">>

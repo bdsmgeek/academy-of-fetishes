@@ -1,0 +1,24 @@
+::  DogRimjob
+<<set $finished_dog_rimjob to true>>\
+You see Mia and Kira hanging around the side of the barn.  They're clearly up to something naughty, but you can't see what it is.  All you know is, when the two of them get together, something extreme is sure to follow.
+
+<span class="options">\
+    [[You're not in the mood to see something extreme.  You go back to your office.->Office]]
+
+    <<linkreplace "Figure out what they're up to." t8n>><<replace ".options">>\
+    They don't see you approach because they're squatting with their back turned to you.  As you get closer, you realize they're playing with the two sheep dogs, but it doesn't seem like a very wholesome game.
+
+    <span class="options2">\
+        [[Ew. After yelling at the two of them to go back to class, you return to your office.->Office]]
+
+        <<linkreplace "You're curious to see what kind of game they're playing." t8n>><<replace ".options2">>\
+            Really?  Only a dog //lover// would be interested in continuing...
+
+            [[On second thought... Nevermind.->Office]]
+
+            [[Yes! I "love" dogs.->DogRimjob2]]
+
+        <</replace>><</linkreplace>>\
+    </span>
+<</replace>><</linkreplace>>\
+</span>

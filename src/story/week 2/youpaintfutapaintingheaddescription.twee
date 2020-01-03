@@ -1,0 +1,3 @@
+::  YouPaintFutaPaintingHeadDescription
+<<set _big to (not $futa_painting_uncircumcised)>>\
+You pull the shaft back almost 180 degrees behind and color the <<if $futa_painting_uncircumcised>>uncircumcised tip<</if>><<if _big>>head<</if>> by <<= either("starting at the tip and spiralling outward", "starting at the back and spiralling inward", "starting at the back and painting concentric circles inward")>>.  You apply <<= either(2, 3, 4)>> coats to make sure it's solid $you_paint_futa_current_color.

@@ -1,0 +1,17 @@
+::  CostumeShowCowgirl
+<<set $finished_cs_cowgirl to true>>\
+<<set _is_hucow to (not $finished_hucow_transformation)>>\
+When the stage is empty, Ms. Monet says, "Introducing... Jessie the Cowgirl!"
+
+Jessie parts the curtain like she's stepping through saloon doors.  There are two water pistols in her hands.  She aims one at the audience and squirts toward them, but the stream is too weak to land anywhere but the stage.  When she steps forward, you get a closer look at her costume.  She's wearing two dark brown leather gloves, a light brown top, white ass-less chaps with black splotches to look like cow hide, a pair of black panties, a red scarf, a leather hat, and a holster for her guns.  Her leather top is in the shape of a bra, revealing her cleavage and tummy<<if $hucow>>, and there are sheriff badges on each breast, right where her nipple would be<</if>>.  The one part of this outfit that isn't revealing is her brown leather duster, but it's open in the front.
+
+With a menacing look, she scans the audience, then starts spraying them with her guns.  <<if $hucow>>Some of the liquid sprays on your face, and when you wipe it off, you realize she's spraying milk, not water.  <</if>>  After holstering her two guns, she takes off her duster and turns around, giving you a nice glimpse of her bottom.  It was hard to tell from the front, but now you can see she's wearing a thong.  When she gives her cheek a slap, it's so thick it jiggles for a second.  
+
+She turns her head so you can see the profile of her face and gives everyone a little smile.  Then, she unhooks her bra and slings it over her shoulder, but from the way she's standing, you can only see her <<if $hucow>>thick<</if>> back<<if _is_hucow>> and the sides of her massive breasts<</if>>.
+
+<<if $hucow>>\
+[[Continue.->CostumeShowCowgirlLactation]]
+<<else>>\
+[[Continue.->CostumeShowCowgirlStriptease]]
+<</if>>
+\ <<chardetail "Jessie" "She was dressed as a cowgirl for the costume show.">>

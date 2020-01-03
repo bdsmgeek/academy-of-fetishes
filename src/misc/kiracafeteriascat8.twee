@@ -1,0 +1,21 @@
+::  KiraCafeteriaScat8
+<<set _diaper to $fo_relaxant_urethra or $fo_ass eq "relaxant">>\
+<<if $has_mothers>><<set _s to "Claire">><<else>><<set _s to "Sarah">><</if>>\
+After 15 minutes of eating, Kira's eaten half her plate, but she's slowing down.  She hasn't made a dent in the diarrhea sundae.  Still, there's no sense she hates this activity.  <<if _diaper>>Before Mrs. Ball can tell her to stop, she even scrapes some matted scat out of Olivia's diaper and puts it in her mouth.  <</if>> The way she acts, it's like she's eating luxurious meal at a five star restaurant, but she's getting full.  The crowd is more amazed than disgusted at this point, and a lot of them seem interested in watching and interviewing her as she eats.
+
+Mrs. Ball picks up some scat with her gloved hand and holds it up to Kira's face.  "Just eat," Mrs. Ball says. "Focus on that."
+
+When Kira nods, leans back, and opens her mouth, Mrs. Ball pushes the feces in.  It's a much larger piece than Kira was putting in her own mouth, so she has to chew it longer.  From what you saw, Mrs. Ball haphazardly grabbed a handful of whatever was on the plate.  You imagine there's a combination of soft log and hard pebbles in her mouth right now and you wonder if the variety of textures will make it more difficult to eat.  In the end, it takes three swallows before Kira's downed the dirty cud in its entirety.
+
+After another 10 minutes of this, Mrs. Ball says, "My arm's getting tired.  Would anyone else like to feed her?"
+
+A couple of people seem interested, so they line up to take turns.  The person in the front of the line puts on a glove and hand feeds Kira like she's a petting zoo animal or a freak show.  _s's next in line and she brings the glass of diarrhea to Kira's lips and has her gulp some down.  It's difficult for Kira to swallow the diarrhea due to its disgusting nature, but _s keeps the glass against Kira's lips, waiting for her to open her mouth so she can pour some more in.  You can't quite put your finger on it, but there's something maternal about it, like a mother nursing.  When half the glass is empty, _s let's someone else feed her.
+
+Everyone's curious about how she's keeping it all down.  Even if it were food, it'd be too much for a normal person to eat.  You can't help but think she's going to quit<<if $fp_vomit>> or vomit<</if>>, but she keeps packing it in.  This doesn't seem sustainable.  Even if Kira's mentally willing, it's inhuman to finish everything.
+
+<<if $fp_vomit>>[[Stop this before she vomits.->KiraCafeteriaScatNoVomit]]
+
+[[Let her keep eating, even though she might vomit.->KiraCafeteriaScatVomit]]
+<<else>>\
+[[Stop this before Kira hurts herself.->KiraCafeteriaScatNoVomit]]
+<</if>>

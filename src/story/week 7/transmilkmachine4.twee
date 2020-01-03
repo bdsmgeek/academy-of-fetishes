@@ -1,0 +1,51 @@
+::  TransMilkMachine4
+<<if $bailey_can_be_milked or $tiffany_edging_machine or $fifa_edging_machine or $lucy_vibrating_machine>>\
+<<nobr>>
+<<set _machines to 0>>
+<<set _singular_girl to "">>
+<<if $bailey_can_be_milked>>
+    <<set _machines++>>
+    <<set _singular_girl to "Bailey">>
+<</if>>
+<<if $fifa_edging_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Tiffany">>
+<</if>>
+<<if $lucy_vibrating_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Lucy">>
+<</if>>
+<<set _singular to (_machines is 1)>>
+<<set _group to (_machines is 1)>>
+
+<</nobr>>\
+You take <<if _singular>>_singular_girl<<else>>the trans girls<</if>> out of PE class to bring <<if _singular>>her<<else>>them<</if>> to the barn, and catch Ms. Tink snacking on a sandwich.  Ms. Tink's not alone: Jessie's strapped into her machine and Kira is tending to her by massaging her breasts and inspecting the suction pumps.
+
+"Does that feel good?" Kira asks in a whisper.  All Jessie can muster is a moan, but you're not sure if Jessie's replying to Kira or not. 
+ 
+Ms. Tink stares toward the action, but she's zoned out as she eats her sandwich.  When she turns her head and notices you, she says "Oh!"  She quickly stands, wipes off some crumbs, and says, "Hello Principal $name.  You caught me snacking.  But, I've been watching over Kira and she's been doing a great job."
+
+"Don't worry about that," you say. "I know this is your break.  You have every right to eat, and I can see you watching over them, so I'm confident they're in good hands."  To let her know you mean it, you give her a warm smile.  
+
+"Ah," she says as she peeks over your shoulder<<if _singular>>. "Is that _singular_girl?"<<else>> and looks at the trans girls behind you.<</if>>  She bites her lower lip and says, "Did you bring <<if _singular>>her<<else>>them<</if>> here for me?"
+
+"Yes," you say.  <<if _singular>>"Well, mainly for your machine.  Is it ready, or are you still building it?"<<else>>"Well, mainly for your machines.  Are they ready, or are you still building them?"<</if>>
+
+Ms. Tink shakes her head and says, "Oh, no, no, no.  <<if _singular>>It's<<else>>They're<</if>> very much ready, though <<if _singular>>it<<else>>they<</if>> took longer than I expected.  I had to put in some hours after class." She purses her lips then says, "I hope you like <<if _singular>>it<<else>>them<</if>>."
+
+You give her another warm smile and say, "I'm sure I will."  Turning around to look at <<if _singular>>_singular_girl<<else>>the trans girls<</if>>, you say, "And I'm sure <<if _singular>>she<<else>>they<</if>> will, too.  Shall we get started?"
+
+Ms. Tink gives you a toothy grin.  "Straight to the point, eh?  I like it."  Before you get started, Ms. Tink has <<if _singular>>_singular_girl<<else>>the trans girls<</if>> strip naked.  
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Kira" "She helped Ms. Tink milk the trans girls in the barn.">>
+\ <<chardetail "Ms. Tink" "She milked the trans girls in the barn.">>
+<<else>>\
+Since you have no one to bring to Ms. Tink, you decide to call the whole thing off.
+
+[[Office->Office]]
+<</if>>

@@ -1,0 +1,9 @@
+::  KiraForcedFeedingStoppedOnLap
+<<set $kira_force_feeding to false>>\
+"Alright, that's enough," you say.  Kira barely reacts but Mrs. Ball squints at you with her head cocked to the side.
+
+"What's enough," she asks.
+
+"She's eaten enough.  I'm getting her out of here."
+
+<<include "KiraForcedFeedingStopped">>

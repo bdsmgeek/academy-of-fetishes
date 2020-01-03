@@ -1,0 +1,16 @@
+::  MilkingTable8
+You pitch the idea to the class that you'd like to try the table out.  At first, the students are surprised that you'd even entertain the idea, seeing as how you'd have to be hogtied and all.  They don't know you as the type who'd ever put themself in a compromising position like that.  The truth is, seeing Luna in the table has got you so worked up, you're not thinking about the consequences as much as you normally would.  That, and the students seem so open minded and excited for you to be in there, for the first time, you feel comfortable letting your guard down.  
+
+Because it's such a risky move, after you inform the class that you want to use the milking table, you give a student a hall pass to bring Ms. Monet back to the class.  You trust her more than anyone else at the school, and you figure, if things go awry, she can come to your rescue.  Once she enters, you explain the situation to her and her eyes light up.  She says, "You're really going to try it?  Can I be under the table?"  Maybe you should come up with some stipulations to your agreement:
+
+Allow mothers to milk you: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_mothers" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_mothers" false>> No</label>
+Allow trans girls to milk you: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_trans" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_trans" false>> No</label>
+Allow teachers to milk you: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_teachers" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$milking_table_teachers" false>> No</label>
+
+[[Continue.->MilkingTable9]]

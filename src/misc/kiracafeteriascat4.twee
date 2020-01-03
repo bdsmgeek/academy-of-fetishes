@@ -1,0 +1,53 @@
+::  KiraCafeteriaScat4
+<<if $has_mothers>><<set _s to "Claire">><<else>><<set _s to "Sarah">><</if>>\
+<<set _diaper to $fo_relaxant_urethra or $fo_ass eq "relaxant">>\
+Mrs. Ball says, <<if _diaper>>"Olivia, you're up.  Though I could smell before I called you up that you didn't wait your turn."  She's referring to Olivia's diaper.  "How long have you been sitting in it?"
+
+"I dunno," Olivia says, blushing.  "I don't even notice anymore."
+
+"Since before lunch?"
+
+Olivia fidgets as she looks at the floor.  "Probably."
+
+"Perfect.  Take it off and put it on the tray."
+
+When the diaper's been placed on the tray, you notice the "contents" look like a flattened brown paste.  How long was she sitting in that mess?  Probably hours, and she's probably urinated several times after she messed herself.  
+
+Mrs. Ball says, "Have anymore up there?"
+
+"I dunno."
+
+"Hop on the table.  Kira will check."
+
+<<else>>"Olivia, you're up."
+
+She says, "But... I don't have to go."
+
+"We'll have Kira be the judge of that," Mrs. Ball says.
+
+<</if>>\
+As soon as Olivia's <<if _diaper>>feces covered <</if>>bottom is in range, Kira starts sucking on the hole, probing for its contents.  After about a minute of tonguing, Mrs. Ball gets impatient and asks if Kira's found anything. /* todo <<if $fs_piercings>>Olivia's piercings clack together as her labia swing side to side.<</if>> */
+
+Kira says, "I can't reach it with my tongue, but I think it's in there." She almost sounds disappointed.  
+
+<<if $fo_saw_anal>>\
+"OK," Mrs. Ball says, "then use your hands." The problem is, Olivia isn't lubricated, and when Mrs. Ball notices this, she points at the sundae glass full of diarrhea. "Dip your fingers in there first."
+
+Olivia says, "Wait, what?  That's so gross."  It looks like she's about to get off the table, but Mrs. Ball rests her hand on Olivia's back which is enough to get her to stay put.  The expression on Olivia's face tells you how much she disapproves of this.
+
+[[Continue.->KiraCafeteriaScat5]]
+    <<nobr>>
+    <<if $has_mothers>>
+        <<chardetail "Kira" "She fisted Olivia, using Claire's diarrhea as lube.">>
+    <<else>>
+        <<chardetail "Kira" "She fisted Olivia, using Sarah's diarrhea as lube.">>
+    <</if>>
+    <</nobr>>
+<<else>>
+"OK then," Mrs. Ball says, "Olivia, you're just going to have to push harder."  Olivia kneels below the plate and pushes so hard, her anus wrinkles flatten out.  After about 30 seconds of this, her anus slit parts, revealing some feces, but it's too wide to push out.  
+
+<<include "KiraCafeteriaScatOliviaShitSnippet">>
+
+[[Continue.->KiraCafeteriaScat7]]
+<</if>>
+\ <<chardetail "Olivia" "She shat pebbles onto a plate in the cafeteria, then Kira drank it.">>

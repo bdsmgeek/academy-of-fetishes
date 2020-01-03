@@ -1,0 +1,28 @@
+::  NurseKiraVomit
+The school only has one nurse and her name is Nurse Neadle.  Outside her office's door are four folding chairs that could be used as a waiting room, but the teachers are pretty strict and don't usually let students leave during their classes.  As a result, these chairs are usually empty, but as luck would have it, Nurse Neadle is sitting on one of them, filing her nails.
+
+With your arm around Kira's back, you walk toward the nurse until she hears your footsteps and looks up.  When she sees Kira, she frowns, hops off her chair, and helps you carry her.  She grunts and says, "What happened here?  Feeling a little sick?"
+
+Kira says, "Yeah," as she's helped through the door.
+
+The nurse's office is a little cramped, but it seems sterile enough.  In the center of the room is an examination table with about 4 feet of walking space on all sides.  You and the nurse help Kira lay down on the table.  When she's settled, she rubs her hands up and down her distended belly and groans.
+
+"We'll be right back, honey," Nurse Neadle says to Kira.  She nods toward the door to tell you she wants to talk outside.  When you've got some privacy, she says, "What is it, is something wrong with the baby?"
+
+You try not to, but you can't help but scoff.  "No, she just ate too much.  She's not even pregnant."  
+
+Nurse Neadle touches her finger to her lip then says, "Oops.  Well, good thing I asked you first instead of her.  That would have been embarrassing."  She turns slightly away from you and rubs her chin as she says, "That's a much better problem to have, anyway.  I'll just perform a gastric lavage-"  She clicks her tongue then says, "No wait, we haven't received the Ewald tubes yet.  Well that's probably fine, I'll just do it the old fashioned way."  After nodding to herself she looks at you and smiles.  "I think I've got this under control.  Normally, this is the part where I'd ask for some privacy for the patient, but I know your school is a little more... shall we say, 'open minded'?  You're free to watch the procedure if you're interested."
+
+"Procedure?" you say.  "She just ate too much.  What are you going to do to her?"
+
+She shakes her head and smiles.  "Ah, sorry.  I may have made it sound more grandiose than it is.  We just need to expel the contents of her stomach until she's comfortable.  I'll simply trigger her gag reflex with a tongue depressor."
+
+"You mean make her vomit?"
+
+Nurse Neadle smiles and nods.  "Then she'll feel all better.  Of course, if she just wants to lay there and wait it out, that's fine too.  I doubt anyone else will need me today."
+
+[[Let Nurse Neadle use her best judgement without your presence.  You go back to your office.->Office]]
+
+[[Watch Nurse Neadle help Kira vomit.->NurseKiraVomit2]]\
+<<chardetail "Nurse Neadle" "She helped Kira to vomit after she ate too much.">>\
+<<chardetail "Kira" "With Nurse Neadle's help, she vomited when she ate too much.">>

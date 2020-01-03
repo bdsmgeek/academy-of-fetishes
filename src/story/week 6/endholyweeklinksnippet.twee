@@ -1,0 +1,16 @@
+::  EndHolyWeekLinkSnippet
+<<if not $finished_chastity_end_casey>>\
+[[Spy on Casey.->EndHolyWeekCasey]]
+
+<</if>>\
+<<if not $finished_chastity_end_amy>>\
+[[Spy on Amy.->EndHolyWeekAmy]]
+
+<</if>>\
+<<if ($fo_relaxant_urethra or $fo_ass eq "relaxant")>>\
+    <<if not $finished_chastity_end_olivia>>\
+    [[Spy on Olivia.->EndHolyWeekOlivia]]
+
+    <</if>>\
+<</if>>\
+[[Office]]

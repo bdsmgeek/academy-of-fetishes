@@ -1,0 +1,53 @@
+::  UnlockFarmWeek
+<<set $week to 7>>\
+<<set $farm_week_unlocked_at to $office_visit_count>>\
+<<if $fp_prolapse and $mia_likes_olivias_gape>>\
+    <<run $cameraPassagePool.push("OliviaVacuumGape")>>\
+<</if>>
+<<if $chastity>>\
+The whole weekend, \
+<<else>>\
+The rest of the week, \
+<</if>>\
+you stay up every night trying to catch AB on camera, but they never make an appearance.  It's quite frustrating, because they're still replying to your emails, you're just never in your office when they do.  It feels awkward, but neither of you bring up the chase you had in the hall at night.  You both pretend it didn't happen.
+
+<<if $chastity>>\
+Although you're exhausted, you notice the students are in better spirits than usual, though you're not sure why.  At first you think they're just happy to be out of their chastity devices.  Then it occurs to you, you forgot to neutralize the aphrodisiac that was placed in the students' water.  Everyone's been running around with higher libidos, but you barely noticed.  Maybe it's because the effect is relatively subtle, or maybe it's because you're desensitized by all the lewdness that normally occurs in the school.  
+
+You consider spiking the water again with the neutralizing agent, but in the end, you decide against it.  Everyone seems happier this way, and no one, including Casey and Olivia, have complained about it.  They're usually the most melancholy, but on the aphrodisiac, they participate more in activities and have better attitudes.  The teachers seem less stressed, too.  It's easier to 'teach' when the students are willing.  Maybe everyone is better off with the students on aphrodisiac?
+
+Keeping the students slightly turned on does feel a bit immoral, though.  You justify it by promising yourself that if anyone were to complain, you'd neutralize the aphrodisiac for everyone immediately.
+
+What seems more pressing now is the unread email on your laptop.  It's been sitting there since before you got in.\
+<<else>>\
+Otherwise, week proceeds as normal, until Wednesday.  Whatever changed is so subtle, you don't even notice it until Thursday.  It's not a bad change.  Everyone seems happier.  Even students like Casey and Olivia seem like they're in good spirits.
+
+It's not until Friday night that you're told what's going on.  Mrs. Curie knocks on your door and says, "Notice anything different about the students?"
+
+You're exhausted from trying to catch AB.  It seems like Mrs. Curie can tell.  "Yes," you say.  "What is it?  What have you done?"
+
+"I haven't done anything," she says, jerking her head back.  "But I know what's happening."
+
+"What?"
+
+"Some of my aphrodisiac was stolen, and I think whoever took it spiked the water supply with it."  
+
+She waits to see your response.  "But," you say, "they're not sex crazed or anything.  They just seem-"  
+
+"-Happy?  Yes, well, that's why I think they spiked the water supply.  It's diluted.  Ingesting it like that does effect the libido, but not enough to be suspicious."  She smiles and looks inward.  "I bet I could sell this stuff as an anti-depressant."  
+
+"Wait," you say.  "Am I on aphrodisiac?  Are you?"
+
+"No.  Whoever did it found a way to only affect the students."  She shrugs.  "Maybe they put it in the cafeteria water.  Us teachers always eat at the lounge, and you're always eating in your office.  Anyway..."  She pulls out a vial from her lab coat.  "This'll neutralize it.  I could just put it in the cafeteria water again, and none would be the wiser."
+
+You consider what she's saying.  Everyone seems happier this way, and no one, including Casey and Olivia, have complained about it.  They're usually the most melancholy, but on the aphrodisiac, they participate more in activities and have better attitudes.  The teachers seem less stressed, too.  It's easier to 'teach' when the students are willing.  Maybe everyone is better off with the students on aphrodisiac?
+
+Keeping the students slightly turned on does feel a bit immoral, though.  You justify it by promising yourself that if anyone were to complain, you'd neutralize the aphrodisiac for them immediately.
+
+"Thanks," you say.  "I'll consider it."  Mrs. Curie is glad to hear you say that, because if you keep the students on aphrodisiac, she can study the long term effects.  She smiles and nods as she exits your office. 
+
+You turn to your laptop and notice there's a new email waiting for you.  You roll your eyes when you see it was sent 30 minutes before you stepped into your office.\
+<<chardetail "Mrs. Curie" "She informed you that all the students are on a mild form of aphrodisiac.">>\
+<</if>> 
+
+[[Continue.->UnlockFarmWeek2]]

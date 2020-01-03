@@ -1,0 +1,7 @@
+::  SDDormTwins
+<<set $finished_sd_dorm_twins to true>>\
+You devise a plan: You'll kidnap Hannah and take her out of her room to Anna.  From there the twins will be able to explore each other<<if $has_mothers>> without their mother nagging you to stop.  <</if>>Anna's owner is Casey, and she won't put up much resistance<<if $has_mothers>> compared to the mom<</if>>.
+
+[[Kidnapping? Maybe this is going too far.  You decide to do something else.->SDDormRevisit]]
+
+[[Continue->SDDormTwins2]]

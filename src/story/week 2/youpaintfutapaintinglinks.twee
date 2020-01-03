@@ -1,0 +1,45 @@
+::  YouPaintFutaPaintingLinks
+<<set _colors_left to $you_paint_futa_colors.length>>\
+<<if _colors_left is 0>>\
+	<<goto "YouPaintFutaNoOrgasm">>
+<<else>>\
+You have <<print _colors_left>> color<<if _colors_left > 1>>s<</if>> left.
+
+<<if $you_paint_futa_painting_description !== "">>\
+	<<include $you_paint_futa_painting_description>>\
+<</if>>\
+<<if $you_paint_futa_painting_arousal >= 5>>\
+	<<goto "YouPaintFutaOrgasm">>\
+<<elseif $you_paint_futa_painting_arousal >= 4>>
+
+Your canvas is heavily throbbing in your hands and drooling pre-cum.  Her heavy breathing tells you she's very close to an orgasm.\
+<<elseif $you_paint_futa_painting_arousal >= 2>>
+
+The penis periodically bounces and throbs in your hands.  Her moans suggest she's moderately stimulated.  If you keep doing things she likes, she may have an orgasm.\
+<<elseif $you_paint_futa_painting_arousal >= 1>>
+
+The penis periodically bounces so you have to hold it in place.  She's not moaning so you don't think she's especially aroused.  But, if you keep doing things she likes, that may change...\
+<<elseif $you_paint_futa_painting_arousal < 0>>
+
+The penis is soft in your hand.  You took too many steps in the wrong direction.  But, if you keep doing things she likes, that may change...<</if>>\
+
+[["The anus"|YouPaintFutaPaintingLinks][$you_paint_futa_painting_arousal++, $you_paint_futa_painting_description to "YouPaintFutaPaintingAnusDescription", $you_paint_futa_current_color = $you_paint_futa_colors.shift()]]
+
+[["The taint"|YouPaintFutaPaintingLinks][$you_paint_futa_painting_arousal--, $you_paint_futa_painting_description to "YouPaintFutaPaintingTaintDescription", $you_paint_futa_current_color = $you_paint_futa_colors.shift()]]
+
+<<if $futa_painting_uncircumcised>>\
+    <<set _ball_arousal to $you_paint_futa_painting_arousal + 1>>\
+<<else>>\
+    <<set _ball_arousal to $you_paint_futa_painting_arousal>>\
+<</if>>\
+[["The balls"|YouPaintFutaPaintingLinks][$you_paint_futa_painting_arousal to _ball_arousal, $you_paint_futa_painting_description to "YouPaintFutaPaintingBallsDescription", $you_paint_futa_current_color = $you_paint_futa_colors.shift()]]
+
+[["The shaft"|YouPaintFutaPaintingLinks][$you_paint_futa_painting_arousal += 2, $you_paint_futa_painting_description to "YouPaintFutaPaintingShaftDescription", $you_paint_futa_current_color = $you_paint_futa_colors.shift()]]
+
+<<if $futa_painting_uncircumcised>>\
+    <<set _head_arousal to $you_paint_futa_painting_arousal>>\
+<<else>>\
+    <<set _head_arousal to $you_paint_futa_painting_arousal - 1>>\
+<</if>>\
+[["The head"|YouPaintFutaPaintingLinks][$you_paint_futa_painting_arousal to _ball_arousal, $you_paint_futa_painting_description to "YouPaintFutaPaintingHeadDescription", $you_paint_futa_current_color = $you_paint_futa_colors.shift()]]
+<</if>>

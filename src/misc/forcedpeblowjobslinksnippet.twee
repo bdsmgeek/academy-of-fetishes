@@ -1,0 +1,34 @@
+::  ForcedPeBlowjobsLinkSnippet
+<<if not $finished_forced_pe_blowjobs_luna_olivia>>\
+[[Visit Luna and Olivia.->ForcedPeBlowjobsLunaOlivia]] 
+
+<</if>>\
+<<if not $finished_forced_pe_blowjobs_bailey_amy>>\
+[[Visit Bailey and Amy.->ForcedPeBlowjobsBaileyAmy]] 
+
+<</if>>\
+<<if not $finished_forced_pe_blowjobs_tiffany_fifa and $cd_trans_estim>>\
+[[Visit Tiffany and Fifa.->ForcedPeBlowjobsTiffanyFifa]] 
+
+<</if>>\
+<<if not $finished_forced_pe_blowjobs_lucy_mia>>\
+[[Visit Lucy and Mia.->ForcedPeBlowjobsLucyAndMia]] 
+
+<</if>>\
+<<if $finished_forced_pe_blowjobs_luna_olivia>>\
+[[Try to get Luna to lose the competition.->ForcedPeBlowjobsLunaOliviaCum]] 
+
+<</if>>\
+<<if $finished_forced_pe_blowjobs_bailey_amy>>\
+[[Try to get Bailey to lose the competition from pain.->ForcedPeBlowjobsBaileyAmyCum]] 
+
+<</if>>\
+<<if $finished_forced_pe_blowjobs_tiffany_fifa>>\
+[[Try to get Tiffany to lose the competition.->ForcedPeBlowjobsTiffanyFifaCum]] 
+
+<</if>>\
+<<if $finished_forced_pe_blowjobs_lucy_mia>>\
+[[Try to get Lucy to lose the competition by fingering her anus.->ForcedPeBlowjobsLucyMiaCum]] 
+
+<</if>>\
+[[End the competition early and go back to your office.->Office]]

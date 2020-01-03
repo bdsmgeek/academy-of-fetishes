@@ -1,0 +1,8 @@
+::  CostumeShowSetupNo
+<<set $costume_show_allowed to false>>\
+"Honestly," you say, "I think the students would prefer to keep their weekends to themselves.  I know I would." She looks sad to hear that, so you say, "How about you make the costumes this week, but we forego the fashion show on the weekend?  That way the students get some time off to unwind?"
+
+She purses her lips as she nods, thanks you, then steps out of your office.
+
+[[Office]]
+\ <<chardetail "Ms. Monet" "She wanted to plan a costume show with all the students but you turned her down.">>

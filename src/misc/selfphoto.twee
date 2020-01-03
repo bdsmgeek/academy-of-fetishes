@@ -1,0 +1,11 @@
+::  SelfPhoto
+<<set $finished_self_photo to true>>You walk into Ms. Monet's class which is already in session.  This is a new group of students from the last one and unlike before, Ms. Monet is completely clothed.  The teacher gives you a quick nod as she continues her class.
+
+"OK darlings.  Today we're going to do something a little different.  We've all been focusing on sketching a nude model - namely, me - but this time //you're// going to be the model!  Isn't that exciting?"  The students start to fidget and look down at their desk.
+
+"I'm going to call each of you up here individually.  Casey's in the front corner so you'll be going first.  Come stand in front of me here.  Good.  Now turn around so you're facing the rest of the class."
+
+[[Ms. Monet seems like she has this under control.  You decide to go back to your office.->Office]]
+
+[[Continue->SelfPhoto2]]\
+<<charadd "Casey">><<chardetail "Ms. Monet" "She ran a class where she took close up photos of every student's vulva.">>

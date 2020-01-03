@@ -1,0 +1,30 @@
+::  SkimpySwimSuits3
+<<set _is_hucow to (not $finished_hucow_transformation)>>\
+Ms. Waterloo says, "You should check out Jessie's suit.  It's pretty interesting.  Jessie, come here a minute, would you dear?"
+
+Jessie's wearing a C-string<<if _is_hucow>>, but with her thick body, it almost looks like she's wearing no bottom.  The C-string is<<else>>.  It's<</if>> like a thong, but it has no straps on the side, so it only covers her crotch and anus<<if _is_hucow>> and her tail hangs over it<</if>>.  She's not really wearing a top.  Instead, each breast looks like it's covered in a rubber shower cap that molds them into a torpedo shape.  The caps are semi-transparent, so you can see the location of her nipples at the front.
+
+With a smile, Jessie models the outfit for you by posing in different ways.  Each time she shifts to a new position, her constrained breasts bounce as a whole unit rather than jiggle.  Because of the constricting nature of the swim caps, there's space between each breast, and you can see her chest between them.  <<if $hucow>>Milk has pooled at the bottom of the caps, and as you watch her pose, streams of milk run from her nipples like rain down a car window.<</if>>  For her last pose, Jessie bends over and crushes her breasts into each other.
+
+"Is your suit uncomfortable?" you ask.
+
+Jessie giggles and says, "Not really.  It's like a nice, tight hug on my boobs.  But it's super revealing, especially my belly.  That part's a little weird."  She shrugs, so it must not bother her that much.  
+
+You extend your arm toward her and she grins at you, then places one of her breasts in the palm of your hand.  It's heavier than you expected, like a ripe melon.  You give it a light squeeze and Jessie sighs<<if $hucow>> as some milk spills out<</if>>.  With the other breast, you squeeze with both hands, then massage her chest between the two boobs.  
+
+Once you've had your fill, Jessie turns around and shows you her suit from the back.  <<if _is_hucow>>Because her tail blocks the back of the C-string, it looks like she isn't wearing any clothes.<<else>>If it weren't for the back of the C-string, it'd look like she wasn't wearing anything at all.<</if>>  
+
+"Very nice," you say as you pet her bottom.  It's cold because she just got out of the pool, but it's still soft and squishy.  When you're done, she turns around and squishes her breasts together with her forearms.
+
+Ms. Waterloo says, "Run along dear.  Thanks for showing us your suit."  When Jessie's gone, Ms. Waterloo says, \
+<<if $fo_relaxant_urethra or $fo_ass eq "relaxant">>"I've got one more to show you, and that's Olivia's."
+
+[[Continue.->SkimpySwimSuitsOlivia]]
+<<else>>\
+"All the other suits are variations of what you've already seen.  Feel free to stick around and watch the girls frolic though.  I know it makes my day."
+
+You smile at her and say, "Thanks for giving me the tour."  You're sure AB will be excited to hear about the new suits.  In your opinion, it's an iteration on what they came up with on their own.
+
+[[Office->Office]]
+<</if>>
+\ <<chardetail "Jessie" "In Ms. Waterloo's class, she only wore a c-string and two bathing caps on her breasts.">>

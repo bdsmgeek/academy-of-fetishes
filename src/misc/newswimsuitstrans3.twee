@@ -1,0 +1,46 @@
+::  NewSwimsuitsTrans3
+Ms. Waterloo turns to you and says, "Think I could do like a cannon-ball kind of thing while I suck on her balls?" she asks.  She tucks a knee into her chest as a demonstration.  "Maybe I could hang from them with just my mouth."
+
+<span class="cannon-balls">\
+<<linkreplace "Sure, that sounds like fun." t8n>>\
+    <<replace ".cannon-balls">>\
+    While you hold onto one of Fifa's butt cheeks to prevent her from falling into the pool, Ms. Waterloo slurps the testicles into her mouth then she slowly tucks her knees into her chest, doing her best to avoid causing any pain.  <<if $fp_cbt>>Fifa's first reaction is to gasp, then grunt repeatedly, but when Ms. Waterloo's back begins to rise toward the surface, it relieves a lot of the weight and they can both relax.<<else>>Once Ms. Waterloo latches on, her back floats up to the surface.<</if>>
+
+    Without releasing the sack from her mouth, Ms. Waterloo flashes you a little smile.  You stand on the side of them both as you reach up to Fifa's suit, pull it further over, and let her semi-erect penis flop out of it.  Ms. Waterloo knows what to do.  While keeping her knees tucked to her chest with one arm, she reaches above her head with the other and starts stroking the shaft.  It takes a few seconds but the thing grows in her hand and the foreskin pulls back on its own.  
+
+She strokes at a much slower rate than you would, but Fifa really seems to like whatever Ms. Waterloo's doing.  You can tell because a sparkling bead of pre-cum catches your eye as it leaks from Fifa's tip.  Soon you can hear her slow, heavy breathing through both of their nostrils.  The sound of their breaths synchronize and Ms. Waterloo closes her eyes and slows down her strokes even more.  She'd drift away if she weren't holding herself in place with Fifa's testicles.  In a perverse sort of way, the moment feels serene.
+
+    <span class="anal">\
+    <<linkreplace "Fifa doesn't hate anal.  Perhaps you could assist with your finger." t8n>>\
+        <<replace ".anal">>\
+            <<set $fifa_anal to true>>\
+Without turning to look at what you're doing, you pull Fifa's bathing suit to the side, lick your finger, and feel around for her anus.  At first you touch too high, but when you lower your finger and brush against her anus wrinkles, she clenches hard and Ms. Waterloo's eyes pop open.  She must have felt Fifa's scrotum tighten in her mouth.
+
+You play with the anus a bit, teasing it by pushing the tip of your finger (the part opposite your nail) against it, but you don't push in.  It's just to loosen her up for what's going to happen, but you're in no rush.  Although Fifa's had a finger inserted into her before, she's still very tight and her hole initially rejects you by bunching up.  You can feel all her wrinkles meeting at a singular dot.  But when you gently circle your finger and spread some more lubrication, the sphincter relaxes.  The wrinkles seem to bloom as they spread to the sides of your finger, and you realize it's starting to swallow your fingertip.  Certainly, Ms. Waterloo's calming touch helped with this.
+
+The students behind you are rambunctious, but they've become white noise to you.  You do your best to match the speed of Ms. Waterloo's strokes.  When her hand slides down to the base, you push your finger in.  When her hand slides up to the tip, you retract your finger without removing it.  She strokes slow enough that you can match her speed without causing any discomfort, but after you've loosened Fifa up, she shivers and the sphincter clenches, holding your finger in place.
+
+It takes a moment, but when Fifa relaxes her grip on your finger, you remove it.  The idea of Ms. Waterloo sucking on Fifa's scrotum, stroking her shaft, and fingering her ass all at the same time really turns you on so you want to trade places.  One of Ms. Waterloo's arms holds her into her cannon ball position.  You grab that arm, lubricate her finger with your mouth, then touch it to Fifa's anus.  Without untucking her knees, she starts pumping her finger into Fifa on her own, but she does it twice as slow as you:  She strokes the shaft up and down once while inserting, then up and down again while retracting.
+
+You furrow your brow as you watch.  It's actually really impressive that Ms. Waterloo is able to keep her timing in sync like that.
+<<include "NewSwimsuitsFifaOrgasm">>
+        <</replace>>\
+<<chardetail "Fifa" "Ms. Waterloo gave her a 'slow' orgasm while sucking on her testicles, stroking her shaft, and fingering her ass.">>\
+<<chardetail "Ms. Waterloo" "She gave Fifa a 'slow' orgasm while sucking on her testicles, stroking her shaft, and fingering her ass.">>\
+    <</linkreplace>>
+
+    <<linkreplace "Let's not ruin this moment.  Penis and testicle stimulation is good enough." t8n>>\
+        <<replace ".anal">>\
+            <<set $fifa_anal to false>>\
+            <<include "NewSwimsuitsFifaOrgasm">>
+        <</replace>>\
+<<chardetail "Fifa" "Ms. Waterloo gave her a 'slow' orgasm while sucking on her testicles and stroking her shaft.">>\
+<<chardetail "Ms. Waterloo" "She gave Fifa a 'slow' orgasm while sucking on her testicles and stroking her shaft.">>\
+    <</linkreplace>>\
+    </span> /* END .anal */
+
+    <</replace>>\
+<</linkreplace>>
+
+[[Yikes.  Not my idea of a good time.  Ms. Waterloo is going to stay, let's end the class.->NewSwimsuitsEnd]]
+</span>/* END .cannon-balls */

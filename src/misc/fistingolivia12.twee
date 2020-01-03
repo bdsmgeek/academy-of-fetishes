@@ -1,0 +1,56 @@
+::  FistingOlivia12
+<<if $fo_vagina eq "menthol">>\
+	<<include "FistingOliviaMentholOrgasm">>
+
+<</if>>\
+<<if $fo_vagina isnot "relaxant">>\
+"Maybe you should pull out now," you whisper to Amy.
+
+Her lips press tight and she says, "OK."
+
+"Go very slow.  Massage her vulva with your other hand so she relaxes first."
+
+She pets the lips on each side of her wrist.  They're shiny and dripping with lubrication.  Olivia's breathing slows as she relaxes and when she swallows, she spreads wider.  Amy pulls slowly.  The fold of skin where the lips meet at the top of the wrist protrude out further than you've seen before.  Olivia tries to back up with the wrist but you stop her from moving with your arm.  As Amy's hand tries to slip free, Olivia makes a long, stressful groan.
+
+Then Amy's hand pops out all at once and she lifts her fist in the air like a trophy.  You clutch your chest with your free hand: She wasn't supposed to remove her hand while making a fist.  But you suppose that's your fault since you didn't explicitly tell her that.  No words come out of Mrs. Curie's mouth, but it looks like she's stammering.  She snaps out of it when you release Olivia's legs and Olivia collapses flat on the desk.
+
+Olivia gets back up on all fours and feels her tender vulva before spreading it again.  <<else>>Once your hand is removed, Olivia reaches back and feels her tender vulva before spreading it again.  <</if>>You wish you could read her thoughts.  All the pink folds that are normally hidden deep inside are now visible to the class.  It must be strange and surprising to be able to feel them.  Her vagina is wide open and there are milky white streaks of her own juices that have mixed with the lube.  These streaks are probably too small to see from the student's seats, so you let the class know they're there.  <<if $fo_vagina isnot "relaxant">>You wager you could fit 2 fingers in the gape without touching the sides.  Maybe even 3, but you wouldn't bet money on it.<</if>>
+
+Mrs. Curie asks, but nobody can guess the mystery ingredient.  \
+<<if $fo_vagina eq "placebo">>\
+You smile, knowing full well the mystery ingredient is just a placebo.\
+<<elseif $fo_vagina eq "semen">>\
+You smile, knowing full well there is no mystery ingredient.
+	
+<<include "FistingOliviaVaginaSemen">>\
+<<elseif $fo_vagina eq "menthol">>\
+"Give them a hint, Olivia."
+
+"It- it feels kind of numb."
+
+Kira raises her hand.  "Is it a nerve toxin?"
+
+"No, but that's a good guess.  Amy, how about you give the next hint?"
+
+"It feels... cold?"  
+
+Mia raises her hand and Mrs. Curie calls on her.  "Is it spearmint?"
+
+"Yes!  Menthol, to be specific but it's from a spearmint extract.  Very good guess.  It gives you a nice tingly feeling, too."  She asks Olivia, "It feels nice, yes?"  There's no response.\
+<<elseif $fo_vagina eq "relaxant">>\
+"Give them a hint, Olivia."
+
+Olivia sighs and says, "I... I can't squeeze, but I could feel everything."
+
+Mia thrusts her hand into the air and when you call on her she says, "Muscle relaxant?"
+
+"That's right!" you say.  "Very good guess."\
+<</if>>
+
+<<if $fo_relaxant_urethra>>\
+[[Let's stop here.  A gape has been made and that's all AB wanted->FistingOliviaDiaper]]\
+<<else>>\
+[[Let's stop here.  A gape has been made and that's all AB wanted->FistingOliviaStopEarly]]\
+<</if>>
+
+<<if $fp_anal_fisting>>[[You're not really sure which hole AB wanted gaped.  Better to be safe than sorry.->FistingOlivia13]]<</if>>

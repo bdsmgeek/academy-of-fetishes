@@ -1,0 +1,99 @@
+::  HolyWeek
+<<set _shown_holy_links to 0>>\
+<<set _shown_first_day_links to 0>>\
+<<set _shown_second_day_links to 0>>\
+<<set _shown_third_day_links to 0>>\
+<<set $hide_camera_links to true>>\
+<<if $chastity and (not $finished_end_holy_week)>>\
+    <<if not $finished_kiss_class>>\
+       <<set _shown_holy_links++>><<set _shown_first_day_links++>>\
+        [[Check on Ms. Darwin's biology class.->KissClass]]
+
+    <</if>>\
+    <<if (not $finished_relay_race)>>\
+       <<set _shown_holy_links++>><<set _shown_first_day_links++>>\
+        [[Visit Mrs. Ball's PE class.->RelayRace]]
+
+    <</if>>\
+    <<if (not $finished_aphrodisiac_perfume)>>\
+       <<set _shown_holy_links++>><<set _shown_first_day_links++>>\
+        [[Visit Mrs. Curie's biochem class.->AphrodisiacPerfume]]
+
+    <</if>>\
+    <<if _shown_first_day_links is 0>>\
+        <<if $cd_female_anal and (not $finished_visit_amy_chastity)>>\
+           <<set _shown_holy_links++>><<set _shown_first_day_links++>>\
+            [[Visit Amy's room at night.->VisitAmyChastity]]
+
+        <<else>>\
+            <<if (not $finished_erotic_asmr)>>\
+               <<set _shown_holy_links++>><<set _shown_second_day_links++>>\
+                [[Visit Ms. Monet's art class.->EroticAsmr]]
+
+            <</if>>\
+            <<if (not $finished_chastity_glory_hole)>>\
+               <<set _shown_holy_links++>><<set _shown_second_day_links++>>\
+                [[Visit the restroom.->ChastityGloryHole]]
+
+            <</if>>\
+            <<if $has_sensory_deprivation and 
+                $finished_chastity_glory_hole
+                $has_futa_students and 
+                (not $finished_forced_pe_blowjobs)>>\
+               <<set _shown_holy_links++>><<set _shown_second_day_links++>>\
+                [[Visit Mrs. Ball's PE class.->ForcedPeBlowjobs]]
+
+            <</if>>\
+            <<if $finished_forced_pe_blowjobs and
+                $forced_pe_blowjobs_loser isnot "" and
+                (not $finished_gloryhole_loser)>>\
+               <<set _shown_holy_links++>><<set _shown_second_day_links++>>\
+                [[Visit the restroom.->GloryHoleLoser]]
+
+            <</if>>\
+        <</if>>\
+    <</if>>\
+    <<if _shown_first_day_links is 0 and _shown_second_day_links is 0>>\
+        <<if $cd_female_estim and (not $finished_hannah_anna_face_sitting)>>\
+               <<set _shown_holy_links++>><<set _shown_third_day_links++>>\
+                [[Visit Hannah at night.->HannahAnnaFaceSitting]]
+
+        <<else>>\
+            <<if not $finished_jessie_uses_hall_pass>>\
+               <<set _shown_holy_links++>><<set _shown_third_day_links++>>\
+                [[Visit Mrs. Eigen's math class.->JessieUsesHallPass]]
+
+            <</if>>\
+            <<if $cd_trans_stretch and 
+                (not $finished_luna_fucks_herself)>>\
+               <<set _shown_holy_links++>><<set _shown_third_day_links++>>\
+                [[Walk the halls.->LunaFucksHerself]]
+
+            <</if>>\
+            <<if $fp_scat and
+                $kira_force_feeding and $cd_urine_enema and 
+                (not $finished_casey_force_fed_scat)>>\
+               <<set _shown_holy_links++>><<set _shown_third_day_links++>>\
+                [[Check the security cameras.->KiraForceFedScat]]
+
+            <</if>>\
+            <<if not $finished_chastity_bathroom_break>>
+               <<set _shown_holy_links++>><<set _shown_third_day_links++>>\
+                [[Visit the restrooms and showers during a break.->ChastityBreak]]
+
+            <</if>>\
+        <</if>>\
+    <</if>>\
+    <<if not $finished_end_holy_week>>\
+       <<set _shown_holy_links++>>\
+        [[Take off the students' chastity devices and end Holy Week.->EndHolyWeek]]
+
+    <</if>>\
+<</if>>\
+<<if ($chastity is false or _shown_holy_links eq 0) and $week is 6>>\
+    <<if not $finished_ab_chase>>\
+        <<set $hide_camera_links to true>><<goto "AbChase">> \
+    <<else>>\
+        <<set $hide_camera_links to true>><<goto "UnlockFarmWeek">>\
+    <</if>>\
+<</if>>\

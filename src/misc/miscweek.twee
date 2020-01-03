@@ -1,0 +1,5 @@
+::  MiscWeek
+<<if hasVisited("LunaAutoFellatio", "UnlockEngineering") and (not $finished_face_painting)>>\
+    [[Visit Ms. Monet right before class ends.->TransBukakke]]
+
+<</if>>\

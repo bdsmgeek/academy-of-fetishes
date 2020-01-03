@@ -1,0 +1,6 @@
+::  FutaPainting4
+You see two groups struggling to come up with ideas.  Each has two blank canvases.  Which one would you like to check up on?
+
+[["The very small, uncircumcised canvas"|YouPaintFuta][$futa_painting_uncircumcised to true]]
+
+[["The larger, circumcised canvas"|YouPaintFuta][$futa_painting_uncircumcised to false]]

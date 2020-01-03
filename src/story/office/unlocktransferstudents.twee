@@ -1,0 +1,18 @@
+::  UnlockTransferStudents
+You send an email to the Anonymous Benefactor to inform them of how the week went, and when you get to your office the next morning you have a reply to it.
+
+"Dear Principal $name,
+
+"I'm glad to hear about the school's activities.  I would encourage you and your staff to think of more educational games in the future.
+
+"I've talked to some of my 'connections' and they, too, are impressed with how well your students are coming along.  They would like to transfer some of their more challenging students to your school, if you would take them.
+
+"I'm aware that your school cannot financially support an influx of students, so I will be donating a large sum to help.  Which group of students would you be interested in transferring to your school?
+
+"-AB"
+
+<<if $fp_mom or $fp_trans>>\
+[[Continue->UnlockTransferStudents2]]\
+<<else>>\
+[[Continue->Week2Intro]]\
+<</if>>

@@ -1,0 +1,18 @@
+::  BirthdayPartyAssStraponAmyCum
+The way Amy's hugging you makes this feel more like a cuddle than sex.  She wraps her arms around your neck and lifts her feet off the ground, like you're giving her a piggy-back ride.  But whenever she wiggles her bottom to snuggle, there's no mistaking the sensation of the strapon inside you.  <<hasPenis>>
+
+You feel a gentle touch on the tip of your penis, and then it's gone.  After one long kiss on your back, she says, "You're dripping," and holds her hand in front of your face to show you a spiderweb-like thread of pre-cum.  $bp_first is still kissing you, but it seems like Amy wants you to lick her finger.
+
+[["Continue kissing " + $bp_first + "."->BirthdayPartyAssStraponAmyCumNoEat]]
+
+[["Stop kissing " + $bp_first + " and open your mouth."->BirthdayPartyAssStraponAmyCumEatCum]]\
+<<otherwise>>
+
+You feel her reach down to massage your vulva.  After some exploration, she massages your clit between her index and middle finger.  The way her two fingers slide along either side of your clitoris is a little intense, but if she keeps doing it, you may be able to cum from it.  She doesn't stay there long though.  Her hand migrates further back and dips into your vagina.  
+
+After one long kiss on your back, she says, "You're dripping," and holds her hand in front of your face to show you a glistening finger.  $bp_first is still kissing you, but it seems like Amy wants you to lick her finger clean.
+
+[["Continue kissing " + $bp_first + "."->BirthdayPartyAssStraponAmyCumNoEat]]
+
+[["Stop kissing " + $bp_first + " and open your mouth."->BirthdayPartyAssStraponAmyCumEatCum]]\
+<</hasPenis>>

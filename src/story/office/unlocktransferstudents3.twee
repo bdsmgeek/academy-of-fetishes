@@ -1,0 +1,15 @@
+::  UnlockTransferStudents3
+<<nobr>>
+    <<if $has_futa_students and $has_mothers>>
+        <<set _title to "mothers and trans girls">>
+    <<elseif $has_futa_students>>
+        <<set _title to "trans girls">>
+    <<elseif $has_mothers>>
+        <<set _title to "mothers">>
+    <<else>>
+        <<goto "Week2Intro">>
+    <</if>>
+<</nobr>>\
+You type an email to the Anonymous Benefactor requesting the transfer of the _title. They should arrive at the beginning of next week.
+
+[[Office->Week2Intro]]

@@ -1,0 +1,20 @@
+::  SDHub
+<<if not $finished_sd_cafeteria>>\
+    [[You decide to visit the cafeteria->SDCafeteria]]
+
+<</if>>\
+<<if not $finished_sd_halls>>\
+    [[You decide to wander the halls->SDHall]]
+
+<</if>>\
+<<if $fp_pee>>\
+    <<if not $finished_sd_bathroom>>\
+        [[You visit the restrooms->SDBathroom]]
+
+    <</if>>\
+<</if>>\
+<<if not $finished_sd_dorm>>\
+    [[You visit the dorms at night->SDDormStart]]
+
+<</if>>\
+[["Cancel the Sensory Deprivation experiment immediately."|Office][$finished_sd_dorm to true]]

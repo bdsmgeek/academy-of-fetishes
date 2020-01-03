@@ -1,0 +1,16 @@
+::  ProcessNewYearbookDetails
+<<nobr>>
+<<set _charsWithNewDetails to Object.keys(setup.newYearbookDetails)>>
+<<for _i to 0; _i lt _charsWithNewDetails.length; _i++>>\
+	<<set _charWithNewDetails to _charsWithNewDetails[_i]>>
+    <<set _originalYearBookSize to setup.yearbook[_charWithNewDetails].length>> 
+	<<run setup.yearbook[_charWithNewDetails] = setup.yearbook[_charWithNewDetails].concat(setup.newYearbookDetails[_charWithNewDetails])>>
+    <<run setup.yearbook[_charWithNewDetails] = _.uniqBy(setup.yearbook[_charWithNewDetails], function(d) {return d.detail})>>
+    <<run _newEntriesNotJustDuplicates to setup.yearbook[_charWithNewDetails].length gt _originalYearBookSize>>
+    <<if _newEntriesNotJustDuplicates>>
+        <<run setup.flickerYearbookButton = true>>
+    <</if>>
+<</for>>
+
+<<set setup.newYearbookDetails to {}>>
+<</nobr>>\

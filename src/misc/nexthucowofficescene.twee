@@ -1,0 +1,15 @@
+::  NextHucowOfficeScene
+<<nobr>>
+    <<set $visit_hucow_scene_in_x_office_visits to 1>>
+    <<if not $finished_lactation>>
+        <<include "HucowLactation">>
+    <<elseif not ($finished_hucow_puffies or $finished_hucow_sex)>>
+        <<if $hucow_pills_given eq 1>>
+            <<include "HucowSex">>
+        <<else>>
+            <<include "HucowPuffies">>
+        <</if>>
+    <<else>>
+        <<include "Office">>
+    <</if>>
+<</nobr>>

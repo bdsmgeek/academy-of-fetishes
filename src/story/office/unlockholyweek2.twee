@@ -1,0 +1,54 @@
+::  UnlockHolyWeek2
+After a few minutes of thinking about it, you come up with some really creative ideas.  But, you're not sure how easy it would be to implement them, so you decide to talk to an expert: Ms. Tink, the engineering teacher.  In the middle of her class, you pull her aside and explain AB's request, and she's so excited she dismisses everyone early so she can chat with you without distraction.  After about 15 minutes of bouncing ideas off of each other, you come up with a variety of special chastity devices, but it's up to you to choose which ideas you want her to build.  
+
+Ms. Tink explains that, if you choose any of the devices below, she'll only have enough time to make about one of each.  But, the rest of the students will be in standard chastity devices: That doesn't cost her any time because she already has boxes full of them in storage.  Which special devices would you like her to make?
+
+A solid plate chastity belt.  Anal would be the only form of stimulation: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_anal" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_anal" false>> No</label>
+<<if $anna_pursues_hannah>>\
+A chastity belt with vaginal, anal, and breast electro-stim, for forced orgasms: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_estim" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_estim" false>> No</label>
+<<else>>\
+    <<set $cd_female_estim to false>>\
+<</if>>\
+A belt with speculums to keep the anal and vaginal cavities open and accessible: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spread" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spread" false>> No</label>
+<<if $fp_peehole>>\
+A chastity belt with a catheter tube.  The other end of the tube will be inserted into the student's anus, giving them an enema with their own urine: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_urine_enema" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_urine_enema" false>> No</label>\
+<<else>>\
+    <<set $cd_urine_enema to false>>\
+<</if>>
+
+<<if $has_futa_students>>\
+The following can be made, specifically for the trans students:
+A solid plate cage.  Anal would be the only form of stimulation: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_anal" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_anal" false>> No</label>
+An uncomfortably tight cage and metal bra with electro-stim for forced orgasms: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_estim" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_estim" false>> No</label>
+<<if $fp_peehole and $fp_cbt>>\
+A cage with a metal urethra tube and sharp spikes inside: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spikes" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spikes" false>> No</label>\
+<<else>>\
+    <<set $cd_spikes to false>>\
+<</if>>
+A stretching device that pulls the flaccid penis backward and toward the anus: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_stretch" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_stretch" false>> No</label>
+<<else>>\
+<<nobr>>
+    <<set $cd_trans_anal to false>>
+    <<set $cd_trans_estim to false>>
+    <<set $cd_spikes to false>>
+    <<set $cd_trans_stretch to false>>
+<</nobr>>\
+<</if>>\
+
+[[Continue.->UnlockHolyWeek3]]

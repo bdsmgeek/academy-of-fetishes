@@ -1,0 +1,47 @@
+::  FutanariInspectionSurvey
+(What you read will be on the survey.  Click on a link to remove a question from the survey.)
+
+<<nobr>><<if $futa_inspection_check_minimum_sensitivity>>
+[["How sensitive is your trans girl?  What is the minimal amount of contact you can use to get her hard?"|FutanariInspectionSurvey][$futa_inspection_check_minimum_sensitivity to false]]
+<<else>>
+[["Do not check minimum sensitivity"|FutanariInspectionSurvey][$futa_inspection_check_minimum_sensitivity to true]]
+<</if>><</nobr>>
+
+<<nobr>><<if $futa_inspection_scrotum_sensitivity>>
+[["Inspect your trans girl's scrotum.  Can you get her hard with scrotum stimulation alone?"|FutanariInspectionSurvey][$futa_inspection_scrotum_sensitivity to false]]
+<<else>>
+[["Do not check scrotum sensitivity"|FutanariInspectionSurvey][$futa_inspection_scrotum_sensitivity to true]]
+<</if>><</nobr>>
+
+<<nobr>><<if $futa_inspection_anus_sensitivity>>
+[["Inspect your trans girl's anus.  Can you get her hard with anus stimulation alone?"|FutanariInspectionSurvey][$futa_inspection_anus_sensitivity to false]]
+<<else>>
+[["Do not check anus sensitivity"|FutanariInspectionSurvey][$futa_inspection_anus_sensitivity to true]]
+<</if>><</nobr>>
+
+<<if $fp_puffy_anus>>\
+<<nobr>>
+	<<if $futa_inspection_anus_all_senses>>
+		[["Use all of your senses to inspect your tran girl's anus.  Record and report all of your findings.  Warning: Some anuses may smell.  Others may be overused and have a slight rosebutt.  One of the human senses is sound, do you really want to..?"|FutanariInspectionSurvey][$futa_inspection_anus_all_senses to false]]
+	<<else>>
+		[["Do not inspect anus with all senses"|FutanariInspectionSurvey][$futa_inspection_anus_all_senses to true]]
+	<</if>>
+<</nobr>>
+
+<<else>>\
+	<<set $futa_inspection_anus_all_senses to false>>
+	
+<</if>>\
+<<nobr>>Choose how to end the class (currently selected is
+<<if $futa_inspection_blue_balls>>"Maximum pre-cum extraction"<<else>>"Maximum ruined orgasms"<</if>>):
+
+	<<set _blue_balls_text to "Use the rest of the time of the class to collect as much pre-cum as you can.  How does your trans girl react to prolonged periods of stimulation without an orgasm?  Does she complain about pain in her lower abdomen (AKA \"blue balls\")?  Does she accept her fate or ask for release?  You will be punished if your girl has an orgasm or if you stop stimulating her.">>
+
+	<<set _ruined_text to "Use the rest of the time in the class to give your trans girl as many ruined orgasms as you can.  To give a ruined orgasm you must stimulate your girl to a point where they will orgasm but stop all physical contact before they do.  Record how your girl ejaculates.  How does she react to unsatisfying orgasms?  Does she request a normal orgasm or does she request you to stop all stimulation?  You will be punished if your girl has a regular orgasm or if she has less than 3 orgasms.">>
+
+<</nobr>>\
+
+* <<if $futa_inspection_blue_balls>>_blue_balls_text<<else>>[["" + _blue_balls_text|FutanariInspectionSurvey][$futa_inspection_blue_balls to true, $futa_inspection_ruined_orgasms to false]]<</if>>
+* <<if $futa_inspection_ruined_orgasms>>_ruined_text<<else>>[["" + _ruined_text|FutanariInspectionSurvey][$futa_inspection_blue_balls to false, $futa_inspection_ruined_orgasms to true]]<</if>>
+
+[[This survey looks good->FutanariInspection2]]

@@ -1,0 +1,26 @@
+::  CostumeShowPiercings
+<<set $finished_cs_piercings to true>>\
+Ms. Monet says, "Next up, we've got a punk rocker!"
+
+Olivia bursts out the curtains.  Her hair is dyed purple and gelled into a spiky Mohawk, and she's wearing a black leather jacket with a red anarchy symbol spray painted on her lapel.  She twirls around, revealing a larger symbol on her back.  The denim shorts she's wearing are so cut up, you can see her black nylons through them.  If she were to sit down, her shorts would probably split in half.
+
+After taking a few steps forward, she squats and flips off the audience with both hands and her tongue out.  <<if $fs_piercings>>You notice it's got a large stud through it.  <</if>>
+
+When Olivia notices you there, her whole demeanor changes.  She puts her hands behind her back and blushes, then says, "I was just kidding, sorry."
+
+Ms. Monet comes over to her side and says, "We know dear.  It's a costume party, so we're here to pretend."
+
+With her chin tucked in, Olivia gives you a quick glance and says, "Yeah, but, I don't want to get in trouble."
+
+A couple teachers groan at the way Olivia's breaking the fourth wall, so you cup your mouth and say, "You're not going to get in trouble for pretending to be rude."
+
+Olivia looks at Ms. Monet, then you, then says, "Really?  Oh, OK.  Can I- Can I start over?"
+
+When Ms. Monet says sure, Olivia scurries behind the curtain again.
+
+[[Continue.->CostumeShowPiercings2]]
+<<if $fs_piercings>>\
+\ <<chardetail "Olivia" "She dressed as a punk rocker for the costume show and had real vulva piercings.">>
+<<else>>\
+\ <<chardetail "Olivia" "She dressed as a punk rocker for the costume show and had fake vulva piercings.">>
+<</if>>

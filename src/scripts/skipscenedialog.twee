@@ -1,0 +1,16 @@
+::  SkipSceneDialog
+Immediately skip this scene and go back to your office?
+
+<<button "Yes" Office>>\
+	<<script>>
+ga('send', 'event', 'passage', 'skipped', State.passage, {
+	'dimension1': State.passage,
+	'metric2': 1
+});
+	Dialog.close();
+	<</script>>\
+<</button>>\
+<<print "         ">>\
+<<button "No">>\
+	<<run Dialog.close()>>\
+<</button>>

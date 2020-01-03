@@ -1,0 +1,20 @@
+::  UnlockTransferStudents2
+The Anonymous Benefactor has given you these choices.  Which students will you choose?
+
+<<if $fp_mom>>\
+''Mothers'': These delinquent mothers are trying to get their lives on track.  Most have daughters in your school.  The mothers and daughters will probably be paired or grouped together during class activities.
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_mothers" true checked>> Yes</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_mothers" false>> No</label>
+
+<<else>>\
+    <<set $has_mothers to false>>\
+<</if>>\
+<<if $fp_trans>>\
+''Trans girls'': These are effectively male to female transgendered students.  They are absolutely, 100% feminine, except they have a penis and testicles instead of a vagina.
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_futa_students" true checked>> Yes</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_futa_students" false>> No</label>
+
+<<else>>\
+    <<set $has_futa_students to false>>\
+<</if>>\
+[[Continue.->UnlockTransferStudents3]]

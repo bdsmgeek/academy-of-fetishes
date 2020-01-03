@@ -1,0 +1,27 @@
+::  ScavengerHunt5
+Mia says, "The next task says, 'Find the two people in the class that have the most similar length of left labia minora.  It must be measured while fully extended.'  What's labia minora?"
+
+Olivia points at her paper.  "Look there, dummy.  It has a picture."
+
+<<img "labia_minora_instructions.png">>
+
+"Don't call me dumb!" Mia pushes Olivia with the hand she had previously wiped off on her skirt.
+
+"Don't touch me with your gross hands!"
+
+Another girl yells, "Stop fighting!  We only have 20 minutes left!"  That gets the students back on track.
+
+"OK," Ms. Darwin asks, "What do you think is the best way to do this?"
+
+"Can we just write down Hannah and Anna?  They're twins so it's going to be them."  Ms. Darwin faces you for your decision.
+
+You say, "Even identical twins like Hannah and Anna aren't exactly the same.  The only way to be sure is to measure everyone."
+
+Olivia says, "Let's break into pairs and measure each other.  Also... I think we should take off our skirts.  They'll only get in our way."  There are groans, but everyone agrees.
+
+You interrupt the class and say, "I'll choose the pairs."
+
+<<if $fp_twin>><<linkreplace "Make the twins pair together" t8n>><<set $has_twins_paired to true>>You make Hannah and Anna pair together.  They don't look thrilled about it.<</linkreplace>>
+
+<</if>>\
+[[Continue->ScavengerHunt6]]<<charadd "Hannah">><<charadd "Anna">>

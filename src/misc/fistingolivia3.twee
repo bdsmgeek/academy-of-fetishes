@@ -1,0 +1,26 @@
+::  FistingOlivia3
+Mrs. Curie walks to the back of the class to talk to you.  She says, "You're a busy woman and you often have to get back to your office before class ends.  So, which mystery ingredient would you like me to add first?"  She half smiles when she says, "Don't worry, I'll spell them out in layman's terms for you."
+
+You roll your eyes and say, "Thanks."
+
+!!!The mystery ingredient for the vaginal lubrication:
+    <label><<radiobutton "$fo_vagina" "placebo" checked>> Let's not use a mystery ingredient.</label>
+    <label><<radiobutton "$fo_vagina" "menthol">> A cooling, tingling ingredient.  Some find the sensation to be pleasant.  It's very slow acting so it'll take a while to notice.</label>
+    <<if $has_futa_semen_jar>>\
+    <label><<radiobutton "$fo_vagina" "semen">> Use the placebo until properly gaped, then we'll think of something creative to do with the weeks old jar of trans girl semen.</label>
+    <</if>>\
+    <label><<radiobutton "$fo_vagina" "relaxant">> A muscle relaxant.  It'll loosen up the vagina and let you go very deep and if you choose to apply some to her urethra, it may cause urinary incontinence.  Be aware it's long lasting so you won't be in complete control of your bladder for a few hours after application.</label> 
+<<if $fp_anal_fisting>>\
+!!!The mystery ingredient for the anal lubrication:
+    <label><<radiobutton "$fo_ass" "placebo" checked>> Let's not use a mystery ingredient.</label>
+    <label><<radiobutton "$fo_ass" "spicy">> A spicy ingredient.  It'll burn like crazy.  It's very slow acting so it'll take a while to notice.</label>
+    <<if $has_futa_semen_jar>>\
+    <label><<radiobutton "$fo_ass" "semen">> Use the placebo until properly gaped, then we'll think of something creative to do with the weeks old jar of trans girl semen.</label>
+    <</if>>\
+    <label><<radiobutton "$fo_ass" "deep">> One of my special ingredients that reduces friction to almost nothing and will let you go surprisingly deep.</label>
+    <<if $fp_diaper>>\
+    <label><<radiobutton "$fo_ass" "relaxant">> A muscle relaxant.  It'll loosen up the colon.  But be aware it's long lasting so you won't be in complete control of your bowels for a few hours after application.</label>\
+    <</if>>
+
+<</if>>\
+[[Continue->FistingOlivia4]]

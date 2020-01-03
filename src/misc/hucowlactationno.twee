@@ -1,0 +1,7 @@
+::  HucowLactationNo
+<<set $finished_hucow_transformation to true>>\
+"I've thought about it and I think you've served your punishment."
+
+"Really!" she yells.  "That's so great.  Thank you Principal $name."
+
+[[Continue->HucowLactation9]]<<chardetail "Jessie" "You stopped giving her lactation pills.">>

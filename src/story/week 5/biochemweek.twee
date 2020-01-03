@@ -1,0 +1,46 @@
+::  BioChemWeek
+<<set _shown_biochem_links to 0>>\
+<<if not $finished_aphrodiasiac>>\
+	[[Check on Mrs. Curie's class.->Aphrodisiac]]\
+    <<set _shown_biochem_links++>>
+
+<<elseif not $finished_fisting_olivia>>\
+	[[Check on Mrs. Curie's class.->FistingOlivia]]\
+    <<set _shown_biochem_links++>>
+	
+<</if>>\
+<<if $finished_fisting_olivia and (not $finished_ab_inside_school)>>
+    [[Do some work inside your office.->AbInsideSchool]]\
+    <<set _shown_biochem_links++>>
+
+<</if>>
+<<if $has_futa_students and
+    (not $finished_ms_waterloo_lucy_orgasm)>>\
+    [[Check on Ms. Waterloo's swimming class.->MsWaterlooLucyOrgasm]]\
+    <<set _shown_biochem_links++>>
+
+<</if>>\
+<<if (not $finished_olivia_checkup_diaper) and (not $finished_olivia_checkup)>>\
+    <<if ($fo_relaxant_urethra or $fo_ass eq "relaxant") and
+        (not $finished_olivia_checkup_diaper)>>\
+        [[Visit Olivia at night.->OliviaDiaperCheckup]]\
+        <<set _shown_biochem_links++>>
+
+    <<elseif $fo_saw_anal and
+        (not $finished_olivia_checkup) and
+        $fp_puffy_anus>>\
+        [[Visit Olivia at night.->OliviaCheckup]]\
+        <<set _shown_biochem_links++>>
+
+    <</if>>\
+<</if>>\
+<<if $finished_olivia_checkup_diaper and (not $finished_olivia_classroom_diaper_mess)>>\
+        [[Visit Mrs. Eigen's math class.->OliviaClassroomDiaperMess]]\
+        <<set _shown_biochem_links++>>
+    
+<</if>>\
+<<if _shown_biochem_links eq 0>>\
+    <<if $week is 5>>\
+        <<set $hide_camera_links to true>><<goto "UnlockHolyWeek">>\
+    <</if>>\
+<</if>>\

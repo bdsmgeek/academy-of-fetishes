@@ -1,0 +1,460 @@
+::  StoryInit
+<<script>>
+variables().browser_path = window.location.href;
+<</script>>
+/* Jump to scenes */
+<<if $browser_path.includes("?Aphrodisiac")>>
+<<run setup.testPassage("Aphrodisiac")>>
+<<elseif $browser_path.includes("?HucowLactation")>>
+<<run setup.testPassage("HucowLactation")>>
+<<elseif $browser_path.includes("?FutanariInspection")>>
+<<run setup.testPassage("FutanariInspection")>>
+<<elseif $browser_path.includes("?MassageTherapy")>>
+<<run setup.testPassage("MassageTherapy")>>
+<<elseif $browser_path.includes("?SelfSketch")>>
+<<run setup.testPassage("SelfSketch")>>
+<<elseif $browser_path.includes("?PhotoRibbon")>>
+<<run setup.testPassage("SelfPhotoRibbonAndScissors")>>
+<<elseif $browser_path.includes("?UniformBreastInspectionRuler")>>
+<<run setup.testPassage("UniformBreastInspectionRuler")>>
+<<elseif $browser_path.includes("?UniformBreastInspection")>>
+<<run setup.testPassage("UniformBreastInspection")>>
+<<elseif $browser_path.includes("?Photo")>>
+<<run setup.testPassage("SelfPhoto")>>
+<<elseif $browser_path.includes("?DrinkingFountain")>>
+<<run setup.testPassage("DrinkingFountain")>>
+<<elseif $browser_path.includes("?FutaPaintingFishy")>>
+<<run setup.testPassage("FutaPainting5")>>
+<<elseif $browser_path.includes("?FutaPainting")>>
+<<run setup.testPassage("FutaPainting")>>
+<<elseif $browser_path.includes("?ScavengerHunt")>>
+<<run setup.testPassage("ScavengerHunt")>>
+<<elseif $browser_path.includes("?SDDormMom")>>
+<<run setup.testPassage("SDDormMom")>>
+<<elseif $browser_path.includes("?SDDormTwins")>>
+<<run setup.testPassage("SDDormTwins")>>
+<<elseif $browser_path.includes("?SDDormRomantic")>>
+<<run setup.testPassage("SDDormRomantic")>>
+<<elseif $browser_path.includes("?SDDormSleep")>>
+<<run setup.testPassage("SDDormSleep")>>
+<<elseif $browser_path.includes("?SDDormLuna")>>
+<<run setup.testPassage("SDDormLuna")>>
+<<elseif $browser_path.includes("?SDDorm")>>
+<<run setup.testPassage("SDDormStart")>>
+<<elseif $browser_path.includes("?SDBathroom")>>
+<<run setup.testPassage("SDBathroom")>>
+<<elseif $browser_path.includes("?SDCafeteria")>>
+<<run setup.testPassage("SDCafeteria")>>
+<<elseif $browser_path.includes("?SDHall")>>
+<<run setup.testPassage("SDHall")>>
+<<elseif $browser_path.includes("?SD")>>
+<<run setup.testPassage("SD")>>
+<<elseif $browser_path.includes("?Start")>>
+<<run setup.testPassage("Start")>>
+<<elseif $browser_path.includes("?FistAfterSurvey")>>
+<<run setup.testPassage("FistingOlivia4")>>
+<<elseif $browser_path.includes("?Fisting")>>
+<<run setup.testPassage("FistingOlivia")>>
+<<else>>
+<<set _search_result to $browser_path.includes('passageName=')>>
+<<if _search_result>>
+	<<run setup.testPassage($browser_path.match('passageName=([A-Za-z0-9_]+)')[1])>>
+<</if>>
+<</if>>
+<<include "YearbookInit">>
+<<set $office_visit_count to 0>>
+<<set $character_name to "">>
+<<set $name to "Shepard">>
+<<set $week to 1>>
+<<set $images_seen to []>>
+<<set $has_revealing_pe_outfits to false>>
+<<set $casey_pantiless to false>>
+<<set $has_twins_paired to false>>
+<<set $wet_imprint to false>>
+<<set $ribbon_around_panties to false>>
+<<set $mia_scavenger_dirty_fingers to false>>
+<<set $massage_therapy_incest to false>>
+<<set $jessie_hard_breast_torture to false>>
+<<set $tortured_jessies_breast to false>>
+
+/* Inventory */
+<<set $has_futa_semen_jar to false>>
+<<set $has_ruler to false>>
+<<set $has_casey_labia_photo to false>>
+<<set $has_ribbons_and_scissors to false>>
+
+/* intro week */
+
+<<set $finished_self_photo to false>>
+<<set $finished_scavenger_hunt to false>>
+<<set $finished_uniform_breast_inspection to false>>
+<<set $finished_futanari_inspection to false>>
+<<set $finished_self_sketch to false>>
+<<set $finished_massage_therapy to false>>
+<<set $finished_foot_measure to false>>
+<<set $finished_drinking_fountain to false>>
+<<set $finished_futa_painting to false>>
+
+/* Futa inspection */
+<<set $futa_inspection_check_minimum_sensitivity to true>>
+<<set $futa_inspection_scrotum_sensitivity to true>>
+<<set $futa_inspection_anus_sensitivity to true>>
+<<set $futa_inspection_anus_all_senses to true>>
+<<set $futa_inspection_blue_balls to false>>
+<<set $futa_inspection_ruined_orgasms to true>>
+
+/* Futa painting */
+<<set $futa_painting_uncircumcised to false>>
+<<set $futa_painting_sounding to false>>
+<<set $finished_futa_painting_balls to false>>
+<<set $finished_futa_painting_shaft to false>>
+<<set $finished_futa_painting_head to false>>
+<<set $finished_futa_painting_foreskin to false>>
+<<set $finished_futa_painting_taint to false>>
+<<set $you_paint_futa_colors to ["error"]>>
+<<set $you_paint_futa_current_color to "">>
+<<set $you_paint_futa_painting_description to "">>
+<<set $you_paint_futa_painting_arousal to 0>>
+
+<<set $luna_twins to false>>
+<<set $luna_amy to false>>
+<<set $luna_soft to false>>
+
+/* Camera */
+<<set $camerasSetup to false>>
+<<set $cameraPassagePool to []>>
+<<set $hide_camera_links to false>>
+<<set $finished_face_painting to false>>
+
+/* Transfer Students */
+<<set $has_mothers to false>>
+<<set $has_futa_students to false>>
+<<set $has_fbb_students to false>>
+<<set $finished_daughters_shave_mothers to false>>
+
+/* Swimming */
+<<set $finished_new_swimsuits to false>>
+<<set $finished_kira_forced_feeding to false>>
+<<set $kira_force_feeding to false>>
+<<set $kira_vomited to false>>
+<<set $hickey_bruise to false>>
+<<set $finished_swimsuits_beth to false>>
+<<set $finished_swimsuits_trans to false>>
+
+/* Engineering */
+<<set $has_metal_easels to false>>
+<<set $has_sensory_deprivation to false>>
+<<set $finished_anna_in_office to false>>
+<<set $anna_pursues_hannah to false>>
+<<set $finished_ms_waterloo_lucy_orgasm to false>>
+
+/* Daughters shave Mothers */
+<<set $finished_DaughtersShaveMothersShaveSarahClaire to false>>
+<<set $finished_DaughtersShaveMothersShaveMiaYuki to false>>
+<<set $finished_DaughtersShaveMothersShaveHannahAnna to false>>
+<<set $finished_DaughtersShaveMothersShaveKiraEva to false>>
+
+/* SD */
+<<set $finished_sd_bathroom to false>>
+<<set $finished_sd_halls to false>>
+<<set $finished_sd_cafeteria to false>>
+<<set $finished_sd_cafeteria_trans to false>>
+<<set $finished_sd_cafeteria_moms to false>>
+<<set $luna_pinky to false>>
+<<set $sd_mom_horny to false>>
+<<set $sd_mom_soup_orgasm to false>>
+<<set $olivia_likes_mia to false>>
+<<set $olivia_hates_mia_again to false>>
+<<set $finished_sd_dorm to false>>
+<<set $amy_trusts_luna to false>>
+<<set $finished_sd_olivia_sleep to false>>
+<<set $finished_sd_luna_dorm to false>>
+<<set $finished_sd_dorm_twins to false>>
+<<set $sd_dorm_twin_kidnap to false>>
+<<set $finished_sd_dorm_mom to false>>
+<<set $finished_sd_dorm_romantic to false>>
+
+/* BioChem */
+<<set $has_aphrodisiac to false>>
+<<set $hucow to false>>
+<<set $visit_hucow_scene_in_x_office_visits to 0>>
+<<set $school_knows_jessie_lactates to false>>
+<<set $finished_hucow_transformation to false>>
+<<set $finished_lactation to false>>
+<<set $finished_hucow_puffies to false>>
+<<set $finished_hucow_sex to false>>
+<<set $aphro_mia_end_early to false>>
+<<set $finished_aphrodiasiac to false>>
+<<set $finished_fisting_olivia to false>>
+<<set $finished_olivia_classroom_diaper_mess to false>>
+<<set $jessie_took_aphrodisiac to false>>
+<<set $hucow_pills_given to 0>>
+<<set $hucow_continue_pills_after_sex to true>>
+<<set $pause_hucow_scenes to false>>
+<<set $mia_likes_olivias_gape to false>>
+<<set $finished_ab_inside_school to false>>
+
+/* Fisting Olivia */
+<<set $fo_vagina to "placebo">>
+<<set $fo_ass to "placebo">>
+<<set $fo_full_enema to true>>
+<<set $fo_tube_thick to true>>
+<<set $fo_relaxant_cervix to false>>
+<<set $fo_relaxant_urethra to false>>
+<<set $fo_saw_anal to false>>
+<<set $finished_olivia_checkup_diaper to false>>
+<<set $finished_olivia_checkup to false>>
+
+/* Olivia Diaper Checkup */
+<<set $odc_gagged to false>>
+<<set $odc_legs_tied to false>>
+<<set $odc_tickled to false>>
+<<set $odc_ball_gag to false>>
+<<set $odc_oring_gag to false>>
+<<set $odc_dildo_gag to false>>
+<<set $odc_feel_wetness to false>>
+<<set $odc_untape_diaper to false>>
+<<set $odc_check_poop to false>>
+<<set $odc_feed_scat to false>>
+<<set $odc_continue to false>>
+
+<<set $analytics to true>>
+<<if $browser_path.includes("test.html")>>
+    <<set $analytics to false>>
+<</if>>
+
+/* Main Character Defaults */
+<<set $mc_gender to "male">>
+<<set $mc_breasts to false>>
+<<set $mc_crotch to "penis">>
+
+/* Chastity week / Holy Week */
+<<set $chastity to true>>
+<<set $cd_spread to true>>
+<<set $cd_female_estim to true>>
+<<set $cd_urine_enema to true>>
+<<set $cd_female_anal to true>>
+<<set $cd_spikes to true>>
+<<set $cd_trans_stretch to true>>
+<<set $cd_trans_estim to true>>
+<<set $cd_trans_anal to true>>
+<<set $finished_ab_chase to false>>
+
+<<set $finished_end_holy_week to false>>
+<<set $finished_hannah_anna_face_sitting to false>>
+<<set $finished_luna_fucks_herself to false>>
+<<set $finished_kiss_class to false>>
+<<set $finished_erotic_asmr to false>>
+<<set $finished_aphrodisiac_perfume to false>>
+<<set $finished_visit_amy_chastity to false>>
+<<set $finished_chastity_glory_hole to false>>
+<<set $finished_casey_force_fed_scat to false>>
+<<set $finished_relay_race to false>>
+<<set $finished_jessie_uses_hall_pass to false>>
+<<set $finished_forced_pe_blowjobs to false>>
+<<set $finished_forced_pe_blowjobs_luna_olivia to false>>
+<<set $finished_forced_pe_blowjobs_bailey_amy to false>>
+<<set $finished_forced_pe_blowjobs_tiffany_fifa to false>>
+<<set $finished_forced_pe_blowjobs_lucy_mia to false>>
+<<set $finished_gloryhole_loser to false>>
+<<set $cd_olivia_orifice_vagina to false>>
+<<set $forced_pe_blowjobs_loser to "">>
+<<set $cd_scat to "soft">>
+<<set $cd_gloryhole_vagina to false>>
+<<set $finished_chastity_end_casey to false>>
+<<set $finished_chastity_end_amy to false>>
+<<set $finished_chastity_end_olivia to false>>
+<<set $finished_chastity_bathroom_break to false>>
+
+/* Farm week */
+<<set $milk_machine_trial_run to false>>
+<<set $finished_mia_watersports_bj to false>>
+<<set $finished_barn_tour to false>>
+<<set $finished_jessie_milk_machine to false>>
+<<set $jessie_milk_machine_end_early to false>>
+<<set $jessie_can_be_milked to false>>
+<<set $ponygirl to true>>
+<<set $finished_ponygirl_pe to false>>
+<<set $finished_milking_table to false>>
+<<set $milking_table_mothers to false>>
+<<set $milking_table_trans to false>>
+<<set $milking_table_teachers to false>>
+<<set $finished_futa_reveal to false>>
+<<set $trans_girls_can_be_milked to false>>
+<<set $finished_trans_milk_machines to false>>
+<<set $bailey_can_be_milked to false>>
+<<set $mc_bailey_feather to true>>
+<<set $fifa_edging_machine to false>>
+<<set $tiffany_edging_machine to false>>
+<<set $lucy_vibrating_machine to false>>
+<<set $lucy_anal_enema to true>>
+<<set $finished_costume_show_setup to false>>
+<<set $costume_show_allowed to true>>
+<<set $finished_costume_show to false>>
+<<set $fs_bondage to true>>
+<<set $fs_piercings to true>>
+<<set $fs_watersports to true>>
+<<set $fs_scat to true>>
+<<set $fs_religious to true>>
+<<set $finished_cs_cowgirl to false>>
+<<set $finished_cs_nun to false>>
+<<set $finished_cs_piercings to false>>
+<<set $finished_cs_twins_bondage to false>>
+<<set $finished_cs_kitty to false>>
+<<set $finished_cs_flower to false>>
+<<set $finished_skimpy_swimsuits to false>>
+<<set $finished_kira_cafeteria_scat to false>>
+<<set $you_shit_for_kira to false>>
+
+/* Future week */
+<<set $finished_dog_rimjob to false>>
+<<set $drj_mia to false>>
+<<set $drj_anal to false>>
+<<set $finished_casual_outfits to false>>
+<<set $finished_find_camera to false>>
+<<set $finished_plan_birthday_party to false>>
+<<set $finished_olivia_horse to false>>
+<<set $bp_first to "Mia">>
+<<set $bp_o_painal to true>>
+<<set $bp_b_painal to true>>
+<<set $bp_m_laps to false>>
+<<set $bp_m_lay to false>>
+
+/* Fetish Picker Defaults */
+<<set $fp_trans to true>>
+<<set $fp_mom to true>>
+<<set $fp_twin to true>>
+<<set $fp_nipple to true>>
+<<set $fp_breast_torture to true>>
+<<set $fp_painal to true>>
+<<set $fp_vaginal_fisting to true>>
+<<set $fp_anal_fisting to true>>
+<<set $fp_lactation to true>>
+<<set $fp_puffy_anus to true>>
+<<set $fp_farting to true>>
+<<set $fp_pee to true>>
+<<set $fp_peehole to true>>
+<<set $fp_sleep to true>>
+<<set $fp_armpit to true>>
+<<set $fp_spit to true>>
+<<set $fp_cbt to true>>
+<<set $fp_feet to true>>
+<<set $fp_diaper to true>>
+<<set $fp_enema to true>>
+<<set $fp_scat to true>>
+<<set $fp_vomit to true>>
+<<set $fp_snot to true>>
+
+
+/* Variables from URL */
+<<set _search_result to $browser_path.includes('has_aphrodisiac=true')>>
+<<if _search_result>>
+	<<set $has_aphrodisiac to true>>
+<</if>>
+
+<<set _search_result to $browser_path.includes('week=')>>
+<<if _search_result>>
+<<set $week_string to $browser_path.match('week=([0-9]+)')[1]>>
+<<set $week to parseInt($week_string)>>
+<</if>>
+
+<<set _search_result to $browser_path.includes('has_futa=true')>>
+<<if _search_result>>
+	<<set $has_futa_students to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('has_futa=false')>>
+<<if _search_result>>
+	<<set $has_futa_students to false>>
+	<<set $fp_trans to false>>
+<</if>>
+<<set _search_result to $browser_path.includes('has_mothers=true')>>
+<<if _search_result>>
+	<<set $has_mothers to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('has_mothers=false')>>
+<<if _search_result>>
+	<<set $fp_mom to false>>
+	<<set $has_mothers to false>>
+<</if>>
+<<set _search_result to $browser_path.includes('olivia_likes_mia=true')>>
+<<if _search_result>>
+	<<set $olivia_likes_mia to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('hucow=true')>>
+<<if _search_result>>
+	<<set $hucow to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('sd_mom_horny=true')>>
+<<if _search_result>>
+	<<set $sd_mom_horny to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('amy_trusts_luna=true')>>
+<<if _search_result>>
+	<<set $amy_trusts_luna to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('fo_vagina=')>>
+<<if _search_result>>
+	<<set $fo_vagina to $browser_path.match('fo_vagina=([A-Za-z0-9_]+)')[1]>>
+<</if>>
+<<set _search_result to $browser_path.includes('fo_ass=')>>
+<<if _search_result>>
+	<<set $fo_ass to $browser_path.match('fo_ass=([A-Za-z0-9_]+)')[1]>>
+<</if>>
+<<set _search_result to $browser_path.includes('mc_female=true')>>
+<<if _search_result>>
+    <<set $mc_breasts to true>><<set $mc_crotch to "vagina">><<set $mc_gender to "female">>
+<</if>>
+<<set _search_result to $browser_path.includes('mc_futa=true')>>
+<<if _search_result>>
+    <<set $mc_breasts to true>><<set $mc_crotch to "both">><<set $mc_gender to "female">>
+<</if>>
+<<set _search_result to $browser_path.includes('mc_enby=true')>>
+<<if _search_result>>
+    <<set $mc_gender to "enby">>
+<</if>>
+<<set _search_result to $browser_path.includes('anna_pursues_hannah=true')>>
+<<if _search_result>>
+    <<set $anna_pursues_hannah to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('gloryHoleLoser=Lucy')>>
+<<if _search_result>>
+    <<set $forced_pe_blowjobs_loser to "Lucy">>
+<</if>>
+<<set _search_result to $browser_path.includes('gloryHoleLoser=Bailey')>>
+<<if _search_result>>
+    <<set $forced_pe_blowjobs_loser to "Bailey">>
+<</if>>
+<<set _search_result to $browser_path.includes('gloryHoleLoser=Luna')>>
+<<if _search_result>>
+    <<set $forced_pe_blowjobs_loser to "Luna">>
+<</if>>
+<<set _search_result to $browser_path.includes('gloryHoleLoser=Tiffany')>>
+<<if _search_result>>
+    <<set $forced_pe_blowjobs_loser to "Tiffany">>
+<</if>>
+<<set _search_result to $browser_path.includes('jessie_hucow=true')>>
+<<if _search_result>>
+    <<set $finished_hucow_transformation to false>>
+    <<set $hucow to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('jessie_hucow=false')>>
+<<if _search_result>>
+    <<set $finished_hucow_transformation to true>>
+    <<set $hucow to false>>
+<</if>>
+<<set _search_result to $browser_path.includes('fo_saw_anal=true')>>
+<<if _search_result>>
+    <<set $fo_saw_anal to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('chastity=true')>>
+<<if _search_result>>
+    <<set $chastity to true>>
+<</if>>
+<<set _search_result to $browser_path.includes('chastity=false')>>
+<<if _search_result>>
+    <<set $chastity to false>>
+<</if>>
+<<set _search_result to $browser_path.includes('kira_vomited=true')>>
+<<if _search_result>>
+    <<set $kira_vomited to true>>
+<</if>>

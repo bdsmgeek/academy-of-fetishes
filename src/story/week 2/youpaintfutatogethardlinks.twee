@@ -1,0 +1,21 @@
+::  YouPaintFutaToGetHardLinks
+<<if not $finished_futa_painting_taint>>\
+[[Tickle the taint->YouPaintFutaTaint]]
+
+<</if>>\
+<<if not $finished_futa_painting_balls>>\
+[[Play with the balls->YouPaintFutaBalls]]
+
+<</if>>\
+<<if not $finished_futa_painting_shaft>>\
+[[Stroke the shaft->YouPaintFutaShaft]]
+
+<</if>>\
+<<if not $finished_futa_painting_head>>\
+[[Massage the head->YouPaintFutaHead]]
+
+<</if>>\
+<<if not $finished_futa_painting_foreskin>><<if $futa_painting_uncircumcised>>\
+[[Play with the foreskin->YouPaintFutaForeskin]]
+
+<</if>><</if>>

@@ -1,0 +1,11 @@
+::  KiraForcedFeedingStopSlave
+<<set $kira_force_feeding to false>>\
+Mrs. Ball looks shocked when you grab her wrist and pull it away.  You say, "This is going too far.  I'm taking Kira out of here immediately and you're not to do this again."
+
+As Kira dresses herself (a task she can barely accomplish in her state), Mrs. Ball puffs up her chest and stands uncomfortably close to you.  "What are you doing?  You let it go this far and me touching her was the straw that broke the camel's back?"
+
+"That's right," you say.  You don't give her the respect of elaborating anymore than that.  Instead, you grab Kira by the arm and drag her to the hallway.
+
+[[Walk Kira to her next class then go back to your office.->Office]]
+
+<<if $fp_vomit>>[[Kira's not looking well.  Maybe you should take her to the nurse.->NurseKiraVomit]]<</if>>

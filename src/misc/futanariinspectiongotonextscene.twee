@@ -1,0 +1,18 @@
+::  FutanariInspectionGoToNextScene
+<<nobr>>
+<<if $futa_inspection_check_minimum_sensitivity and 
+	(not hasVisited("FutanariInspectionCheckMinimumSensitivity"))>>
+	<<goto "FutanariInspectionCheckMinimumSensitivity">>
+<<elseif $futa_inspection_scrotum_sensitivity and 
+	(not hasVisited("FutanariInspectionScrotumSensitivity"))>>
+	<<goto "FutanariInspectionScrotumSensitivity">>
+<<elseif $futa_inspection_anus_sensitivity and
+	(not hasVisited("FutanariInspectionAnusSensitivity"))>>
+	<<goto "FutanariInspectionAnusSensitivity">>
+<<elseif $futa_inspection_anus_all_senses and
+	(not hasVisited("FutanariInspectionAnusAllSenses"))>>
+	<<goto "FutanariInspectionAnusAllSenses">>
+<<else>>
+	<<goto "FutanariInspectionEnd">>
+<</if>>
+<</nobr>>

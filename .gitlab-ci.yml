@@ -1,0 +1,6 @@
+image: golang:latest-alpine
+
+pages:
+  scripts:
+  - install merciurial, git, 
+  - go install bitbucket.org/tmedwards/tweego

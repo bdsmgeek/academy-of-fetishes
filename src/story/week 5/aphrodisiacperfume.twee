@@ -1,0 +1,15 @@
+::  AphrodisiacPerfume
+<<set $finished_aphrodisiac_perfume to true>>\
+When you walk into Mrs. Curie's class, you see Casey standing in the center, facing the rest of the class with her eyes closed and her knees trembling.  Mrs. Curie's holding a perfume spray bottle in her hand and asks Casey, "Anything?"  But Casey doesn't answer, she winces her eyes shut and focuses on concentrating.
+
+"Ah," Mrs. Curie says to you.  "Since you walked in on the middle, allow me to summarize.  I've noticed Casey here is the best at resisting the effects of the aphrodisiac, so I've turned it into a spray.  I'm trying to figure out how many squirts it takes until she loses all sense of control.  Not very scientific, I know, but I've done some back of the napkin calculations.  She says she drank half a glass of water before the ceremony, that equates to roughly 10 squirts.  And I've given her two more so far."
+
+You furrow your brow.  "How will you tell when she loses all sense of control?"
+
+Mrs. Curie's eyes dart around the room.  "Uh, I just assumed she'd collapse on the ground, begging for an orgasm."
+
+[[Seems like she's got things under control.  Go back to your office.->Office]]
+
+[[You can think of several ways to make this experiment more fun.  Involve more people.->AphrodisiacPerfume2]]
+\ <<chardetail "Mrs. Curie" "She ran a class where she squirted Casey with aphrodisiac laced perfume.">>
+\ <<chardetail "Casey" "Mrs. Curie sprayed her with aphrodisiac laced perfume.">>

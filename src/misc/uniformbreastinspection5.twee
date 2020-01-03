@@ -1,0 +1,26 @@
+::  UniformBreastInspection5
+Mrs. Ball's evil plans are now revealed.  The jumping has shifted all the under garments and the standard bras are not designed to hold the breasts in place.
+
+Mrs. Ball paces back and forth.  She looks down at the chests of each of her students at a distance.  Then something catches her eye.  "Is that you, Jessie?"  The student confirms that it is.  Jessie's left breast has slipped out of the bra and is fully exposed.  She is the bustiest student in the class which puts her at a huge disadvantage for this inspection.
+
+Mrs. Ball stands up and addresses the class: "Everyone but Jessie get up and form a circle around me.  Who can spot the uniform violation?"  She waits a few seconds then says, "Hmm?"
+
+A student timidly answers, "Her boob slipped out."
+
+"That's right," Mrs. Ball continues.  "Do you know why we have uniform policies that forbid exposed breasts?  Because they distract from the learning environment we're trying to cultivate.
+
+"Case in point: I had to put the entire class on hold for this.  I can't focus on my class with one of these -" Mrs. Ball lifts her leg and taps her shoe on the underside of Jessie's exposed breast.  It wobbles and a faint dirt mark is left behind. "- //udders// in my face."
+
+Mrs. Ball turns around and walks to a duffle bag against a wall of the gym. She drags it back to the students then rummages around and pulls out a clothespin.
+
+<<img "gym_clothespin_resized.png">>
+
+"As of now, these will be placed on any uniform violations to hide it from our view.  It seems like there's a uniform violation in every class and I'm getting sick of it.  Maybe some pain will get through to you because being nice sure hasn't worked."
+
+<<if $has_ruler and $fp_breast_torture>>You realize you still have that ruler in your <<purse>> you accidentally took from math class.  [[Perhaps it could be used as a tool to 'warm up' the breast before applying the clothespin?|UniformBreastInspectionRuler][$tortured_jessies_breast to true]]
+
+<</if>>\
+<<if $fp_nipple>>[[Allow Mrs. Ball to dish out the punishment->UniformBreastInspection6]]
+
+<</if>>\
+[[Stop Mrs. Ball from torturing Jessie's nipple->UniformBreastInspectionStop]]<<chardetail "Jessie" "One of her breasts slipped out of her bra in Mrs. Ball's class.">>

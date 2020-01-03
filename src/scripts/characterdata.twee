@@ -1,0 +1,20 @@
+::  CharacterData [noskip]
+! $character_name
+!! Background
+<<nobr>>
+	<<if ndef $character_backgrounds[$character_name]>>
+		<<run throw "Character background not found for " + $character_name>>
+	<</if>>
+	<<print $character_backgrounds[$character_name]>>
+<</nobr>>
+!! Details
+<<set _details to setup.yearbook[$character_name]>>\
+<<for _i to 0; _i lt _details.length; _i++>>\
+<<run _details[_i].seen to true>>\
+<<if def _details[_i].detail>>\
+* <<print _details[_i].detail>>\
+<</if>>
+\<</for>><<if _details.length eq 1>>//Empty, for now//
+<</if>>
+<<back>>
+<<run setup.localStorage.setItem("yearbook", JSON.stringify(setup.yearbook))>>\

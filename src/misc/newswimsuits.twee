@@ -1,0 +1,50 @@
+::  NewSwimsuits
+<<set $finished_new_swimsuits to true>>\
+Before you meet Ms. Waterloo for the first time, you head to the school locker room to drop off the students' new swimsuits.  When you enter the room, the students are waiting there in their school uniforms.   Now that you think about it, you kind of left them in the dark.  They know there's a new swim class, but not much more beyond that.  You didn't even tell them you were going to pass out swimsuits.
+
+"You probably have a lot of questions," you say, "but the new teacher could show up at any time so I have to make this quick."  Extending the box in your hands, you say, "I have your new swimsuits here, I'll tell you about them in a moment.  Remember, the new teacher's name is Ms. Waterloo and it's her first class of her first day, so I want you all to be extra nice to her.  I don't know what she's planned for today but, whatever it is, I'd like you all to almost literally smother her with kindness and give her as much attention as you can.  Ask her for lots of help.  Show her how good of a swimmer you are.  I want her to really like each and every one of you and for her to feel like she's welcomed.  Understand?"  Immediately, they nod.  
+
+"Now, about these swimsuits..."  You look behind you to see if Ms. Waterloo is at the doorway.  She's not, but she could show up at any moment.  If only you'd thought of this plan earlier, but it came to you this morning.  "I have to warn you, they become almost see-through when they get wet."
+
+<<if $has_mothers>>\
+    A mom gasps.\
+<</if>>There are a lot of unhappy faces and murmurs in the crowd.
+
+"I know, I know," you say.  "It's going to be rough, but... you can hide most of your body in the water.  And do your best to pretend you don't even notice, OK?"  Their expressions tell you they might need some motivation.  You sigh then add, "If you do this for me, I'll write each and every one of you a hall pass.  You can use it //once// to get out of any class you want."  
+
+A student asks, "Even PE class?"
+
+When you nod, their faces light up.  "Try to relax though," you say.  "Besides the swimsuit issue, I think most of you are going to have a lot of fun.  Oh, but before I forget, there is something 'special' I want you to do if I call on you OK?"  As you explain the details, the students slowly frown again.  Once you're confident everyone understands, you say, "But I want it to be a surprise.  I don't know how this first class will go so I may not even ask any of you to do it, or maybe I'll ask just one.  But if I call on you to do something 'special'," you say with air quotes, "you'll all remember what it is, right?"  They nod again, less jovial this time.  "Great.  Thank you."
+
+Casey raises her hand and speaks when you point at her.  "Are you going to swim with us?"  
+
+<<if $mc_breasts is true>>You smile back at her.  Somehow your swimsuit is even more conservative looking than the students'. <<if $mc_crotch is "penis">>It has a little frill around the waist to hide the shape of your crotch.<</if>><<else>>Obviously she noticed the longboard shorts you're wearing.<</if>> You say, "Yes, I'll probably be joining you eventually."
+
+When you're distributing the swimsuits, you hear a knock behind you.  There's an African-American woman leaning against the door frame wearing a Speedo with curly, bronze, shoulder-length hair.  How much of that did she hear?  You feel sweat on your palms and hope your face doesn't betray your emotions when you say, "And you must be Ms. Waterloo!"  Hopefully your voice didn't sound shaky there.
+
+"That's right!" she says while extending her arm to shake yours.  You wipe your hand off on your swimsuit and shake her hand.  "I hope I'm not intruding.  I just wanted to meet my new students and introduce myself."
+
+"No, no," you say.  "Have you been standing there long?"
+
+"Nope, just got here."
+
+Tension leaves your body.  Thank God she didn't hear about your 'special' plan.  "I'll introduce you to them once they're fully dressed.  While we wait, I could show you to the pool?"
+
+"Absolutely," she says.  "Just lead the way."
+
+"We repaired the pool just in time for your arrival and I haven't even seen it yet.  It's through this door right here."  When you're about to push through, you realize she's probably unfamiliar with most of the school. You whirl around to point at the wall on the other side of the room.  "-And that door right there leads to the gym."  You almost smirk when you look at her.  God, she's sneaky.  When you spun around her eyes darted to look into yours and you're pretty sure it's because she was eyeing a changing student.
+
+Without a trace of sarcasm, she says, "Ooh, Principal and tour guide," then punctuates the sentence with a wink. "I guess you gotta wear many hats when you work at a small school like this, huh?"  She's so calm and at ease, you start to doubt what you saw.  Maybe it was just your imagination...
+
+Ms. Waterloo walks through the door first and you squint to scan where she may have been looking.  If it was a student, it may have been Amy,\
+<<if $has_futa_students>>\
+    Tiffany, Lucy,\
+<</if>>\
+<<if $has_mothers>>\
+    Beth (Amy's mom),\
+<</if>> Olivia, or Jessie.
+
+[[On second thought, you should really get back to your work.  You've shown Ms. Waterloo the pool.  No need for you to stick around and watch.->Office]]
+
+[[Continue.->NewSwimsuits2]]\
+<<chardetail "Ms. Waterloo" "She ran a class where the students wore swimsuits that turned transparent in water.">>

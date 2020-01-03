@@ -1,0 +1,36 @@
+::  CostumeShowSetup2
+<<set $costume_show_allowed to true>>\
+"Sure," you say, "that sounds like a great idea."
+
+"Really?"  Ms. Monet shakes her head and smiles.  "I'm so glad you thought so, too.  They're going to make great costumes, I'm sure of it.  Oh... Well here's the thing. I plan to give them guidance, but I'd like some guidance from you.  What I mean is, should there be some limits to these costume ideas.  For example, would you want any of these... 'harder' elements in the show?"
+
+Religious themes: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_religious" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_religious" false>> No</label>
+<<if $anna_pursues_hannah>>\
+Bondage gear with latex: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_bondage" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_bondage" false>> No</label>
+<<else>>\
+<<set $fs_bondage to false>>\
+<</if>>\
+Piercings: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_piercings" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_piercings" false>> No</label>
+<<if $fp_pee>>\
+Watersports (pee): 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_watersports" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_watersports" false>> No</label>
+<<else>>\
+<<set $fs_watersports to false>>\
+<</if>>\
+<<if $fp_scat>>\
+Scat: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_scat" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_scat" false>> No</label>
+<<else>>\
+<<set $fs_scat to false>>\
+<</if>>
+
+[[Continue.->CostumeShowSetup3]]
+\ <<chardetail "Ms. Monet" "She planned a costume show with all the students.">>

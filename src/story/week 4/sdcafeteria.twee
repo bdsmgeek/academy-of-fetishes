@@ -1,0 +1,42 @@
+::  SDCafeteria
+<<set $finished_sd_cafeteria to true>>The cafeteria is unusual today because half of the school is wearing sensory deprivation headgear.  This makes it nearly impossible for the hooded students to feed themselves.\
+<<if (not $finished_sd_halls)>>
+
+You walk to Mia and Olivia and see that Olivia is on all fours on the floor.  There's a tray in front of her face and she's feeding herself with her hands.  Because she can't see, her headgear has become a mess with food smeared all around the mouth hole.
+
+"You don't seem to be taking very good care of your pet," you say to Mia.
+
+When she turns around to face you, you notice she has her cell phone in her hands.  She doesn't look up to reply.  "What do you mean?  She said she was hungry and now she's eating."
+
+"Look around you," you say.  "All the other students are feeding their pets."
+
+She looks up and squints at you.  "I tried and she just swatted my hand away.  She doesn't seem to like it when I touch her.  I don't know why."  Mia grabs the back of Olivia's skirt and pulls it so it rests on Olivia's lower back, exposing her panties.  You see a faint outline of Olivia's camel toe.
+
+Olivia reaches behind her and pulls her skirt back down.  "I told you not to touch me, asshole!  When I get out of this hood, you're dead."
+
+"See?" Mia smiles innocently.  You cross your arms and sigh.  She says, "Hey, remember when you said they don't have to follow the uniform policy?  Does that mean I can take off her panties?"
+
+You shake your head and say with a smile, "Sure, if you think you can survive."  Olivia goes back to eating, but looks more tense than before.
+
+Mia says, "Hmmm, yeah I don't think I can get away with that.  See, this is about as much fun as I've been able to have."  She sticks out her finger and places it between Olivia's open legs, close to the labia.  "She has no idea I'm doing this.  Kind of neat because I can feel its warmth.  But she gets pissed if I touch."
+
+"I'd imagine so," you say.
+
+She shrugs as she grins, then says, "Oh well.  She's got to sleep some time, right?"
+<</if>>\
+<<if $has_mothers and $has_futa_students>>
+You see Sarah and her mom, Claire, but you also see Luna and her pet, Amy.  How do you want to approach first?
+
+[[You visit Sarah and Claire first.->SDCafeteriaMomIntroSnippet]]
+
+[[You visit Luna and Amy first.->SDCafeteriaLunaIntroSnippet]]
+<<elseif $has_mothers>>
+
+<<include "SDCafeteriaMomIntroSnippet">>\
+
+<<elseif $has_futa_students>>
+
+<<include "SDCafeteriaLunaIntroSnippet">>\
+
+<</if>>
+[[Go back to your office.->Office]]

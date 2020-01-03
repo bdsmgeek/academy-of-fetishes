@@ -1,0 +1,16 @@
+::  StoryMenu
+<<if passage() !== "Yearbook" && passage() !== "CharacterData">>[[Yearbook]]<</if>>
+
+<<if !tags().includes("noskip")>><<link "Skip Scene">>
+<<script>>
+Dialog.setup();
+Dialog.wiki(Story.get("SkipSceneDialog").processText());
+Dialog.open({top: 300});
+<</script>>
+<</link>>
+<</if>>
+<<if $images_seen.length > 1>>
+[[Gallery]]
+<</if>>
+
+[[Credits]]

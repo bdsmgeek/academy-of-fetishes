@@ -1,0 +1,23 @@
+::  BarnTour4
+<<set $milk_machine_trial_run to true>>\
+<<set $jessie_can_be_milked to true>>\
+Ms. Tink glows bright red when you give her your proposal.  She scratches the back of her head and looks away.  "I was sent here by AB to be treated like a teacher, not a student."
+
+"I understand that," you say.  "But as a teacher, it's your responsibility to make sure the students are safe.  I'd be devastated if Jessie were to be hurt in this contraption."  
+
+Ms. Tink grits her teeth and enunciates each syllable when she says, "It's not a contraption."  
+
+"What better way to prove that than to test it on yourself?  I mean, the Wright Brothers flew in their own prototypes."
+
+She sighs and shakes her head.  "Look, I know what you're doing."  With a smirk, she folds her arms and says, "But I think you want to see Jessie in this 'contraption' as much as I do.  You're not going to let it go to waste."
+
+That's true, but you're not going to show her your cards.  "Fine," you say.  "Well, if you change your mind, the offer still stands.  I've got a lot of office work to get back to, so I'll be taking my leave."
+
+You're sure when you turn your back, she's going to interrupt you and tell you she's changed her mind, but she doesn't.  Has she called your bluff?  You didn't think it would play out this way, but you put yourself in a terrible position.  To save face, you have to pretend you don't care about Jessie and the machine.  On your way out, you hope Ms. Tink will stop you from leaving, but she still has the same smirk on her face as you shut the barn door behind you.
+
+When you're a few steps away from the barn, you say, "Ugh," and shake your head.  That was stupid.  Not only did you proposition your staff, you were rejected.  And that's not even the worst part.  You turned down an opportunity for Jessie to be milked by a wonderful machine.  
+
+Maybe you should turn around and apologize.  Not just for the proposition, but for calling it a contraption.  How offensive.  She spent days building that thing.  
+
+[[Continue.->BarnTour5]]
+\ <<chardetail "Ms. Tink" "You made her try out her own milking machine, and she had an orgasm.">>

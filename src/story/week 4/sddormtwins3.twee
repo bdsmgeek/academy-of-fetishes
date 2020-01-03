@@ -1,0 +1,35 @@
+::  SDDormTwins3
+You release your hold on Hannah and she gasps and starts panting.  As she catches her breath, you think about what just happened.  That was exhilarating, but you realize your body was overreacting a bit in there.  If her <<if $has_mothers>>mother<<else>>owner<</if>> woke up, you could have still taken her.  You're the principal, after all.  But trying to be stealthy made the whole thing that much more fun.
+
+Hannah whines, "What are you going to do to me?  Who are you?"  You rub her shoulder to try and let her know you're not going to hurt her, but the message isn't received.  "I'm scared."
+
+You hold her head to your chest and rub the back of her hood.  That's the best you can think of to reassure her.  Then, you grab her leash and drag her toward Anna's room.
+
+"Where are we going," she asks repeatedly along the way.  This gets a little annoying.  Doesn't she realize she can't hear any answer you give?
+
+When you get to Anna's room you can see both students are asleep.  But, Casey wakes up to the sound of you unlocking the door.  "What's happening," she asks.  "Who is that?"
+
+"It's me," you reply.
+
+"Principal $name?"  She squints to focus then points at the hooded girl you're dragging in.  "Who is that?"
+
+You pull down on Hannah's leash and make her sit on the floor.  "It's Hannah."  Casey goes pale.  Are your plans that transparent?
+
+"Where's her owner," she asks.  It's amusing to you that it took less than a day for the students to refer to each other as owners and pets.
+
+"Hopefully sound asleep," you say.
+
+Hannah whines, "When can I go back?"
+
+Casey frowns and asks, "Why did you bring her here?"
+
+"You know, you students are too inquisitive.  As an educator I feel bad for saying that."
+
+"As an educator, do you feel bad for kidnapping a student?"
+
+You glare at her. "What did I just say?"
+
+[[Casey has a point.  You should bring Hannah back to her room.  Maybe you'll check on somebody else.|SDDormRevisit][$sd_dorm_twin_kidnap to false]]
+
+[[The fun's just getting started.->SDDormTwins4]]\
+<<chardetail "Casey" "She had Anna as a pet when she was wearing sensory deprivation headgear.">><<chardetail "Anna" "She had Casey as an owner when Anna was wearing sensory deprivation headgear.">>

@@ -1,0 +1,19 @@
+::  AnnaInOffice
+<<set $finished_anna_in_office to true>>\
+You're wrapping up some work in your office when you hear a knock at the door.  "Come in!" The door opens and Anna enters.  You flash her a smile and say, "Well this is a welcome surprise.  I don't have many students visiting me in my office."  After standing, you extend your arm to a chair to invite her to sit down.
+
+When Anna sits, she flattens out her skirt and looks around your office with a frown on her face.
+
+"Something wrong," you ask.  "You look troubled."
+
+"It's..." she sighs.  "It's kind of embarrassing to talk about, actually."  
+
+Mirroring her frowning expression, you say, "Well if you're comfortable telling me, I'll do whatever I can to help."
+
+"It's more of a question."  She hunches in the chair, puts a fist between her legs, and massages her knuckles with her other hand.  "You know when we wore sensory deprivation equipment?"  Before continuing, she begins to sway back and forth in the chair.  "Something happened that night and I really want to know who was in the room with me.  I asked Casey, since she took care of me, and she keeps dodging the question and acting really weird.  But- but she said that you were there?"
+
+You weigh your options before you reply.  If you lie and tell Anna you weren't there, she may never discover that she was 69ing her sister that night.  But if you tell her you were there, she will learn the truth.  You're not sure how she'll react to that, but it's clear that Anna enjoyed herself that night.  Maybe if you can get her to admit it to herself, she'd be interested in pushing the envelope with her sister.
+
+[[Tell Anna you weren't there that night.|AnnaInOfficeNo][$anna_pursues_hannah to false]]
+
+[[Tell Anna you were there that night.|AnnaInOffice2][$anna_pursues_hannah to true]]
