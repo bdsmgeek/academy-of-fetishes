@@ -1,6 +1,6 @@
 # Academy of Fetishes
 
-![Academy of Fetishes Banner](./docs/img/in_game_banner.png)
+[![Academy of Fetishes Banner](./docs/img/in_game_banner.png)](https://academyoffetishes.com/)
 
 Academy of Fetishes is a text-based game you can play in the browser or on your computer. You are the principal of Saint Mary's, a financially ruined all-female college. Fortunately, an anonymous benefactor offers to keep the school afloat so long as the students and teachers perform lewd acts.
 When you start, the students and teachers are reluctant. But the longer you play, the more they break out of their shell and show you how twisted and perverted they really are.
