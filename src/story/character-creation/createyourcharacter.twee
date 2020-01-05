@@ -10,7 +10,7 @@ Preferred pronouns: <<listbox "$mc_gender" autoselect>>
 <</listbox>>
 
 You have:
-<label><<checkbox "$mc_breasts" false true >> Breast</label> 
+<label><<checkbox "$mc_breasts" false true >> Breasts</label> 
 <<listbox "$mc_crotch" autoselect>>
 <<option "Penis" "penis">>
 <<option "Vagina" "vagina">>
