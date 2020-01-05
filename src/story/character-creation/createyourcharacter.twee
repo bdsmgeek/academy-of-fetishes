@@ -3,18 +3,18 @@
 
 Your last name is: <<textbox "$name" "Shepard">>
 
-Preferred pronouns: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "male" checked>> He/Him/His</label> 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "female">> She/Her/Hers</label>
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_gender" "enby">> They/Them/Theirs</label>
+Preferred pronouns: <<listbox "$mc_gender" autoselect>>
+<<option "He/Him/His" "male">>
+<<option "She/Her/Hers" "female">>
+<<option "They/Them/Theirs" "enby">>
+<</listbox>>
 
-You have breasts: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_breasts" true>> Yes</label>
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_breasts" false checked>> No</label>
-
-You have a: 
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "penis" checked>> Penis</label>
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "vagina">> Vagina</label>
-&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$mc_crotch" "both">> Both</label>
+You have:
+<label><<checkbox "$mc_breasts" false true >> Breast</label> 
+<<listbox "$mc_crotch" autoselect>>
+<<option "Penis" "penis">>
+<<option "Vagina" "vagina">>
+<<option "Both" "both">>
+<</listbox>>
 
 [[Start the game.->Beginning]]
