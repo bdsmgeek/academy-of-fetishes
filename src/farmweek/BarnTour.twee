@@ -1,0 +1,260 @@
+:: BarnTour
+<<set $finished_barn_tour to true>>\
+<<set _is_hucow to (not $finished_hucow_transformation)>>\
+<<if $school_knows_jessie_lactates and _is_hucow>>\
+By now, the whole school is aware of Jessie's transition. \
+<<elseif $school_knows_jessie_lactates and (not _is_hucow)>>\
+The gossip of Jessie lactating in Ms. Darwin's class spread like wildfire, and it's now common knowledge throughout the school. \
+<<elseif (not $school_knows_jessie_lactates) and _is_hucow>>\
+By now, the whole school is aware of Jessie's transition. \
+<<elseif (not $school_knows_jessie_lactates) and (not _is_hucow)>>\
+By now, it's common knowledge that Jessie is lactating.  She sprung a leak in a class, and a student noticed.  The news spread like wildfire. \
+<</if>>\
+<<if _is_hucow>>\
+In your opinion, this was inevitable.  Her transformation has progressed to a point where it can't be covered up.  For example, her ears are completely cow-like and stick out sideways so she can't hide them behind her hair.  Although she tries to hide it, she lactates through her shirt daily.  And the little bump on the back of her tailbone appears to be budding into a tail.\
+<<else>>\
+In your opinion, this was inevitable.  Although she tries to hide it, she lactates through her shirt daily.  Someone was bound to notice eventually.\
+<</if>>
+
+People can be cruel, but you're impressed by how your students react to it.  Everyone is supportive and approaches Jessie with genuine curiosity.  
+
+But Jessie's shy and lacks self-confidence, so you were concerned the attention could induce a bout of depression or anxiety.  On the contrary, she seems to enjoy her new found popularity.  Maybe when a whole school tells you you look great, it's hard to convince yourself that you're ugly.  
+
+At first Jessie thought you put everyone up to it, but it's not just words.  The students stare at Jessie like secret admirers.  Other students flirt with her and aren't so subtle about it.  It takes a couple of days, but Jessie comes to accept that she's not ugly.  The mild aphrodisiac probably helps, too.
+
+Anyway, Ms. Tink was one of the last to hear the news, but when she heard it, she got all giggly and said, "Oh my god, that's... Can I build something for her?"  
+
+You shrugged and said, "Why not," and she thanked you profusely.  Well, today's the day she wants to unveil what she built.  She's been spending a lot of time in the barn lately, and she told you to meet her there.
+
+[[Actually, you decide you're not interested in Ms. Tink's device and you blow her off.->Office]]
+
+[[Continue.->BarnTour2]]
+<<nobr>>
+<<if _is_hucow>>
+<<chardetail "Jessie" "The whole school is aware of her transition, and to your surprise, it's made her more popular.">>
+<<else>>
+<<chardetail "Jessie" "The whole school is aware of her ability to lactate, and to your surprise, it's made her more popular.">>
+<</if>>
+<</nobr>>
+
+:: BarnTour2
+You knock on the tall barn door and push it open with a grunt.  Ms. Tink wants to keep whatever she's tinkering with a secret, so she covers it up with a sheet before your eyes focus on it.  Whatever it is, it's quiet large.  She scurries in front of it to block your view, and says, "Hello Principal $name.  Sorry, I was just making some improvements on this, but the idea's fleshed out enough to show you."
+
+You lean over to steal a peek.  The sheet isn't long enough to cover the whole thing, and you see a solid beam connected to the floor.  "What do we have here," you ask.
+
+"Well," Ms. Tink says, "when you told me I'd be in charge of the barn and that Jessie was lactating, I had a wonderful idea.  I talked to Jessie about this, and she says she leaks every day and she finds it embarrassing.  Also, her breasts are quite swollen and tender from being full of milk.  Like most things, I knew I could solve this problem with automation."  She pulls the sheet off the machine and says, "Tada!"
+
+It's hard to make sense of what you're looking at.  Whatever it is, it's minimalistic, mostly metal, and in the shape of a racing motorcycle. Something about it makes you uneasy.  "What is this?" you ask.
+
+She looks over her shoulder then back at you.  Maybe you offended her with the question, because she frowns, points her arm at the device and says, "It's an automated milking machine."
+
+With a crinkled forehead, you scan the device.  "It is?  I'm sorry, but I don't get how it works." 
+
+<<img "milking_machine.png">>
+
+[[Continue.->BarnTour3]]
+
+:: BarnTour3
+"Ah, let me show you."  She hops on by throwing one leg over the side.  When she's properly situated on it, her torso is at a slight downward slope, and her knees are bent at 90 degree angles with her bottom in the air.  
+
+To hold herself in place, Ms. Tink rests her feet on some pedals and her hands on a handlebar that's about a foot in front of her face.  The handles and pedals seem to be there purely for positioning the user.  They don't move, and they don't have any buttons on them to control the machine.  Actually, they're there to take away control: For each limb, there are two metal clasps to restrain the user in place.  One at the wrist/ankle, and one at the upper arm/thigh.  Ms. Tink keeps the clasps open as she gives her demonstration, but if they were to close, she'd be trapped and unable to get out on her own.
+
+Ms. Tink says, "Pretend I were naked-" She blushes and shakes her head.  "I mean- Y-you know what I mean.  Jessie!  Pretend Jessie were on this and she were naked."  She mutters something to herself before continuing.  "These clasps by my hands and feet will hold her in the proper position.  Now, it's important to note where my, um... Well, where the breasts would be."  
+
+You're not sure if you're supposed to look at Ms. Tink's chest as she says this, but you do so anyway.  The 'motorcycle' looks more comfortable than you original thought, because it has thick padding that runs from the back of the bike to Ms. Tink's stomach.  But above her stomach, the padding has a huge notch cut out of it.  Ms. Tink doesn't have large breasts, but if she did and if she were naked, they'd be hanging below these notches.
+
+She says, "With someone more endowed like Jessie, my breasts would hang toward the floor.  That's where these come in:"  
+
+She lets go of one of the handles and reaches toward a long, cylindrical breast pump that's hooked on the front of the 'motorcycle'.  The pump is made of transparent plastic and the diameter of it isn't very wide.  You doubt it would cover all of Jessie's areola.  "These pumps are actually made for a goat," Ms. Tink says.  "They have higher suction, and they'll only cover the nipples.  I thought you'd like that so the rest of Jessie's breast is exposed during the milking."  You have to admit, thinking of Jessie's swollen chest dangling there out in the open does have a certain appeal.
+
+Tracing a line in the air, Ms. Tink says, "When the milk is extracted, it'll follow this tube over here and end up in this bag."  The bag has markings to indicate how much liquid has been collected, and it's hanging from an IV bag holder, so it can be wheeled around.  "I think I'll move it in front of her face, so as Jessie's being milked, she'll be able to watch her own progress."  
+
+Ms. Tink grunts as she gets off the milking machine by throwing her leg over the over the side.  "So, whaddya think?"
+
+"Uhhhh," you stall to think of the right words.  "Honestly?"  Ms. Tink already looks crushed.  "Jessie's squeamish and hates pain.  When she looks at this machine, I think she's going to..."  You want to say, //start crying//, but you say, "be very anxious."
+
+Ms. Tink looks inward as her lip quivers.  "But, but, no... You completely misunderstand.  It's not about pain, it's about pleasure!  Look, there's lots of other things I forgot to tell you."  She runs over to the back of her machine where her crotch was resting.  "This part of the foam right here?  It vibrates when you turn this dial."  You hear it hum as she turns the dial on the back of the machine all the way up.  "It's very powerful, but you can set it to whatever you want.  Whatever Jessie wants."
+
+"And look," she says as she runs to a nearby desk and picks up something that looks like a paint roller.  "I made these vibrators to massage her breasts while she's in the chair."  She puts that one down and picks up another vibrator in the shape of an oven mitt.  "Clots can be very painful, I've heard.  The massages will prevent clots.  It'd be more painful for her //not// to use the chair."  Without looking, she picks up the next thing on her table, and it happens to be a traditional vibrator.  When she see's what's in her hand, she blushes and holds it behind her back.  "Oh, that's just for- for boredom."  
+
+You squint.  "Whose boredom?"
+
+"Oh, uh..." She chuckles.  "No, no, no, I didn't mean for me.  I meant, if Jessie gets bored, I could, um..."  She glances at the floor.  "Ya know, entertain her with it."  What she really means is, //I could dildo Jessie while she's strapped in and helpless.//  
+
+Ms. Tink changes the subject.  "Look, I promise it won't hurt.  It'll feel great, and even if it does hurt, which it won't, I'll adjust it to her preferences."  She interlocks her fingers and begs. "Please let me try it.  I spent four days making this thing.  Don't let it go to waste.  Once Jessie tries it, she'll love it."
+
+<span class="options">\
+<<linkreplace "You don't like the idea of Jessie being strapped into this.  Turn Ms. Tink down." t8n>><<replace ".options">>\
+    "Sorry," you say, "but I think I know Jessie pretty well, and she would not enjoy being put into this machine."  Ms. Tink looks devastated, but you explain that you've got a lot of work today and leave for the office.
+
+    [[Office]]
+\ <<chardetail "Ms. Tink" "You told her she couldn't use the milking machine on Jessie.">>
+<</replace>><</linkreplace>>
+
+[[Tell Ms. Tink she can put Jessie in the machine.->BarnTourNoTrial]]
+
+[[Tell Ms. Tink if she puts herself in it and lets you 'entertain' her first, she can put Jessie in it later.->BarnTour4]]
+</span>
+
+:: BarnTour4
+<<set $milk_machine_trial_run to true>>\
+<<set $jessie_can_be_milked to true>>\
+Ms. Tink glows bright red when you give her your proposal.  She scratches the back of her head and looks away.  "I was sent here by AB to be treated like a teacher, not a student."
+
+"I understand that," you say.  "But as a teacher, it's your responsibility to make sure the students are safe.  I'd be devastated if Jessie were to be hurt in this contraption."  
+
+Ms. Tink grits her teeth and enunciates each syllable when she says, "It's not a contraption."  
+
+"What better way to prove that than to test it on yourself?  I mean, the Wright Brothers flew in their own prototypes."
+
+She sighs and shakes her head.  "Look, I know what you're doing."  With a smirk, she folds her arms and says, "But I think you want to see Jessie in this 'contraption' as much as I do.  You're not going to let it go to waste."
+
+That's true, but you're not going to show her your cards.  "Fine," you say.  "Well, if you change your mind, the offer still stands.  I've got a lot of office work to get back to, so I'll be taking my leave."
+
+You're sure when you turn your back, she's going to interrupt you and tell you she's changed her mind, but she doesn't.  Has she called your bluff?  You didn't think it would play out this way, but you put yourself in a terrible position.  To save face, you have to pretend you don't care about Jessie and the machine.  On your way out, you hope Ms. Tink will stop you from leaving, but she still has the same smirk on her face as you shut the barn door behind you.
+
+When you're a few steps away from the barn, you say, "Ugh," and shake your head.  That was stupid.  Not only did you proposition your staff, you were rejected.  And that's not even the worst part.  You turned down an opportunity for Jessie to be milked by a wonderful machine.  
+
+Maybe you should turn around and apologize.  Not just for the proposition, but for calling it a contraption.  How offensive.  She spent days building that thing.  
+
+[[Continue.->BarnTour5]]
+\ <<chardetail "Ms. Tink" "You made her try out her own milking machine, and she had an orgasm.">>
+
+:: BarnTour5
+In the middle of your sulking, you feel someone tap on your shoulder and you whirl around.  It's Ms. Tink, and she has a frown on her face.
+
+"Alright," she snaps.  "I was bluffing.  Happy?  I //really// want to use this machine on Jessie.  It's all I've thought about for days.  It's safe.  I know it's safe.  And- and if I have to prove it to use it... I-I- Well, I guess that's what I'll do."
+
+"You mean it?!"
+
+Ms. Tink blushes and rubs the back of her neck.  "Yeah... I guess."
+
+You give her a bear hug and lift her feet off the floor.  "I'm so glad you said that."
+
+When you put her down, she tilts her head and squints at you.  "Hey... //you// were bluffing too, weren't you!"
+
+"No time for that," you say, and you grab her by the hand and run back to the barn.
+
+Once inside, you sit down on a haystack against the wall and wait for her to get in the machine, but the first thing she does is frown at you, look around, and say, "It's really bright in here."  After squinting at you, she makes a shooing motion and says, "Turn around.  I'll tell you when I'm in it."
+
+When your back is turned, you try to make her feel better by saying, "I'm not here to ogle you, just to test the machine."  This seems pointless.  When she's in the machine, you'll have to see her naked anyway.  You hear the zipper of her jumpsuit and the rustling of her clothes, then she grunts.  Lewd thoughts race through your head as you wait.  You've never seen her naked on your cameras, and that frumpy jumpsuit of hers leaves a lot to the imagination.  It takes longer than you'd expect for her to get into the machine, so you remind her to tell you when you can turn around.
+
+She sighs and says, "I can't believe I'm doing this.  OK.  Ready."
+
+[[Continue.->BarnTour6]]
+
+:: BarnTour6
+When you turn around, a large wool blanket is draped over her body, and you have to hold back a frown.  She really doesn't want you to see her naked.  It must have took a lot of work to keep the blanket on as she locked herself into the machine.  A corner of the blanket flutters from Ms. Tink's hand movement and she clears her throat.  "I, uh, need help locking this last clasp." As you take a step toward her, she says, "Wait, wait, wait."
+
+"What's wrong?"
+
+She bares her teeth as she grimaces.  "N-nothing.  Sorry."  As if to clear a thought, she shakes her head, and you lock her wrist into place.
+
+Half joking, you eye the blanket and ask, "Are you cold or something?"
+
+"Ha ha," she says.  "It's completely reasonable to use this machine without the person in it being naked- Hey! What are you doing?"  As she spoke, you stepped to her backside and started lifting the blanket to catch a peek, but her tone catches you off guard.  You pause for a moment before you remember she's completely paralyzed in this position.  She says, "Wait, wait, wait," as you fold the blanket up and over her bottom, revealing her petite frame.   
+
+All you can see is her crotch, staring back at you.  Her torso is sloped down with her back arched up, hugging the cushion of the 'motorcycle.'  Because of this, the top of her crotch and labia are pressed against the plastic covering of the cushion.  With her knees bent and tucked, her vagina and anus are spread before you.  You can't quite see into her vagina, because her labia minora cover the hole. 
+
+Something you hadn't expected to see is a tuft of pubic hair on her crotch.  Teachers are expected to shave, but since she's always wearing a jumpsuit and showers at strange hours, she seems to have evaded that rule.  But, you must admit everything looks well kempt.  Every hair sprouts above her clitoris, but her labia is bald.
+
+"Ms. Tink," you say, "you know you're supposed to shave."  She tries to tuck her hips in in an effort to hide the evidence.  "I'll ignore that for now."  You twist the dial on the back of the machine up to five, and the reverberations vibrate her pubic hairs until they fade into a blur.  "Let me know if this hurts and I'll turn it off immediately."  
+
+For a moment, she arches her back and opens her mouth like she's moaning, but no sound comes out.  As her head trembles, it looks like she's building up to something.  She shudders as she exhales and whispers, "Too strong."
+
+"But does it hurt?"
+
+She closes her eyes and shakes her head.  You figure if you were overstimulating her, she'd muster more than a whisper.  At this setting, it's probably just pushing her limits.  If she were to specifically tell you to lower it, you'd do so in an instant, but it doesn't come up, and she's soon adapted to the vibrations.  That said, she never lowers her head and seems to be pulling against her restraints.  
+
+[[Continue.->BarnTour7]]
+
+:: BarnTour7
+It's a lovely view.  Every five seconds or so, her vulva pulsates.  If there were something in her vagina, it'd probably be sucking it in deeper.  You give her some time to adjust to the vibrations, then you caress her right buttocks with your fingertips.  As soon as you touch, her muscles tighten and she strains to scoot herself away from your hand like a skittish cat, but the metal restraints hold her in place.  She couldn't even move her clitoris away from the vibrations if she wanted to.  With a soothing sound, you shush her as you stroke her bottom, and by the fourth stroke, her muscles relax.  
+
+You grab a corner of the blanket and begin pulling it back.  At first, Ms. Tink's too distracted to realize what you're doing, but when she feels the cool air on her skin, she looks over her shoulder, and shakes her head at you.  Her eyes are glistening, but you're not sure why.  Regardless, you don't hesitate to think about it, and the blanket flutters to the floor, revealing her petite frame.  
+
+Her body type is somewhere between fit and skinny, and when you look under the other side of the machine, you're surprised at how small her chest is.  The nipples are some of the tiniest you've seen, even smaller than most men.  But unlike most men's nipples, they're scrunched up and textured like a miniature mountain range.  Maybe that's just because it's cold in here.  Her breasts are between an A and B cup, but they look very firm.  Even though they're hanging toward the floor, there's no sign of sag.
+
+You say, "Once I try the breast pumps we can call it a day, hm?  Sound good?" She nods her head, and you get the feeling it takes all her concentration to do so.  You realize she's been quiet as a mouse the whole time.  If you hadn't watched her vulva twitch earlier, you'd be worried about the machine not feeling good.  After raising a breast pump up to a nipple, you look around and frown.  "How do I turn this thing on?"
+
+Ms. Tink opens her mouth to say something, but nothing comes out except a shortened breath.  She heard you, but she can't respond.  Fortunately, you spot a switch by the hook that holds the breast pumps.  Putting your finger on it, you ask, "Is it this one down here?"  She nods, and it clicks when you switch it, and new sounds fill the air: Mechanical sounds, like a dishwasher or a dryer.  
+
+[[Continue.->BarnTour8]]
+
+:: BarnTour8
+The hard plastic breast pump is lined with a soft plastic tube.  When the machine sucks, the tube compresses flat, and when the machine reduces pressure, the tube returns to its cylinder shape.  These contractions happen about once a second, and if Ms. Tink were lactating, would draw milk from her nipples.  Since she's not, they only provide a powerful nipple massage.  How powerful, you're not sure, but the suction is strong enough for you to take your hand off the pump and still have it attached to her nipple.  That's convenient, because it frees you up for other things.
+
+Squatting, you lean in and watch the machine tug at her nipple.  Whenever the tube contracts, the bunched up wrinkles of her tiny areola flatten, and for that brief instant, give it the appearance of a puffy nipple.  Then, the suction drops and the nipple returns to it's normal craggy shape.  You stay there and watch with interest, hoping Ms. Tink is hiding another secret from you: Maybe some milk will squirt out.  But after a minute, you conclude you'll have to put Jessie in the machine if you're to watch milk flow from the pumps.
+
+The front of the 'motorcycle' has a foam halo, the type that's common to massage chairs, and when you attach the second pump to her other nipple, she drops her head onto the halo.  You lift her face with both hands to make sure she didn't pass out.  Thankfully, she just couldn't take it anymore, and was trying to use the headrest to muffle her moans.  You smile into her eyes, but she doesn't smile back.  It's like she's not present.  Her eyes have become glistening little slits, and they're so thin, you're not sure if she can see you through them.  That's not important right now.  What's important is the pumps and the vibrations of the machine don't seem to hurt her, so you decide it's fit for Jessie.  But, there's no rush to turn the machine off just yet.
+
+You step behind the machine and watch Ms. Tink's twitching vagina.  If you're not mistaken, it's twitching even faster than before.  You're not used to seeing a vagina pulsate like this without it being associated with an orgasm, but as far as you can tell, Ms. Tink hasn't had one yet.  But, a clear line of juice has dripped out of her hole and down her clitoris, so you bet one is imminent.
+
+Using both thumbs, you pry her slit open and watch her twitch from the inside.  Yes, she must be getting close.  She lets you watch without even putting up a fight.  Whenever she clenches, the pink flesh at the top and bottom of her vagina clenches.  You want to take some role in this orgasm, even if it's minimal, so you begin to slip your index finger inside her.  She's so soft and wet, it feels like sticking your finger into a room temperature stick of butter.  As your finger glides in, she raises her head and lets out a grateful moan.  Her folds clamp down on you and squirm against your finger, so you wiggle your finger back, making her gasp.
+
+Once you hit the base of your finger, you retract and push in again.  She raises her head again, but this time she doesn't make a sound.  You make sure to wiggle your finger as it slides in, swirling against as much of her vaginal wall along the way.  
+
+By the third push, she shudders and has a powerful orgasm.  Her arms and legs contract, trying to draw themselves into her core, but her machine is well built so the act only serves to press her deeper into the vibrating cushion.   She clenches over and over again on your finger, like she's trying to slurp it up, and you oblige by repeatedly pumping it into her.  In the middle of her orgasm, you give her bottom a light slap and she squeals.  From the sound of it, it didn't hurt, but she seems embarrassed by her reaction to it, so you don't do it again.  Instead, you separate your fingers and grasp her bottom with your left hand.  Every time her vagina clenches, you feel her buttocks contract.
+
+Her orgasm ends with a shiver, but the machine's still on and sending strong vibrations directly to her clitoris.  With a groggy voice, she says, "Turn it off, please."
+
+[[Continue.->BarnTour9]]
+
+:: BarnTour9
+You consider giving her a second orgasm.  It would be possible, you're sure of it.  But, you want your staff to trust you.  Plus, when Ms. Tink puts Jessie in the machine, there'll be plenty of opportunities to give her multiple orgasms.  You twist the dial on the back of the machine until the hum stops, then you flip the switch on the breast pumps.  Without suction, they drop to the floor, and as you bend over to place them back on the hook, you look up to inspect Ms. Tink's chest.  
+
+Her nipples look swollen, but it's not too bad.  They're still wrinkled and textured, but there's a circular mark around them indicating where the breast pumps were attached.  You only put Ms. Tink in the machine for a few minutes.  It's exciting to think about how Jessie's nipples will look after being in it for 30 or 60, or however long Ms. Tink plans.  The thought is interrupted when you realize Ms. Tink is looking at you looking at her breasts through the foam halo, so you clear your throat and unlock her.  The first thing she does is hop off the machine, sit on the floor, and wrap herself in the blanket.  
+
+After giving her a moment to recover, you ask, "So, what do you think, will Jessie like it?"
+
+She bundles herself up tighter and pauses for a long time before answering.  Finally, she flashes you a smile.  "Yes, but it needs some improvements.  I thought of them when I was strapped in."
+
+"Oh?"
+
+"Yeah.  That cushion is crazy strong.  In- in a good way.  But, like, other 'parts' felt like they were going to waste." You tilt your head and raise an eyebrow.  "Like the fact that you had to use your finger, for example.  That's a failing on my part.  I want the machine to be completely automated."
+
+She stands up, careful not to reveal her body, and sits down the table of vibrators.  The way she's covered with the blanket feels casual, like the two of you are chatting at a ski lodge.  She nods toward a vibrator with her chin and says, "See, I wanted these toys to be icing on the cake, not a necessity.  But-"  Her whole demeanor changes.  She tucks her chin into her chest and blushes.
+
+"What's wrong," you ask.
+
+"You're my boss.  That wasn't very professional of us."
+
+"Well."  You look around the room to think.  "This isn't really a traditional school, now is it?  If I were professional, I wouldn't have allowed you to build this machine in the first place."
+
+She furrows her brow and says, "That's true.  I guess overall, it's a net positive."
+
+"And, while you were in it, you thought of improvements you may not have thought of otherwise."
+
+That seems to cheer her up.  "Yeah, that's true, huh?  But, I don't want the other teachers to think you're giving me preferential treatment OK?"
+
+"Don't worry," you say.  "I'm not going to be blabbing my mouth about this."
+
+She smiles and looks relieved, then eyes her jumpsuit on the floor.  You can tell she wants to put it on, but is waiting for you to leave first, so you say, "Well, I know you think the machine failed, but in my mind it was a huge success.  Just remember to let me know when you're going to put Jessie into it for the first time."
+
+Ms. Tink nods without making eye contact.  It'll take a bit of time, but you know she'll get over what just happened.
+
+[[Office]]
+
+:: BarnTourNoTrial
+<<set $milk_machine_trial_run to false>>\
+<<set $jessie_can_be_milked to true>>\
+"You know what?  I trust you," you say.
+
+"You mean-"
+
+"Yes, you can put Jessie in the machine, so long as she's willing."
+
+Her eyes light up and she gives you a big hug.  "You've made the right choice," she says.  "I promise, she'll love it."
+
+As she shakes your shoulders, you say, "Just remember to let me know when you're going to put Jessie into it for the first time."
+
+"I will, I will.  I just need to make a few improvements first."
+
+"Oh?"
+
+"Well, I'm not really sure yet. When an idea comes to me, it's light a lightning bolt.  But I can feel something in the air.  Don't worry though.  The improvements won't be painful."
+
+You nod and take your leave.
+
+[[Office]]
+\ <<chardetail "Ms. Tink" "You let her try her milking machine on Jessie, no questions asked.">>

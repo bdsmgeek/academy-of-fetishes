@@ -1,0 +1,65 @@
+:: SD
+<<set $has_sensory_deprivation to true>>When the students file into the classroom and take their seats, Ms. Tink begins her lecture.  "Welcome! I'm Ms. Tink and I'm really looking forward to working with you to teach you about engineering.  For this class we're going to make some unique headgear that is actually rather sophisticated."
+
+She walks by the student's workbenches and passes around copies of the blueprints.  "Now, I've actually made this before in other schools and refined these blueprints so they should be pretty easy to follow.  It splits in half at the back and is held in place by these two loops on either side of the split.  When you put them on, you won't be able to see or hear."
+
+A student raises her hand.  "Umm.. Ms. Tink, who are we making these for?"
+
+She smiles,  "Why, for you, dear.  You'll be wearing it when you're done.  Or, maybe you won't," she says with a wink.
+
+The student's lips tighten and she whispers to her neighbor, "What does that mean?"
+
+Ms. Tink overhears and replies, "You'll see when you're finished."
+
+[[Continue->SD2]]\
+<<chardetail "Ms. Tink" "She had the students in her class build sensory deprivation headgear.  Then half the class had to wear them, the other half were responsible for taking care of the hooded students.">>
+
+
+:: SD2
+The inexperienced students do their best, and with Ms. Tink's guidance, are able to complete their task.  "Your headgear all came out satisfactory so I hope you all feel proud.  But now it's time for the fun part of the class.  We're going to play a little game.
+
+"Here's how it will work.  I want everyone to put on their headgear and lock themselves in.  Then I will come by and unlock half of you at random.  Whoever is unlocked will choose a locked person to take care of."
+
+You see a lot of unhappy faces murmuring to each other.  "How long will this be for," a student asks.
+
+"Well, that's kind of up to your Principal.  You can't really do homework or most school activities while locked up.  So maybe just until the class ends?"
+
+You've had the whole class to think about this.  "Until tomorrow," you say.
+
+Even Ms. Tink looks a little surprised.  She smiles and says, "Well, this will certainly be a good test of the equipment!  What about their homework and other class activities?"
+
+"Any student who remains locked up will be exempt from school activities and homework, but they will still have to be present in class.  Also, the uniform policy will not apply to them when locked up."  You see a few students panic.
+
+"Very good! You've thought of everything.  Well now, everyone put on their hoods, unless you want to be punished."  The students do as they're told.  Ms. Tink walks around the class and puts her hand on each student's shoulder.  The little jump they make convinces her they are functioning properly.  "They all seem good," she says to you, "all of them were surprised by my touch.  Shall I unlock half the class?"
+
+You smile and nod.  "Oh, but those two over there, keep them both locked up," you point to Hannah and Anna, the twins.
+
+[[Continue->SD3]]
+
+
+:: SD3
+As Ms. Tink unlocks each student, they breathe a sigh of relief.  "Now I want you all to pick a hooded student to take care of."  The class scrambles to stand by their favorite person.  <<if $has_mothers>>
+
+You hear a commotion by Hannah and Anna.  Their mother is fighting with other students.  "I will watch over them.  I don't want anyone messing with my babies."
+
+You walk over to calm the situation.  "I'm sorry, but it's one per person."
+
+She frowns when she realizes she's being force to pick favorites.  At first you think she'll refuse to choose, but she pins Hannah's head to her hip.  Hannah feels around at her mother's face and hair then asks, "Momma?"  A smile grows when Hannah realizes she'll be allocated to someone she trusts.  But then she frowns. "I won't be unlocked then?"  Her mom pats on her head to let her know everything is going to be OK.  She looks at her other daughter and starts to pout.\
+<<chardetail "Hannah" "She was her mother's pet while wearing sensory deprivation headgear.">>\
+<</if>>\
+<<if $has_futa_students>>
+
+Luna, the tall African American trans girl rushes to be by Amy's side.  Amy is the most petite girl at the school and Luna seems to have some unwholesome fascination with her.  Luna pins Amy's head to her hip and Amy feels around to figure out who she's been paired with.  When she feels the muscular thighs she asks with a tremble in her voice, "Luna?"  Luna pats her on the top of her head to let her know she guessed right.  You see Amy's lip tremble.\
+<<chardetail "Luna" "She had Amy as a pet when she was wearing sensory deprivation headgear.">>\
+<<chardetail "Amy" "She had Luna as an owner when Amy was wearing sensory deprivation headgear.">>\
+<</if>>
+
+Mia walks over to a locked Olivia and claims her.  This should be interesting.  Usually Olivia bullies Mia so this could be an opportunity for payback.
+
+"It looks like everyone's formed up.  That was so orderly I'm impressed.  Now remember, it's your responsibility to take care of your 'pets.'  Remember to attach and hold onto their collars so they don't run off somewhere."
+
+[[Office]]\
+<<chardetail "Mia" "She had Olivia as a pet when she was wearing sensory deprivation headgear.">>\
+<<chardetail "Olivia" "She had Mia as an owner when Olivia was wearing sensory deprivation headgear.">>
+
+

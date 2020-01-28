@@ -1,0 +1,574 @@
+:: NewSwimsuits
+<<set $finished_new_swimsuits to true>>\
+Before you meet Ms. Waterloo for the first time, you head to the school locker room to drop off the students' new swimsuits.  When you enter the room, the students are waiting there in their school uniforms.   Now that you think about it, you kind of left them in the dark.  They know there's a new swim class, but not much more beyond that.  You didn't even tell them you were going to pass out swimsuits.
+
+"You probably have a lot of questions," you say, "but the new teacher could show up at any time so I have to make this quick."  Extending the box in your hands, you say, "I have your new swimsuits here, I'll tell you about them in a moment.  Remember, the new teacher's name is Ms. Waterloo and it's her first class of her first day, so I want you all to be extra nice to her.  I don't know what she's planned for today but, whatever it is, I'd like you all to almost literally smother her with kindness and give her as much attention as you can.  Ask her for lots of help.  Show her how good of a swimmer you are.  I want her to really like each and every one of you and for her to feel like she's welcomed.  Understand?"  Immediately, they nod.  
+
+"Now, about these swimsuits..."  You look behind you to see if Ms. Waterloo is at the doorway.  She's not, but she could show up at any moment.  If only you'd thought of this plan earlier, but it came to you this morning.  "I have to warn you, they become almost see-through when they get wet."
+
+<<if $has_mothers>>\
+    A mom gasps.\
+<</if>>There are a lot of unhappy faces and murmurs in the crowd.
+
+"I know, I know," you say.  "It's going to be rough, but... you can hide most of your body in the water.  And do your best to pretend you don't even notice, OK?"  Their expressions tell you they might need some motivation.  You sigh then add, "If you do this for me, I'll write each and every one of you a hall pass.  You can use it //once// to get out of any class you want."  
+
+A student asks, "Even PE class?"
+
+When you nod, their faces light up.  "Try to relax though," you say.  "Besides the swimsuit issue, I think most of you are going to have a lot of fun.  Oh, but before I forget, there is something 'special' I want you to do if I call on you OK?"  As you explain the details, the students slowly frown again.  Once you're confident everyone understands, you say, "But I want it to be a surprise.  I don't know how this first class will go so I may not even ask any of you to do it, or maybe I'll ask just one.  But if I call on you to do something 'special'," you say with air quotes, "you'll all remember what it is, right?"  They nod again, less jovial this time.  "Great.  Thank you."
+
+Casey raises her hand and speaks when you point at her.  "Are you going to swim with us?"  
+
+<<if $mc_breasts is true>>You smile back at her.  Somehow your swimsuit is even more conservative looking than the students'. <<if $mc_crotch is "penis">>It has a little frill around the waist to hide the shape of your crotch.<</if>><<else>>Obviously she noticed the longboard shorts you're wearing.<</if>> You say, "Yes, I'll probably be joining you eventually."
+
+When you're distributing the swimsuits, you hear a knock behind you.  There's an African-American woman leaning against the door frame wearing a Speedo with curly, bronze, shoulder-length hair.  How much of that did she hear?  You feel sweat on your palms and hope your face doesn't betray your emotions when you say, "And you must be Ms. Waterloo!"  Hopefully your voice didn't sound shaky there.
+
+"That's right!" she says while extending her arm to shake yours.  You wipe your hand off on your swimsuit and shake her hand.  "I hope I'm not intruding.  I just wanted to meet my new students and introduce myself."
+
+"No, no," you say.  "Have you been standing there long?"
+
+"Nope, just got here."
+
+Tension leaves your body.  Thank God she didn't hear about your 'special' plan.  "I'll introduce you to them once they're fully dressed.  While we wait, I could show you to the pool?"
+
+"Absolutely," she says.  "Just lead the way."
+
+"We repaired the pool just in time for your arrival and I haven't even seen it yet.  It's through this door right here."  When you're about to push through, you realize she's probably unfamiliar with most of the school. You whirl around to point at the wall on the other side of the room.  "-And that door right there leads to the gym."  You almost smirk when you look at her.  God, she's sneaky.  When you spun around her eyes darted to look into yours and you're pretty sure it's because she was eyeing a changing student.
+
+Without a trace of sarcasm, she says, "Ooh, Principal and tour guide," then punctuates the sentence with a wink. "I guess you gotta wear many hats when you work at a small school like this, huh?"  She's so calm and at ease, you start to doubt what you saw.  Maybe it was just your imagination...
+
+Ms. Waterloo walks through the door first and you squint to scan where she may have been looking.  If it was a student, it may have been Amy,\
+<<if $has_futa_students>>\
+    Tiffany, Lucy,\
+<</if>>\
+<<if $has_mothers>>\
+    Beth (Amy's mom),\
+<</if>> Olivia, or Jessie.
+
+[[On second thought, you should really get back to your work.  You've shown Ms. Waterloo the pool.  No need for you to stick around and watch.->Office]]
+
+[[Continue.->NewSwimsuits2]]\
+<<chardetail "Ms. Waterloo" "She ran a class where the students wore swimsuits that turned transparent in water.">>
+
+:: NewSwimsuits2
+The pool looks fantastic.  It's Olympic length and not very wide, but more than enough room for a small school like yours.  Your favorite thing about it is that it's an indoor pool so all the light in the room reflects off the water, making the walls and ceiling shimmer and glow a bluish green.  A quick dip of a finger reveals it's also heated.
+
+A student comes through the door and yells, "Wow!" The rest of the girls push through the doorway, each wearing their (currently) opaque, blue swimsuits.
+
+Another student says, "This is amazing!"
+
+A third student bounces as she says, "I wanna go in.  I wanna go!"
+
+"Now, now," you interrupt.  "Don't be rude, girls.  You haven't even introduced yourselves to your new teacher."
+
+In harmony, they all say, "Hi Ms. Waterloo!"
+
+Ms. Waterloo turns as she waves at them all.  "Hi girls!  I'm excited to be your new teacher, but before we jump in I'd like to ask, is there anyone here who doesn't know how to swim?"
+
+<<if $has_mothers>>\
+    When Amy raises her hand, Beth dips her chin and looks away.  Amy says, "I don't like to go to the deep end."\
+<<else>>\
+    Amy raises her hand and waits to be called on.  When Ms. Waterloo smiles and points at her, Amy says, "I don't like to go to the deep end."\
+<</if>>
+
+Ms. Waterloo grins as she places her palms on her knees and says to the class, "Not bad!  Normally there's at least one person who's terrified of water so you guys are pretty advanced.  What do you say for our first class, we just play?  You know, focus on having fun, hmm?  That is," she turns to look at you, "as long as Principal $name says it's OK."
+
+The girls look giddy as they wait for your reply.  You extend your arm toward the teacher and say, "Whatever you think is best, Ms. Waterloo.  It's your class."
+
+The students cheer as they disperse in different directions and jump into the water.  Before Ms. Waterloo enters, she asks you if you're going to join but before you have a chance to reply, she's swarmed with students begging for her attention.
+
+You smile at Ms. Waterloo and say, "Looks like you're in high demand.  Tell you what, I'm gonna walk back to my office to do some paperwork.  I'll join you in the pool when I come back in 30 minutes or so, kay?"
+
+You shut the door as you leave to give a better appearance of privacy, then rush to your office to check the cameras.
+
+[[Continue.->NewSwimsuits3]]\
+<<chardetail "Amy" "She's not a strong swimmer.">>
+
+:: NewSwimsuits3
+Ms. Waterloo must feel like she's died and gone to heaven.  She's swarmed by students who are all vying for her attention, and the longer you watch the more water splashes on the students' swimsuits.  Over a period of about 5 minutes, the girls' tops turn see-through.  It's so subtle it takes an additional minute for Ms. Waterloo to actually notice it, but you really enjoy her reaction.  
+
+Her head jerks back and she puts both hands on the shoulders of a student and says, "You have a, uh... you- you should change into a new suit."
+
+Before that student can reply, another girl interrupts.  This new student is even more soaked.  When you zoom in, it's as if she's wearing a sheer negligee.  The wet swimsuit clings onto her body, the only thing obscuring your view of what's underneath is the occasional air pocket that gets in the way.  Nothing is left to the imagination.  You can even identify the boundary between her nipple and the rest of her breast.  
+
+Ms. Waterloo looks around and sees that half the students' breasts are visible.  She turns her back to the class and furrows her brow as she uses that moment of solace to think.  When she spins back around she asks one of the students, "Are there any other bathing suits for you to wear?"  
+
+The student shakes her head and smiles.  "Why?"
+
+After replying with a frown, Ms. Waterloo looks at the door then says, "Maybe we should stop the class."  She jumps out of the pool only to realize the door is locked. "Damn it," she grunts as she gets back into the pool.  "Did your principal say <<she>>'d be back in 15 or 30 minutes?"  A student shrugs.  "Don't you want to go to the, uh, deep end?  It'll be more concealing."  
+
+By some stroke of luck, she asked that question to Mia.  Mia -- being typical Mia -- just shrugs and says, "I don't mind.  Wanna teach me how to do the butterfly stroke?"  
+
+Ms. Waterloo just says, "Uh..." for a while then checks the door again.  Still closed.  After checking the door, Ms. Waterloo says, "I can teach you proper form but it's also important to be able to hold your breath."  
+
+Mia lifts her chin and says, "I'm pretty good at that already."
+
+"But the real challenge is doing it upside down.  Most get water up their nose.  Can you do a handstand?"
+
+Mia blushes and looks down at her suit.  The shallow water hides all but the top of her vulva, but you can make out the top half of her clit hood through the suit. She looks up then says, "Like, with my bottom out of the water?"
+
+[[Continue.->NewSwimsuits4]]
+
+:: NewSwimsuits4
+Ms. Waterloo begins to babble.  "No, no, no.  Sorry, I, uh, meant over there.  You know, in the deep end.  Of course your bottom shouldn't be-"
+
+Mia interrupts with a giggle then says, "Jeez, you're the only teacher at this school who's more nervous than the students.  Hold my legs." Without waiting for a reply, she flips upside down and her calves fall toward Ms. Waterloo.
+
+Ms. Waterloo sucks in a quick breath as she catches the legs, eyes the door, then mutters, "This is insane."  She rests Mia's legs on one shoulder to take a quick glance at the front of Mia and sighs.  Although Mia's legs are pressed together, her vulva is squished and pushed out, clearly visible to the teacher.  A long thin air bubble is trapped between her slit, but the fabric is otherwise clinging all around her labia, concealing nothing about its shape.  
+
+Perhaps to avoid Mia's suspicion, Ms. Waterloo holds Mia's calves out so she can't look at the vulva anymore.  Mia playfully curls her toes back and forth like she's waving at the teacher, then she slowly parts her legs sideways.  When Ms. Waterloo realizes what's happening, she gasps and bites her lip.  "This is insane," she repeats.  Mia stops spreading her legs when they're at 45 degree angles relative to her body and holds there, presenting to her teacher.  You watch the air bubble travel from Mia's slit to the top of her crotch, finally resting at the little dip at her vagina entrance.  The suit hugs around the rest of her vulva, including her clitoris, and gives her whole body an almost slippery look.  
+
+It looks like it pains Ms. Waterloo when she has to look away to check the door, but after checking, her head tilts down, eyes glued directly on the vulva.  About 5 seconds pass and Mia begins to slowly shift her hips side to side, practically daring Ms. Waterloo to touch what she sees.  How Ms. Waterloo resists is beyond you.  You imagine being in her place, repeatedly running your middle finger across Mia's slit in a repetitive petting motion.  Then you think about resting your middle finger directly on top of the slit, imagining how the puffy lips would envelop your finger and give them a 'kiss' if you applied a little pressure.  You wouldn't even need to go that far.  Just the thought of cupping your hand over her mound sends a little shiver up your spine.  But Ms. Waterloo shows incredible restraint.  She moans a bit, but doesn't touch.
+
+Mia somersaults forward and turns around.  After wiping the water from her eyes and blowing some of it off her upper lip, she smiles at her teacher and says, "How long was that?" Ms. Waterloo eyes Mia up and down and admits that she has no idea.  With a knowing grin, Mia tilts her head, puts her fists on her hips, then teases, "Were you distracted by something?"
+
+Ms. Waterloo looks around then squints at Mia. "Has anyone ever told you that you're very, um, forward?"
+
+Mia scratches her nose as she asks, "Is that a good thing or a bad thing?"
+
+This seems like a great moment to catch Ms. Waterloo in the act so you lock your office and run toward the swimming pool.  
+
+[[Continue.->NewSwimsuits5]]\
+<<chardetail "Mia" "She did a lewd handstand for Ms. Waterloo.">>
+
+:: NewSwimsuits5
+You try to open the door to the pool as quietly as you can, but when you hear the screaming students splashing and see Ms. Waterloo completely mesmerized by another one of Mia's handstands, you realize you were unnecessarily cautious.  If you were to jump in and swim to her, you could probably tap her on the shoulder before she realized you were there.  You slip into the pool and start swimming.  Unfortunately, when you're half way there, Mia stands up, sees you, and waves.
+
+Ms. Waterloo gasps then swims to meet you.  She says, "Sorry, but, there's something wrong with the bathing suits.  They- well, look for yourself.  And when I saw that, I tried to end class early, but, the thing is, the door was locked so I couldn't.  And I just figured, well-"
+
+You grin at her and say, "I'm really sorry I locked the door.  I'll give you a key first thing after class. Now what were you saying about the suits?”
+
+Her eyes widen and dart around as her nostrils flare.  She says, "I mean... They're defective and need to be replaced.  A- a student told me you bought them?  Maybe you can get a refund?"
+
+You scan the pool and see that every student's suit has become transparent.  Jessie's large, teardrop shaped breasts jiggle as she plays a game of tag with her friends.  It seems the students have become accustomed to their suits, or maybe the fun of the pool overrides their embarrassment.  With a grin, you say to Ms. Waterloo, "Defective?  They look fine to me."  You lift your chin to address Mia.  "Could you give me and Ms. Waterloo a moment alone?"
+
+<<img "new_swimsuits.png">>
+
+"Uh-huh," Mia says then swims away to join the game of tag.
+
+When you wrap an arm around Ms. Waterloo's shoulders and face the class, you can hear her rate of breathing increase.  "Relax," you say.  "You did great, especially with Mia, even without instruction.  We don't mind if you touch them, you know."  You feel Ms. Waterloo tense up and her breathing completely stops.  
+
+You wait a second for Ms. Waterloo to regain her composure.  "What do you mean," she asks.
+
+"Like, when Mia was in that handstand.  You could touch her."  Her jaw drops and she stares at you.  "Here, I'll show you.  Have a favorite, yet?"  She's too surprised to reply so you explain.  "We definitely want to keep you, by the way.  How about Amy?  You don't have to choose just one, you know."
+
+Ms. Waterloo tugs on her earlobe and looks at the door.  "What is this?" she asks.
+
+You yell across the pool.  "Amy!  Could you come here, please?" When she arrives you say, "Remember the 'special' thing we talked about?  Let's show Ms. Waterloo over there by between 4ft and 5ft depth."  Amy jumps out of the pool and stands by the edge you pointed at without getting back in.\
+<<if $has_mothers>>\
+    You have to glare at Beth before she stops staring at you.\
+<</if>>
+
+Once you get to the edge you say to Amy, "Go on, show her your 'special' move."
+
+She turns around so her backside faces you and she kneels on the ground with her shins hanging over the water.  Then, to expose her crotch, she bends forward until she lays flat on the sidewalk.  "Lower, please," you say as you push Amy's heels out to the sides.  //Perfect//, you think.  You picked a depth where Ms. Waterloo's mouth is lined up with Amy's genitals.
+
+Ms. Waterloo curls her lip and looks at you.  "What is she doing?"
+
+Perhaps Amy isn't Ms. Waterloo's type.  But, more likely, Ms. Waterloo's just confused about the situation.  You could always skip Amy and pick another student.  Of course, you'll have the opportunity to pick another student after Amy either way.
+
+[[Let's have Ms. Waterloo play with Amy first.->NewSwimsuits6]]\
+<<if $has_mothers>>
+
+    [[Skip Amy and go directly to Beth.->NewSwimsuitsBeth]]\
+<</if>>\
+<<if $has_futa_students>>
+
+    [[Skip Amy and go directly to Fifa and Tiffany.->NewSwimsuitsTrans]]\
+<</if>>
+
+:: NewSwimsuits6
+You say, "Look, I can see you're shy so I'll go first."
+
+Before touching, you take a step toward Amy and admire the view.  Her fat, puffy lips completely hide her clitoris and her inner labia.  A drop of water slides down her buttock to the side of her labia and drips into the pool.  
+
+You make the tiniest indent you can by pressing your fingertip into the suit right where her vagina is and swirl your finger in tiny circles.  It's difficult to feel what you're touching through the suit, but Amy's curling toes and tiny grunts inform you she feels what you're doing.  When the sensation gets too intense for her, she lifts her backside up a bit to avoid contact, but when you click your tongue, "Tch, tch, tch," she knows to put her butt back down.  After that, she behaves and doesn't move away, but her toes still twitch as you touch.
+
+You lower your hand and move your face a few inches from the mound, then gently blow on it.  She can't help but lift her butt at the sensation.  You bite your lip and face Ms. Waterloo, then say, "She's being very good today.  Normally she can't sit still.  Don't you just want to pinch one of those plump lips?  They're so squishy.  But, we'll work our way up to that."  As you step to the side, you say, "Here, now you try."  
+
+Ms. Waterloo hesitates so you grab her wrist and drag her fingertips down the swimsuit across Amy's mound.  As soon as contact's made, Ms. Waterloo jerks her hand back.  In your most calming voice you say, "It's OK.  You're not in trouble."  You grab her again and guide her to stroke.  This time, she allows you to help her pet the back of Amy's mound all the way to the bottom.  When you let go of her hand, she turns it to look at her palm.  It's trembling.  You rub one of her shoulders and say, "See?  Everything's fine, right?"
+
+Amy shifts her weight as you pinch the crotch of her suit and pull it over just enough to make one of her lips pop out.  When you release, the elastic vertically separates her vulva into two sides.  On the left side, the mound is covered by the suit, but on the other side a fat lip hangs out, exposed to the elements.  It's thickness prevents it from slipping back under the elastic so it stays there in the open, waiting to be touched.  The elastic spreads her lips a bit and reveals a darker shade of pink on the inside compared to the outside.  You say, "You can squish it first."  Leaning in a bit, you whisper, "Could you imagine giving it a hickey?"  When you see her reaction you say, "Sorry, maybe that's not your thing."
+
+Instead of touching Amy, Ms. Waterloo surveys the rest of the pool.  The students don't seem to be paying you any attention.  There's an air about the pool that nobody would care anyway.  Ms. Waterloo turns to face the vulva and lifts her index finger to it.  Before she touches it you encourage her by saying, "That's right."  Her index finger touches the lip at the top, close to the vagina, then she drags it down near the bottom toward the clitoris.  As the finger travels, Amy's buttock clenches, but she doesn't move her body.
+
+"That was great," you say.  You're so excited she did that without you needing to blackmail her.  "What else do you want to do?  Anything you want.  Anything!"  You squint at the mound and say, "Oh, she's covered with goosebumps.  Do you like that?"  Ms. Waterloo doesn't answer.  Just a blank stare.  "You don't like that. OK we can do something about it."
+
+You cup some water in your hands and raise it to her labia, submerging the lip with the water between your palms.  Amy stiffens until the water drains from your hand and you inspect the lip.  There's still goosebumps.  You dip your hands in the water again and as you lift them, you feel a hand on your shoulder.  It's Ms. Waterloo.  She says, "I- It's OK.  I don't care about the goosebumps."  You wait and hold your position because it seems she's about to say something else.  There's an awkward pause, but finally she asks, "Why are you doing this?"
+
+"I told you," you say.  "We'd do anything to keep you."
+
+She pauses, purses her lips, then shrugs and says, "Anything?"  For an instant, a smile flickers on her face, then she looks down and says.  "Well... the, um, 'hickey'... thing sounded kinda neat."
+
+You say, "Yeah?" and clear your throat to suppress a giggle.
+
+[[Amy's a sweet girl so let's be gentle with her.  Just some light sucking.|NewSwimsuits7][$hickey_bruise to false]]
+
+[[You really want to make Ms. Waterloo happy so she can suck as hard as she wants.  For all you care, she can suck until she leaves a bruise.|NewSwimsuits7][$hickey_bruise to true]]\
+<<chardetail "Amy" "Ms. Waterloo played with her labia in swim class.">>\
+<<chardetail "Ms. Waterloo" "She played with Amy's labia in swim class.">>
+
+:: NewSwimsuits7
+Ms. Waterloo presses her body against the wall, slightly off center of Amy, and tilts her head up with her mouth open to suck on the lip, but right before she puts it in her mouth, she turns to you and says, "What about Amy?  Won't she mind?"
+
+"No," you say so fast that Amy can't reply.  "We talked about this earlier."  She grins and nods then tilts her head back up.
+
+As you could imagine, it's very challenging to get a labia into your mouth when they're above you and it takes Ms. Waterloo multiple tries.  When she finally gets it, Amy is the first to let you know by grunting.  She then gasps and tries to scoot up, but she's only able to move an inch because Ms. Waterloo has her mouth latched onto her body.  You rub Amy's lower back and shush her with a calming tone and she sits back down and submits.
+
+You're unable to see what Ms. Waterloo's doing, but you intermittently hear pleasant sucking sounds coming from her direction, and sometimes there's a loud kissing sound when Ms. Waterloo sucks it harder into her mouth.  The whole time, the only thing you've heard from Amy is labored breathing so you decide to see if she's OK.  When you peek over the edge of the pool, you see her resting the side of her face on the flat tile and whimpering softly.
+
+When you look back at Ms. Waterloo, you see her head slowly lean back.  First, her toes appear from under the water then her whole body floats.  "Wow, that's very clever," you say.  She's figured out she can lay on her back and hold herself above water with Amy's lip securely in her mouth.  Ms. Waterloo's body slowly rotates until her side bumps into a wall then she closes her eyes and drifts off into a state of relaxing bliss.  The tempo of her sucking slows way down and so does Amy's breathing.  
+
+You start to feel like a 3rd wheel.  Ms. Waterloo clearly wants to be left alone with Amy right now and perhaps vice versa.  Amy looks adorable.  Her face is flush, she has her fist by her mouth, and she's seductively running her lips sideways across her knuckles.  When Amy notices you watching, she stops moving her knuckles and just stares at you with watery eyes.  But she doesn't seem sad.  Perhaps it's just a feeling of embarrassment.
+
+Ms. Waterloo expels a long, slow sigh from her nose.  The force of the breath makes Amy twitch.   Then, Ms. Waterloo suckles, pulling more of the lip into her mouth.  Something interesting catches your eye.  It's a clear, glistening bead of liquid on the other side of the bathing suit, right at Amy's vagina.  Suddenly you realize that Amy is getting wet from this.  As the drop seeps out, it touches the inside of the suit and attaches to it, an inch or so away from Ms. Waterloo's mouth.  Thinking Ms. Waterloo would probably want to be informed of this, you whisper, "She's dribbling for you," into her ear.
+
+Without opening her eyes, Ms. Waterloo reaches with her hand furthest from the edge to caress Amy's bottom over the swimsuit.  After giving it a firm squish, she circles her palm around the left butt cheek then slips her index finger under the suit.  The actions that follow are so slothful and leisurely, they appear to be in slow motion.  Ms. Waterloo's finger explores Amy's body, creeping ever closer to her vagina and only pausing once it reaches the entrance.  You're convinced it's not going to fit but Ms. Waterloo applies an extremely gentle yet persistent pressure, and over a period of 15 seconds, the first knuckle disappears into Amy's body.  It worked so well Amy didn't hint at any discomfort or try to resist. She even coos a bit when Ms. Waterloo pets the inside of Amy's canal.  You say, "Um, she's not usually this receptive.  I, uh... good job."  
+
+You feel guilty because when Ms. Waterloo opens her eyes, she acts like you just woke her from a pleasant dream.  Without acknowledging your presence, she stands up, gives Amy a soft kiss on her bottom, then whispers something to Amy you can't hear.
+
+"What'd you say," you ask Ms. Waterloo.
+
+"I asked if she would like a special lesson sometime, with more privacy."
+
+You can't hide your grin because this implies Ms. Waterloo wants to stay.  "Yeah? Well? Tell me, what'd she say?"
+
+"She blushed and covered her face with her hand, then whispered, 'Kay'."
+
+You stand on your tiptoes to look at Amy's face and smile at her, then look back at Ms. Waterloo.  "You can take her to your dorm, you know.  I'll show you where that is later."  Ms. Waterloo gives you a polite bow to thank you.  
+
+Amy jumps when you gently grip her bare labia and strum it with your thumb along the sensitive inside of the fold.   You wait for her to settle down then you turn to Ms. Waterloo and sigh.  "You're going to have to teach me how you did that earlier..." you say with a frown as you stroke it a few more times.  The inside of the lip has an almost glossy feel to it, whereas the outside feels much different, as if it has a matte finish.  You continue by saying, "She always twitches when I touch her."  Suddenly, you feel something wet under your thumb and realize some of Amy's juice has trickled out onto the back of her lip.
+
+"She looks content enough," Ms. Waterloo says, pointing at the trickle.
+
+"I'm pretty sure that's just from what you were doing earlier.\
+<<if $hickey_bruise is true>>\
+"
+
+[[Continue.->NewSwimsuitsHickey]]
+<<else>>\
+    Anyway," you sigh, "shall we move on to\
+    <<if $has_mothers and $has_futa_students>>\
+        next?  Tiffany and Fifa or Beth?"
+    <<elseif $has_mothers>>\
+        Beth?"
+    <<elseif $has_futa_students>>\
+        Tiffany and Fifa?"
+    <</if>>\
+
+    <<if $has_mothers and $has_futa_students>>\
+        [[Continue with Beth.->NewSwimsuitsBeth]]
+
+        [[Continue with Tiffany and Fifa.->NewSwimsuitsTrans]]
+    <<elseif $has_mothers>>\
+        [[Continue.->NewSwimsuitsBeth]]
+    <<elseif $has_futa_students>>\
+        [[Continue.->NewSwimsuitsTrans]]
+    <<else>>\
+        [[Hopefully, Ms. Waterloo's convinced by now.->NewSwimsuitsEnd]]
+    <</if>>
+<</if>>
+
+:: NewSwimsuitsHickey
+
+"Anyway," you say, "weren't we going to give it a hickey?"  You stretch it down and lean as you inspect it on both sides.  "Look how plump the thing is.  It's practically begging for a mark."  It jiggles once as you release then springs back to its natural shape.  Smiling, you say, "Let's give her a fat lip."
+
+Ms. Waterloo turns her head slightly away and scratches her chest.  "That's not really... I'll pass."
+
+That's disappointing.  You say, "Oh, well... may I?"  But before Ms. Waterloo has a chance to answer, you've already tucked your head under Amy's bottom and are bobbing for her lip.  Amy gasps once you grab it with your teeth before sucking it into your mouth.  You haven't really started yet, but Amy's already stirring in her position.  
+
+Probably best to go slow at first.  You apply pressure with your bottom lip all over the inside of her labia, giving it a little massage.  What stands out to you is how incredibly hot her vulva is.  You feel its warmth on your cheeks.
+
+Once you've applied some suction with your mouth, you're able to run the tip of your tongue along the glossy inside of her lip.  You purse your lips and suck harder, and for the first time Amy groans in discomfort.  In an effort to make the act even more humiliating for her, you pull Amy's suit to the side and use your two thumbs to spread her cheeks, exposing her anus to Ms. Waterloo.  Ms. Waterloo licks her lips and has a slight smile on her face.
+
+<<linkreplace "Ask Ms. Waterloo if she'd like to lick Amy's anus." t8n>>\
+    Without moving your thumbs or releasing the labia from your mouth, you gesture toward Amy's little hole with one of your index fingers.  "Yes, please," Ms. Waterloo whispers as she moves toward it.  When she's a foot away, you see her stick out her tongue and swipe her face up Amy's crack.  Amy whimpers softly as she jerks to escape the tongue, but you've got a firm grip on her labia so she's not going anywhere.
+
+With Ms. Waterloo providing some pleasure to Amy's anus, you figure she's distracted enough to take more pain.  You suck harder and Amy cries and tries to lift up, but this time Ms. Waterloo helps hold her in place by pushing down on her buttocks.  After a while, it's difficult to know if Amy's cries are from pain or pleasure.  You hear a noise that sounds like 3 quick kisses in succession, as if someone were kissing a puppy, then Ms. Waterloo backs up and says, "She's wonderful.  Never met someone who enjoyed that so much.  And I didn't even stick my tongue in yet."
+
+When you remove your thumbs from Amy's cheeks and use your palm to cover her bottom, Ms. Waterloo scoffs at you, looking a little insulted.  But, not wanting to let go of Amy's labia, you can only wink at her as a form of communication.  Hopefully she understands what you're insinuating: She'll get to play with Amy's anus more later, but only if she joins the school.
+
+<</linkreplace>>
+
+Amy cries out when you apply as much suction as you can and tries to escape again.  You have to lift your arms up and wrap them around her lower back to hold her in place.  Every time you suck, she starts to groan a little bit louder than before, then you hear her whisper, "Please."  When you don't relent, she starts begging.  As a form of punishment, you bite down hard on it and she screams without any regard for who's listening.\
+<<if $has_mothers>>\
+    She even turns to her mother and cries for her to help.  
+<</if>>
+
+Your mouth makes a kissing noise as you release her labia and the first thing you notice is how your own mouth feels puffy and sore from all the sucking you just did.  The second thing you notice is the fat lip you just gave Amy.  "Wow," you say as you turn to Ms. Waterloo to see if she notices the difference.  The labia is now a dark pink color, but it's not quite as bruised as you had hoped.  There's the crescent shaped teeth marks you made, though.  That's a pretty good consolation prize.  You rub your thumb across it to feel the indents then you pull the swimsuit over more to expose her other lip.  The one you sucked on looks twice as fat and red as the other one.
+
+Ms. Waterloo's nose crinkles when she sees what you've done.  You try to brush it off and say, "Shall we move on to\
+    <<if $has_mothers and $has_futa_students>>\
+        Tiffany and Fifa or would you rather see Beth?"
+    <<elseif $has_mothers>>\
+        Beth?"\
+    <<elseif $has_futa_students>>\
+        Tiffany, and Fifa?"\
+    <<else>>\
+        another student?"  Ms. Waterloo looks a little tired.  "Maybe we should call it a day?"
+
+        She smirks and nods, but thanks you.\
+    <</if>>
+
+[[One student is enough and Ms. Waterloo is clearly going to stay.  Time to wrap this up.->NewSwimsuitsEnd]]
+
+<<if $has_mothers and $has_futa_students>>\
+    [[Watch Beth do her 'special' move.->NewSwimsuitsBeth]]
+
+    [[Watch Tiffany and Fifa do their 'special' moves.->NewSwimsuitsTrans]]
+<<elseif $has_mothers>>\
+    [[Watch Beth do her 'special' move.->NewSwimsuitsBeth]]
+<<elseif $has_futa_students>>\
+    [[Watch Tiffany and Fifa do their 'special' moves.->NewSwimsuitsTrans]]
+<</if>>\
+<<chardetail "Amy" "You gave one of her labia a hickey in swim class.">>\
+<<chardetail "Ms. Waterloo" "She did not want to give Amy's labia a hickey.">>
+
+:: NewSwimsuitsBeth
+<<set $finished_swimsuits_beth to true>>\
+<<if not $finished_swimsuits_trans>>\
+Amy blushes when she stands up and hops back into the pool.  She swims as fast as she can to the other side of the shallow end and once she gets there, she does her best to avoid looking at you two.  
+
+<</if>>\
+You call for Beth and as she gets into her 'special' position you explain to Ms. Waterloo that this is Amy's mother.  "Remind you of anyone?" you ask.  Ms. Waterloo smiles at you then looks down at her feet, embarrassed by the question.  Beth is short, but taller than her daughter.  The key difference, at least from this perspective, is that Beth has a thick patch of pubic hair pressed flat against her skin by the suit.  "Maybe you need a better view."
+
+When you pinch the side of Beth's suit, Beth jerks her hips away.  You chuckle then look away before saying, "The mothers are relatively new here.  So, as you can see, they're not as well mannered as their daughters.  Beth, this is your last warning: Behave yourself."
+
+She whimpers then slumps and you take that as a sign she'll be good this time.  When you pull the crotch of the suit to the side and expose her vulva to the air, the thick tuft of pubic hair slowly expands since it's no longer matted by the bathing suit.  "Hope you don't love pubic hair," you say.  "Because it's relatively novel at our school."  You flick your finger at the tip of her hairs to see if Beth can even feel it.  The way her pelvis subtly twitches tells you she can.
+
+"So," you say, "what should we do first?"  By now you've begun twirling a few strands of pubic hair around your finger.  When Ms. Waterloo fails to respond, you gently pinch each of Beth's lips and pull them sideways.  Her light pink flesh is exposed and you can't help but compare it to her daughter's.  The insides are lighter in color, but there's also much more folds.  "Come on," you say to Ms. Waterloo.  "Why don't you get her started?"  She hesitates so you grab the back of her head and guide it towards Beth's crotch.  Ms. Waterloo murmurs right before her face makes contact, but after another second of hesitation, she starts licking.
+
+"Is it good?" you ask.  Ms. Waterloo doesn't react to the question.  You shift your body to get a good peek, and from the looks of it, Ms. Waterloo is licking up and down each of Beth's labia in turn.  While she does that, you put your hand under Beth's crotch and play with her pubic hair again.  It's kind of fun to stick a finger through it at the base, then slowly pull down until the tangle releases your finger.  You wonder if you could make every hair straight, or if it's naturally too curly for that.
+
+Beth starts to have a reaction, though it's very subtle.  She doesn't make a sound or anything, but her muscles relax.  Ms. Waterloo must sense it too, because her head begins to rapidly bob back and forth.  From the side, you watch Ms. Waterloo's pink tongue disappear and reappear repeatedly from Beth's vagina.  She never fully removes her tongue and each time she pushes she goes a little deeper until her chin bumps against Beth's hooded clit.  Ms. Waterloo holds her position and flutters her tongue inside the hole, occasionally shifting her head to stimulate Beth's clitoris.  
+
+You look over your shoulders and catch Amy watching the scene.  She looks away and pretends she wasn't, but she knows you caught her.  Smiling, you beckon her to come to you.  She looks down and blushes, then shakes her head, but when you raise your eyebrows and beckon her again, she frowns and comes to you.  You place her in front of you and wrap your forearms around her chest as you both watch Ms. Waterloo and Beth do their thing.  They're both too distracted to notice Amy standing behind them.
+
+[[Continue.->NewSwimsuitsBeth2]]\
+<<chardetail "Amy" "She watched Ms. Waterloo give Beth (her mom) oral sex in swim class.">>\
+<<chardetail "Beth" "She received oral sex from Ms. Waterloo in swim class while Amy watched.  But, Beth was not aware of Amy's presence.">>\
+<<chardetail "Ms. Waterloo" "She gave Beth oral sex as Amy (Beth's daughter) watched.">>
+
+:: NewSwimsuitsBeth2
+By now Beth's breathing has become labored.  You suspect she wants to moan, but she's holding it in because it gives her a sense of control.  Bending forward, you rest your chin on Amy's shoulder and whisper, "Ms. Waterloo's good at that, isn't she?  You could learn a thing or two from this."  Amy pouts, but she doesn't stop watching.
+
+Ms. Waterloo backs her head up an inch and lightly blows on Beth's clitoris.  You keep your voice down so only Amy can hear.  "See that?  She's testing Mommy's clitoris.  Making sure it's not too sensitive.  If she flinches, that means she has to do more foreplay, but- Ooh, wait.  Watch."  Ms. Waterloo lowers her head and rests the base of her tongue across Beth's clit hood.  Beth exhales a sharp breath, but she doesn't twitch.  You take a step closer, point, and whisper, "See how her tongue is on the hood, not the clit?  And she uses the flat part of it, not the tip.  That's very important.  Pay attention now.  I want you to do this next."
+
+Amy looks at you and frowns, then shakes her head.  "Don't worry," you say.  "Your mom can't see who's doing it from this position.  She won't even know it's you."  She whimpers and shakes her head again.
+
+Ms. Waterloo's about to put her mouth around the clit when she finally notices Amy there.  You quickly put your finger to your mouth to suppress Ms. Waterloo's reaction but she mutters a quick, "Uh," as she reaches out to Amy, stops herself short, and puts her hand to her mouth.  Without speaking, you push Amy towards her mom.  Ms. Waterloo takes a step back to give you room, but taps on your shoulder when you reach the edge.  You look over your shoulder and Ms. Waterloo whispers into your ear.  "Isn't that her daughter?"  Instead of answering, you smirk and face Beth. 
+
+Amy whimpers as she looks straight up at her mom's vulva.  It's coated with a sheen of saliva and pool water.  Mostly saliva.  You whisper to Amy, "Just a little kiss to start, OK?  We don't expect you to be as good as your teacher."  Amy's not a strong swimmer and she's a little too short to reach her mother, so you hold onto her waist with both hands and lift her an inch.  As she's lifted, she turns her head and contorts her mouth to the side to distance it from her mother's vulva, but you hold her there for a while and she gets the picture that she's going to have to do it.  Amy whimpers again, then quickly gives the vulva a clumsy peck somewhere between Beth's clitoris and her vagina which making Beth twitch.
+
+You grunt as you lower Amy to the floor and whisper into her ear, "That was very good.  But, next time, do the clit, OK?  That part right there.  And much, much softer."  Amy shakes her head and you feel another tap on your shoulder.
+
+"Is that her daughter," Ms. Waterloo asks.
+
+You smile and put your finger over your mouth to tell her to be quiet, then you nod.  The last thing you see before you turn away is her eyes widen.  You lift Amy up again, and she lets out a little cry before kissing the clit like you explained.  It's kind of cute the way Amy's chin trembles as she envelops the clit with her lips.  She doesn't really kiss it, it's more like she places her lips on the top and bottom and holds it there, but her little chin tremors overstimulate Beth and make her jut her hips away.
+
+After you lower her again, you say, "That was pretty good, you just need practice.  And a light suction can be nice too, right?"  You turn to Ms. Waterloo to ask for confirmation and notice her eyes darting around while she fidgets.  But she's also biting her bottom lip.  It makes you think she may be intrigued by what's happening.  "Could you lift Amy this time?" you ask with a smirk.  "My arms are getting a little tired."
+
+Before Ms. Waterloo can regain her composure, you push Amy into her and she catches the student in both arms like she's giving her a big hug.  You remind Ms. Waterloo to be quiet and, as you push them to the edge of the pool, Ms. Waterloo looks over her shoulder at you.  When you nod, she lifts Amy up to her mother without breaking eye contact.  That eye contact is maintained until Beth grunts then Ms. Waterloo whirls to look at the noise.  Amy is latched onto her mother's clit.  Her lips pucker and purse the same way they would if she were slurping up a long spaghetti noodle.  
+
+Ms. Waterloo looks at you again with furrowed brows, but when you smile back at her she turns back to Amy.  When Beth grunts, Ms. Waterloo whispers something into Amy's ear and her suckling slows way down.  Ms. Waterloo whispers something else into Amy.  You can't make it out, but the tone sounds like she may be praising Amy.  Beth lets out a relaxed coo, and Ms. Waterloo whispers something else into Amy's ear, then the teacher looks over her shoulder and smiles at you.
+
+Suddenly, Ms. Waterloo's grin grows larger as she looks side to side.  She turns to Amy and whispers something new into her ear, then lifts her up another inch until Amy uses her hands to spread Mom's labia and starts tonguing the vagina.  
+
+You watch Amy's little hips shake for a moment, but the movement dies down.  What was that, you wonder.  You move to the side to get a better view and realize Ms. Waterloo's using one of her hands to fondle Amy as she tongues her mother.  The sensation must have been too much at first, but it seems like Amy quickly became accustomed to it.  Once you push against the wall, you can see the technique.  Ms. Waterloo's slowly stroking her fingertips up and down Amy's slit outside her suit.  Eventually, Amy's hips sway back and forth against the fingers, but she doesn't make a sound.  She may not even know she's doing it.
+
+When Ms. Waterloo lowers Amy, the center of her face is glazed with juice.  She has a frown on her face and some strands of hairs are matted on her forehead.  The teacher glances at you then back to Amy.  Then she moves her lips to signify she wants a kiss from Amy.  Before complying, Amy wipes her forehead off with her forearm, then lifts her chin, closes her eyes, and puckers.  If it wasn't for her mother's juices strewn across Amy's face, the kiss would be innocent.  Ms. Waterloo licks after she pulls away and you beckon them both closer.
+
+Amy's still wrapped in Ms. Waterloo's arms when you whisper, "Did you like that?"  In unison, Amy shakes her head while Ms. Waterloo nods.  You look down at Amy and lift her chin with your index finger.  "Did it taste funny?" She nods enthusiastically while grimacing even more.  "That's OK.  You did great.  I'm very proud of you."  
+
+You grab her arm and pull her away from her teacher, then pat her on the butt to indicate that she's free to go.  She splashes some water on her face and wipes her forearm against her mouth before she swims away.  Once she's blended in with the rest of the crowd, you tap on Beth and tell her she's free to go.
+
+<<if (not $finished_swimsuits_trans) and $has_futa_students>>\
+    [[There's still time to watch Tiffany and Fifa do their 'special' moves.->NewSwimsuitsTrans]]
+
+<</if>>\
+[[It's about time for class to be over.->NewSwimsuitsEnd]]
+
+
+:: NewSwimsuitsTrans
+<<set $finished_swimsuits_trans to true>>\
+<<if not $finished_swimsuits_beth>>\
+Amy blushes when she stands up and hops back into the pool.  She swims as fast as she can to the other side of the shallow end and once she gets there, she does her best to avoid looking at you two.  
+
+<</if>>\
+You call for Fifa and Tiffany to come over and when they get in their 'special' positions, Ms. Waterloo gasps, looks away, and mutters, "Transgender," to herself.  Their testicles are barely contained in the bathing suit's crotch.  In fact, while getting into position, Fifa's right one slips out of the suit and dangles freely.  It's a consistent tan color just like the rest of her body.  Tiffany, on the other hand, has her tiny testicles contained within the suit.  She's much more pale than Fifa, and you can see some capillaries throughout the scrotum.  The suit mushes her testicles forward and flat, hiding the majority of her uncut penis from view, not that there's much to see in the first place.
+
+"The trans girls are relatively new here," you explain, "but they're all //very// submissive.  We became better 'acquainted' with them in a class.  If I recall correctly, Tiffany here really enjoys her testicles squeezed, but only if you're gentle."  You point as you say, "And Fifa here... well I don't know much about her, but I know she doesn't mind anal play.  Not really sure if she likes it though, now that I think about it.  Does any of that sound appealing to you?" 
+
+Ms. Waterloo covers her crotch with her hands and turns her head way from you, but you think you can make out a smile on the side of her face.  Maybe she's just shy.
+
+You clear your throat and say, "These look like they need a little air."  It's the testicles you're referring to.  You pull the crotch of Tiffany's suit to the side and free her scrotum, but when you release the elastic, you intentionally leave her penis covered.  It's the testicles you want to play with, the penises can wait until later.  After you do the same to Fifa's testicles, you notice how low they hang.  The warm water and the temperature of the room might be responsible for that.  
+
+You stand between the two of them and lift your palms until you're cradling each of their scrotums in your hands at the same time.  Fifa's sack seems much looser to you.  It almost tickles when one of her testicles rolls up and down the heel of your palm.  Smiling, you turn to Ms. Waterloo and say, "Do you have a preference?"  You tilt your head and frown a bit.  "Are you not into this?  I could call up different girls, you know."
+
+Without replying, Ms. Waterloo steps towards Fifa's testicles until her nose is a few inches away from your hand and silently inspects them.  Every time she exhales, you feel her breath on your thumb, so you know Fifa must feel it on the underside of her scrotum.  An uncomfortable amount of time passes without Ms. Waterloo saying anything, so you clear your throat and ask if she'd like to take your place.  She nods and when you release the trans girls' scrotums, Ms. Waterloo holds Fifa's by cupping them in both hands.
+
+You're surprised by how intrigued Ms. Waterloo is.  It feels like she's been staring at Fifa's testicles for ages when you finally clear your throat to get her attention.  She looks at you, surprised, like she forgot you were even there, then she smiles and says, "I know it sounds weird, but I haven't really had an opportunity to inspect balls like this before."  Having read her file, you find that hard to believe.  She's seduced so many males at the other pools she's worked at.  "I've always been in such a rush, I guess I just focus on... other things."  She turns back to the testicles and her eyes sparkle and bounce around as she inspects all the interesting folds and shapes the loose scrotum makes in her hand.
+
+She's distracted again.  You literally say, "Ahem" to get her attention.  "Would you like to, maybe, do something with them?"
+
+She points at Tiffany's sack and says, "You said that one likes being touched here?  How much?"
+
+"See for yourself," you say.
+
+Ms. Waterloo carefully releases the testicles from her palm, steps toward Tiffany, and cups her testicles the same way as she did with Fifa.  Immediately, Tiffany shudders and her taint throbs, tightening the sack in Ms. Waterloo's hand.  Ms. Waterloo's eyes light up as she gasps, then giggles a bit.  "That was wonderful," she says.  She looks at you then asks, "Is that normal?" but she turns back to her hands without waiting for response.
+
+With a sort of curious delight, she uses one of her thumbs to tickle the sensitive back of the scrotum, and the taint pulses again.  She grins at this then glances at you before trying to do it again.  "I like when that part moves," she says, referring to the taint.  Without releasing the testicles, she raises her palm to the taint and gives it a little tickle with her thumbnails.
+
+When Tiffany grunts, you say, "I don't think she likes that touched directly."
+
+"Oh."  Ms. Waterloo looks a little disappointed, but she quickly forgets about it when she gets the taint to twitch from more pets to the scrotum.  She lowers her head to look at Tiffany's penis and then mouths the words, "Wow, small," to you.  Apparently that doesn't bother her much, because she continues to inspect the penis at different angles.
+
+Once she gets bored of looking at the penis, she puts her back to the wall and tilts her head up, letting the testicles rest on her face.  The sack is so loose it almost completely covers her face.  She stays in that position for what feels like minutes, and it takes you a while to realize she's literally being smothered: The scrotum is blocking her air passages.  But, as a swim teacher, you imagine she can probably hold her breath for a very long time.
+
+Eventually, you see a little point stick out at the center of the scrotum.  This point starts to wiggle around: Left, right, left, right.  Then the skin around the scrotum begins to tighten and lift up to the base of Tiffany's body. It constricts so much so that it pulls itself off Ms. Waterloo's face.  Only then do you realize that the point underneath the scrotum has been Ms. Waterloo's tongue this whole time.  She continues to lick the bottom of the sack, even though it's no longer on her face, but her tongue is barely able to reach it.  
+
+She exhales sharply, closes her mouth, then reaches up to gently tap the sack with her fingers like a cat playing with a toy.  "Mmm," she says.  She grabs the base and tugs on it gently, then adds, "Reminds me of a peach!  Wrong color though."  In one fluid motion, she grabs it and shoves the whole thing in her mouth.  Her cheeks bulge and pull in as she sucks on them and the weight of her body pulls the visible part of the scrotum taut and creates two little pockets on each side.  
+
+When you realize Tiffany may topple backwards into the pool, you rush over to place a hand on her bottom to hold her in place.  Ms. Waterloo flashes you a little OK symbol with her hand in appreciation, then she raises them both and starts tickling the scrotum on each side.  In reaction to Ms. Waterloo's touch, the scrotum pulses and tries to pull itself up, but Ms. Waterloo's mouth holds it in place.
+
+A drop of pre-cum seeps through Tiffany's suit and drips into the pool, camouflaging itself with the water.  In a sultry voice you whisper, "God, she loves that.  You'll make her cum from that if you keep at it."  Ms. Waterloo hears that and flashes you another OK symbol, then starts tickling the sides of the scrotum a little faster.  
+
+[[Continue.->NewSwimsuitsTrans2]]\
+<<chardetail "Ms. Waterloo" "She teabagged Tiffany and gave her a hands free ruined orgasm by only touching her testicles.">>\
+<<chardetail "Tiffany" "Ms. Waterloo gave her a hands free ruined orgasm by only stimulating her scrotum.">>
+
+:: NewSwimsuitsTrans2
+Warmth spreads through your body when you realize Ms. Waterloo's interested in giving Tiffany a hands free orgasm.  In preparation, you pull Tiffany's bathing suit to the side and let her penis hang freely.  The friction of her penis against the suit while orgasming could provide a bit of pleasure, and you want to deny her that.  You watch the tiny penis bob up and flap against Tiffany's tummy in reaction to the sensations of Ms. Waterloo's sucking and tickling.  
+
+Tiffany's moans are getting more frequent and you know she's close.  Another drop of pre-cum falls, but this time it lands right underneath Ms. Waterloo's eye and stays there.  The bead looks almost clear.  You whisper, "You should touch her taint when she cums.  It'll squeeze and feel really nice."  Ms. Waterloo smiles and nods, but when she nods she stretches the sack in her mouth, making Tiffany groan.  Tiffany's not a fan of pain so that may have set her back a step.
+
+To put her back on track, you stroke the back of Tiffany's scrotum with the side of your index finger.  Now she has Ms. Waterloo tickling the sides while she sucks on the testicles and you caressing the back.  It's enough to put her over the edge immediately.  Her penis starts bobbing and she grunts in frustration.  For a few seconds she sounds like she's having an orgasm, but nothing comes out.  Ms. Waterloo reaches up and over your caressing finger and places one of her middle fingers on the taint.  A huge grin appears on her face, but she doesn't release the scrotum from her mouth. 
+
+As soon as Ms. Waterloo touched Tiffany's taint, it's like she pushed some sort of button that releases sperm.  It doesn't shoot out in spurts like it normally should.  Rather, it dribbles out as one thick, white line.  It lands all over Ms. Waterloo's face and rolls down the sides.  As Tiffany grunts in frustration you say, "The way that sperm came out- That was a perfect ruined orgasm."  
+
+When Ms. Waterloo releases the scrotum and faces you, her face is glazed with sperm.  She looks pretty happy, though.
+
+<span class="lick">\
+<<linkreplace "Have Tiffany lick that up." t8n>>\
+    <<replace ".lick">>\
+    You lift your chin and say, "Tiffany?  Would you mind turning around to clean up your teacher?"
+
+    While keeping her chest flat on the floor, she whirls as fast as she can and hangs her neck over the edge of the pool.  You grab the back of Ms. Waterloo's arm and guide her to Tiffany.  Ms. Waterloo is unable to do this on her own because her eyelids are covered with sperm.  Once in range, Tiffany immediately begins lapping at Ms. Waterloo's face and Ms. Waterloo giggles because the tongue tickles.  Something bothers you: Tiffany is licking up the sperm, but she's letting it fall off her tongue and into the pool.
+
+    "Tiffany," you say, "I know you don't like the taste, but I don't want to have to drain the pool.  Please swallow the sperm, don't just lick it off."
+
+    Her nostrils flare and she says, "Yes, <<maam>>," while still licking.  From that point forward, after every lick, Tiffany withdraws her tongue back into her mouth and swallows.  At first it's difficult for her to get the gunk down (she shivers on the second lick), but she seems to get accustomed to the task the longer she does it.  Although, it's fair to say she never truly seems to enjoy it.
+
+    Tiffany would likely do this all night if you didn't stop her, so you tell her that's good enough.  <<if $fp_spit>>Ms. Waterloo's face is even wetter than before, but a large portion of the sperm has been replaced with saliva.<</if>> <<include "NewSwimsuitsTransTesticleHangFaceWash">>\
+<</replace>>\
+<<chardetail "Tiffany" "She licked her cum off of Ms. Waterloo's face in swim class.">>\
+<<chardetail "Ms. Waterloo" "Tiffany licked cum off of Ms. Waterloo's face in swim class.">>
+<</linkreplace>>
+
+<<linkreplace "Have Ms. Waterloo wash her face off in the water." t8n>>\
+    <<replace ".lick">>\
+    <<include "NewSwimsuitsTransTesticleHangFaceWash">>\
+    <</replace>>\
+<</linkreplace>>\
+</span>
+
+
+:: NewSwimsuitsTransTesticleHangFaceWash
+Ms. Waterloo dunks her head underwater to clean the rest of her face off.  When she lifts her head out of the water, she says, "That was fun!"  She points at Fifa and says, "Was that girl's name Fifa?  Can we do her next?"
+
+[[You're already convinced Ms. Waterloo is going to stay.  She can have fun with Fifa on her own time in another class.->NewSwimsuitsEnd]]
+
+[[Sure, let's play with Fifa.->NewSwimsuitsTrans3]]\
+<<if (not $finished_swimsuits_beth) and $has_mothers>>
+
+    [[Send the trans girls back to the water and watch Beth do her 'special' move instead.->NewSwimsuitsBeth]]
+<</if>>
+
+:: NewSwimsuitsTrans3
+Ms. Waterloo turns to you and says, "Think I could do like a cannon-ball kind of thing while I suck on her balls?" she asks.  She tucks a knee into her chest as a demonstration.  "Maybe I could hang from them with just my mouth."
+
+<span class="cannon-balls">\
+<<linkreplace "Sure, that sounds like fun." t8n>>\
+    <<replace ".cannon-balls">>\
+    While you hold onto one of Fifa's butt cheeks to prevent her from falling into the pool, Ms. Waterloo slurps the testicles into her mouth then she slowly tucks her knees into her chest, doing her best to avoid causing any pain.  <<if $fp_cbt>>Fifa's first reaction is to gasp, then grunt repeatedly, but when Ms. Waterloo's back begins to rise toward the surface, it relieves a lot of the weight and they can both relax.<<else>>Once Ms. Waterloo latches on, her back floats up to the surface.<</if>>
+
+    Without releasing the sack from her mouth, Ms. Waterloo flashes you a little smile.  You stand on the side of them both as you reach up to Fifa's suit, pull it further over, and let her semi-erect penis flop out of it.  Ms. Waterloo knows what to do.  While keeping her knees tucked to her chest with one arm, she reaches above her head with the other and starts stroking the shaft.  It takes a few seconds but the thing grows in her hand and the foreskin pulls back on its own.  
+
+She strokes at a much slower rate than you would, but Fifa really seems to like whatever Ms. Waterloo's doing.  You can tell because a sparkling bead of pre-cum catches your eye as it leaks from Fifa's tip.  Soon you can hear her slow, heavy breathing through both of their nostrils.  The sound of their breaths synchronize and Ms. Waterloo closes her eyes and slows down her strokes even more.  She'd drift away if she weren't holding herself in place with Fifa's testicles.  In a perverse sort of way, the moment feels serene.
+
+    <span class="anal">\
+    <<linkreplace "Fifa doesn't hate anal.  Perhaps you could assist with your finger." t8n>>\
+        <<replace ".anal">>\
+            <<set $fifa_anal to true>>\
+Without turning to look at what you're doing, you pull Fifa's bathing suit to the side, lick your finger, and feel around for her anus.  At first you touch too high, but when you lower your finger and brush against her anus wrinkles, she clenches hard and Ms. Waterloo's eyes pop open.  She must have felt Fifa's scrotum tighten in her mouth.
+
+You play with the anus a bit, teasing it by pushing the tip of your finger (the part opposite your nail) against it, but you don't push in.  It's just to loosen her up for what's going to happen, but you're in no rush.  Although Fifa's had a finger inserted into her before, she's still very tight and her hole initially rejects you by bunching up.  You can feel all her wrinkles meeting at a singular dot.  But when you gently circle your finger and spread some more lubrication, the sphincter relaxes.  The wrinkles seem to bloom as they spread to the sides of your finger, and you realize it's starting to swallow your fingertip.  Certainly, Ms. Waterloo's calming touch helped with this.
+
+The students behind you are rambunctious, but they've become white noise to you.  You do your best to match the speed of Ms. Waterloo's strokes.  When her hand slides down to the base, you push your finger in.  When her hand slides up to the tip, you retract your finger without removing it.  She strokes slow enough that you can match her speed without causing any discomfort, but after you've loosened Fifa up, she shivers and the sphincter clenches, holding your finger in place.
+
+It takes a moment, but when Fifa relaxes her grip on your finger, you remove it.  The idea of Ms. Waterloo sucking on Fifa's scrotum, stroking her shaft, and fingering her ass all at the same time really turns you on so you want to trade places.  One of Ms. Waterloo's arms holds her into her cannon ball position.  You grab that arm, lubricate her finger with your mouth, then touch it to Fifa's anus.  Without untucking her knees, she starts pumping her finger into Fifa on her own, but she does it twice as slow as you:  She strokes the shaft up and down once while inserting, then up and down again while retracting.
+
+You furrow your brow as you watch.  It's actually really impressive that Ms. Waterloo is able to keep her timing in sync like that.
+<<include "NewSwimsuitsFifaOrgasm">>
+        <</replace>>\
+<<chardetail "Fifa" "Ms. Waterloo gave her a 'slow' orgasm while sucking on her testicles, stroking her shaft, and fingering her ass.">>\
+<<chardetail "Ms. Waterloo" "She gave Fifa a 'slow' orgasm while sucking on her testicles, stroking her shaft, and fingering her ass.">>\
+    <</linkreplace>>
+
+    <<linkreplace "Let's not ruin this moment.  Penis and testicle stimulation is good enough." t8n>>\
+        <<replace ".anal">>\
+            <<set $fifa_anal to false>>\
+            <<include "NewSwimsuitsFifaOrgasm">>
+        <</replace>>\
+<<chardetail "Fifa" "Ms. Waterloo gave her a 'slow' orgasm while sucking on her testicles and stroking her shaft.">>\
+<<chardetail "Ms. Waterloo" "She gave Fifa a 'slow' orgasm while sucking on her testicles and stroking her shaft.">>\
+    <</linkreplace>>\
+    </span> /* END .anal */
+
+    <</replace>>\
+<</linkreplace>>
+
+[[Yikes.  Not my idea of a good time.  Ms. Waterloo is going to stay, let's end the class.->NewSwimsuitsEnd]]
+</span>/* END .cannon-balls */
+
+:: NewSwimsuitsFifaOrgasm
+Fifa begins to shudder.  <<if $fifa_anal>>Her anus puckers repeatedly around Ms. Waterloo's finger and the teacher knows to hold it still while that's happening.  While Fifa clenches, Ms. Waterloo slows everything else down, too.  She only picks up again when Fifa's anus relaxes, but this time, either to punish or reward her, she moves even slower.  <<else>>As if to punish her, Ms. Waterloo slows down her stroking.  <</if>>If she maintains this rate, Ms. Waterloo's going to give Fifa the 'slowest' orgasm you've ever seen.
+
+The speed is almost unbearable.  Fifa starts pumping her hips into Ms. Waterloo's hands, but Ms. Waterloo releases the shaft and Fifa is left thrusting into the air.  She lets out a frustrated whimper and pumps a few more times before she realizes she's not going to gain satisfaction.  Ms. Waterloo still <<if $fifa_anal>>has a finger in her anus and<</if>> is sucking on her testicles, but, apparently, Fifa needs penis stimulation to cum.  Once still, Ms. Waterloo wraps her hands around the shaft, but this time she strokes even slower than before.  It stands out to you that Ms. Waterloo's fingers are completely covered with pre-cum, so much so that it looks like Fifa's already orgasmed.
+
+The pattern repeats itself again: Fifa starts pumping out of frustration, Ms. Waterloo stops, and she punishes her by stroking slower.  This time Fifa learns the lesson.  If she wants to cum, she has to suffer through Ms. Waterloo's torturous speed.
+
+30 seconds pass and their breaths are no longer harmonized.  Fifa's has become short and shaky as the fist crawls up and down her shaft.  But Ms. Waterloo seems calm and tranquil.  In fact, there's not really an expression on her face at all.  Suddenly, Fifa's whole body seems to clench and she expels quick breaths out of her nose then grunts an embarrassing, "Hnnng."  She's clearly past the point of no return, but Ms. Waterloo doesn't change her rate of stroking.  Actually, you're not even sure if Ms. Waterloo realizes that Fifa's about to orgasm.  Fifa grunts again.  This time it's so loud that a few students turn their heads.
+
+Fortunately for Fifa, she doesn't thrust as she orgasms.  If she did, Ms. Waterloo would have probably let go and ruined it.  As an almost pure-white stream of fluid shoots out of her, you can actually hear it splatter against the pool wall.  The next jet splashes into the water, displacing it as it fires.  Ms. Waterloo's hand continues to crawl up and down the shaft as this happens.  As Fifa spurts, the scrotum twitches and tries to free itself from Ms. Waterloo's mouth, but she doesn't let go.  <<if $fifa_anal>>Her finger stops moving back and forth and just stays inserted, but the way her forearm muscles twitch tells you she's still moving her finger in some way.<</if>>
+
+This might be the most semen you've ever seen from a single orgasm.  You forgot to count, but it feels like Fifa's shot at the wall 15 times.  It oozes down until it mixes with the water and forms into a milky cloud.  Finally, Fifa's powerful orgasm ends and she slumps like she's fallen asleep.  Ms. Waterloo continues to stroke<<if $fifa_anal>>, finger,<</if>> and suck, but by all accounts, Fifa doesn't even care.  Her breathing pattern has returned to slow and peaceful.  
+
+As if woken from a dream, Ms. Waterloo opens her eyes and releases the testicles from her mouth.  She looks at Fifa and sees her slumped as her bottom hangs over the wall.  After shrugging, Ms. Waterloo smiles and says, "That was fun.  Are these the only transgender students at your school?"  
+
+Your eyes ping-pong between Fifa and Ms. Waterloo before you answer.  "No, actually, we have 3 more."
+
+"Hmm," Ms. Waterloo replies.  There's some semen in her hair and she just realized it.  She rubs her jaw a bit then says, "Well, I'd love to meet them, too."  After rubbing the other side of her face, she says, "Though, right now I'm a little too tired for that."  
+
+"I'll bet," you scoff.  
+
+[[It's about time for class to be over.->NewSwimsuitsEnd]]\
+<<if (not $finished_swimsuits_beth) and $has_mothers>>
+
+    [[There's still time to watch Beth do her 'special' move.->NewSwimsuitsBeth]]
+<</if>>
+
+
+:: NewSwimsuitsEnd
+Ms. Waterloo smiles at you and says, "That was ridiculous."
+
+You smile back and say, "You can do 'ridiculous' things like this every day when you're a teacher here.  Does that sound appealing?" She doesn't reply directly, she just starts giggling.  "I assume that means you'd like to stay?"
+
+"I think so, I mean- Yes, definitely."
+
+You sigh.  "Great.  I'm so happy to hear that.  I may come by time to time and give you special ideas for classes, but on normal days you get to do what you want.  Just make sure it's 'ridiculous', OK?"
+
+She nods, but she's not looking at you.  She's staring at the students frolicking in the pool.
+
+[[Office]]
+
+

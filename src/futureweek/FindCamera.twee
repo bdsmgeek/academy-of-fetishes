@@ -1,0 +1,113 @@
+:: FindCamera
+<<set $finished_find_camera to true>>\
+You work for an hour, typing emails to AB and checking financials.  Things look good, and they have for a while.  If AB stopped funding the school, you could probably keep it going for another six months.
+
+Your mind wanders.  Why is it that every time you were checking the cameras, AB never sent an email?  There was no pattern to your schedule.  AB would have to be a mind reader...
+
+"There's no way," you mutter as you push away from your desk and start rifling through drawers, looking for anything out of place.  Wires.  Microphones.  Cameras.  You can't find any, so you get on your hands and knees as you look under the desk.  There's a painting behind your desk.  You take it off the wall, dismantle it, and inspect its individual components.
+
+There's a knock at your door.  Ms. Tink steps in. "I, uh, came to... Is everything alright?"
+
+You put finger to your lip to shush her, but pause in thought.  Is Ms. Tink AB?  If not, you must seem crazy to her.  You're ransacking your own office.  But what if she is AB?  What if she knows you're about to find something, and she came to interrupt you?  
+
+She says, "Are you looking for something?"
+
+"Huh? Oh, uh… Ms. Tink, where's your room in the teacher's dorm?"
+
+"My room?"
+
+"Yes, where is it?"  You search through the mess on the floor until you find a blueprint of the school.  You spread it out on your desk.  "Here's a map and here's the teacher's dorms.  Which room is yours?"
+
+She looks around, then steps forward and places her finger on the blueprint.
+
+"That's your room?"
+
+"Yes..." She almost says it like a question.  "Are you OK?"
+
+You smile. "Your room's right at the entrance!  Thank God.  Those..." You stop yourself from thinking aloud.  What you were going to say is, the night you chased AB, those prints went right past the first room before they faded.  The odds of AB intentionally running past their own room to throw you off their trail seems unlikely.  Perhaps you should tell her what you're doing.
+
+[[Continue.->FindCamera2]]
+\ <<chardetail "Ms. Tink" "She helped you find the hidden cameras in your office and room.">>
+
+:: FindCamera2
+You say, "Can you keep a secret?"
+
+"Uh..." Her eyes dart around.  "Yes."
+
+"This may be upsetting to hear...  Actually, I'm sure you're going to be furious with me.  But the reason I'm telling you this is because I need your help."  You pause, hoping she'll agree to helping you, but she doesn't say anything.  "OK, the thing is... There's no true privacy at this school.  There are cameras everywhere."
+
+Ms. Tink raises an eyebrow. "And how do you know that?"
+
+"Because... I watch them.  I- I have to.  I have to watch the cameras to make sure nobody escapes."
+
+She shakes her head and scoffs.  "I was waiting for you to finally fess up to it."
+
+"You knew?!"
+
+"Of course I knew.  I'm an engineer.  Those cameras emit tons of electromagnetic radiation.  I should know: I built them."
+
+"//You// built them?"
+
+"Well yeah," she says, "but I didn't know why I was building them at the time.  That was months ago at my previous school.  AB asked me to do it, then told me to leave a box of them at some drop point.  I think it was my second week here that I found the ones in my classroom with an EMF meter."
+
+"So, you're not mad?"  
+
+"Well, I was at first, but after a few months you stop noticing they're there.  When I remember, I just pretend I'm on some reality TV show."
+
+You grab her hands. "I need your help with something important.  Can you use your EFM machine to-"
+
+"-EMF meter."
+
+"Right, your meter.  Can you use it to detect if there are any cameras in my office?"
+
+She smiles. "Yes!  I'd love to show you how it works."
+
+[[Continue.->FindCamera3]]
+
+:: FindCamera3
+Later, she returns to your office with a device the size of a remote control.  She turns it on and waves it around without a word.  The device is silent, and has a number on the display that changes depending on where it's moved.  Eventually, Ms. Tink holds it over your desk and raises it to the ceiling.  "I think it's up there."  She hops on your desk and waves it around.  "It's in the smoke detector.  Look."  There's a pinprick hole in the plastic.  You only notice because she's pointing right at it.
+
+When she reaches to unscrew the lid of the detector, you say, "Wait.  What are you doing?"
+
+"Don't you want me to remove it?"
+
+You think for a moment.  "Is there a way you can tell if AB is watching me right now?"
+
+"Yes, I can tell they're not, because when this kind of camera streams data, it emits much more radiation than this."
+
+"Good.  Then don't remove the camera.  If you do, AB will know I know they're watching me."
+
+Ms. Tink says, "So?"
+
+"So... So I'm not sure, but my gut tells me it's better to leave it there.  It gives me an advantage.  I just... I don't know how to exploit it yet.  But I'll think of something."  She lowers her hand slowly.  "You know what would be really helpful?  If you could go around the school and figure out where the rest of the cameras are."
+
+"Sure," she says, "that'll be easy because this camera is on a different frequency from the ones in my classroom and bedroom."
+
+"They are?"
+
+"Yeah, and someone else made them.  The ones I made need to be connected by wires.  They're closed circuit.  But this one is wireless."  
+
+You open the door to the secret room where you watch your cameras and say, "Does that mean I'm the only one who can watch these?"
+
+Ms. Tink says, "Wow," As she steps into the room.  "You really can watch everything."  
+
+The camera is currently focused on the gym locker room. Clearing your throat, you change it to something more innocuous.  
+
+She says, "You're probably the only one that can watch these.  I mean, I can confirm that when I'm looking for more of the wireless ones."  
+
+"That would be great.  I want to know exactly what AB can see.  Oh, and, if you could be discreet-"
+
+"-Of course," she says, "that goes without saying.  What are you going to do when you find out who it is?"
+
+You pinch your chin and say, "I dunno.  I'll think of that later."
+
+[[Continue.->FindCamera4]]
+
+:: FindCamera4
+Ms. Tink returns two hours later.  She says she searched all over the place, and the only locations that have the wireless cameras are your office, the ceiling light of your dorm, and your dorm's toilet.  Also, she confirms that you're the only one who can watch the wired cameras.  That means, AB can see you in your room and your office, but nowhere else.
+
+You thank her and ask to borrow her EMF meter.  Now that you can tell when you're being watched, there's got to be some way to take advantage of that.  Exactly how, you're not sure.  You'll have to sleep on it.
+
+[[Office]]
+
+

@@ -1,0 +1,998 @@
+:: TransMilkMachine
+<<set $finished_trans_milk_machines to true>>\
+Earlier, Ms. Tink told you to bring some trans girls over to the barn to try a couple of new machines of hers.  You think about who you want to bring.  She said she came up with an edging/tickling machine.  Would you like to put Fifa or Tiffany in it?
+
+[[Put Fifa in the edging machine.|TransMilkMachine2][$fifa_edging_machine to true]]
+
+[[Put Tiffany in the edging machine.|TransMilkMachine2][$tiffany_edging_machine to true]]
+
+[[Neither.->TransMilkMachine2]]
+
+[[You change your mind.  You don't want to bring any trans girls to Ms. Tink.->Office]]
+
+:: TransMilkMachine2
+<<if $fp_cbt>>Ms. Tink said she built a machine specifically for Bailey.  No doubt it's a cruel and painful device.  It'll probably be something to torture her testicles.  Do you want to bring Bailey to the barn?
+
+[[Yes, bring Bailey.  She'll be tortured, but if you know her like you think you do, she'll enjoy it.|TransMilkMachine3][$bailey_can_be_milked to true]]
+
+[[No.->TransMilkMachine3]]
+
+[[You don't want to bring any trans girls to Ms. Tink.->Office]]
+<<else>>
+    <<include "TransMilkMachine3">>
+<</if>>
+
+:: TransMilkMachine3
+Ms. Tink said she was going to develop some machine with lots of vibrators.  Would you like to put Lucy in it?  Knowing what Ms. Tink knows about Lucy, it'll probably involve lots of anal play.
+
+[[Yes, put Lucy in the vibrating machine.|TransMilkMachine4][$lucy_vibrating_machine to true]]
+
+[[No.->TransMilkMachine4]]
+
+[[You change your mind.  You don't want to bring any trans girls to Ms. Tink.->Office]]
+
+:: TransMilkMachine4
+<<if $bailey_can_be_milked or $tiffany_edging_machine or $fifa_edging_machine or $lucy_vibrating_machine>>\
+<<nobr>>
+<<set _machines to 0>>
+<<set _singular_girl to "">>
+<<if $bailey_can_be_milked>>
+    <<set _machines++>>
+    <<set _singular_girl to "Bailey">>
+<</if>>
+<<if $fifa_edging_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Tiffany">>
+<</if>>
+<<if $lucy_vibrating_machine>>
+    <<set _machines++>>
+    <<set _singular_girl to "Lucy">>
+<</if>>
+<<set _singular to (_machines is 1)>>
+<<set _group to (_machines is 1)>>
+
+<</nobr>>\
+You take <<if _singular>>_singular_girl<<else>>the trans girls<</if>> out of PE class to bring <<if _singular>>her<<else>>them<</if>> to the barn, and catch Ms. Tink snacking on a sandwich.  Ms. Tink's not alone: Jessie's strapped into her machine and Kira is tending to her by massaging her breasts and inspecting the suction pumps.
+
+"Does that feel good?" Kira asks in a whisper.  All Jessie can muster is a moan, but you're not sure if Jessie's replying to Kira or not. 
+ 
+Ms. Tink stares toward the action, but she's zoned out as she eats her sandwich.  When she turns her head and notices you, she says "Oh!"  She quickly stands, wipes off some crumbs, and says, "Hello Principal $name.  You caught me snacking.  But, I've been watching over Kira and she's been doing a great job."
+
+"Don't worry about that," you say. "I know this is your break.  You have every right to eat, and I can see you watching over them, so I'm confident they're in good hands."  To let her know you mean it, you give her a warm smile.  
+
+"Ah," she says as she peeks over your shoulder<<if _singular>>. "Is that _singular_girl?"<<else>> and looks at the trans girls behind you.<</if>>  She bites her lower lip and says, "Did you bring <<if _singular>>her<<else>>them<</if>> here for me?"
+
+"Yes," you say.  <<if _singular>>"Well, mainly for your machine.  Is it ready, or are you still building it?"<<else>>"Well, mainly for your machines.  Are they ready, or are you still building them?"<</if>>
+
+Ms. Tink shakes her head and says, "Oh, no, no, no.  <<if _singular>>It's<<else>>They're<</if>> very much ready, though <<if _singular>>it<<else>>they<</if>> took longer than I expected.  I had to put in some hours after class." She purses her lips then says, "I hope you like <<if _singular>>it<<else>>them<</if>>."
+
+You give her another warm smile and say, "I'm sure I will."  Turning around to look at <<if _singular>>_singular_girl<<else>>the trans girls<</if>>, you say, "And I'm sure <<if _singular>>she<<else>>they<</if>> will, too.  Shall we get started?"
+
+Ms. Tink gives you a toothy grin.  "Straight to the point, eh?  I like it."  Before you get started, Ms. Tink has <<if _singular>>_singular_girl<<else>>the trans girls<</if>> strip naked.  
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Kira" "She helped Ms. Tink milk the trans girls in the barn.">>
+\ <<chardetail "Ms. Tink" "She milked the trans girls in the barn.">>
+<<else>>\
+Since you have no one to bring to Ms. Tink, you decide to call the whole thing off.
+
+[[Office->Office]]
+<</if>>
+
+:: TransMilkMachineLinkSnippet
+<<if $bailey_can_be_milked>>\
+<<onetimelink "Place Bailey in the painful machine." "TransMilkMachineBailey">>\
+<</if>>\
+<<if $fifa_edging_machine>>\
+<<onetimelink "Place Fifa in the edging machine." "TransMilkMachineEdging">>\
+<</if>>\
+<<if $tiffany_edging_machine>>\
+<<onetimelink "Place Tiffany in the edging machine." "TransMilkMachineEdging">>\
+<</if>>\
+<<if $lucy_vibrating_machine>>\
+<<onetimelink "Place Lucy in the vibrating machine." "TransMilkMachineLucy">>\
+<</if>>\
+[[Go back to your office.->Office]]
+
+:: TransMilkMachineBailey
+Ms. Tink and Kira work as a team to strap Bailey into a harness that hangs from the ceiling.  Once she gets into it, you see it's basically an adult sized baby jumper, the kind that hangs from the top of a door frame and lets the baby bounce around.  When strapped in, you have to admit it looks ridiculous.  Bailey's held upright in a seated position with a harness that reaches to the bottom of her chest, and her ass is at Ms. Tink's chest level.  Although most of the harness is cloth, the bottom of it is similar to a toilet seat.  It gives Bailey the support she needs to sit while exposing her vulnerable penis and testicles below.  
+
+"Ooh, lovely," Ms. Tink says as she cups Bailey's sack in her hand to give it a gentle massage.  She doesn't close her hand, and the loose skin slips between her fingers, revealing two little bumps in her palm.  To Kira, Ms. Tink says, "Those little lumps are our main focus today, although we'll have fun with other parts, I'm sure.  But, do you see the problem?" Kira furrows her brow and shakes her head.  "Try to push your thumb down on one."
+
+Kira's apprehensive about hurting Bailey, so she's gentle, but even with a little pressure, the testicle slips to the side and can't be pinned down.  
+
+Ms. Tink says, "Slippery, mm?  If we're to have fun with the little guys, we have to prevent them from moving." Out of concern, Kira glances up at Bailey, but Bailey's penis is already growing from the conversation.  When Ms. Tink notices the erection, she licks her lips and says, "Why don't you cuff her hands behind her back?  I'll take care of the balls."
+
+<span class="options">\
+[[Continue.->TransMilkMachineBailey2]]
+
+<<linkreplace "You change your mind and don't want to go through with this." t8n>><<replace ".options">>\
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineBailey2
+Ms. Tink walks over to her desk and brings back a small wooden device. "See this?" she says with her head held high as she hands it to you to look over. It's about the size of a deck of cards, and it's composed of a top and bottom half, joined together by bolts. The whole thing reminds you of a miniature pillory -- the kind of device one put their hands and head through for punishment.  Wingnuts on the bolts allow the top and bottom half to separate and tighten back together.
+
+You loosen the wingnuts enough to slide the top and bottom halves of the wood away from each other, stick your finger through the two pieces, then say, "Bailey's scrotum will go in here?"  This seems dubious.  Where the two halves meet, there's little more than a slit notched out for her scrotum to fit.  
+
+"Yes, watch."  Ms. Tink holds out her hand and you give her the device, then she walks over to Bailey, passes her testicles between the two pieces, and twists the wingnuts until they join together, nice and tight.  When Ms. Tink lets go and steps away, Bailey's testicles look like two little ovals sharing one square, wooden crown.  The majority of her sack hangs above this crown, and although the device isn't that heavy, it has enough weight to pull her scrotum long and thin.
+
+It must not pinch, because Bailey doesn't seem too uncomfortable and she didn't make any noise when Ms. Tink tightened the wingnuts.  If anything, her erection has grown, and now it seems like she's waiting as much as you are for what's next.  
+
+You move yourself closer to get a better view.  Below the device, there's no slack in her scrotum, so you're able to make out the shape of each testicle.  This time, if Kira were to push her thumb against one, it wouldn't be able to slip away: It'd be crushed against the underside of the wood.  
+
+With a furrowed brow, Kira looks at you and says, "They look like eggs."
+
+You tilt the device at a 45 degree angle so you can see, then say, "Mm, yes, and they're being served up on a tiny platter."  Capillaries zigzag across the testicles like little lightning bolts, and the device is so tight, her balls are turning a subtle shade of purple.  
+
+<<linkreplace "You push down on them.">>\
+To hold it in place, you place your fingers on the top of the device, then push against each testicle with your thumbs.  Bailey lets out a sharp gasp and kicks her legs, bouncing herself up and down in her harness, but you slow the movement by holding the device in place.  When she's stopped bouncing, you look up and smile at her, then try again.  Now that she's expecting it, Bailey lets out a slow groan as she closes her eyes.
+
+The testicles feel cool to the touch and somewhat squishy.  Your thumbs makes shallow indents on them as you kneed, and Bailey's toes open and close.  Nodding your chin toward Bailey's penis, you say to Kira, "See?  It feels good to her.  Don't feel bad."
+
+Kira looks side to side, then says, "It does?"
+
+"Mm-hm," you say slowly, as you nod.  "Look how hard she is."  Bailey has a slight smirk on her face, but her eyes are still closed.  
+
+Before you let go of the device, you pinch the testicles on the sides, crushing the left one into the right.  This changes the pitch of Bailey's groan, and she gyrates in her seat in an almost sexual manner.  Her penis wags in your face and you have to tilt your head back to avoid it.  "Mm," you say, "she likes that, too."  Normally, the testicles would slide past each other, but there's not enough slack in the scrotum for this to happen.  Because of this, Bailey has no choice but to bare the pressure.  
+
+You oscillate the force of your squeeze to get different reactions.  With light pressure, Bailey seems to enjoy it, but when you squeeze harder, making dents into her testicles and using some of your fingernail, she gasps and tenses up.  You try to keep her on her toes by never staying at one kind of pressure for too long before changing it up.  
+
+When you let go, the sides of her testicles have white marks where your thumbs were, but the color quickly returns.
+
+<</linkreplace>>
+
+[[Continue.->TransMilkMachineBailey3]]
+\ <<chardetail "Bailey" "Ms. Tink and Kira put her in an adult sized jumper, then tortured her balls.">>
+
+:: TransMilkMachineBailey3
+"Ready for what's next?" Ms. Tink asks.  The question's rhetorical, and she's already wheeling over a new machine before anyone can reply.  When she turns it on, she says, "This is a special kind of fucking machine I built just for her."  It looks like a seesaw sitting on a dolly.  On one end of the seesaw is a two foot beaded dildo pointing straight up.  The other side of the seesaw is a metal plate with a bunch of hooks welded on top.
+
+Ms. Tink puts her hands behind her back, stands tall, and says, "Can you guess what I'm going to do with this?"
+
+"I can guess what you're going to do with one end of it..."  The dildo's made of black beads, each the circumference of a quarter.  There's no way the whole thing will fit inside Bailey, but that doesn't seem to be the point: It needs to be tall enough to reach her anus when she's hanging from the adult-sized jumper.  
+
+Ms. Tink continues to grin at you for a moment, then turns around to face Bailey.  Over her shoulder, she says, "Yes, but there's more to it than that.  See if you can guess what else I'm going to do with the other end as I set this up."  She moves the dildo underneath Bailey's ass and the side with the hooks underneath Bailey's crotch.  Then, Kira and Ms. Tink grease up an ambitious number of beads at the top and spend over five minutes adjusting the dildo so it slides into Bailey at the correct angle.  The seesaw machine barely reaches her anus on its slowest setting.  The top four beads go in her when the seesaw goes up, and the last bead at the top stays inside her when the dildo goes down.  
+
+Bailey doesn't have much of a reaction from all of this.  She needs at least some pain to get off, and the dildo is all pleasure.  The only time Bailey made a peep was when Ms. Tink gave the right testicle one firm kiss while she was setting up the machine below.  Ms. Tink couldn't resist the temptation of having the testicles so close to her face for five minutes.  
+
+You walk behind Bailey to get a better view of the beads.  They slide in so slow, her anus looks like a little mouth gobbling them up and spitting them back out again.  If it were going deeper, Lucy would probably love this.  
+
+"Couldn't guess, huh?"
+
+You look at Ms. Tink on the other side of Bailey's body.  "Guess what?" you ask.
+
+Instead of answering, she looks at the machine and stops it just as the dildo is at its lowest.  She looks over her shoulder.  "You'll see," she says, grinning and walking back to her desk.  When she comes back, she's holding a spindle of twine and scissors.  She cuts the twine into four long pieces and loops each one from a hook on the seesaw to a bolt on the wooden testicle pillory.
+
+You say, "I know what you're doing now."
+
+"Is that so?" she asks.  If you're not mistaken, there's a tone of sarcasm in her voice, or maybe it's pride.
+
+"Yeah," you say, "you're tying that wood block to the other end of the machine, so when the dildo goes up, it'll pull her, by her testicles, down onto the dildo."
+
+Ms. Tink stands up, dusts off her thighs, and says, "Clever, eh?  Let's see if it works."
+
+<span class="options">\
+[[Continue.->TransMilkMachineBailey4]]
+
+<<linkreplace "Wait, you don't want to go through with this." t8n>><<replace ".options">>\
+You decide to untie Bailey.  She seems disappointed but, it's for the best.
+
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineBailey4
+When the machine's turned on, it works like a charm.  Before, only four beads would penetrate Bailey, but when tugged by her testicles, she swallows eight.  Ms. Tink giggles as she watches Bailey bounce up and down.  When the hook end pulls down on the testicle pillory, Bailey's scrotum is pulled long and thin.  The machine's still on its lowest setting, so the sack is stretched for a good five seconds before the seesaw goes in the other direction.  This five second stretch repeatedly elicits a groan from Bailey.
+
+Ms. Tink looks at the side of the scrotum to admire her work.  "I love it.  It looks like silly putty," she says.  At its most stretched, the top of the scrotum is about five inches long.  After staring at it for a few seconds like she's hypnotized, she licks her lip, then drags her index finger nail down the side in a slow tickle.  There's no reaction at first, but when Ms. Tink starts wiggling her finger, Bailey starts to squirm in her seat.  
+
+A light bulb goes off in Ms. Tink's head, and she grabs three feathers off her desk and hands one to you and Kira.  She takes the feather and uses the tip of it to graze the stretched scrotum up and down.  When Bailey has the same reaction as before, Ms. Tink turns to you and Kira and says, "Come on, let's all do it."
+
+[[You sit this one out, but continue to watch.|TransMilkMachineBailey5][$mc_bailey_feather to false]]
+
+[[You join in and use the feather.|TransMilkMachineBailey5][$mc_bailey_feather to true]]
+
+:: TransMilkMachineBailey5
+<<if $mc_bailey_feather>>\
+The three of you form a circle around Bailey's scrotum and tickle it with a feather. \
+<<else>>\
+"I think I'll pass," you say.  "But, you go on ahead."
+
+Ms. Tink and Kira get on each side of Bailey's scrotum and tickle it with a feature. \
+<</if>>\
+It causes Bailey to tense up and make spastic movements like she's being electrocuted.  Out of reflex, she wants to move away from the feather, but this causes her to pull her hips up and stretch her scrotum even further than the machine would.  Ms. Tink giggles at every little groan and short gasp that Bailey makes, and it only seems to encourage the teacher to get more sounds out of Bailey.  Many of the random movements cause her to go deeper onto the dildo.  
+
+Kira <<if $mc_bailey_feather>>and you aren't<<else>>isn't<</if>> as creative as Ms. Tink. She tries different techniques, like using the edge of the feather or tickling side to side instead of up and down.  But in the end, the original technique seems to work best, and <<if $mc_bailey_feather>>you all<<else>>they<</if>> conclude that Bailey's the most ticklish when the tip of the feather grazes up and down the length of her scrotum.
+
+Bailey's toes wiggle and she strains to free herself from her cuffs, as she hops up and down on the dildo to get away.  A thin layer of sweat forms on her body.  The <<if $mc_bailey_feather>>three of you<<else>>two of them<</if>> tickle her until she's exhausted, and gets so used to the sensation, she stops bouncing and just accepts it.  A few seconds after that, Ms. Tink gets bored.  She puts down her feather and says, "I actually had other plans for the top half of her scrotum.  We should get to that before class ends."
+
+When Kira stops tickling, she tucks her chin and says to Ms. Tink, "Um, does she like this?  She looked like she wanted to get away."
+
+"Oh honey," Ms. Tink says.  She wraps her fist around Bailey's penis and begins to stroke.  "She loves it.  Feel how engorged she is."  Kira trades places with Ms. Tink, but looks unconvinced, so Ms. Tink looks up at Bailey.  "Do you want me to stop?"  From Bailey's height, she looks like a queen on a throne, which is ironic, because she has little to no power in this situation.  Ms. Tink changes that by saying, "Well if you want me to stop, you can tell me at any time, 'kay?"  Bailey's only reply is a dull look and a slow blink, but her expression is of someone in bliss.  Turning to Kira, Ms. Tink says, "See?  Feel better?"
+
+Kira sighs, smiles, then says, "Much better!"
+
+"Good.  Then you can help me with this next part without worrying so much."
+
+[[Continue.->TransMilkMachineBailey6]]
+
+:: TransMilkMachineBailey6
+From her desk drawer, Ms. Tink fishes out two metal rods that are bent in the shape of uppercase L's.  One end of each rod has a spiky, metal wheel on it, like the spurs on a cowboy's boot.  Ms. Tink taps one of the spikes and her reaction indicates it's very sharp.  She tilts her head up to look at the bottom of Bailey's seat, then says, "Once we install these, we'll really be having fun."  
+
+What you hadn't noticed earlier is the bottom of Bailey's seat has holes on each side.  Ms. Tink explains to Kira what to do next, and they both push the non-spiky end of the rods into the holes at the same time.  Before they finish, Bailey's already groaning and gasping in pain, but you can't see what's happening until they step away.  
+
+The two rods point down an inch or two below the seat, then they bend inward toward Bailey's scrotum.  The two spurs would meet if Bailey's scrotum weren't preventing them from touching.  Since the machine's still on, when Bailey's scrotum is pulled in a direction, the spiky wheels turn and walk along her sensitive skin, and it looks like her scrotum's going through a crank operated washing machine.  The spikes aren't sharp enough to break skin, but they dissuade Bailey from any sudden movements, because they could scratch her.
+
+Ms. Tink stands back, looks up, and smiles as she tries to gauge Bailey's reaction.  Bailey seems to be in a deep state of concentration, with her eyes closed and her brow furrowed.  Her breath is shaky and short.  Ms. Tink's smile fades, and she asks, "Are we OK?"  Bailey exhales forcefully and gives a rapid nod.  "OK, good.  Then we'll install some more."
+
+Over a period of five minutes, Kira and Ms. Tink push rod after rod into holes underneath Bailey's seat.  Each rod fits in one and only one hole, and they aren't all bent at the same angle.  Sometimes, a spur will be a little lower or a little higher than the one to its side.  It's all about giving Bailey a variety of pain that's difficult to adapt to.  When every rod has been used, the sides of her scrotum is covered in spikes.  It reminds you of clockwork, the way they turn like gears, jabbing her tender skin at every moment.  
+
+The three of you step back and take a moment to admire Bailey in her throne.  It looks like she's using all the restraint she has to stop herself from screaming or crying.  Although her bottom lip quivers, she has a full erection.  Ms. Tink comments on it by saying, "Would you look at that.  In my experience, people don't usually get hard when they're in this much pain, even if they enjoy it.  She must really be loving this."  Bailey's only reaction is short exhale from her nostrils.  
+
+Ms. Tink wraps her arm around Kira and says, "What do you say we give her a little bit of pleasure for being such a good girl?"  She positions Kira under Bailey's penis, grabs Kira by the chin, and says, "I want you to look up, and every time her penis comes down to you, give it a little kiss.  Yes, just like that.  But only kiss the tip, and give her a very, very light one, OK?  We don't want her cumming from pleasure now.  This is just to take the edge off while I set up the next machine."  Ms. Tink looks up and smiles at Bailey, but Bailey still has her eyes closed.  
+
+You're not sure who this is for, the kisses certainly don't seem to be turning Bailey on anymore than she already is.  It almost seems more like a punishment or humiliation for Kira, because Bailey's leaking a lot of pre-cum, and the sticky mess is dribbling all over Kira's lips.  Regardless, Kira seems more than happy to oblige.  She'd rather give Bailey pleasure than pain, even if it's insignificant.  
+
+Ms. Tink comes back to you and says, "This next device will spank her testicles.  It should be very nice." She wheels it over from some dark corner of the room.  It's just as tall as the seesaw dildo machine, but otherwise, it's very different.  The device has a base that sticks straight up then bends 90 degrees, similar to the shape of the number 7.  At the end, there's a wheel with a long leather strap attached to it.  This leather strap is the size of a strip of bacon, but it's much thicker.  Ms. Tink flips a switch, and the wheel starts spinning fast.  Each time it rotates, the leather flies upward through the air.  "It'll probably take me some time to adjust this, what with the twine and all, but I'm going to position it on the side so it doesn't interfere with the other machine."  With the way the leather strap is swinging, once she moves it into position, it would hit her balls upward.  
+
+<span class="options">\
+[[Continue.->TransMilkMachineBailey7]]
+
+<<linkreplace "You'll pass on that.  Bailey's had enough fun." t8n>><<replace ".options">>\
+You decide to untie Bailey.  She seems disappointed, but it's for the best.
+
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineBailey7
+As Ms. Tink thought, it takes a while to setup this next machine.  For a few minutes of adjustments, the leather strap never seems to land right.  One of the many problems is, it keeps hitting the wooden block before it hits the testicles, and that dampens the blow more than Ms. Tink would like.  Eventually, she gets it to where she'd like, but it seems like a bit of a compromise.  She lowers the wheel so much, that the leather strap can only reach Bailey's testicles when the seesaw has pulled as far as it will go.  Otherwise, the leather strap whirls through the air hitting nothing.  
+
+After taking a step back to think about it, Ms. Tink says, "You know, this might actually be better than what I had planned.  I think I like it this way.  She gets one firm spank when she's at the bottom of the dildo."  
+
+The leather strap is so heavy and the wheel is spinning so fast, the bottom of Bailey's scrotum is already turning pink.  Each time she's pulled through the wringer of spurs, her journey concludes with a heavy thud on her vulnerable balls, and then she has to trace her steps backward to repeat the journey seconds later.  Each swat makes Bailey jump like she's scared, and she lets out a short groan, indicating how much her balls ache.  
+
+Actually, you notice the timing of the spank is a little off. It happens right before Bailey's at the bottom of her descent.  Because of this, the leather smacks against her testicles when the seesaw is still pulling her down, a more painful experience than if it were hitting her on her ascension.
+
+Pre-cum begins to dribble out of her tip in what feels like a constant flow, and Ms. Tink has to pull Kira aside to stop Bailey from having an orgasm.  Ms. Tink says, "That was close- Wait, don't do that."  She grabs Kira's wrist to prevent her from wiping the pre-cum off her face, but she's too late.  With a pout, she says, "We're here to collect that, and you just threw it away."  
+
+"Sorry."
+
+Ms. Tink shakes her head and smiles.  "It's my fault.  I should have told you ahead of time.  Don't worry, there's plenty more where that came from.  Come.  I made something to collect it all."
+
+[[Continue.->TransMilkMachineBailey8]]
+
+:: TransMilkMachineBailey8
+Ms. Tink brings back something that looks like a condom with a hair scrunchy sewn into the base and a plastic thread sewn into the tip.  She dangles it by the thread in front of Kira's face and explains how it works.  "See this ring at the base?  It's elastic and stretchy, but don't touch it, because-" she flips the base inside out, "- I've sewn little barbs into the elastic part that point back.  That way, it's easy to put on, but painful to take off... or even tug on.  We're going to put the scrunchy around the ridge of her penis head, then-" she flips the condom back to its original state, hangs on to it by the thread, and says, "we can tie weights to this thread here."
+
+Kira looks side to side and says, "So, uh, the rest of her thing will be uncovered?"
+
+"That's right, we're just going to snag it on the groove behind the penis head.  Why don't you do the honors?"
+
+"OK..."  There isn't much room for Kira to stretch the base without pricking her own fingers, but she finds a way to place it on Bailey's penis without hurting herself.  When the elastic snaps down behind the back of her penis head, Bailey shudders and hisses through her teeth.  She bucks her hips like she's forgotten all the sharp instruments poking her scrotum.  The condom flaps around as Bailey writhes, and Ms. Tink tries to calm her down by giving her a gentle hand job without touching the tip.
+
+Ms. Tink realizes she has to let go of Bailey's shaft, because she could orgasm at any moment.  She watches anxiously as the penis bobs and throbs, begging for some tenderness.  There's a moment where you all think it's going to explode on its own, but after what feels like a whole minute, the condom stops flapping around, and Bailey adjusts to this new level of pain.  Well, as much as anyone could be expected to, at least.  There's sweat all over her body, and she still groans at every hard smack at her balls.
+
+"Kira," Ms. Tink whispers as she beckons the student closer.  "There are some weights on my table.  Be a dear and bring them over, would you?"
+
+Kira carries them in both arms.  They're all sorts of sizes, some of them look like they may even weigh up to a pound.  Ms. Tink starts light, starting with grams, but even that makes Bailey hiss through her teeth.  As more weights are added, Bailey's penis begins to bend down, and when it eventually points straight down she appears to be in agony.  The crown of thorns around the back of her penis head hangs on for dear life, but refuses to let go.
+
+"How much weight is that," you ask.
+
+Ms. Tink says, "Hm, all in all, about a pound.  Better not risk it.  I don't want it to slip off.  That seems good enough."  She turns to you and smiles.  "Believe it or not, I never thought I'd get this far with Bailey.  I was sure she'd ask me to let her down at this point.  She's quite amazing." 
+
+You and Kira stare at her in awe.  The testicle pillory, the machine yanking on her scrotum while penetrating her anus, the innumerable pointy spurs poking her scrotum, the machine spanking her testicles, and now a weighted condom with pointy barbs around her penis head... It's amazing how much Bailey can take.  You wonder if there's any limits to her masochism.  That's when you notice her penis is pulsating.  You point it out to Ms. Tink and she says, "Hm, yeah, that's interesting."  
+
+The three of you watch with interest, wondering if Bailey's capable of converting all this pain into an orgasm, but after a few minutes, the throbbing doesn't seem to be going anywhere, except that it's producing an amazing amount of pre-cum into her condom.  The three of you decide you should do something special to push her over the edge.
+
+[[Give her a blowjob with the condom on.->TransMilkMachineBaileyBlowJob]]
+
+[[Make the ball smacking machine run faster to really hurt those balls.->TransMilkMachineBaileyCumBallSmacks]]
+
+[[You push her over the edge with a feather, but ruin her.->TransMilkMachineBaileyCumRuin]]
+
+:: TransMilkMachineBaileyBlowJob
+Because she's so close to cumming, you use a delicate touch when you wrap your hands around her shaft.  Even though you're just using your fingertips, you feel her heartbeat in her shaft along a thick vein.  It's warm to the touch.  You take the weights off slowly, one by one, until they're all off, then you open your jaw and try to swallow the shaft without brushing against the sides.  But, you can only get so far before your gag reflex kicks in, and your throat tightens around it.  Bailey gasps, and it's hard to tell if it's in pleasure or pain.
+
+The back of your tongue is on the condom, but the front of it is around her bare skin, and you feel it throbbing.  She's so ready, you wonder if she would have cum on her own, without your touch.  It's so soft and warm in your throat, and since she's bobbing up and down in her jumper, you barely have to do any work.  Her penis comes to you.
+
+You apply the gentlest of pressure with your tongue, pushing up against the hair scrunchy, and she gasps in pain.  There are three quick pulses from her shaft.  Each one feels like her penis is expanding in your throat, filling you up.  Then, literally in your own head, you hear the stream of liquid spraying into the condom.  Bailey shudders and sighs, and you feel her warmth on the back of your tongue.  The spurts seem powerful, and you know she's been dying to let them out for a long time.
+
+You hear some commotion from Kira and Ms. Tink, you're not sure what about, but they seem happy about what they're seeing.  With as much suction as you can muster, you pull your head back while Bailey's orgasm is half way through.  Because she's wearing a barb-lined scrunchy, she doesn't seem to appreciate it.  Just as you let go with your mouth, you see the last weak spurts shoot into her condom.  
+
+Kira taps on your shoulder and says, "Principal $name, when you did that, her balls went, like- they tried to have a tug of war with the machine.  Did she- Oh."  She looks over her shoulder then says to Ms. Tink, "She came."  
+
+"I thought so," Ms. Tink says.  "That's why she fought with the machine.  Let me tell you, she didn't win that battle.  I swear, it pulled her down onto another two beads."  
+
+Kira says, "Her butt hole was twitching like crazy!"  
+
+"Anyway, let me see what we've got."  With a single finger, Ms. Tink lifts the floppy white tip of the condom so she get a good view of the contents.  "That's pretty good!  But I think we can get more.  What do you say we keep her in here until she cums at least one more time?"
+
+Kira's already taken your position.  She looks up, trying to meet Bailey's eyes while she gives her a hand job.  But, Bailey is in too much pain to meet Kira's gaze.  She can only groan and wiggle her toes.  "Does that mean she likes it?" Kira asks.
+
+"Yes, honey," Ms. Tink says.  "She loves it."
+
+Ms. Tink pulls you aside and says, "I think for Kira's sake, we should keep Bailey up there for one more go.  She could learn a thing or two about sadism."
+
+"Very well," you say.  "But when Bailey starts to get into it, have Kira intentionally give a bad hand job.  That'll really teach her about sadism."
+
+"Good idea," Ms. Tink says with a smile.
+
+It never comes to that because it takes less than a minute for Kira to get Bailey to cum again.  Kira wants to keep going, but for Bailey's sake, you decide to give her a break.
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Bailey" "You made her cum in the adult sized jumper by giving her a blowjob.">>
+
+:: TransMilkMachineBaileyCumBallSmacks
+Ms. Tink speeds up the ball smacking machine and the dildo machine.  This bounces Bailey on the dildo at a rate that a human couldn't sustain for long.  At the bottom of each bounce, the dildo drives into her rectum, and she receives a firm swat on the balls.  The heavy leather cracks so hard, it overshadows any pleasure one could receive from the anal penetration, and at this speed, the weights on the condom shake every time her motion changes, like they're being dropped.  It's unclear if the penis head or the ball spanking hurts more.  She looks like she's riding a mechanical bull, but she's strapped in and handcuffed so she can't get off.
+
+You're curious to see if Bailey will be able to cum from this.  None of this seems pleasurable, but Bailey's proven herself to be a true masochist in the past. A whole minute passes, and the testicle spanks turn the skin a bright red.  After another minute, there's mild bruising.  Throughout this, Bailey's penis throbs, like it desperately wants to cum.  You get the sense that the slightest touch would make it go off.
+
+Kira says, "Maybe we should turn it off?"
+
+"I think you're right," Ms. Tink says.
+
+[[No one could cum from all this pain.  Turn it off.->TransMilkMachineBaileyCumBallSmacksOff]]
+
+[[Make it smack her balls even harder.  They'd look nice with a nice shade of purple.->TransMilkMachineBaileyCumBallSmacksFaster]]
+
+:: TransMilkMachineBaileyCumBallSmacksOff
+The machines make a slowing whirling sound as they're shut off.  Bailey looks spent.  There's sweat all over her body, her testicles are red and bruised, and there's still a beaded dildo halfway up her rectum.  She also has a dopey look on her face.  
+
+"I'm sorry I couldn't cum, Ma'am.  I wanted to, really bad."  You're not sure who Bailey's talking to.  Her eyes are teary and closed.  Maybe she doesn't know who she's talking to either.  She opens her eyes and gives a slow blink.  "Ugh, I wish I could cum.  I'm sorry I ruined it."
+
+"Don't be sorry," Ms. Tink says.  "You did great."  Kira unlocks the handcuffs.  "Did you like the machine?"
+
+"Yes, Ma'am.  It was very creative."
+
+As Ms. Tink unfastens straps to let Bailey out of the machine, she asks Bailey, "Any improvements you could see?"
+
+Bailey drops down onto the floor with some help.  Her knees are wobbly, and she tries to feel her balls, which you imagine are throbbing in pain, but realizes they're too sensitive to hold on to right now.  "Oh, I dunno, Ma'am."  Her head bobs down for a few seconds, then she looks up with a smile.  "My nipples were... lonely.  Maybe do something with that?"
+
+"Of course," Ms. Tink says with a smile.  "If I improve it, would you like to try it again?"
+
+After two heavy pants, Bailey touches her balls and groans, then she says, "Ugh, maybe in a week?"
+
+"Of course!  You take all the time you need, dear.  I'm going to sit you down right here and let you rest for as long as you need.  Can I get you a glass of water?"  
+
+"Yes, Ma'am.  Thank you ma'am."  After a few heavy breaths, she smiles and says, "The machine's great."
+
+On hearing those words, Ms. Tink blinks rapidly, smiles, and looks away.  "I'll get you that water now."
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Bailey" "You're unable to make Bailey cum in the ball smacking machine.">>
+
+:: TransMilkMachineBaileyCumBallSmacksFaster
+You stop Kira and Ms. Tink from removing Bailey from the harness, and put the ball smacking machine on its highest setting.  It's so fast, it whirls in the air before making contact.  When Bailey's testicles are pulled into range, it hits them twice before she ascends again.  The first hit has the most force behind it, and when it connects, Bailey hunches over and groans.  You already see a square mark on her testicles where the smack landed.  That's going to turn into a bruise in a few seconds.
+
+When she's lowered a second time, she snaps up from her hunched over position and groans at the ceiling.  It seems like an eternity passes before she's lowered a third time, but Bailey's desperate to avoid the blow.  She kicks her legs and tries to wiggle side to side.  But, the best she can hope for is for the dildo to slide out of her (it doesn't).  The twine has no elasticity, and no matter how much Bailey pulls away from her own testicles, they're going to receive a spanking.  On the third, fourth, and fifth spanking, she flails her legs like crazy.  You've got your hand wrapped around the side of her harness so she can't change her trajectory by much, but you also have a finger by the switch of ball smacking machine in case it seems like more pain than she can take.
+
+Bailey grits her teeth between spanks, but screams every time she receives one.  Her testicles are so bruised, they've become purple at the bottom.  By the eighth swat, the spank only elicits a short exhale through her nostrils.  She seems to be concentrating on the pain.  Her eyes look straight ahead, through the wall.  Then, on the tenth swat or so, she spasms forward in her harness.  A trickle of semen pours into her condom.  The pressure of it is weak and pathetic, as if she's ejaculated without having an orgasm.  But then another swat hits her balls, and she starts spurting into the condom, like she just needed one extra push.
+
+She collapses forward while she cums, either from satisfaction, exhaustion, or pain.  But, while she's buckled over, her penis continues to spit an impressive amount of semen into the condom.  It has a yellow tint and its very thick.  More like a sludge than a liquid.  You wait for her orgasm to finish, then you turn off the ball smacking machine.
+
+Ms. Tink comes over, and with a single finger, she lifts the floppy white tip of the condom to get a good view of the contents.  "Wow!  If I hadn't seen it with my own eyes, I never would have believed that was possible.  I'm really happy with these results, but I think we can get more.  What do you say we keep her in here until she cums at least one more time?"
+
+Kira's already in front of the shaft.  She looks up, trying to meet Bailey's eyes while she gives her a hand job, but Bailey is in too much pain to meet Kira's gaze.  The most she can do is groan and wiggle her toes.  "Does that mean she likes it?" Kira asks.
+
+"Yes, honey," Ms. Tink says.  "She loves it."
+
+Ms. Tink pulls you aside and says, "I think for Kira's sake, we should keep Bailey up there for one more go.  She could learn a thing or two about sadism."
+
+"Very well," you say.  "But lets keep the ball smacking machine off.  She's probably had all she can take there.  Also, when Bailey starts to get into it, have Kira intentionally give a bad hand job.  That'll really teach her about sadism."
+
+"Good idea," Ms. Tink says with a smile.
+
+It never comes to that though.  It takes less than a minute for Kira to get Bailey to cum again, and it happens so fast, neither of you had a chance to tell her to slow down.  Kira wants to keep going, but for Bailey's sake, you decide to give Bailey a break.
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Bailey" "She came from very hard spanks on her testicles from a ball smacking machine.">>
+
+:: TransMilkMachineBaileyCumRuin
+You pick up a feather you were using earlier, and tickle the underside of her exposed shaft.  Slowly, you drag the side of the feather up and down the penis, just letting the edge make contact.  Soon, Bailey's penis begins to pulsate, so you stop what you're doing and watch.  Between groans of pain, Bailey huffs, but her breath and the twitching slows.  That wasn't enough to push her over the edge, but that's fine by you.
+
+When you try again and fail, Kira says, "You should use the feather longer."
+
+You smile at her when you say, "I'm trying to ruin her orgasm, so I want to take my time with it."  Grabbing her by the shoulder, you pull her in for a close look and say, "See how I tickle it just- Ooh! There!" You stop what you're doing to point.  "Those are the little throbs I'm looking for.  Isn't it neat?  Kinda looks like her penis is drinking a tall glass of cold water.  You gotta stop as soon as you see that.  The throbbing feels really good, but you don't want it to go too far, because when you cum, you have to start all over again and things don't feel as nice at the beginning.  So I want to work her up as close to an orgasm as possible, without going over.  In a sense, that'll give her the longest amount of pleasure before we have to stop.  Make sense?  Plus, if I keep using this feather perfectly, I can get her to a point where she'll explode at any touch.  Doesn't that sound fun?"
+
+Kira blushes and smiles.  "Yes, ma'am."
+
+From that point forward, she becomes your little helper, shouting, "Stop," whenever she notices the penis twitch.  Over time, this seems to drive Bailey crazy.  She thrusts in her chair, despite the fact that this pulls her testicles away from the machine and makes the barbs dig deeper into her penis head.  Eventually, one little swipe from the feather causes the twitching to start.  Then, one swipe causes three twitches.  Whenever the throbbing starts, Kira giggles uncontrollably.
+
+Kira says, "We should slow down.  She looks really close."  She's right, so you wait twice as long as usual before you tickle the penis again, but it still throbs five times.
+
+"I think that's as far as we can take her.  Watch this."  You drag the very tip of the feather up her underside, as slow as you can move it.  Normally, you'd stop after the first throb, but this time, you let the penis throb three times before you stop.  The twitching speeds up on its own, and Bailey begins to grunt.  But slowly, it subsides.  You were sure that would be all she needs to be pushed over the edge, but apparently it wasn't enough.
+
+You lick your index finger and swirl it around a spot near the base of the penis, moving no more than a few millimeters around.  You're sure Bailey'd love for you to touch the sensitive spot under her head, but you don't want to give her that much pleasure.  Though you're barely touching her penis, it's hot to the touch.  The penis expands on each throb, almost pushing back against your fingertip.  When the pulsations begin to speed up, you tap that spot three times, and then remove your hand.
+
+Bailey lifts her head toward the ceiling and grunts.  Like a heart, her penis spasms on its own.  It must throb for at least 15 beats before anything happens.  Bailey looks like she's holding her breath, but then, a pathetic white spurt shoots into the condom.  She sighs in relief.  The rest of the sperm oozes out of her like slime, and then it concludes with two stronger spurts.  From the look on her face, you can tell that was unsatisfying.  
+
+Kira says, "Aw, that didn't look very fun.  I thought you said it was going to feel really good."
+
+"No," you say, "I said it was going to feel really good leading up to it."
+
+"Oh yeah... Well, I do think she enjoyed that."  You're not so sure.  The machine was torturing her the whole time.
+
+Ms. Tink comes over, and with a single finger, she lifts the floppy white tip of the condom so she get a good view of the contents.  "That's pretty good!  But I think we can get more.  What do you say we keep her in here until she cums at least one more time?"
+
+Kira's already in front of the shaft.  She looks up, trying to meet Bailey's eyes while she gives her a hand job.  But, Bailey is in too much pain to meet Kira's gaze.  She can only groan and wiggle her toes.  "Does that mean she likes it?" Kira asks.
+
+"Yes, honey," Ms. Tink says.  "She loves it."
+
+Ms. Tink pulls you aside and says, "I think for Kira's sake, we should keep Bailey up there for one more go.  She could learn a thing or two about sadism."
+
+"Very well," you say.  "But when Bailey starts to get into it, have Kira intentionally give a bad hand job.  That'll really teach her about sadism."
+
+"Good idea," Ms. Tink says with a smile.
+
+It never comes to that because it takes less than a minute for Kira to get Bailey to cum again.  Kira wants to keep going for a third time, saying she can make it last longer, but for Bailey's sake, you decide to turn the machines off and take her out of the harness.
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Bailey" "You gave her a ruined orgasm in an adult sized jumper by tickling her shaft with a feather.">>
+\ <<chardetail "Kira" "She helped you give Bailey a ruined orgasm in the adult sized jumper.">>
+
+:: TransMilkMachineEdging
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<</nobr>>\
+Kira and Ms. Tink take _tgirl, cuff her hands, and tie her cuffs to a rope that's thrown across a ceiling beam.  They pull on the rope and tie it to a post in the dirt so she can't lower her arms, then they cuff her ankles with a spreader bar so she can't close her legs.  
+
+Ms. Tink shows _tgirl her palms as she says, "Now I know this seems scary, but rest assured, there'll be no pain today, just nice tickles."  _tgirl frowns a bit as she looks at her own naked body.  The barn doesn't have great insulation, so her perky breasts are already starting to form goosebumps.  Just as Ms. Tink steps away, she whirls around to face _tgirl and says, "Oh, and when I say nice tickles, I don't mean, like, tickle torture or anything mean like that.  It's just going to... feel nice, ya know?"
+
+"OK, Ma'am." _tgirl's eyes dart around before saying,  "Uh, I'm... looking forward to it?"
+
+To that, Ms. Tink gives a swift nod, smiles, and says, "Righto.  Great!  Just hang out for a sec, I'll show you the nice machine."
+
+From a shadowy corner of the barn, Ms. Tink wheels a device back to _tgirl, flips it on, and explains what it is.  "Basically, this is a large metronome, but I've glued a duster to the pendulum."  It's a French duster, the kind with gray, lush, and billowy feathers.  If Ms. Tink were to wheel the machine between _tgirl's legs, the feathers would pass back and forth, tickling her undercarriage in one direction, then swing back and tickle it in the other direction.  Ms. Tink twists a dial and the pendulum speeds up.  "We can adjust it to your liking."  She twists a different dial and the pendulum swings in a larger arc, but it stays the same speed.  "See?  Lots of flexibility.  What do you think?  Wanna try it out?"
+
+_tgirl looks relieved that Ms. Tink was telling the truth: It doesn't look painful.  She smiles and says, "If you'd like, Ma'am."  
+
+<span class="options">\
+[[Continue.->TransMilkMachineEdging2]]
+
+<<linkreplace "You change your mind and don't want to go through with this." t8n>><<replace ".options">>\
+"Actually," you say, "I think we should let her down.  Maybe some other time."
+
+Ms. Tink furrows her brow and both her and _tgirl look disappointed.  But you have your reasons and they know not to question you.
+
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineEdging2
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+ <<chardetail "Fifa" "She was put in an edging machine at the barn.">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+ <<chardetail "Tiffany" "She was put in an edging machine at the barn.">>
+<</if>>
+<</nobr>>\
+"Oh," Ms. Tink says, "I almost forgot!"  She pulls out a condom from her pocket and places it around the tip of _tgirl's penis.  "We're going to collect your... your... 'drippings.'"  The condom's extra small, so it stays on the tip of _tgirl's penis head, even though she's soft.  "There.  I left the rest of your... 'thingy' uncovered so you can feel as much of the sensations as possible."  The majority of the condom hangs off her penis tip, like a limp sleeve.
+
+After wheeling the machine between _tgirl's legs, you, Ms. Tink, and Kira wait for a reaction.  As soon as the feathers make contact, _tgirl twists in her restraints and furrows her brow.  She tries to lift a leg up to get it out of the way, but the spreader bar is under the heavy machine, so she can only raise it about an inch before it clangs against the machine's platform.  The way her glassy eyes dart about at everyone in the room, it's like she's terrified.  You glance at Ms. Tink and notice she's frowning and wringing her hands.
+
+Over a span of five seconds, _tgirl stops fighting it.  She makes a strange expression and hangs her head like she's lost all strength.  As the feathers continue to wash over her, Ms. Tink clears her throat, takes a step forward, and winces as she asks, "Are you OK?  If you don't like it, we- we could let you out at any time."
+
+Instead of answering, _tgirl turns her head and tries to hide her face behind one of her arms.  The cheek you can see is bright red.  You point at her <<if $tiffany_edging_machine>>tiny<</if>> penis and say, "Uh, I think she likes it.  Look."
+
+After Ms. Tink's eyes ping-pong between _tgirl's face and penis, she begins to smile.  "Oh honey, you don't have to be embarrassed about such things.  I take it as a compliment.  Besides, that's the whole point."  This has the affect of making _tgirl blush more.  Ms. Tink scans the room like she's looking for something, then says, "How about a blindfold?  Would that make you feel more comfortable?"  _tgirl nods into her arm.
+
+It's strange that _tgirl would be so embarrassed about enjoying the machine, especially after so many lewd classes before this.  Perhaps she just feels silly for overreacting to the machine, or maybe it tickled at first, then she got used to it.  The latter seems more likely.  If it tickled at first, she may have assumed it'd tickle forever and she'd have to endure 30-60 minutes of tickle torture.  Given that assumption, her reaction was completely reasonable.  But, who knows.  This isn't an appropriate time to ask her.  It would ruin the mood. 
+
+Ms. Tink slides the blindfold down _tgirl's head.  After about 30 seconds of brushing from the feathers, _tgirl turns her head to look straight forward, tilts her chin up, and parts her mouth like she's expecting a kiss.  Though it's loud in the room with all the machines running, you think you can hear her heavy breathing.   The way she sometimes turns to face a noise tells you she's still on edge, but over time, she calms down and soft moans escape her open mouth.  It's not long before she parts her knees in an effort to make more contact with the feathers.  Unfortunately for her, the arm restraints prevent her from going any lower.  
+
+Ms. Tink comes over, rubs _tgirl's back, and tries to sooth her.  You take the opportunity to walk around and inspect things.  
+
+[[Continue.->TransMilkMachineEdging3]]
+
+:: TransMilkMachineEdging3
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<</nobr>>\
+The feathers take an intimate and sensual journey between her legs, engulfing everything they touch into a fluffy plume:  They caress her penis on all the sides before moving to her scrotum.  Then, the metronome hits the end of its swing, clicks, and the feathers go back in the other direction, sliding between her crack, then tickling her taint, the back of her scrotum, and the underside of her penis.  Just when the tip of her penis is about to be enveloped, the metronome clicks and changes direction.
+
+Each swing of the metronome gives a different experience, because the feathers never touch her the same way twice.  When they brush against her, their positions and angles shift, giving _tgirl slight variations of stimulation.  From the back, you watch the feathers block your view of her bottom, like a burlesque dancer using a fan as a censor.  But then, the plume shrinks as it disappears between her cheeks.  You imagine individual feathers tickling her anus as they pass by.  Some of these feathers may be tickling her taint and the back of her scrotum at the same time.  Once the metronome swings by, the feathers no longer act as a censor, and you see her tight sack between her legs.  It's so taut and wrinkled, there's a noticeable space between her scrotum and legs, allowing the feathers to pass through on either side and tickle every millimeter of her tender skin.  You can tell she'd like to open her legs further to give the feathers more access, but ironically, the spreader bar prevents it.
+
+When you come to _tgirl's front, she looks like she's in heat.  Ms. Tink whispers sweet, incomprehensible things into her ear as she rubs _tgirl's back, and _tgirl's just facing the direction of the noises, holding her chin up with her mouth parted.  You're pretty sure she wants to be kissed, but Ms. Tink doesn't seem to notice.  She seems obsessed with the massage she's giving.
+
+You clear your throat to get Ms. Tink's attention, but when she doesn't react, you tap on her shoulder.  After a gasp, she shakes her head and says, "What's wrong?"
+
+"Nothing," you say, "but, she looks pretty calm."  While pointing at _tgirl's penis, you say, "And it looks like the condom's messing up the feathers."  At first, the feathers stopped just short of the tip of _tgirl's penis, but now she seems to have moved forward a bit, and the condom keeps getting snagged in the duster, blocking the feathers from caressing the underside of her shaft.  
+
+"Oh, that is a problem," Ms. Tink says.  "I- I- didn't plan for this."  She looks around to find a solution.  "Hmm, maybe I can put a stool out in front of her and tie the tip of the condom to it so it doesn't interfere."
+
+Behind you, Jessie has a loud orgasm, and Kira runs over to massage her bottom, giving her some comfort as she works through it.  You say, "Why don't we just have Kira hold onto the tip of the condom?"
+
+Ms. Tink's already off looking for some sort of stool, and when she hears your voice, she stops mid step and faces you.  "Wouldn't it be better if I jury-rigged something up?"
+
+You ignore the question and ask, "Do you have another one of those dusters?"
+
+"Yes.  Lots more.  But why?"
+
+With a smile, you say, "I have an idea."
+
+[[Continue.->TransMilkMachineEdging4]]
+
+:: TransMilkMachineEdging4
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<</nobr>>\
+Once Jessie's orgasm has been tended to, you have Kira come back and lift the tip of the condom out of the way by pinching it between her thumb and forefinger.  As expected, it works like a charm. Once again, the soft feathers graze every inch of the shaft, making _tgirl moan and gyrate her hips until she gets used to the extra stimulation.  Kira's so watchful, she moves her arm with the gyrations so that the condom doesn't slip off.
+
+"Here you go," you say, as you hold out a feather duster.
+
+Kira's bent over at a 90 degree angle, so she has to look up to see you.  "What's that for?"
+
+With a smile, you say, "I figured you could hold it in your other hand and use it to dust the top."
+
+She looks excited at the prospect and practically snatches the duster from you with her free hand, then she gets to work.  With the duster pointed straight down, she tickles the topside of the shaft, but there's plenty of contact from the feathers on the sides.  The nice thing about this, from _tgirl's perspective, is that Kira continuously stimulates the penis, whereas below, she has to wait for the metronome to swing by.  If Kira were wearing the right outfit, she'd look just like a French maid in a porno.  The tip of her tongue sticks out between her teeth as she dusts off the penis, and _tgirl moans and tries to lean into the duster.
+
+Just then, Ms. Tink comes by and says, "Ah, ah, ah," then raises Kira's dusting arm a smidge.  "She likes that a little too much for my tastes.  Try to keep your feathers on the top half only, 'kay?"  Kneeling down, Ms. Tink traces a horizontal line in the air, almost brushing against the side of the shaft.  "Don't let the feathers go below here, OK?"
+
+Kira flashes a frown before saying, "Oh, alright."  A couple seconds pass, then she says, "Why can't I go lower?  She likes it."
+
+"We're trying to edge," Ms. Tink says.  Kira furrows her brow.  It's hard to tell if she's confused or disagrees with the concept, so Ms. Tink says, "The longer we wait, the better it'll feel."
+
+"Oh! Now I get it."  She returns to dusting with renewed vigor, careful not to stimulate too much.  _tgirl lets out a low, long moan and gyrates her hips once in frustration, then she swallows hard like she has a dry mouth.  This puts a smile on Kira's face, and she raises the duster a bit to tease the penis even more.  "Like this?" she asks.
+
+"Just like that."  With a grunt, Ms. Tink pushes on her knees to stand up, then pats on Kira's shoulder to let her know she's doing a great job.  The teacher walks back to you and you both watch _tgirl's frustration increase.  After a minute, she starts whimpering softly.  When Kira hears them, she shakes the duster slower and smiles at the two of you.  To let her know she's doing the right thing, you smile back, then she looks back down at her task.  
+
+"I hadn't really planned much beyond this," Ms. Tink says without turning to face you.  "If it were up to me, I wouldn't have even had Kira do this, not that it's a bad idea.  It's just, I wanted to see if she'd, like, complete from the machine alone."  
+
+"Hmm," you say.  "That could be fun and I see the appeal.  I'm sure your machine is up to the challenge, but lets do that next time."  You grab another duster, hold it out to her, and say, "This time, I'd like us to help her 'complete,' and her nipples look like they could use some attention."
+
+With a smile, Ms. Tink says, "OK, but next time, I get to-"  She furrows her brow as she looks for the right words.  "-to collect her drippings with just the machine?"
+
+After nodding, you say, "You can do whatever you want."  Satisfied by your answer, Ms. Tink walks forward and joins Kira.
+
+[[Continue.->TransMilkMachineEdging5]]
+
+:: TransMilkMachineEdging5
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<</nobr>>\
+When Ms. Tink dusts _tgirl's chest, _tgirl starts grinding her hips into the air, making Kira's task more challenging.  But, Kira doesn't seem to mind.  She keeps on dusting, giving the top of the penis as much attention as she feels it deserves.  After about a minute of this, _tgirl rolls her head back and groans in frustration.  Until now, she may have been suppressing her sounds, but she no longer tries to hide them.  
+
+The noises bring a smile to Ms. Tink's face.  At first, she was waving the duster left to right in broad strokes, but she changes her technique and wiggles the feathers in small circles around one nipple at a time.  The way this makes _tgirl shift her weight away from Ms. Tink's hand almost makes Kira drop the condom.  
+
+You take a step forward to get a closer look at the condom.  From what you can tell, it's filled with a respectable amount of pre-cum, but no sperm yet, though _tgirl's letting you know how much she wants to fill it.  You wonder if it'll be possible to cum from this.  
+
+<span class="options">\
+
+<<if $fifa_edging_machine>>
+[[Help out and give Fifa that kiss she's been asking for.->TransMilkMachineEdgingKiss]]
+
+<</if>><<if $tiffany_edging_machine>>
+[[Help out and give Tiffany that kiss she's been asking for.->TransMilkMachineEdgingKiss]]
+
+<</if>>[[Continue to watch and see what happens.->TransMilkMachineEdgingWatch]]
+
+<<linkreplace "Stop this and move on to other things." t8n>><<replace ".options">>\
+"Actually," you say, "I think we should untie her.  I love the idea of keeping her frustrated."
+
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineEdgingKiss
+<<nobr>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<</nobr>>\
+You approach _tgirl from behind, stand a few feet back, and admire her slender body.  \
+<<if $fifa_edging_machine>>\
+She's average height for a woman and her slender frame forms a perfect hourglass figure.  Her upper back is on the cusp of being muscular, while still being feminine.  You can tell she takes care of her body.  Her dyed blonde ponytail flips into the air when she wiggles from the tickling.\
+<</if>>\
+<<if $tiffany_edging_machine>>\
+Because she's so small, you have an urge to grab her by the waist place her on your shoulders, but you suppress the urge.  For now, you watch her long black hair flutter through the air as she wiggles from the tickling.\
+<</if>> Since she's wearing a blindfold, she probably has no idea you're there.  
+
+You wonder how to best approach her.  If you touched her from behind, she'd jump, but that's not necessarily a bad thing.  Once she got used to the touch, you're sure she'd enjoy it.  Her back muscles look tense from pulling on the restraints, so maybe you should run your fingers down her shoulder blades.  Then again, her bottom looks welcoming, too.  You could give one of her cheeks a little squeeze.  <<if $tiffany_edging_machine>>\
+It's such a tiny and tight bottom.  You wonder how much of it you could hold onto at once.  Maybe your hand could fit around a whole cheek. \
+<</if>>\
+<<if $fifa_edging_machine>>\
+Like her back, it's very lean and muscular.  If you were to smack it, it may not even jiggle. \
+<</if>>  You could spread her with both hands and let the feathers really get in there.  Maybe she'd like that, it's hard to say.  
+
+In the end, you decide to place your hands on both sides of her hips.  She reacts with a gasp, then looks down at your hands, even though she can't see through the blindfold.  When you slide your hands up to her waist, she smiles and bites the side of her lower lip.  Once she figures out you're behind her, she pulls back against the restraint and moves her hips like a stripper giving a lap dance.  It's like she's trying to seduce you to touch her more.
+
+You explore with your hands, and she leans into wherever you apply pressure, grateful for some solid physical contact for once.  From her side, you graze your hand up the front of her right breast, passing under Ms. Tink's duster.  Even though you only touched her for a moment, it's enough to get _tgirl to moan and look around with her mouth open.  Her nipple is rock hard, <<if $tiffany_edging_machine>>\
+and her breasts are about A cups, so you may have brushed against it, too.  \
+<</if>>\
+<<if $fifa_edging_machine>>\
+and her breasts are about B cups.  They may have jiggled when you touched the nipple.  \
+<</if>> It's difficult to say.
+
+Again, you graze the nipple, but this time, you leave your hand there and give the breast a squeeze.  _tgirl moans and faces your assumed position, but her guess is a little off.  In the center of your palm, you feel that firm nipple poking back at you.  <<if $tiffany_edging_machine>>\
+As her chest is almost nonexistent, her breast is extremely firm to the touch.  With your pinky, you feel around and find the subtle slope where her chest rises to become her breast, and you stroke it repeatedly.  She seems to enjoy it more than you'd expect.  Then again, maybe that's because of all the edging she's already received.  \
+<</if>>\
+<<if $fifa_edging_machine>>\
+Fifa doesn't seem to mind your hand there.  Because her breasts are on the small end of the spectrum, it's somewhat firm.  For some reason, you visualize a cupcake as you squeeze. \
+<</if>> The more you kneed it, the more she reacts.  After a few seconds, she has a little quiver, and she mouths the word, "Yes," through her exhale.
+
+You stop, wait a few seconds for her to adjust to the frustration, then tap on her lip with your fingertip.  After an initial gasp, you pull your finger away, and she lifts her chin up toward the direction you came from, looking for more.  That confirms your suspicions.  She has been waiting for a kiss.
+
+[[Continue.->TransMilkMachineEdgingKiss2]]
+
+:: TransMilkMachineEdgingKiss2
+<<nobr>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<</nobr>>\
+You stand to _tgirl's side and prepare to kiss her.  To do so, you have to approach in a way that doesn't interfere with the machine or get in Ms. Tink's and Kira's way.  _tgirl's about <<if $tiffany_edging_machine>>five feet tall<</if>><<if $fifa_edging_machine>>five and a half feet tall<</if>>, so you'll need to bend over to kiss her, but first, you lift _tgirl's chin and turn it toward you.  She doesn't resist, but with the blindfold on, it's hard to tell if she knows what's coming.  
+
+Before you lean in, you notice Ms. Tink and Kira have stopped what they're doing and are now watching.  You feel like they know what you're about to do next, but you'd like some privacy, so you make eye contact with each of them, and they go back to what they were doing, pretending they never paused in the first place.
+
+Keeping your hand lifting _tgirl's chin, you bend forward.  In the spirit of edging, giving her a direct kiss seems crass, so you decide you're just going to touch lips and take it from there.  When your mouth meets hers, her head bobs back in confusion.  In that moment when you touched, her lips felt soft and slightly moist because she's been licking them so often.  With a smile on your face, you pause to see what she'll do, but conclude she's not going to make the next move.  Your faces are an inch away from each other.  She must be able to feel your breath, because you can feel hers.
+
+You close the gap, and this time she locks lips with you, moaning into your mouth.  It's so passionate on her end, you don't know why she hesitated at first.  Lowering your chin, you suck on her bottom lip.  It's a little on the thin side and slippery, so it's hard to keep in your mouth. The longer you kiss her, the more she raises her chin.  It's her way of telling you to keep going.  If she wanted you to stop, she'd lower it or pull her head back.
+
+<<linkreplace "Check if she's still hard with your hand." t8n>> While still kissing her, you lower your hand and wrap it around her penis.  She gives you another welcoming moan into your mouth and pushes her face into yours.  The penis is \
+<<if $tiffany_edging_machine>>\
+so small, you can only lay two fingers across it, because your third finger would be on the condom.  But, you're happy to see the thin shaft is hard as a rock.  \
+<</if>>\
+<<if $fifa_edging_machine>>\
+just below average size and thinner than most.  You're happy to see the thin shaft is hard as a rock. \
+<</if>> It's so hot in your hand, if it were her forehead, you'd think she has a fever.  To edge her, you want to resist any extra stimulation, but you find yourself giving it a slow and sensual stroke.  _tgirl moans into your mouth, and you try to suppress it with a deeper kiss.  
+
+When you first touched it, Kira stopped her dusting, but she's now back to it, searching for any skin she can tickle.  Every so often, the machine dusts your knuckles.  It's a nice sensation, but it may not be enough stimulation for you to cum from.  You think, //poor _tgirl//, as you stroke her shaft in the other direction.  It feels like it's throbbing in your hand.  She's getting close.
+
+"Ooh," Kira says, "so much pre-cum."
+
+That snaps you out of it.  When you let go of her penis and focus on kissing, _tgirl sighs in frustration.<</linkreplace>> 
+
+You wrap a hand around the back of _tgirl's head to pull her in deeper, and she tilts her neck to approach at a better angle.  When you stick your tongue into her mouth, she immediately does the same, like she's been waiting for you to do it.  Your tongues twist and turn, sometimes trying to press against each other, but sometimes you just explore each others mouths.  At first, _tgirl's breathing is forceful and short, but then, it seems to stop altogether.  Maybe she's holding her breath.
+
+[[Continue.->TransMilkMachineEdgingKiss3]]
+
+:: TransMilkMachineEdgingKiss3
+<<nobr>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+ <<chardetail "Tiffany" "She had an edged orgasm while you kissed her in the barn.">>
+<</if>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+ <<chardetail "Fifa" "She had an edged orgasm while you kissed her in the barn.">>
+<</if>>
+<</nobr>>\
+_tgirl falls until the restraints hold her in place.  Her tongue retracts into her mouth and her body begins to tremble.  
+
+Below you, Kira says, "Yay, we did it."  
+
+"Keep holding the condom straight out," Ms. Tink says.  "That's good.  Collect everything."
+
+You know she's cumming, but you pull her mouth into yours, insisting that she kisses you throughout the orgasm.  After a few seconds, she begins to kiss you back, but it's sloppy.  With your tongue, you caress the topside of hers, and after a few strokes, she caresses yours back.  Her orgasm seems disorienting, but this kind of kiss requires so little coordination, she's able to pull it off.  
+
+"Keep dusting," Ms. Tink says.  "She earned it."
+
+Kira says, "Sorry," and gets back to work.  A second later, she says, "It's so warm, even through the condom."
+
+"Mm-hmm," the teacher says.  You get a sense she's trying to brush Kira off so _tgirl can enjoy her orgasm.
+
+After a few more seconds, _tgirl slumps, indicating her climax is over.  You pull back, breaking the seal of the kiss, lift the bottom of her blindfold, and smile at her.  When her eyes focus, she blushes and looks away.  "That was fun," you say.  A smile flickers on her face before turning into a frown.  You release the blindfold to give her a sense of privacy, and step back.
+
+Kira and the teacher are still dusting, but their eyes are on you.  Wiping off the corner of your mouth, you say, "What's next?"  
+
+Ms. Tink says, "I think we should leave her in here until class ends.  If she doesn't have a second one by then, we'll finish her off."
+
+"Yeah," Kira says with some excitement.  
+
+"Sounds good," you say.
+
+<<include "TransMilkMachineLinkSnippet">>
+
+:: TransMilkMachineEdgingWatch
+<<nobr>>
+<<if $tiffany_edging_machine>>
+    <<set _tgirl to "Tiffany">>
+<</if>>
+<<if $fifa_edging_machine>>
+    <<set _tgirl to "Fifa">>
+<</if>>
+<</nobr>>\
+For five minutes, you watch _tgirl build her way up to an orgasm.  Every moment of it seems frustrating.  Throughout the time, Ms. Tink has to encourage Kira to keep going and reassure her that _tgirl likes it.  
+
+_tgirl's breathing rate increases the until it stops. For about 10 seconds, she seems to be holding her breath.  Then suddenly, she exhales loudly, groans, and falls, but the restraints hold her upright.  
+
+Below you, Kira says, "Yay, we did it!"  
+
+"Keep holding the condom straight out," Ms. Tink says.  "That's good.  Collect everything."
+
+You take a step forward to get a better work.  The condom's filling, spurt by spurt, with milky liquid.  Both you and Kira are intrigued by it.  The pattern it makes in the condom is almost artistic.
+
+"Keep dusting," Ms. Tink says.  "She earned it."
+
+Kira says, "Sorry," and gets back to work.  A second later, she says, "It's so warm, even through the condom."
+
+"Mm-hmm," the teacher says.  You get a sense she's trying to brush Kira off so _tgirl can enjoy her orgasm without distraction.
+
+After a few more seconds, _tgirl slumps, indicating her climax is over.  After letting her pant a few times to recover her strength, you walk toward her, lift the bottom of her blindfold, and smile at her.  When her eyes focus, she blushes and looks away.  "Did you enjoy that?" you say.  A smile flickers on her face before turning into a frown.  You release the blindfold to give her a sense of privacy, and step back.
+
+Kira and the teacher are still dusting, but their eyes are on you.  You say, "What's next?"  
+
+Ms. Tink says, "I think we should leave her in here until class ends.  If she doesn't have a second one by then, we'll finish her off."
+
+"Yeah," Kira says with some excitement.  
+
+"Sounds good," you say.
+
+<<include "TransMilkMachineLinkSnippet">>
+
+:: TransMilkMachineLucy
+Lucy's machine looks like a gynecologist table with some differences.  One of them being, it can be wheeled around like a desk.  Once in position, Ms. Tink pats on it twice and says, "Hop in.  Don't worry, it won't hurt."
+
+When Lucy gets in her upper body is at a slight downward slope.  Ms. Tink adjusts a pillow by her head until she's comfortable.  The stirrups of the table are further back and higher than a normal gynecologist's table, so when Lucy puts her feet on them her knees are up by her armpits.  
+
+In this position, her anus naturally gapes to the size of a dime.  You stare at it and notice it's twitching, ever so slightly, like it's threatening to close, but it never does.  It just flickers like it's being tickled by the cold air of the room.  You look up, and notice Lucy's watching you watch her. She blushes.  
+
+"Oops," Ms. Tink says, "I almost forgot.  No peeking."  She wheels over a portable curtain and drapes it across Lucy's waist.  Now you can only see her lower body, legs, and crotch.  "I chose a light pink color for these curtains," Ms. Tink says.  "I thought it would be calming."  You're not sure if she's speaking to you or someone else, but she's already off on her next task: Velcro-ing stirrup straps around Lucy's legs so she won't fall out.  She walks to the front of the curtain and fastens Lucy's wrists to the sides of the table.
+
+When Ms. Tink reveals herself again, she holds her chin up high and says, "Alright.  Step one down.  Now what?  Oh yeah."
+
+<span class="options">\
+[[Continue.->TransMilkMachineLucy2]]
+
+<<linkreplace "You change your mind and don't want to go through with this." t8n>><<replace ".options">>\
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineLucy2
+She opens the drawer of her desk and walks toward you with a beaded bracelet and a small tube that looks like modeling glue in her hand.  When she gets close, you realize there's a wire with a control attached to the bracelet.  "What's that?" you ask.
+
+When she flips a switch on the bracelet controls, it buzzes.  She holds it up to you like a tiny donut and says, "It's a little vibrator I crafted.  Actually, each one of these beads is its own vibrator, but I've sewed them together.  And look.  It's stretchy."  She shows you how the wire that runs through the beads is elastic.  "Isn't that neat?  This took a long time to develop.  I didn't want each bead to have its own wire.  It'd get tangled, cause a huge mess, ya know.  I think we could patent this."  You're still trying to figure out what she plans to use it for.
+
+As she holds out the tube, she says, "Anyway.  This- this is a special adhesive Mrs. Curie made for me.  It's nontoxic and safe for skin, but it's very strong.  It probably won't come off without a solvent."  She nods toward her desk and says, "I've got some back there for when we want to take it off."
+
+"Where are you going to put it?" you ask.
+
+"I'll show you," she says with a smile, then she walks over to Lucy's bottom, pinches the cheeks open, and frames her anus with the beads.  "Hmm, this'll probably work," she says.  The anus clenches shut from Ms. Tink's touch, but that doesn't seem to matter to her.  "Kira, come here would you?  Be a doll and help me with this glue."  The two of them dab a bead with a drop of adhesive, hold it to the anus, and wait for it to dry before moving on to the next one.  You're impressed with Lucy's tolerance.  When they're done, it looks like her anus is wearing a decorative picture frame that exhibits her gape.  
+
+"Perfect," Ms. Tink says as she takes a step back.  She grins and says, "I have a feeling Ms. Monet would love to sketch this."  She switches on the controls and the beads start to vibrate.  Lucy moans once and clenches, making the beads clink together and changing the noise of their vibration.  But, after the initial sensation, she seems to get used to it.  That said, her anus often contracts all the way now.  It wasn't doing that before.
+
+The teacher has a smug look on her face as she walks back to her desk and pulls out three cylindrical vibrating eggs.  She looks at you and says, "I'm going to place one below her balls, one above her balls, and one on the thingy.  Good?"
+
+<span class="options">\
+[[You nod your head.->TransMilkMachineLucy3]]
+
+<<linkreplace "You change your mind and don't want to go through with this." t8n>><<replace ".options">>\
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineLucy3
+The places Ms. Tink glues these eggs on is intentional.  First, she lifts the loose sack and glues it underneath.  When she releases the scrotum, it folds over the egg.  When she turns it on, Lucy groans and her penis flaps up once.  You think the testicles are resting directly on the egg.  Ms. Tink puts the next egg on top of the sack to vibrate the testicles from above.
+
+"Mmm, wonderful," Ms. Tink says as she gives the sack a gentle squish.  "Now I'm going to turn these two vibrators on their lowest setting.  I know how sensitive those little balls are, and I want it to feel good, not bad."
+
+As she's about to glue the last vibrator, she pauses, looks back at you and smiles.  "Look," she says, holding up the penis.  "Pre-cum already.  This is going to be easy."  You're not sure when she got hard, because you recall her being soft a few seconds ago.  Ms. Tink glues the last vibrator underneath the penis head. At that location, it'll continuously stimulate the most sensitive part of the organ.
+
+Ms. Tink takes a step back and says, "Now, for this next part, I had an idea, but I'm not sure if you'd be cool with it.  If you're not, she'll probably cum on her own like this, so it's no big deal."  She rubs the back of her neck and isn't making direct eye contact.
+
+"What is it?" you ask.
+
+"Well, I'd like something to go through that beaded bracelet.  And... well... I was hoping that that something could be... you?"
+
+"Wait.  Just want to make sure we're talking about the same thing.  You want me to have anal sex with her?"
+
+Ms. Tink looks away, then says, "Well, only if you want.  Like I said, she'll probably cum on her own.  Just thought it would be more fun this way." <<crotch vagina>>
+
+Looking down at your crotch, you ask, "How would I even do that?"
+
+"Oh, I've got plenty of strapons you could use.  That's not an issue."<</crotch>>
+
+[[Have anal sex with Lucy.->TransMilkMachineLucyAnal]]
+
+[[Just watch and wait for her to cum on her own.->TransMilkMachineLucyWatch]]
+\ <<chardetail "Lucy" "She was put in a gynecologist chair and had vibrators glued to her while she visited the barn.">>
+
+:: TransMilkMachineLucyAnal
+<<if $fp_enema>>\
+"Sure," you say with a shrug.  "That sounds like fun."
+
+"Awesome!  I was hoping you'd say that.  But, um, well there's another thing.  Ya know, we could make it more dirty."
+
+"How so?" you ask.
+
+"I was thinking we could fill her up with an enema full of lube before you start.  And, ya know... make her hold it in while you do it.  I completely understand if you don't want to.  It could get pretty messy."
+
+[[That sounds like fun. Give her an enema beforehand.|TransMilkMachineLucyAnalEnema][$lucy_anal_enema to true]]
+
+[[No thank you.|TransMilkMachineLucyAnal2][$lucy_anal_enema to false]]
+<<else>>\
+    <<set $lucy_anal_enema to false>>\
+    <<include "TransMilkMachineLucyAnal2">>\
+<</if>>
+
+:: TransMilkMachineLucyAnalEnema
+"Great!" Ms. Tink says.  "Hold on a sec."  She runs off and comes back with a large pail full of lubrication and a plastic enema syringe.  After filling the syringe with lube, she points it at Lucy's bottom, and begins to slide it in.  Lucy's caught unaware, and her sphincter contracts, making all the vibrating beads click against the tip of the syringe.  
+
+"What is that, Ma'am?" she asks from behind the curtain.
+
+While still holding the syringe in place, Ms. Tink peers behind the curtain and says, "Oh, nothing. If you could relax, it'll be over in no time.  I promise it won't hurt.  Perfect."  Once Ms. Tink slips the tip of the syringe in, she presses the plunger and makes a wooshing sound with her mouth while the liquid floods in.
+
+Lucy tightens her bottom and lifts her hips.  Again, she asks, "What is that, Ma'am?" 
+
+"Just a little enema.  Nothing to be worried about."  Those words don't seem to calm Lucy, but after a few seconds, her muscles relax and Ms. Tink pushes in the rest of the lube.  "There we go.  How about one more for good measure?"  She sucks up another syringe full and injects it into Lucy's anus.  This time, the liquid goes in slower, and Lucy groans half way through.  "Almost... there!  OK, dear, try to hold that in for as long as possible, will you?"
+
+As soon as Ms. Tink removes the syringe, a thin stream of clear lube squirts out of Lucy like she's sprung a leak.  Fortunately, Ms. Tink's quick to act.  She blocks the flow with her thumb and says, "Kira?  Could you help me out?  Put your thumb right where mine is."  A little lube dribbles from Lucy's hole as they switch places, indicating how full she is.  
+
+[[Continue.|TransMilkMachineLucyAnal2]]
+
+:: TransMilkMachineLucyAnal2
+<<if $lucy_anal_enema>>\
+\ <<chardetail "Lucy" "You had sex with her after Ms. Tink filled her with a lube enema in the barn.">>
+\ <<chardetail "Ms. Tink" "You had sex with Lucy after Ms. Tink filled her with a lube enema in the barn.">>
+<<else>>\
+\ <<chardetail "Lucy" "You had sex with her in the barn.">>
+<</if>>\
+After clearing her throat, Ms. Tink says, "If you could, um, take off your slacks? <<if $lucy_anal_enema>>Wouldn't want to get those dirty.<</if>>"
+
+You look side to side and say, "Oh, of course," and shimmy them off.  
+
+"Your, um, underwear, too?" You feel a little vulnerable after you've slid off your underwear, but try not to show it. <<noPenis>>Ms. Tink hands you a black strapon.  When you put it on, you feel less nude.  The tip of the strapon is bulbous like a real penis head.<</noPenis>> "OK," Ms. Tink says, "whenever you're ready."
+
+As you walk forward, you can't help but focus on Lucy's crotch.  The way the curtain blocks most of her body, it's like you're approaching a sex toy, not a person.  But you imagine, once you get started, you'll hear her moan on the other side.  Once you're at an angle where you can see it, you note her penis is hard and there's a line of pre-cum on her belly.
+
+"Oh, I almost forgot."  Ms. Tink interrupts you mid stride.  "Here."  She squirts some lube onto your palms, and you rub it all over your <<hasPenis>>shaft<<otherwise>>strapon<</hasPenis>><<if not $lucy_anal_enema>> while rubbing a healthy dose on Lucy's anus<</if>>.
+
+You restart your approach.  \
+<<if $lucy_anal_enema>>\
+When <<hasPenis>>your tip<<otherwise>>the tip of the strapon<</hasPenis>> is near Lucy's anus, Kira moves her thumb out of the way.  Lube sprays out of Lucy's hole in a powerful stream, landing on your thigh.  The sudden burst of wet warmth takes you by surprise, but you react fast, and plug the hole with the tip of your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>>.  Unfortunately, this causes lube to spray everywhere, like placing your thumb on a hose, until you push half <<hasPenis>>your<<otherwise>>the<</hasPenis>> head in to block the flow.\
+<<else>>\
+Gently, you slide the tip of <<hasPenis>>your penis<<otherwise>>the strapon<</hasPenis>> into her hole.  She's experienced enough to relax in this situation.  You watch her anus expand like it's welcoming you.\
+<</if>>
+
+The ring of beads surrounds the tip of your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>>, and you can feel their vibrations<<noPenis>> running up the silicone shaft, creating a tingling sensation at your crotch<</noPenis>>.  It's like Ms. Tink has turned Lucy's anus into a flesh light.  When you penetrate deeper, it'll feel great.  
+
+Slowly, you make your descent.  When you're an inch deep, <<hasPenis>>your penis moves her velvet folds out of the way to make room.  There's no resistance as you pass by. <</hasPenis>> Lucy figures out someone (as opposed to something) is going into her<<noPenis>> probably from the placement of your hands on the back of her thighs<</noPenis>>.
+
+"Ma'am?" she asks.
+
+Ms. Tink goes in front of the curtain, you hear them whisper, then Ms. Tink says, "That's right.  Good guess, but just try to relax."  When Ms. Tink comes back, she has a smile on her face and assures you everything's fine.  You slide in deeper, and Lucy groans.  Once you get past two inches, the rest of you slides in with ease and your hips touch her bottom.  <<hasPenis>>Lucy greets your length by squeezing for the first time.  You feel all those wonderful folds brush and squirm against your shaft at every angle, and the vibrating beads massage your base.<<otherwise>>Lucy squeezes for the first time, and you feel those beads move along the front plate of your strapon.  As you expected, the tingling sensation is much stronger at this depth.<</hasPenis>>
+
+"Mmm, that's nice," Ms. Tink says as she massages Lucy's thigh.  She squints, then lifts up Lucy's penis.  "Look how much she likes that."  A clear string of pre-cum is attached from her tip to her tummy.  Kira's on the other side of Lucy's legs, and Ms. Tink looks across at her and says, "Would you like to stroke it some?"
+
+She takes a moment to think, licks her lip, and says, "Sure."  The teacher and student pass the penis between their hands like it's very delicate, and Kira begins to pet the underside with the ends of her fingers, like she's stroking a small rodent.  Lucy's penis is average size but larger than average girth.  Because she's on the chubby side, it makes the penis look stubby.  As soon as Ms. Tink gives up the penis, she changes her mind, and tries to find some skin she can stroke with her thumb.  On the other side of the curtain, Lucy moans<<hasPenis>> and you feel her clench down<</hasPenis>>.  <<if $lucy_anal_enema>>Some lube sprays on you and dribbles down your thigh.<</if>>
+
+Ms. Tink points out that Lucy's scrotum has become tight and wrinkled like a package of hot dogs.  Since Lucy's penis is taken up by Kira's hand, Ms. Tink decides to play with the balls instead, running her index finger up and down a distinct seam that divides the scrotum into a left and right half.  
+
+[[Continue.->TransMilkMachineLucyAnal3]]
+\ <<chardetail "Kira" "She helped Lucy cum when she had vibrators glued to her in barn.">>
+\ <<chardetail "Ms. Tink" "She helped Lucy cum when she had vibrators glued to her in barn.">>
+
+:: TransMilkMachineLucyAnal3
+For some reason, you get a sense this has become competitive, like the three of you are trying to see who can give Lucy the most pleasure.  You begin to pick up speed and are happy to see Lucy can easily take it.  Each time you slide into her you pause, and the two of you come to some unspoken agreement where she promises to squeeze your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>> once you run into her bottom.  <<if $lucy_anal_enema>>Each time you back up, she releases a dribble of enema down your thigh, but your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>> plugs the leak as soon as its sprung.  Although Lucy is uncomfortable with the liquid pressure in her gut, the three of you seem to be overruling that distress with pleasure, and Lucy can't help but moan.<</if>>
+
+The beads around your base start to feel amazing.  Each time you touch your hips to Lucy, you wiggle your hips to feel them vibrate against you.  Kira seems like she's in her own little world.  She holds the penis straight up and plays with some of the stringy pre-cum at the tip.  You have a sudden urge to produce more for Kira's enjoyment and start thrusting hard, breaking the unspoken agreement you had with Lucy.  
+
+When you pick up speed, Lucy moans on the other side of the curtain, and both Kira and Ms. Tink smile at you, like they're egging you on, daring you to go faster.  Since there's space on the shaft now, Ms. Tink keeps one hand gently squishing the balls, and uses her fingertip to trace lines up and down the underside of Lucy's penis.  <<if $lucy_anal_enema>>On each push, you feel a spray of enema hit your thigh.  You try to prevent her from releasing too much at once. <</if>>  Pre-cum seeps out of the penis in a steady flow.
+
+Just as Kira goes back to petting the penis, it spurts a string of cum into the air.  This catches Kira by surprise, and she jerks her neck back. "Oh!"  She doesn't take her hand off the shaft.  Ms. Tink trades places with Kira and strokes on her behalf.  Like a volcano, more spurts of sperm fling into the air.  Some of drops land on Lucy's tummy, her thighs, her balls, and some even gets the curtains.  Kira tries to make a game of it by trying to catch a glob in her palm, but she doesn't succeed. <<if $lucy_anal_enema>>On each ejaculation, you feel a gush of lube land on your thighs.  There's no way to contain it, because she's spraying on all sides of your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>>, no matter how hard you pump.<</if>> <<hasPenis>>Each contraction of her anus feels like a miniature massage.  They happen at random moments, so the beads clench against different parts of your shaft.<</hasPenis>> 
+
+Lucy's orgasm ends while you're still thrusting and Ms. Tink and Kira's hands are still stroking.  Kira's the first to speak.  "That shot really high up.  How's it work?  The higher it goes, the better it feels?"
+
+"Not necessarily, but I could tell that one felt really good," Ms. Tink says with a wink.  Turning to you, she says, "What do you say?  Want to keep going or stop here?"
+
+<span class="options">\
+[[Continue.->TransMilkMachineLucyAnal4]]
+
+<<linkreplace "You want to stop here." t8n>><<replace ".options">>\
+You didn't orgasm, but you enjoyed making Lucy orgasm.  The three of you stop but leave Lucy there until the end of class.  She'll probably have more orgasms while she's unattended.
+
+<<include "TransMilkMachineLinkSnippet">>
+<</replace>><</linkreplace>>\
+</span>
+
+:: TransMilkMachineLucyAnal4
+<<if $lucy_anal_enema>>Before you continue, Ms. Tink has you take a step back, and she loads Lucy with two more syringe fulls of lube.  Seeing as she hadn't even expelled half of what was already in there, you imagine Lucy feels like she's about to burst.  But, Ms. Tink seems to be less concerned with Lucy's orgasm this time.  You slide your <<hasPenis>>penis<<otherwise>>strapon<</hasPenis>> back in and start thrusting.  On each thrust, the enema gushes out of her like it did during her orgasm, but Lucy groans instead of moans.
+
+<</if>>\
+"Kira," Ms. Tink says, "why don't you go behind the curtain and tend to Lucy's needs?"
+
+Kira raises an eyebrow.  "How should I do that?"
+
+With a scoff, Ms. Tink says, "I dunno.  Make out with her?<<if $lucy_anal_enema>> Rub her belly?<</if>>"
+
+"Oh... OK, sure."
+
+When Kira's on the other side of the curtain, you hear some back and forth murmuring, then some kissing noises.  "That's better," Ms. Tink says, looking at the penis.  Her eyes say, //now I have you all to myself.//  She grabs Lucy's shaft and gives it a hand job, never going above or below the vibrating eggs with her hand.  "Ya know," she says, looking at you.  "I wanted to collect her sperm, but I forgot until it was too late."
+
+All this movement is making you exhausted, and you want to concentrate on the task at hand.  Ms. Tink reads your expression and stops trying to make conversation with you.  A few minutes pass.  During that time, the main thing you hear is Kira and Lucy making out<<if $lucy_anal_enema>> and occasional groans as Kira presses down on her belly, causing a high pressure spray to hit your legs<</if>>.
+
+"Her balls are getting tight," Ms. Tink says.  "I think she's going to cum again."
+
+You nod in agreement and keep pumping.  <<hasPenis>>Her folds seems looser than before and it's easier for you to slide back and forth, but this causes less friction and makes it harder to cum.<</hasPenis>>  Those beads feel nice.  Sometimes they'll coerce a little shiver out of you. <<crotch both vagina>>Your vagina feels wet<<if $lucy_anal_enema>>, but it's difficult to tell if they're your juices or Lucy's enema<</if>>.<</crotch>>
+
+Ms. Tink holds the penis up, looks back at the curtain to see that Kira's distracted, and whispers to you, "I know it's unprofessional, but... would it be OK if I, uh, put my lips on it?"
+
+"Of course," you say with a nod.  "You don't have to worry about that stuff at this school, you know."
+
+Ms. Tink presses her lips to the side of the shaft, gives it a little smooch, then sighs as if the act relaxed her.  "That's nice," she says.  She finds another spot to kiss and Lucy moans from it.  Ms. Tink and Kira hadn't cleaned up Lucy's penis after her first orgasm, and there's still sperm everywhere.  On the third kiss, whether on purpose or accidental, you're not sure, the corner of Ms. Tink's mouth presses against a dripping glob of semen.  Coincidentally, this kiss makes Lucy contract hard.  <<hasPenis>>You moan as her softness caresses your shaft, pushing you past the point of no return.<</hasPenis>>
+
+Lucy's penis starts to throb, and Ms. Tink says, "Oh no.  I didn't think that would be enough to-"  You hear groans on the other side of the curtain, but Kira does a great job of smothering them with her own mouth.  Lucy bucks her hips twice, then a weak fountain of sperm shoots out of her.  This time, the spurts don't go much higher than three inches.  <<if $lucy_anal_enema>>Lube gushes on your thighs like it's coming out of her from a fire hose.<</if>>  
+
+<<hasPenis>> Her contractions are so tight, like they're trying to wring your penis.  You can't take it anymore and you start to cum inside her.  A series of thoughts run through your mind:  The beads, Ms. Tink's kisses on Lucy's penis, and knowing that Kira's making out with Lucy on the other side of that curtain.  Each time you spurt, your penis expands, and Lucy's anus contracts more, like it's trying to take up all the space it can get.  Sometimes, it feels like it's trying to expel you, other times, it feels like it's sucking you in.  The folds graze and scrub your penis, like they have a life of their own and they intend to make you feel good.  <<otherwise>>Her contractions are so tight it clenches on your strapon, and you have to stop pumping or you risk hurting her.  The beads directly touch the strapons shaft, sending powerful vibrations up your crotch.  <</hasPenis>><<if $lucy_anal_enema>> On each squeeze, lube flows past your <<hasPenis>>penis and sprays your balls.<<otherwise>>strapon and sprays your thighs.<</hasPenis>><</if>>
+
+When it's over, you bow your head and sigh.  <<noPenis>>Although you couldn't cum from it, it felt amazing.  If you don't have an orgasm sometime today, you're bound to have one in your dreams.  <</noPenis>>  Slowly, you slide out of Lucy.  <<if $lucy_anal_enema>>When you're out all the way, lube spurts out of Lucy's hole, like someone opened a wine bottle and tipped it over.  The amount that's still in her is impressive.  You hear a muffled groan on the other side of the curtain, and the pressure from the liquid increases.  Kira must be pushing down to help get it all out.  There's a huge splattered mess all over the machine and dirt.  <</if>>  You feel hazy, like you might need to rest.  "That was good," you say.  With droopy eyes, you say it again.
+
+[[Continue.->TransMilkMachineLucyAnal5]]
+
+:: TransMilkMachineLucyAnal5
+
+Ms. Tink comes over and says, "You liked that, huh?  Kira, you can come back now."  You hear the seal of Kira and Lucy's kiss break, and when you see Kira again, she's all smiles.
+
+"Did she finish?" Kira asks.
+
+"For sure," Ms. Tink says with a grin.  "It was lovely."  You notice Ms. Tink doesn't have any sperm on her face.  She must have stopped kissing when Lucy came, or maybe she's really good at wiping it off.  "Well, I say we leave her in here until class ends, then we'll take her out.  Maybe she'll give us one last surprise on her own."
+
+You nod, thinking that's a good idea.
+
+<<include "TransMilkMachineLinkSnippet">>
+
+:: TransMilkMachineLucyWatch
+"Fair enough," Ms. Tink says with a sigh.  "I was kinda hoping you'd want to join in, though.  Uh... would it be alright if Kira and I helped Lucy?"  
+
+"Sure," you say.  "Why not?"
+
+Ms. Tink calls Kira over, and they squat on either side of Lucy's legs, facing her penis.    "Isn't she nice?" Ms. Tink asks as she massages Lucy's thigh.  She squints, then lifts up Lucy's penis.  "Look how much she likes the vibrators."  A clear string of pre-cum is attached from her tip to her tummy.  Ms. Tink looks across Lucy's legs at Kira and says, "Would you like to stroke it some?"
+
+Kira takes a moment to think, licks her lip, and says, "Sure."  The teacher and student pass the penis between their hands like it's very delicate, and Kira begins to pet the underside with the ends of her fingers, like she's stroking a small rodent.  The penis is average size but larger than average girth.  Because she's on the chubby side, it makes the penis look stubby.  As soon as Ms. Tink gives up the penis, she changes her mind, and tries to find some skin she can stroke with her thumb.  On the other side of the curtain, Lucy moans and you see her clench through the vibrating beads.
+
+Ms. Tink points out that Lucy's scrotum has become tight and wrinkled.  Since Lucy's penis is taken up by Kira's hand, Ms. Tink decides to play with the balls instead, running her index finger up and down a distinct seam the divides the scrotum into a left and right half.  
+
+For some reason, you get a sense this has become competitive, like the two of them are trying to see who can give Lucy the most pleasure.  Ms. Tink has a disadvantage, since she's only touching the balls, but she gets creative by tickling the taint and dipping her finger into the anus, too.  Lucy's gape opens up to welcome the finger inside, and Ms. Tink swirls her finger, brushing against the rim of the hole.
+
+Without speaking, Ms. Tink stands up, runs back to her desk, and comes back with three more vibrating eggs.  She turns each one on, and one by one, slides them into Lucy's rectum.  You can still see the back of the last one poking out of her, and whenever Lucy clenches, you hear the vibrators clicking together inside her body.
+
+By the time Ms. Tink starts to massage Lucy's scrotum, Kira seems like she's in her own little world.  She holds the penis straight up and plays with some of the stringy pre-cum at the tip.  Since there's space on the shaft now, Ms. Tink keeps one hand gently squishing the balls, and uses her fingertip to trace lines up and down the underside of Lucy's penis.  She never drags her finger on the same spot twice, but she goes slow enough for Lucy to enjoy it.  Pre-cum seeps out of the penis in a steady flow.
+
+Just as Kira goes back to petting the penis, it spurts a string of cum into the air.  This catches Kira by surprise, and she jerks her neck back and says, "Oh!"  She doesn't take her hand off the shaft.  Ms. Tink trades places with Kira and strokes on her behalf.  Like a volcano, more spurts of sperm fling into the air.  Some drops land on Lucy's tummy, her thighs, her balls, and some even gets the curtains.  Kira tries to make a game of it by trying to catch a glob in her palm, but she doesn't succeed. 
+
+On each spurt, Lucy's anus contracts, and the wires leading to the eggs in her rectum slide up into her like three little snakes playing Red Light/Green Light.  Each time the movement pauses, you hear the eggs buzzing over Lucy's moans.  They must be on the highest setting.  
+
+When Lucy's orgasm ends, Kira's the first to speak.  "That shot really high up.  How's it work?  The higher it goes, the better it feels?"
+
+"Not necessarily, but I could tell that one felt really good," Ms. Tink says with a wink.  For her own amusement, she continues to stroke the exhausted penis some more, exploring what it likes.  The buzzing eggs attached to her crotch are relentless and seem to be causing some discomfort now.  Lucy begins to shrink, but Ms. Tink skilled hands bring the penis back to life.  "Ah, there we go," she says as she stands up.  "I think we should leave her here until the end of class.  Ya know, see if she leaves us any surprises."  When Ms. Tink drops the penis, Kira's right there to pick it up.  
+
+<<include "TransMilkMachineLinkSnippet">>
+\ <<chardetail "Kira" "She helped Lucy cum when she had vibrators glued to her in barn.">>
+\ <<chardetail "Ms. Tink" "She helped Lucy cum when she had vibrators glued to her in barn.">>

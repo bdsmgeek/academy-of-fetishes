@@ -1,0 +1,69 @@
+:: UnlockEngineering
+<<set $week to 4>>The week ends and AB really appreciates all the stories.  But, they feel you can be a little more creative if you had the tools to do so.  That's why AB decides to give the school the generous donation of an engineering class and even finds a teacher for you so you don't have to interview for the position.  Her name is Ms. Tink and her first class will be starting first thing next week.
+
+[[Continue->Engineering]]
+
+
+:: Engineering
+You walk into the new engineering class and notice how busy it is.  There are men in beige jumpsuits with dollies moving heavy engineering equipment inside and placing them wherever a woman in an orange jumpsuit points.  She has a petite build and long hair tied up into a bun.  The small pencil behind her ear and grease stains on her orange jumpsuit make you think she may be an engineer.  You walk up to her and ask, "Are you Ms. Tink?  Who are these men?"
+
+She smiles and extends her hand to shake, "Pleased to meet you."  Her firm hands indicate she could easily crush yours, but she's kind enough to hold back.  "Oh, these are the Anonymous Benefactor's men.  I understand that this is an all-girls school so don't worry, they'll be out of your hair as soon as possible.  We always use them to set up a new lab."
+
+You raise an eyebrow.  "You've met the Anonymous Benefactor?"
+
+"Well, not exactly.  But we have worked together before.  He pays handsomely but the payments are always anonymous."
+
+It's difficult to move past an opportunity to learn more about AB.  "So AB is a 'he' then?"
+
+"Well... now that you mention it.  I suppose I've always just assumed so.  I mean, I've never really met a woman who is as perverse as he is.  Doesn't it stand to reason?  Anyway, let's not dwell on that.  There's more important matters to discuss.  Like, what do you want us to build first?"  Although she brushed you off, you get the sense she doesn't know anything else about AB.
+
+You look to one of the men then back to her.  "By us, do you mean you and them?"
+
+She chuckles, "Oh no, I mean the students and I.  Like I said, the men will be leaving shortly.  And I wouldn't have it any other way.  There's something thrilling about having a person create a device and making them wonder the whole time if they will become the user of it, don't you think?"  She stares off into the distance and loses herself in thought.  With a grin, she returns to the conversation, "So, what would you like me to build?"
+
+[[Continue->Engineering2]]<<charadd "Ms. Tink">>
+
+
+:: Engineering2
+Ms. Tink beckons you over to pick one of her plans. Her desk has many rolled up blueprints.  She picks one out and says, "You don't have to pick just one. Honestly, you don't have to pick any.  Just let me know!"
+
+<<if $has_futa_students>>\
+"I was told you have an art class," she says as she unrolls a blueprint.  "Well, these sturdy, metal easels would be perfect for that!"  It doesn't look like any easel you've ever seen before.  Essentially, it's a metal rectangular frame with long legs attached to it.  She continues, "They have loops along the inside and outside of the frame and more loops on the legs.  These can be used to tie or handcuff someone to the device in all sorts of ways.  You can really get creative with it.  The heavy tripod ensures that it can hold any student's weight and, no matter how hard they struggle, it won't bend or tip over."
+
+Should she build sturdy, metal easels: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_metal_easels" true checked>> Yes</label>\
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_metal_easels" false>> No</label>
+
+<</if>>\
+She says, "I'm very proud of this one.  It's made of spandex headgear that completely covers the eyes and has sound proofing at the ears that will dampen almost all external noise.  It folds over the wearer's head and has two metal loops at the back of the neck.  If you put a lock through both loops, it cannot be taken off.  A leather leash can be attached to the back loop or another loop on the front of the neck.  There is a nose hole and mouth hole so the wearer can speak.  They will not be mute,  but you can always put in a gag if you prefer them to be."
+
+Should she build sensory deprivation headgear: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_sensory_deprivation" true checked>> Yes</label>\
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_sensory_deprivation" false>> No</label>
+
+[[Continue.->EngineeringDeviceUnlocked]]
+
+
+:: EngineeringDeviceUnlocked
+<<if $has_sensory_deprivation or $has_metal_easels>>\
+"Hmm."  She nods as she touches her index finger to her lips.  "Excellent choice.  This isn't my first rodeo.  I'll get started immediately and have something before the middle of the week.  They'll be delivered before you know it."
+
+With she shakes your hand with both of hers.  "I can tell this is going to be a great collaboration.  I'm used to the principals of the schools being a little concerned when I describe the devices but you didn't even hesitate.  If inspiration strikes and I come up with something unique, would you want to hear about it?"
+
+"Of course," you reply.  "I'm always encouraging my teachers to be as creative as possible."
+
+Her face lights up and she shakes your hand harder.  "That's great!  No wonder the Anonymous Benefactor transferred me here.  He must of seen how my talents were being wasted at Palimo University."
+
+When she releases, you pat her on the shoulder and welcome her to the school.  "Unfortunately," you say, "I really must be going now to check on the other classes."
+
+She nods, runs back to her desk, and starts sketching on a piece of paper as if you've already left.
+
+<<if $has_sensory_deprivation>>[[Wait for class to start.->SD]]<<else>>[[Office->Office]]<</if>>\
+<<else>>\
+"Oh," she says, "you don't want me to build anything?"  She looks down and frowns for moment then looks up and says, "That's ok.  I'll still do a great job teaching these kids about engineering.  They'll be experts in no time."
+
+You thank her and leave.  On your way out you notice she's still standing there a little disappointed with your choice.
+
+[[Office]]\
+<</if>>
+

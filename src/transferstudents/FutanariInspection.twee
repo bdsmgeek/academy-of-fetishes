@@ -1,0 +1,836 @@
+:: FutanariInspection
+<<set $finished_futanari_inspection to true>>You show up to Ms. Darwin's class early and she's waiting there for you patiently.  "So, what's the plan for today?"
+
+"As you know Saint Mary is an all female school but there are some loopholes to that rule.  Your class today will be visited by some transfer students who are a little special.  They are completely feminine except for one part of their body: They have a penis."
+
+"Oh, transsexual students?" Ms. Darwin asked.
+
+"Exactly!  This is a rare treat.  As an all female school, a lot of our students have never seen a penis in real life.  There are probably some who have never even seen pictures.  I don't know how long the trans students will be here so we should seize this opportunity to study them.  As I said, this is a rare educational opportunity."
+
+"I have a feeling you want the students to focus on a specific body part."  You smile at Ms. Darwin.  She sighs, "OK what did you have in mind?"
+
+You say, "I figure we could come up with some sort of survey that your students would have to give to the trans girls.  Your students will break into groups and each group will give a survey to a trans girl.  What do you say we draft it now?"
+
+[[Continue->FutanariInspectionSurvey]]<<nobr>>
+<<run $cameraPassagePool.push("LunaAutoFellatio")>>
+<<chardetail "Ms. Darwin" "She ran a class where she gave a lewd survey to groups of students to test the trans girl's sexual response.">> 
+<</nobr>>
+
+
+:: FutanariInspectionSurvey
+(What you read will be on the survey.  Click on a link to remove a question from the survey.)
+
+<<nobr>><<if $futa_inspection_check_minimum_sensitivity>>
+[["How sensitive is your trans girl?  What is the minimal amount of contact you can use to get her hard?"|FutanariInspectionSurvey][$futa_inspection_check_minimum_sensitivity to false]]
+<<else>>
+[["Do not check minimum sensitivity"|FutanariInspectionSurvey][$futa_inspection_check_minimum_sensitivity to true]]
+<</if>><</nobr>>
+
+<<nobr>><<if $futa_inspection_scrotum_sensitivity>>
+[["Inspect your trans girl's scrotum.  Can you get her hard with scrotum stimulation alone?"|FutanariInspectionSurvey][$futa_inspection_scrotum_sensitivity to false]]
+<<else>>
+[["Do not check scrotum sensitivity"|FutanariInspectionSurvey][$futa_inspection_scrotum_sensitivity to true]]
+<</if>><</nobr>>
+
+<<nobr>><<if $futa_inspection_anus_sensitivity>>
+[["Inspect your trans girl's anus.  Can you get her hard with anus stimulation alone?"|FutanariInspectionSurvey][$futa_inspection_anus_sensitivity to false]]
+<<else>>
+[["Do not check anus sensitivity"|FutanariInspectionSurvey][$futa_inspection_anus_sensitivity to true]]
+<</if>><</nobr>>
+
+<<if $fp_puffy_anus>>\
+<<nobr>>
+	<<if $futa_inspection_anus_all_senses>>
+		[["Use all of your senses to inspect your tran girl's anus.  Record and report all of your findings.  Warning: Some anuses may smell.  Others may be overused and have a slight rosebutt.  One of the human senses is sound, do you really want to..?"|FutanariInspectionSurvey][$futa_inspection_anus_all_senses to false]]
+	<<else>>
+		[["Do not inspect anus with all senses"|FutanariInspectionSurvey][$futa_inspection_anus_all_senses to true]]
+	<</if>>
+<</nobr>>
+
+<<else>>\
+	<<set $futa_inspection_anus_all_senses to false>>
+	
+<</if>>\
+<<nobr>>Choose how to end the class (currently selected is
+<<if $futa_inspection_blue_balls>>"Maximum pre-cum extraction"<<else>>"Maximum ruined orgasms"<</if>>):
+
+	<<set _blue_balls_text to "Use the rest of the time of the class to collect as much pre-cum as you can.  How does your trans girl react to prolonged periods of stimulation without an orgasm?  Does she complain about pain in her lower abdomen (AKA \"blue balls\")?  Does she accept her fate or ask for release?  You will be punished if your girl has an orgasm or if you stop stimulating her.">>
+
+	<<set _ruined_text to "Use the rest of the time in the class to give your trans girl as many ruined orgasms as you can.  To give a ruined orgasm you must stimulate your girl to a point where they will orgasm but stop all physical contact before they do.  Record how your girl ejaculates.  How does she react to unsatisfying orgasms?  Does she request a normal orgasm or does she request you to stop all stimulation?  You will be punished if your girl has a regular orgasm or if she has less than 3 orgasms.">>
+
+<</nobr>>\
+
+* <<if $futa_inspection_blue_balls>>_blue_balls_text<<else>>[["" + _blue_balls_text|FutanariInspectionSurvey][$futa_inspection_blue_balls to true, $futa_inspection_ruined_orgasms to false]]<</if>>
+* <<if $futa_inspection_ruined_orgasms>>_ruined_text<<else>>[["" + _ruined_text|FutanariInspectionSurvey][$futa_inspection_blue_balls to false, $futa_inspection_ruined_orgasms to true]]<</if>>
+
+[[This survey looks good->FutanariInspection2]]
+
+
+:: FutanariInspection2
+Ms. Darwin says, "These transfer students... what makes you so sure that they will allow this survey to be taken?"
+
+"They are transferring from a different school that is much more rough than ours.  I'm sad to say that at their school, they are treated as second class citizens for being different.  Being at the bottom rung of their social ladder has made them extremely submissive.  I've been told that most of them are desperate for any sort of affection.  Besides, if any of them were to refuse we'd threaten them with punishment the same way we threaten our own students.  But, I don't think it will come to that."
+
+[[Continue->FutanariInspectionNames]]
+
+
+:: FutanariInspectionNames
+When class starts Ms. Darwin says, "Welcome class.  You may have noticed we have some extra students in our classroom today.  These are the new transfer students I'm sure you've all heard about.  Why don't the five of you come up here and introduce yourselves?"
+
+The five students jump out of their desks and line up shoulder to shoulder to face the class.
+
+"Why don't you start, dear?  Tell us your name."  Ms. Darwin is referring to a curvy, brunette Caucasian woman.  "Umm, my name is Lucy.  I came from Saint Joseph's school.  It's nice to meet you all."
+
+"Nice to meet you, too." Ms. Darwin says.
+
+Next up is a very tall, muscular African American student.  "My name is Luna.  I'm also from Saint Joseph's school."
+
+Ms. Darwin says, "Very good.  We know you're all from the same school.  No need to say which school you're from."  Luna blushes and says sorry.  "That's alright.  Moving on, what's your name?"
+
+An extremely petite, pale Asian girl says her name is Tiffany.
+
+Next to her is Bailey.  She's a Caucasian woman with jet black hair and bangs that contrast her pale skin.
+
+The last transfer student is Fifa. She is Asian and small like Tiffany, but not as petite.  Her nice, bronze colored skin and almond shaped eyes make you think she's Filipina.
+
+[[Continue->FutanariInspection4]]<<charadd "Lucy">><<charadd "Luna">><<charadd "Tiffany">><<charadd "Bailey">><<charadd "Fifa">>
+
+
+:: FutanariInspection4
+You tell Ms. Darwin that she should pass out the survey.
+
+Ms. Darwin says, "Yes, Principal $name.  I'll do that momentarily."  She turns to the transfer students and says,  "Thank you for those introductions.  If you don't mind, please stay standing here.  OK class, today we have a little survey planned."  She passes it out to the students who have just introduced themselves.  "It's your job," she points at the students who are seated, "to give the survey to the new transfer students.  Before I hand the survey out to the seated students, I want to make sure the transfer students understand.  Do you have any questions?"
+
+You look at the transfer student's expressions as they read over the survey they're about to take.  A few of them blush while reading it.  "No, ma'am," one of them whispers, "no questions."  Another transfer student says the same but her voice cracks a bit.  Many start twiddling their fingers or fidgeting with their skirts.
+
+"OK great.  Before I pass this survey out to the rest of you, I think I need to show you something or else the survey may be a little confusing.  Tiffany, was it?" Ms. Darwin asks the petite, pale young Asian.  "Would you mind disrobing for me?"
+
+She quickly nods her head and scrambles to take her top off.  Everyone is amazed at how quickly she reacts to the request.  She never breaks eye contact with Ms. Darwin the whole time.  When she takes her top and bra off, you can see that Tiffany is almost flat chested.  She closes her legs tight then pulls off her skirt and panties.  For a brief moment, you see something sticking out between her legs, but you'd have to know to look for it, and the students are far too bashful to stare at that part of her body.  She quickly covers her crotch to conceal it and she holds her other arm across her chest to cover her nipples.  While making an uncomfortable smile at Ms. Darwin, she asks, "Like this, ma'am?"
+
+Even you are in disbelief at how obedient Tiffany is.  Your students have a lot to learn when it comes to discipline.
+
+Ms. Darwin hesitates but when she comes to her senses she says, "Yes, just like that."  Tiffany gives a sigh of relief at hearing that she has done it correctly.  "But, would you mind putting your hands on your hips?"
+
+At this request Tiffany breaks eye contact with her teacher and stares in the direction of the seated students.  She looks past them like an actress on stage.  Some whispers could be heard coming from the audience, but not everyone sees it yet.
+
+Ms. Darwin walks over to Tiffany and whispers something into her ear.  Tiffany nods and swallows then opens her legs so they are shoulder width apart.
+
+[[Continue->FutanariInspection5]]
+
+
+:: FutanariInspection5
+Now it is clear that the whole class sees what is unique about Tiffany.  Someone clearly says, "Oh my god."  The whispers turn into side conversations.
+
+"Class!" Ms. Darwin yells, "Let's be polite and mature about this."  It takes a few seconds but the class quiets down.  "OK, now would you other four please disrobe and stand like Tiffany while I hand out the rest of these surveys?"
+
+The sitting students pass the sheets of paper around without looking away from the transfer students.  They are mesmerized by the disrobing.
+
+Luna, the African American trans girl, clearly has the largest penis, at least the largest when soft.  Tiffany, the petite asian one, has the smallest.  Both Tiffany and Fifa (the bronze Filipina) are the only uncircumcised girls.
+
+When every transfer student is naked, some of the sitting students start reading the survey questions.  Some are curious, some are confused, and some are concerned.
+
+<<if $futa_inspection_blue_balls>>"What is per-cum?" Mia asks.
+
+"It's pronounced pre-cum," Ms. Darwin replies.  "When you arouse a penis, a little bit of liquid comes out to lubricate it before sex."
+
+<</if>><<if $futa_inspection_anus_all_senses>>Amy asks, "When it says, 'Use all your senses to inspect your trans girl's anus,' does that mean I have to use my tongue?"
+
+"Well," Ms. Darwin replies, "That depends on which sense you're trying to use.  Are you asking about touch or taste?"
+
+"Taste."
+
+"Well then I'm afraid so.  Your sense of taste comes from your tongue."
+
+Amy frowns.  "And we have to sniff it, too?!"
+
+"Yes, and record all your findings."
+
+<</if>>[[Continue->FutanariInspection6]]
+
+
+:: FutanariInspection6
+"Now then," Ms. Darwin continues, "We're going to split up into groups and have each group pick a transfer student of their choice to give the survey too.  I'll allow you to self organize but I may rearrange your groups as I see fit."
+
+The students get out of their desks and walk to their favorite trans girl.  Amy, the most petite student of Ms. Darwin's class goes to Tiffany, the most petite trans girl.  Hannah goes to Lucy, the chubby brunette. Her twin sister Anna goes to Bailey, the emo girl with jet black hair.
+
+The groups of three or four students sit Indian style in front of a standing trans girl.  Many of them are curious.  Very few people have ever seen anything like this and most of the students have never seen a penis before.  You see a few sitting girls look at their transfer student and wave at them.  The trans girls smile back anxiously but don't wave back because they were told to stand with their legs spread and their hands on their hips.
+
+<<img "futa_inspection_min_touch.png">>
+
+"Before we begin," Ms. Darwin says, "There are a couple of important tools each group will need."  She draws everyone's attention to her desk.  "The first is this bottle of lube and the second is this ice pack.  Every group should pick a gopher to grab one of each."  When everyone has, she continues, "Let's begin.  I'll be walking around to rearrange groups where appropriate and for you to ask any questions."
+
+[[Continue->FutanariInspectionGoToNextScene]]
+
+
+:: FutanariInspectionGoToNextScene
+<<nobr>>
+<<if $futa_inspection_check_minimum_sensitivity and 
+	(not hasVisited("FutanariInspectionCheckMinimumSensitivity"))>>
+	<<goto "FutanariInspectionCheckMinimumSensitivity">>
+<<elseif $futa_inspection_scrotum_sensitivity and 
+	(not hasVisited("FutanariInspectionScrotumSensitivity"))>>
+	<<goto "FutanariInspectionScrotumSensitivity">>
+<<elseif $futa_inspection_anus_sensitivity and
+	(not hasVisited("FutanariInspectionAnusSensitivity"))>>
+	<<goto "FutanariInspectionAnusSensitivity">>
+<<elseif $futa_inspection_anus_all_senses and
+	(not hasVisited("FutanariInspectionAnusAllSenses"))>>
+	<<goto "FutanariInspectionAnusAllSenses">>
+<<else>>
+	<<goto "FutanariInspectionEnd">>
+<</if>>
+<</nobr>>
+
+
+:: FutanariInspectionCheckMinimumSensitivity
+You walk to Lucy, the curvy caucasian female.  Hannah is sitting under her and asking her a question.  "So if I touch you here, it will make you hard, right?"
+
+Lucy blushes and shrugs.  "Maybe?"
+
+Mia moves to a kneeling position by Lucy's side and taps her index finger at the top of Lucy's penis.  It bobs up and down a little but does not get any harder.  "Does that feel good?"
+
+Lucy shrugs again and says, "Not really."
+
+You decide to give the team a clue, "Mia, have you tried underneath?"
+
+Mia gently pinches Lucy's shaft on both sides and lifts her soft penis up to expose the underside.  Then she starts tapping on it the same way she had on the top.  "Like this?"
+
+You stick out your index finger to point right underneath the head.  "Try that part right there.  And try caressing it lightly, don't tap."
+
+"Thanks, Principal $name!  Hannah, can you hold this for me so I can rub?"  Hannah gets up and pinches Lucy like Mia.  The two girls work as a team:  One to hold the soft shaft in place and the other to do the stroking.  Lucy appears to like the attention and starts growing.  The two girls look at each other and smile at their success.  Mia, unable to contain herself, claps a little bit in her excitement.
+
+Hannah says, "That's so weird, I can feel it growing on my fingers."
+
+Mia looks up at Lucy and says, "That means it's good, right?"  Lucy blushes and nods.
+
+You leave the group with some advice.  "Now you should try to see if you can do lighter touches than that and get her hard from it.  Maybe you don't even need to use touch?  Have fun and get creative with it."
+
+[[Walk to Luna's group->FutanariInspectionCheckMinimumSensitivity2]]<<chardetail "Mia" "She made Lucy get hard by stroking the underside of her penis, near the head.">><<chardetail "Hannah" "She helped Mia get Lucy's penis hard by holding it in place as Mia stroked the underside.">>
+
+
+:: FutanariInspectionCheckMinimumSensitivity2
+You walk to Luna's group and they also seem to be having a tough time.  Luna is the largest trans girl in multiple ways, but she is completely soft.
+
+You give the same tips you gave to Lucy's group, but it doesn't have the same effect.  The students look a little disappointed in themselves.
+
+<<linkreplace "Maybe you can figure out what Luna likes?  You may have to get hands on." t8n>>"Principal $name, can you help us?  We don't know what we're doing wrong."
+
+"I'd be happy to help.  Could you hand me some of that lube?"  You squirt it into your right hand and spread it around.  Then you wrap it around the top of Luna's dark shaft and start stroking.  You make eye contact with her to see if any expressions clue you in on what she likes.  After a while it's clear that it's not having an effect.<<replace "#stroke">>Even though it seems to be having no effect, you continue stroking.  You can't help but notice how smooth and warm it is in your hand.  <</replace>><</linkreplace>>
+
+"Are you uncomfortable in any way," you ask.
+
+"No <<maam>>," she replies.
+
+"Then why aren't you enjoying this?"
+
+Luna blushes and says, "Can I whisper it to you, <<maam>>?"
+
+You nod.  She bends in to whisper a secret into your ear.  <span id="stroke"></span>"Ah," you say after hearing the secret.  "That makes complete sense now."  You turn to the group and say, "Don't feel bad.  Luna needs a little something extra to be stimulated that we haven't provided."
+
+<<if $fp_twin>>[[Luna only gets turned on by taboos.  Rearrange the groups so the twins are in Luna's group.->FutanariInspectionTwinSensitivity]]
+
+<</if>>\
+[[Luna likes the thought of having sex with petite girls.  Rearrange the groups so that Amy is with Luna.->FutanariInspectionPetiteSensitivity]]
+
+[[The students should just record that they could not get Luna hard no matter what they tried.->FutanariInspectionSoftSensitivity]]
+
+
+:: FutanariInspectionTwinSensitivity
+<<set $luna_twins to true>>You walk up to Ms. Darwin and talk to her about Luna's fetish.  She nods in agreement and you rearrange the group appropriately.
+
+The twins sit down with each other and immediately look nervous.  They always avoid grouping up together because the class activities are so sexual and they don't want to have to participate with each other.
+
+Luna looks away but starts to get hard.  Wow, that was fast.  You squat and point then whisper to the group, "Look!  It's growing a little!  Hannah and Anna, get on both sides of Luna.  I want you to stroke at the same time."
+
+The twins do as they're told.  It is quite easy for both of them to fit their hands on Luna's shaft simultaneously.  The sisters can feel the penis stiffen.  They both look down with curiosity.
+
+"Are you fully hard?" you ask Luna.
+
+"Almost, <<maam>>"
+
+"Do you think you would get fully hard if the twins kissed?"
+
+Luna closes her eyes when you ask the question and bit her lip for a second.  Hannah and Anna turn toward you and plead "no" with their expressions and Luna says, "It's OK, <<maam>>.  I'm fully hard now."
+
+You know it's the idea of these two sisters kissing that pushed Luna over the edge.  "The goal is to find the minimal stimulation to get you hard, Luna.  We've gotten you hard with stroking.  Let's see if we can get you hard with less physical contact.  Hannah, rub this ice pack on Luna's penis until she's soft again.  Then we can run a new experiment."
+
+Hannah grabs the ice pack and places it on top of Luna's penis then rubs it around on the underside and on her scrotum.  Luna reacts by hissing through her teeth a bit.  Her breathing slows as she gets soft.
+
+"Good, now that she's soft, I have a hypothesis.  My hypothesis is that we can get Luna hard without touching her at all.  I want you twins to kiss each other and see what happens."  At the mere suggestion, Luna starts getting hard again.  "Wonderful.  Isn't that exciting?  It's like a little puzzle.  Luna was much more challenging than Lucy, but once you figure her out, she's actually easier.  Now she's not fully hard yet, let's see if we can pull that off.
+
+"Luna, I want you to do the honors.  Guide Hannah and Anna's heads together so they kiss."  Hannah and Anna are both standing in front of Luna.  Luna looks at you and then the twins to make sure it's OK.  They both indicate that they don't want to do it.  "Go on now," you tell Luna.
+
+Although Luna feels subservient to both you and the twins, she knows that as principal you overrule them.  "Yes <<maam>>," she replies.  Luna grabs the back of each of their heads and pushes them toward each other.  They close their eyes and shut their lips tight as Luna forces them into giving each other a little peck.
+
+It isn't passionate but it does the job.  Luna is completely hard so she releases her grip on the twins.  They use their sleeves to wipe off their mouths.
+
+"Very good girls," you commend them.  "You're sure to be the ones that required the least amount of physical contact.  It's hard to beat zero physical contact."
+
+[[Continue->FutanariInspectionGoToNextScene]]\
+<<chardetail "Luna" "She gets turned on by the twins during the trans girl survey.">>\
+<<chardetail "Hannah" "She was moved to Luna's group during the trans girl survey.">>\
+<<chardetail "Anna" "She was moved to Luna's group during the trans girl survey.">>
+
+
+:: FutanariInspectionPetiteSensitivity
+<<set $luna_amy to true>>You walk up to Ms. Darwin and talk to her about Luna's fetish.  She nods in agreement and you rearrange the group appropriately.
+
+Amy comes over and sits down.  She looks up in awe as she sees the size of Luna's penis.  It's impressive how large it is when soft.  Luna looks down at Amy and smiles warmly.  The eye contact gets a little uncomfortable and Amy starts to fidget and converse with her new group members to lighten the mood.
+
+You reach over to Amy and grab her hand.  "Come here, dear.  I think Luna likes you."  Amy stands up off the floor and you direct her to stand by Luna's side so she's looking down at her penis.  As you stand behind Amy, you grab her right wrist and place it on Luna's penis.
+
+The size contrast is glaring.  It doesn't look like Amy's hand could fit around the whole thing.  "Stroke it like this."  You move her wrist side to side in a motion you think is best for Luna.  It doesn't take long before Luna gets completely hard.  You ruffle Amy's hair from behind and say, "Great job!  I told you she likes you." Amy glances up and smiles at Luna before nervously looking away.  "Let's try it again with even less physical contact, OK?"
+
+You tell another student to grab an ice pack and place it on top of Luna's penis.  She rubs it around on the underside and on her scrotum.  Luna reacts by hissing through her teeth a bit.  Her breathing slows as she gets soft.
+
+"OK you ready for round two, Amy?"  You move her in front of Luna and tell Amy to get on her knees.  You place your hand on Amy's chin and pull down lightly, "Say ahh!"  She opens her mouth and says 'ahh' as commanded.
+
+Luna looks down and sees the terrified face of Amy looking up at her.  It's questionable if the head of Luna's penis could even fit in Amy's mouth.  Then Luna looks at you to ask if it's OK.  You nod that it is.  You say, "Keep your hips where they are, Luna.  I'll be the one guiding Amy."  Amy let's out a little cry on hearing that.
+
+With both hands on her shoulders, you push Amy's face towards Luna's soft penis.  Amy's eyes are glued to it.  You get close enough so that if Amy were to stick out her tongue, it would touch it.  You see Amy's nostrils flair then notice the musty odor of Luna's penis.  Amy's so close that Luna can feel her breath on her penis.
+
+Luna seems frustrated by the tease but she starts to harden.  Amy let's out a sound of concern.  As Luna's penis extends, you pull Amy back.  Luna is so close to Amy's mouth, but you ensure that no physical contact is made as it grows toward her.  You think you hear Luna let out a little whine.
+
+As you see that Luna is fully erect you say, "Very good, girls.  You're sure to be the ones that required the least amount of physical contact.  It's hard to beat zero physical contact."
+
+You reach underneath Amy's chin and close her jaw.  "Amy, what do you say we thank Luna for the appreciation she just shown you?"  You pinch her cheeks with one hand to pucker her lips and push the back of her head toward Luna's erect penis.  "Just a little thank you peck, hm?"  As you guide Amy's lips to Luna's penis head, Amy starts murmuring a protest.
+
+The contact is quick, but Luna definitely appreciates it.  Her erect penis bobs up and down once.  A look of passion comes over her face and she looks at you, "Thank you, <<maam>>."
+
+"You did well," you say to her.  You turn to the group on the floor and say, "OK, time to ice her down and work on the next survey question."
+
+[[Continue->FutanariInspectionGoToNextScene]]\
+<<chardetail "Luna" "She gets turned on by Amy during the trans girl survey.">>\
+<<chardetail "Amy" "You moved her into Luna's group during the trans girl survey.">>
+
+
+:: FutanariInspectionSoftSensitivity
+<<set $luna_soft to true>>You turn to the group and say, "Unfortunately, Luna has some interests that no members of your group are able to satisfy.  I suggest you record the survey as such and move on to the next question."
+
+[[Continue->FutanariInspectionGoToNextScene]]
+
+
+:: FutanariInspectionScrotumSensitivity
+You walk over to Tiffany's group and see that they're on the scrotum sensitivity question.  Tiffany is the flat chested Asian with the tiniest, uncircumcised penis.  You see a student kneeling on the floor with her palm raised and cupping and massaging Tiffany's balls, but Tiffany is soft.
+
+Tiffany seems to be cringing a bit so you ask her, "Is she squeezing too hard for you?"
+
+"Yes <<maam>>."  The student stops and lowers her hand.
+
+You remind the group to communicate with their trans girl.  They know what they like best.  "Is there something that you would like better?"  Unfortunately, Tiffany doesn't know if she likes this form of stimulation.
+
+Ms. Darwin comes by and checks to see how the group is doing.  You inform her of the question the group is on and ask Ms. Darwin if she could help the students.  "Perhaps with a demonstration?"
+
+Ms. Darwin looks at you and pauses.  Once she realizes she doesn't have a say in the matter she kneels at Tiffany's side and tells the group that, "A key restriction of this question is to avoid penis contact.  So this limits your options.  Notice how Tiffany's penis is laying on top of her scrotum right now?  But, in a way that makes things simpler because there's only so many ways we can approach it.  Like, for example, the sides."
+
+Ms. Darwin extends her thumb and index finger to make a "V" shape.  She moves the back of her hand toward Tiffany and uses webbing between her thumb and index to cup and gently lift Tiffany's testicles.  "Now, the best thing you can do is communicate with her to see what she likes.  But you can also use your own judgement.  When I look at Tiffany I get the impression that she likes a delicate touch.  If I'm right about that, it means I should make light contact.  Just enough to avoid tickling her, like so:"
+
+Ms. Darwin widens her thumb and index finger so there is less physical contact.  The moves her hand up and down, lightly caressing Tiffany's scrotum on each side with the movement.  After going up and down a few times, Tiffany's penis bobs once.  Ms. Darwin smiles proudly at her work.  Then says, "Ahem... OK now you try again."
+
+The student trades places with Ms. Darwin but uses a slightly different technique.  She makes each hand into the shape of a gun and uses the inside of her index fingers caresses Tiffany's scrotum on both sides.
+
+"Yes, that works too.  Good job."  Ms. Darwin points at Tiffany's penis and says, "You see how it's growing a little?"  The group nods.
+
+"Here's another thing she might like.  Sometimes underneath is very sensitive."  Ms. Darwin kneels down next to a students side and extends her hand between Tiffany's legs.  With her palm up, she raises her index finger to the back of Tiffany's scrotum and starts caressing behind it while the student continues to stroke the sides.  The caress make Tiffany's testicles gently sway back and forth and her penis starts bobbing some more.
+
+"There we go," Ms. Darwin smiles.  "Casey, why don't you come up and try this technique?" A different girl from the group changes positions with Ms. Darwin.  "Here's a useful tip you may be able to use later.  If their balls tighten, that means you're either doing a good job... or Tiffany is cold.  Casey, why don't you try caressing the bottom and see if she likes that better than the back?"
+
+You and Ms. Darwin stand at a distance while you watch the two students fondle Tiffany's balls.  You see her tiny penis bob up and down, hardening a little each time.  Eventually it seems to stop growing at a mere 3 inches.
+
+Ms Darwin asks Tiffany, "Are you full size, dear?"
+
+"Yes, ma'am."  Tiffany replies, blushing a little.  The students smirk at how small it is.
+
+Ms. Darwin stares at it as she bites her lower lip, then says, "Fascinating." She doesn't want to harp on the issue and something besides the size has caught her eye.  She points and has the other students look with her.  "Tiffany has a case of phimosis.  That means that the foreskin still covers her penis head even when she's fully erect."
+
+"Perhaps your other students would like to see," you suggest to Ms. Darwin.
+
+Ms. Darwin interrupts the other groups and has them circle around Tiffany while the students continue to keep her hard with consistent ball strokes.  Ms. Darwin explains to the new students what phimosis is then asks if they have any questions.
+
+Mia asks Tiffany, "Does it hurt?"
+
+"No ma'am," she replies.  "Only if I try to pull it back, ma'am."
+
+When each student has inspected Tiffany's phimosis, they go back to their own trans girls and continue the survey.
+
+<<if $fp_cbt>>"Come," you say to Ms. Darwin.  "Let's see how Bailey's group is doing."
+
+[[Continue->FutanariInspectionScrotumSensitivity2]]\
+<<else>>\
+[[Continue->FutanariInspectionGoToNextScene]]
+<</if>><<chardetail "Tiffany" "She does not like her testicles squeezed, but she does enjoy light contact.">><<chardetail "Ms. Darwin" "She got Tiffany hard from scrotum stimulation.">><<chardetail "Casey" "She got Tiffany hard from stimulating the back of her scrotum.">>
+
+
+:: FutanariInspectionScrotumSensitivity2
+You walk over to Bailey's group.  Bailey has the second largest penis of the trans girls.  Her jet black hair and pale skin give her an almost emo look.  The students of this group seem to be making the same mistake as the last group: Squeezing too hard.  But, unlike Tiffany, Bailey seems to be partially erect.
+
+Ms. Darwin asks Bailey, "Is that too hard?"
+
+She replies, "No ma'am."
+
+A student tells Ms. Darwin that Bailey told them to squeeze.
+
+"Hmm," Ms. Darwin wonders why Bailey isn't fully hard.  "What don't you like about the way it's being done?"
+
+"Well... can she be... harder?"  Bailey wants harder squeezing?  Ms. Darwin has never heard of someone liking such a thing.
+
+Taken a little aback, Ms. Darwin replies, "Su... sure... Olivia, can you squeeze harder?"
+
+Olivia does as she is told and Bailey lets out a little moan but does not get harder.
+
+"More?" Ms. Darwin asks.
+
+Bailey nods her head.
+
+Olivia says, "My hand is starting to hurt.  I can't squeeze any harder."
+
+"Let me try," Ms. Darwin says.  Olivia retracts her hand and Ms. Darwin wraps hers around Bailey's two testicles.  She gradually squeezes them in her palm while making eye contact with Bailey to make sure she's not hurting her.
+
+"That feels good,"  Bailey smiles like she's just received a small gift.  Still, she's not fully hard from the sensation.
+
+Ms. Darwin increases the pressure over a minute until she gets to the point where her hand starts to shake.  "I'm sorry, Bailey, I can't squeeze any harder than that."
+
+Bailey frowns for a bit then says, "That's OK.  It was good."  She seems genuinely happy with the pain that she did receive.
+
+Olivia and a student whisper to teach other then ask the teacher, "Can we try again?"
+
+"Sure," Ms. Darwin says.
+
+Olivia says to the other student, "You make an OK sign with your fingers around the top  of her balls like this."  She wraps her hand around Bailey's scrotum and touches her index and thumb together.  "Yeah like that.  Now pull down so that they're tight."  The student removes all slack from the scrotum and underneath her OK sign were two vulnerable testicles.  "Make it tighter.  See, now her balls can't move away.  OK tilt your hand so the balls are facing me."
+
+Olivia places her thumbs on each of Bailey's testicles then looks up.  "Ready?"  Bailey smiles with anticipation.  Olivia pushes her thumbs into Bailey's testicles.  Each testicle is being crushed on two sides: While Olivia's thumbs apply pressure on the bottom, the top is being pushed hard against the other student's OK sign.
+
+One of Bailey's knees drops for a moment but then she regains her composure.  You see a smirk on Olivia's face.  She pushes even harder and Bailey's knee buckles again.  Despite the immense discomfort, Bailey attempts to smile at her own plight.  Her breathing becomes labored and the smile gradually turns into a neutral expression.  Bailey closes her eyes and seems to be in a trance of immense concentration.
+
+"That's enough," Ms. Darwin says, "we don't want to damage her."
+
+Olivia looks a little annoyed.  Clearly her future plans were just canceled by Ms. Darwin.  Olivia infers that Ms. Darwin wants her to stop, but Olivia knows she isn't technically disobeying if she holds this pressure the way it is.  As time passes, Bailey's breathing rate increases and she takes a hand off her hip and starts rubbing her lower abdomen.  "Put your hand back on your hip," Olivia snaps.
+
+"Yes, ma'am.  I'm so sorry."  Bailey's voice is a little shaky.
+
+"Hehe, look!" The other student points with her free hand.  "She's getting hard!"
+
+Olivia remarks on how the testicles were turning purple from the lack of circulation.
+
+"It looks like she's fully hard," you say to the group.  "More importantly, now you know what Bailey likes.  Olivia, see if you can think of more creative ways to cause her pain.
+
+"For example, to start the next question you'll need to use the ice pack on her until she gets soft.  But maybe you two can continue crushing while you," you point at the 3rd student of the group, "ice her down at the same time.  It'd be interested in knowing if the pain from the crushing keeps her hard or the cold ice turns her off when they're both happening at the same time.  It's up to you to decide if you want to run this little experiment but if you do, remember to record your findings."
+
+As you walk to the next group you see a serene look on Bailey's face.  Olivia turns to the 3rd student and says, "Hand me the ice pack.  I'm going to crush her balls //with it//."  You smile at the creativity.
+
+You wonder if Olivia will continue to obey her teacher's commands when her teacher isn't present...
+
+[[Continue->FutanariInspectionGoToNextScene]]<<nobr>>
+	<<run $cameraPassagePool.push("BaileyCbt")>>
+	<<chardetail "Bailey" "She got hard from Olivia crushing her balls during the trans girl survey.">>
+	<<chardetail "Olivia" "She made Bailey hard from crushing her balls during the trans girl survey.">>
+<</nobr>>
+
+
+:: FutanariInspectionAnusSensitivity
+You and Ms. Darwin walk toward Fifa's group and notice the students seem to have stopped giving the survey.  Fifa is the tan, Filipina girl with a very fit body.  "Which question are you on?" you ask.
+
+Kira says, "Anus stimulation," with a frown.
+
+"And what seems to be the problem?"
+
+"Well... isn't that... kind of dirty?"
+
+"That's besides the point," you say.  "What matters is that if you don't follow the lesson plan, you will be punished."  You're a little annoyed you keep having to reminding students this.  "Fifa, could you spread for us?"
+
+Fifa takes her hands off her hips and uses them to spread her cheeks.  You guide Kira by the shoulder to behind Fifa and tell her to sit down.  Kira looks up and see's Fifa's anus spread before her.  Her balls gently sway from side to side.  You notice how tight and wrinkled it is.  Perhaps Fifa's never had anal sex before.  Another thing you notice is that Fifa's anus is tan like the rest of her body.  Either that's her natural skin color or she tans in the nude.
+
+You tell Kira, "I'll let you wait until you feel comfortable, then I want you to place your index finger on it, understand?"  Kira nods back.  "But before you do, let me ask Fifa a question.  Fifa?"
+
+She turns her neck and asks, "Yes <<maam>>?"
+
+"Have you ever been touched here?"
+
+"No <<maam>>."
+
+"OK, I was afraid of that.  What you both should be aware of is that it's very sensitive."  To Kira you say, "Of course you already know that, but what you may not know is that Fifa may react by winking when you touch her for the first time.  Do you know what that is?"  Kira shakes her head.  "I'll show you.  Fifa, can you squeeze your anus then release for us?"
+
+Fifa's anus tightens and relaxes and Kira seems surprised by it.  She's probably never seen an anus up close before.  You say, "Did you see that?" while pointing at her penis and Kira shakes her head.  "Fifa, wink again for us, please.  There.  See how it moves as Fifa winks?  That's completely normal.  Fifa, can you keep winking until Kira is comfortable?"
+
+As Kira stares, Fifa's anus contracts over and over again.  She notices how the scrotum tightens as the anus puckers.  The winking skin pulls Fifa's fingertips closer toward the anus then back out again when she relaxes.
+
+"Kira still seems nervous, Ms. Darwin.  Perhaps you should go first."
+
+Ms. Darwin's first consoles Kira and tells her that everything will be fine.  "We'll wash our fingers first thing after class, OK?"  Then she squats with one arm across her lap for balance.  With the other arm she reaches an index finger toward Fifa.  She touches the left side of Fifa's anus and when she does, Fifa reacts with an unconscious wink and tightens the rest of her buttock muscles.  This wink is much more sudden and tighter than the demonstrations.  When Fifa adjusts to the feeling she loosens up again.  This frees Ms. Darwin's finger to start petting the left side of Fifa's anus up and down.
+
+Ms. Darwin turns to Kira and smiles. "It feels kind of neat when she clenches.  Like there's a lot of tiny little fingers squeezing yours.  Try it!"
+
+Kira gathers her courage and strokes the other side of Fifa's anus with her teacher.  Fifa winks Kira smiles then says, "That feels //so// weird."
+
+When you ask Fifa how it feels, she says it tickles a little but it's not bad.  You make sure everyone in the group gets a chance to touch Fifa's winking anus before you call Kira back.  "OK Fifa, you can stop winking.  I want you to get on all fours in front of us."
+
+[[Continue->FutanariInspectionAnusSensitivity2]]
+
+
+:: FutanariInspectionAnusSensitivity2
+Fifa gets on all fours with her ass facing you.  She adjusts the position of her knees a little because the ground is uncomfortable.  When she finds a good enough position, she places her face on the ground and looks to the side so she can use her hands to spread her cheeks again.
+
+You ask Fifa to turn her head to look the other way.  "I'd like you to be looking at the rest of the group during this exercise so that they can record your reaction."  Fifa turns her head and sees 2 other students looking back at her.
+
+You, Ms. Darwin, and Kira continue your conversation behind Fifa.  "Kira, this time I want you to touch the middle, OK?"  Kira nods back.  "But before you do, do you notice anything different this time?"
+
+Kira peers at Fifa's anus.  "I can see much more now.  When she spreads even the inner anus stretches open."
+
+You smile, "That's right.  Great observation.  The technical term for that is her sphincter.  Make sure to record that on your sheet later.  I'd love for you to make a little sketch on your paper if you have the time.  But for now, I want you to touch the very middle, OK?  Put your fingertip on the center of the anus you just mentioned."
+
+When Kira does as she's asked, Fifa clenches up and the two students to her side gasp.  Kira says, "Whoa, it's like it's sucking on my fingertip.  That feels weird."
+
+"Try tapping on it a few times," you say.
+
+The tapping sound makes Fifa's anus twitch and generates an interesting popping sound when some suction is made.  You see Kira smile when she learns how to consistently produce the noise.
+
+"OK," you say, "Time for the others to try.  Kira, why don't you switch places with Jessie."  Once they've swapped, you say to Kira, "I want you to record what you see on Fifa's face when Jessie touches her."
+
+The two students look like real scientists as they jot down their notes.  As Kira sits down she asks Fifa, "Did that feel good?"
+
+Fifa smiles and says, "It doesn't feel good or bad, ma'am.  But, I don't mind.  You can do it."
+
+[[Continue->FutanariInspectionAnusSensitivity3]]<<chardetail "Fifa" "She had her anus played with during the trans girl survey to check for its sensitivity.">>
+
+
+:: FutanariInspectionAnusSensitivity3
+"OK girls, everyone stick out their hands so I can pour some lube on it."  You squirt it on everyone, including Ms. Darwin.  "Let's see if Fifa likes a finger inserted.  Jessie you're first."
+
+The students must notice a look of concern on Fifa's face.  In an act of tenderness, Kira rubs Fifa's shoulder and says, "Don't worry, we'll go very slow."
+
+Fifa gulps and says, "Thank you, ma'am."
+
+"Now Fifa," you say to her, "this time make sure you *don't* wink.  That would not feel good to you."
+
+You squirt some lube onto Fifa's anus and have Jessie spread it around.  "Gently push your fingertip in," you say to Jessie.
+
+As Jessie slowly pushes her finger in she hears a grunt come out of Fifa's other end.  Kira consoles her by saying, "It's OK, it's OK.  Does it hurt?"  Fifa says no, but that it feels strange.
+
+You watch each knuckle on Jessie's finger slowly glide into the anus. Jessie says to Fifa, "OK, my whole finger is in."  She looks under her arm and sees that Fifa's penis is still completely soft.
+
+You say, "Jessie, I want you to wiggle your finger like you're scratching an itch but don't use your nail.  Slowly twist your finger so your palm is down.  Good, keep your palm in that position.  I want you to count 20 'scratches' in your head."
+
+Kira yells to us, "I think she likes that!"  She looks down to confirm with Fifa by whispering, "Do you like that?"  Fifa nods.
+
+Although her penis does not get hard, you see pre-cum starting to form.
+
+When Jessie pulls her finger out you say, "Let's rotate.  I want everyone to scratch Fifa's itch just like Jessie did.  Scratch at least 20 times but you can go longer if you want."
+
+Everyone gets a turn.  Ms. Darwin goes last and by that time, a thread of pre-cum has connected from her penis to the floor.  Unfortunately, Fifa is still completely soft.
+
+Ms. Darwin says, "OK students, it's time to finalize your data.  It appears to me that Fifa enjoys this but she can't get hard from it.  But that's OK. Sometimes in science it's just as important to discover what doesn't work.  Now that we've learned that, it's time to move on to the next question."
+
+[[Continue->FutanariInspectionGoToNextScene]]<<chardetail "Fifa" "She does not get hard from anal stimulation, but she enjoys it.">><<chardetail "Kira" "She anally fingers Fifa during the trans girl survey.">><<chardetail "Jessie" "She anally fingers Fifa during the trans girl survey.">>
+
+
+:: FutanariInspectionAnusAllSenses
+You walk to Lucy and see that the group is on the question where they must inspect their girl's anus with all their senses.  The whole group is sitting behind Lucy doing their best while she poses with her hands on her hips and spreads her legs.  Lucy is a chubby girl with a fat penis.
+
+"May I give some advice?" you ask, "this is not a very good position for this survey question.  Let me show you a better one."
+
+You walk Lucy over to Ms. Darwin's desk and instruct her to get on all fours on top of it.  "Come here students, I'd like you to see Lucy as she spreads."  You tell Lucy to go as low as possible and to spread her ass as much as she possibly can.  "That's good, now push out a little bit."  When Lucy pushes, it's clear that she's had a lot of anal sex in her lifetime.  There's few wrinkles and they bulge out in an offensive way.  A few students look away with frowns on their faces.
+
+"Whaa..?"  Mia can't believe what she's seeing.
+
+You beckon the group to come in for a closer look.  "Isn't it wonderfully puffy?  1, 2, 3, 4," you count each bulge as you point with your fingertip.  "These are the beautiful petals of Lucy's 'flower' and you can only see them if she spreads and pushes.  I want you all to thank Lucy after this for the rare treat."  The students look disturbed by the idea that they should be thankful for the view.
+
+<<linkreplace "Inspect using the sense of smell." t8n>>"We just got one sense out of the way: We've all seen the 'flower.'  Now, who wants to smell it?"  No one volunteers.  "Mia, you shall go first."
+
+"Aw, man..." she whines.  She walks up to you and you move her face in so that her nose is almost touching Lucy's anus.  You tell her to put her palms on top of Lucy's spreading hands and inhale deeply.  When she does she coughs rudely.
+
+"How does it smell," you ask.
+
+"Like an ass," she replies.  The group chuckles.  Lucy is on the chubby side so you imagine there's at least a hint of body odor.
+
+You smile and say, "The amazing thing about smells is our ability to get used to them.  Keep smelling until the scent stops being offensive to you."
+
+You have the other students form a semicircle around Mia as she sniffs Lucy's ass.  Looking down, they can see Mia's nose mere inches away from the dirty hole.  She circles her nose around it, inhaling as deep as she can.  You grab the back of her head and adjust her position so she's as close as she can get without actually sticking her nose in.
+
+After a minute, Mia claims she can't smell it anymore.  "Very good," you say.  "You did wonderful."<<chardetail "Mia" "She smelled Lucy's ass until the scent was no longer offensive to her.">><</linkreplace>>
+
+[[Continue->FutanariInspectionAnusAllSenses2]]<<chardetail "Lucy" "Her puffy anus was stimulated by Mia">>
+
+
+:: FutanariInspectionAnusAllSenses2
+"In the name of time, we'll tackle taste and touch simultaneously."
+
+<<linkreplace "Those petals deserve even more attention.  Have Mia do more with them." t8n>>But let's start with baby steps.  Mia, I want you to give each of those four petals a kiss."
+
+<<linkreplace "Click for a visual of Lucy's Anus" t8n>><<img "mia_and_lucy_resized.png">><</linkreplace>>
+
+Mia starts at the top and moves clockwise until she kisses all the bulges.  You see Lucy's penis start to get erect.
+
+"OK, Mia.  Now Lucy's petals are so puffy I think you can attempt something that normally wouldn't be possible.  Why don't you try nibbling //gently// on each one?"
+
+You look down at Mia and watch her tilt her head at different angles to place her teeth on both sides of every bulge.  Lucy releases a gasp then moans and her toes curl each time she feels Mia's teeth nibble on her anus.  You tell the group to record Lucy's reaction.
+
+"Now Mia, I'd like you to gently suck on each.  See how much of each you can fit in your mouth.  The other students watch as Mia wraps her lips delicately around one of Lucy's anus bulges.  Her lips move back and forth as she sucks and Mia makes a kissing noise when she pulls her lips away to suck on the next one.
+
+"Very good, Mia!" You stroke the back of her head as she sucks the next anus petal into her mouth.  At this point Mia doesn't seem phased by her actions or the fact that her peers are watching.<<chardetail "Mia" "She sucked on Lucy's puffy anus.">><</linkreplace>>
+
+"What we're going to do now is stick your tongue in Lucy's anus.  For the other students' benefit, I'd like you to only use your tongue for this.  That way we can watch it enter and record our findings."  You and the group make a tighter semicircle around Mia so that you can look straight down at Lucy's ass.  Only two of Lucy's anus bubbles are visible from the top, but this should give you a better view of the tongue entering.  "You may begin."
+
+Mia sticks out her tongue and makes a sharp point.  It gets hugged by the four folds of Lucy's anus before meeting resistance.  With a little force, the tip of her tongue enters into Lucy.
+
+A relaxed, "Mmmm" is heard from Lucy.  From your top view, you see the tongue disappear behind the puffy anus.
+
+Mia starts bobbing her head back and forth.  Then you see something that you never would have expected from one of your students.  While Mia bobs back and forth, her hands slowly migrate from Lucy's ass toward her crotch.  She locks her fingers around Lucy's shaft and twiddles her thumbs on the underside of Lucy's penis.  The volume of Lucy's moans increase.
+
+"Put your hands behind your back," you scold Mia.  "Let me remind you that penis stimulation is not a part of this survey question."  This seems to be the first time in a few minutes that Mia looks embarrassed.  She continues tonguing Lucy with her hands held behind her back.
+
+It takes a while to complete but you make sure the rest of the students in the group go through the entire exercise.  When they finish you say, "There's one last sense left.  That's the sense of sound."
+
+<<if $fp_farting>>[[For educational purposes, the students should observe and document the sounds that an anus makes.->FutanariInspectionAnusSound]]
+
+<</if>>\
+[[Yes, anuses make sounds, but they're really dirty.  The students should skip this exercise->FutanariInspectionGoToNextScene]]
+
+
+:: FutanariInspectionAnusSound
+You walk over to Lucy's front and ask, "do you think you would be able to fart so that we may study it?"
+
+"I don't know, <<maam>>.  But.. if that's what you want.. I could try."
+
+"I think the students would really benefit from it.  See what you can do."
+
+You walk back to the group of 3 students and position them shoulder to shoulder with their faces as close to Lucy's anus as possible.  "Whenever you're ready, dear," you call to Lucy.
+
+The students watch as Lucy's anus pushes out even further.  Its center opens and the students are able to see a little into Lucy's bowels.  They close their eyes and scrunch their faces in fear of what's to come.
+
+Lucy let's out a vulgar grunt and a sigh.  She is unable to push out a fart.  Her anus closes and she starts rubbing her abdomen in circles.  Mia opens an eye to see what's happening.  Lucy's anus is starting to bulge out again in a second attempt.  When Mia sees the anus start to open she shuts her eyes and waits to hear what will happen next.
+
+It makes a squeak then a low hissing sound.  The force of the fart moves Mia's hair.  A few seconds later, the students break formation as they all start coughing and holding their nose.  One of them says, "Oh my god, that was so gross." 
+
+"Make sure to document the sound and the smell on your surveys.  Use descriptive words.  Does it smell like burnt rubber, rotten eggs.  You get the idea."  You wait for them to finish coughing before you continue.  "We should all be thankful for Lucy's willingness to participate in our survey.  Before we move on to the next question, I would like each of you to show Lucy just how much you appreciate her.  I want you to give Lucy's anus one last 'goodbye' kiss."
+
+The students obediently line up to kiss the anus goodbye.  You decide it's time to move on to another group.
+
+[[Continue->FutanariInspectionGoToNextScene]]<<chardetail "Lucy" "She farted so that Mia and others could record the smell during the trans girl survey.">>
+
+
+:: FutanariInspectionEnd
+You see that most of the class is at the last survey question.  Ms. Darwin stands in front of the class and explains what will happen next.  "OK, class.  Attention, everyone.  <<if $futa_inspection_blue_balls>>Some of you may have already noticed a little pre-cum come out of your transfer student's penis.  We're going to spend the rest of the class making a concerted effort to produce as much pre-cum as we can *without* producing an orgasm.
+
+Feel free to reposition her in any way that works best.  I'll be passing out these mechanical counters for you to use.  Every time a bead drips, I want you to click this button to count it.  At the end of class we can tally the results.<</if>><<if $futa_inspection_ruined_orgasms>>We're going to spend the rest of the class making a concerted effort to produce as many ruined orgasms as we can from our transfer students.  A ruined orgasm is when you get to the point where an orgasm is going to happen but then you stop all stimulation and let it happen anyway.  This should leave your transfer student frustrated and unsatisfied, but it should also reduce the refractory period.  That means you will be able to bring about another orgasm soon after!
+
+Of course, you will ruin that next orgasm, too.  Feel free to reposition her in any way that works best.  I'll be passing out these mechanical counters for you to use.  Every time you produce a ruined orgasm, I want you to click this button to count it.  At the end of class we can tally the result.<</if>>"
+
+<<img "mechanical_counter.png">>
+
+[[Continue->FutanariInspectionEnd2]]
+
+
+:: FutanariInspectionEnd2
+<<if not $futa_inspection_anus_all_senses>>\
+	<<goto "FutanariInspectionEnd3">>\
+<<else>>\
+You walk over to Lucy's group and inspect their technique.
+
+Mia positions the chubby, Caucasian trans girl on all fours on Ms. Darwin's desk with her legs spread and her anus pushed out.  Mia appears to be using the technique she had been using earlier:  She interlocks her fingers behind Lucy's shaft and twiddles her thumbs against the underside of Lucy's penis.  Every few seconds, Mia bends over to give Lucy's anus a gentle kiss before stroking again.
+
+At Mia's side is a student with the mechanical counter watching the penis intently<<if $futa_inspection_blue_balls>> and clicking whenever it drips<</if>>.  The other student is standing idle by.
+
+"Lovely technique," you say to Mia.
+
+She smiles back at you proudly before kissing Lucy's anus once again, then explains, "I could tell that Lucy liked this earlier so I thought it would be a good idea."
+
+"The one critique I have is that you have an idle participant.  You dear, come with me."  You walk the student around the desk where Lucy's face is.  If the pre-cum wasn't already an indicator, her moans and expression clearly show how much she's enjoying Mia's treatment.  "Lucy, please raise yourself on your elbows." You turn to the student.  "Now, since you're free, I think you could contribute the most by occupying Lucy's lips."  The student looks confused.  "With yours, dear.  I want you to kiss her."
+
+She looks unsure but you use your hand to slowly bend her over and she starts pecking Lucy on the lips.
+
+"No, no," you criticize, "more passion than that." You push their heads together so they can make out properly.  Lucy's moans can be heard through the student's mouth.<<if $futa_inspection_blue_balls>>
+
+You walk back to the other side of the desk and ask the counter, "How's it looking, now?"
+
+"I think it's speeding up," she says.<</if>>
+
+"Principal $name?!" Mia calls for you.  "What's happening?"
+
+You come just in time to pull Mia's hands away from Lucy's penis.  It had started twitching.  <<if $futa_inspection_blue_balls>>You tell the other student to stop making out until you say so.  "That was a close one," you say to Mia.  "When you feel Lucy start to throb in your hands, you need to stop all contact OK?  If you keep going, she will have an orgasm and that will ruin the experiment.
+
+Here are two techniques you can use to slow Lucy when she's building up: First, you can slow your touching.  You should actually *try* to frustrate her.  Deny her pleasure when she gets close.  Second, you can stop all touching and focus only on her anus.  It's very difficult for someone to orgasm from anus stimulation alone.  But remember, it's against the rules to stop all forms of stimulation without my permission so you have to keep doing something.  OK, please continue."
+
+As the stroking and making out continues, you hear Lucy's moans get more frustrated.<</if>><<if $futa_inspection_ruined_orgasms>>"Congratulations! It looks like you got Lucy close.  That was good judgement to stop stroking but you didn't bring her close enough to orgasm.  Try again, but this time I'll watch and tell you when to stop.  And this time when you stop with your hands, I want you to stick your tongue in her anus and keep it there, OK?"
+
+Mia nods with a smile and goes back to her twiddling technique.  It doesn't take long for Lucy's penis to start twitching again.  "Now?" Mia asks.
+
+You shake your head.  "A little longer... now!"
+
+Mia let's go of the penis and places her hands on Lucy's ass as she shoves her tongue into it.  From your view you see Lucy's penis bob back and forth in frustration.  It wants physical contact but it has ceased.  You can hear Lucy's moaning despite the fact that she's tongue tied with the other student.  The twitching continues until a stream of semen dribbles out.  It doesn't spurt like a normal orgasm, it's a consistent yet weak flow.  As the dribbling stops, Lucy slumps slightly.
+
+Mia pulls her face away from Lucy's ass and asks, "How was it?"
+
+"Actually, it was textbook.  You couldn't see, but the semen just dribbled out.  That's how you know you ruined it."
+
+An enthusiastic Mia says, "When she was cumming, I felt her butt squeeze around my tongue over and over again!  It felt really neat!"
+
+You pat her on the head, "Ready to go for number 2?"
+
+Mia smiles and goes back to her stroking technique.  You see Lucy jump and start to whimper.<</if>>
+
+[[Continue->FutanariInspectionEnd3]]<</if>>
+
+
+:: FutanariInspectionEnd3
+<<if $luna_twins>>At Luna's group you see the two twins facing each other in a kneeled position.  Luna is stroking herself as the twins give each other unconvincing pecks on the lips.
+
+You walk up to a student and request the counter.  "<<if $futa_inspection_blue_balls>>2 drops<</if>><<if $futa_inspection_ruined_orgasms>>0 orgasms<</if>> after this long is unimpressive.  I think we can do better.  First of all, Luna should not be stroking herself.  She's unlikely to resist giving herself <<if $futa_inspection_ruined_orgasms>>a normal<</if>><<if $futa_inspection_blue_balls>>an orgasm<</if>> like that which would ruin the whole experiment.  Luna, I want you to bend over and place your elbows on one of the student's desks."
+
+Once she's in position her massive penis dangles between her legs.  "Hannah and Anna, I want each of you to suck on a single testicle and I want each of your hands on Luna's shaft stroking at the same time.  Understand?"
+
+The sisters nod and do as they were told.  "Suck more into your mouth."  As they pull more scrotum into their mouths, their faces move closer together.  Eventually the sides of their lips are barely making contact with each other as they suckle.
+
+Luna lifts her head and groans.  "Is that too much suction?," you ask.  Luna nods so you tell the sisters to suck less.  The extra slack in Luna's scrotum gives the twins enough room to avoid lip contact.  "I apologize for that.  Is that better?"  Luna nods.<<elseif $luna_amy>>You and Ms. Darwin walk over and see Amy lifting the underside of Luna's penis and stroking the top of it like a pony.  Luna seems thrilled at the situation but it doesn't seem to be producing a lot of pre-cum.
+
+You walk up to a student and request the counter.  "<<if $futa_inspection_blue_balls>>2 drops<</if>><<if $futa_inspection_ruined_orgasms>>0 orgasms<</if>> after this long is unimpressive.  I think we can do better."  You tell Amy, "Luna seems to have some sort of fixation on you that is... well, let's just say if you were to go to a school dance together you should bring a chaperone."  Luna is insulted by the comment but you feel she should know she's coming on too strong.  Besides, you're afraid she can literally tear little Amy in half.
+
+Ms. Darwin says, "Here's an idea, Amy.  I want you to jump on Luna and give her a *big* hug.  That's all you have to do."
+
+After some coordination with Luna, Amy jumps as high as she can into Luna's arms.  Amy clasps her hands behind Luna's back and wraps her legs around her waist.  Her head is pressed against Luna's bare chest.  Luna is so muscular that the weight is inconsequential to her.  All she wants to do is look down into Amy's eyes.  They press their foreheads together and Luna starts giving Amy eskimo kisses.
+
+Ms. Darwin grabs an idle student by the hand and instructs her to stroke Luna from underneath the hug.  Luna's smile gets wider as she is stroked but she doesn't break eye contact.
+
+Amy cracks a smile back as she gets accustomed to all the affection and attention she's getting and she giggles when Luna starts kissing her on the forehead.<<else>>Luna's group seems to be having a difficult time.<</if>>
+
+You walk over to the student with the mechanical counter.  "Luna is very challenging to turn on so I'm going to make you do something a little taboo to get her going, do you understand?  I want you to lay down <<if $luna_twins>>under the desk<<else>>between her legs<</if>> face up and open your mouth."
+
+The student positions herself right under Luna's giant penis.  You tell Luna, "If you <<if $futa_inspection_blue_balls>>produce pre-cum for the group<</if>><<if $futa_inspection_ruined_orgasms>>have a ruined orgasm<</if>>, your reward will be for it to drip into her mouth.  Actually, some drops may make it in, but most of it will probably miss.  Do you like the idea of that?"
+
+"Yes, <<maam>>," she replies.
+
+You pat her on the shoulder and say, "Good.<<if $futa_inspection_blue_balls>>  I don't know if we can get you close to orgasming but don't forget, you're not allowed to cum.<</if>>"<<if $luna_amy>>
+
+There's something about mixing innocent and lewd together that makes it even more perverted.  The top half of Luna's body is experiencing a relatively innocent moment comprised of hugs and cuddles.  But her bottom half is being stroked by one student while another tries to catch <<if $futa_inspection_blue_balls>>pre-cum drops<</if>><<if $futa_inspection_ruined_orgasms>>semen<</if>> in her mouth.<</if>><<if $futa_inspection_blue_balls>>
+
+Before you leave, you notice that Luna has already produced twice as much pre-cum as before.  You see a drop landed in the counting student's eye and another one on her cheek.  With one good eye she tries to adjust her head to catch the next one in her mouth.<</if>>
+
+[[Continue->FutanariInspectionEnd4]]
+
+
+:: FutanariInspectionEnd4
+Tiffany, the Asian trans girl with the tiniest penis, is on her back with two students holding her legs behind her head.  It doesn't seem very comfortable, but it gives the students good access:  A student is kneeling at Tiffany's crotch and moving both hands over her scrotum like a spider crawling up a wall.  You see sticky threads of pre-cum dribbling on Tiffany's stomach and rolling up toward her neck.
+
+Ms. Darwin comes over and says, "That's very good!"  She uses her index finger to wipe off a trail of pre-cum on Tiffany's stomach then shows the group the shiny liquid on her finger, "It seems you've found something that Tiffany really likes."  The teacher observes a new thread drip out of Tiffany's penis<<if $futa_inspection_blue_balls>> and a "click" from the mechanical counter is heard<</if>>.
+
+Ms. Darwin seems to have some sort of lewd fascination with Tiffany's penis.  Normally she seems much more reserved than this, but she seems incapable of holding back.  She admires its uncommon beauty.  It's so small that it could be held with 3 fingers.  The phimosis (tight foreskin) makes it look like it's swaddled in a little blanket but, unfortunately, it's being neglected by the students so Ms. Darwin bites her lower lip and asks, "May I?"
+
+She uses two fingers to cradle it from behind and uses her thumb on the same hand to strum it delicately on its sensitive part.  "So adorable," she says under her breath so quietly that only you can hear.
+
+Almost immediately, Tiffany's penis starts to twitch and bob up and down.  Ms. Darwin can see that if she continues, Tiffany is going to have an orgasm.  <<if $futa_inspection_blue_balls>>As she pulls away, she gives it one last, longing caress up the length of the tiny shaft.  The group watches with concern until the twitching slowly subsides.  That was close.<</if>><<if $futa_inspection_ruined_orgasms>>With expert technique, Ms. Darwin raises her thumb off the underside and uses two fingers from her other hand to stroke it, but only during its upward bobs.  She explains to the students, "She's very close and I could easily make her orgasm, but I've chosen to only stroke when Tiffany lifts up to me.  This has the effect of reducing contact and frustrating her, but it also encourages the little dance you're seeing, which I find to be aesthetically pleasing."
+
+On the downward bobs, the topside of the tiny penis patters on the cradling fingers of Ms. Darwin's non-caressing hand.  Ms. Darwin reduces contact with her caressing hand so that the tip of one finger is barely touching the penis on its upward bob.  In a low hush she says, "Oh, she's very close now.  Don't look away or you'll miss it."  She pulls back her caressing hand and a look of frustrated ecstasy appears on Tiffany's face.
+
+As the twitching intensifies the pattering sound on Ms. Darwin's hand becomes more frequent.  Everyone, including Tiffany, can see that a ruined orgasm is imminent.  "Aww," Ms. Darwin says, "I really don't want to stop touching it, but I suppose I really should."
+
+As soon as Ms. Darwin removes her cradling fingers, Tiffany starts spurting.  The first spurt falls on her cheek and the rest of it dribbles down and makes a trail from her chest to her neck.  Ms. Darwin takes a moment to appreciate her work and then Tiffany's predicament.  Having your legs held behind your back doesn't look comfortable, and Tiffany is going to have to hold that position for the rest of the class.<</if>>
+
+Ms. Darwin stands up to address the students.  "You are doing amazing!  <<if $futa_inspection_blue_balls>>You have produced all this pre-cum and haven't even touched Tiffany's penis.  And, when I started touching, she was already about to orgasm!  It's called 'edging' when you keep someone close to orgasm for extended periods of time and it's a great way to produce a large amount of pre-cum.  But, be careful she doesn't accidentally orgasm.  She's very, very close.  I suggest you don't touch her penis again."<</if>><<if $futa_inspection_ruined_orgasms>>When I started touching, she was already about to orgasm!  I think you students would learn the most if you rotated positions after every ruined orgasm and tried the technique I just used.  Remember, it's better to stroke too little than too much.  The last thing you want to do is give her a full orgasm."<</if>>
+
+<<if $futa_inspection_blue_balls>>
+	<<set _pre to "pre-">>\
+<<else>>\
+	<<set _pre to "">>\
+<</if>>\
+<<set _link_text to "You wonder if Tiffany has ever tasted her own " + _pre + "cum.  Ms. Darwin should run an experiment to see if Tiffany likes it.">>\
+<<linkreplace _link_text t8n>>"Ms. Darwin, I think we should run an experiment to see if Tiffany likes the taste of her own <<if $futa_inspection_blue_balls>>pre-<</if>>cum.  Would you like to run it?"
+
+"Yes!" she catches herself getting too excited. "//Ahem//, I mean... yes I think that would be a good idea.  The students could really use that data.  I have an idea."
+
+She walks over to her desk drawer and pulls out a brown paper bag that contains her lunch, reaches in, fishes around, and pulls out a plastic spoon.
+
+By the time she's walked back to the group, a tiny puddle of <<if $futa_inspection_blue_balls>>pre-<</if>>cum has coalesced in the little notch of her neck where Tiffany's collar bones meet.  Ms. Darwin needs a few attempts to gather as much <<if $futa_inspection_blue_balls>>pre-<</if>>cum as she could into her spoon and then lifts it into Tiffany's view.
+
+"Say ah!" Ms. Darwin says with a perverted smile.  Tiffany frowns and pulls her mouth away.  The teacher places the side of the spoon to Tiffany's closed mouth and waits for Tiffany to obey.  It smells terrible.
+
+Submissive as always, Tiffany does as she is told.  She opens her mouth enough for the spoon to fit and Ms. Darwin rotates her wrist so the <<if $futa_inspection_blue_balls>>pre-<</if>>cum pours into Tiffany's mouth.  Tiffany grimaces at the taste and the fact that it has cooled somehow makes it seem worse.
+
+When Ms. Darwin finishes pouring she waits for Tiffany to swallow.  It seems especially labored and drawn out and when Tiffany gulps the sticky liquid down she sticks out her tongue in disgust.
+
+"What a good girl!  You swallowed it all.  Oh, but there's still some left on the spoon."  She puts the tip of the spoon to Tiffany's mouth.  Before she wraps her lips around it, she looks down to see how much is left, then starts slurping.  You see a glob of <<if $futa_inspection_blue_balls>>pre-<</if>>cum slip under Tiffany's lips and into her mouth.  She swallows it fast and sticks out her tongue which let's you see that she did in fact swallow.
+
+Ms. Darwin looks at Tiffany's crotch and sees that her penis has softened despite the ball caressing.  "That was a good experiment but I think it's fair to say that Tiffany does not enjoy eating her own <<if $futa_inspection_blue_balls>>pre-<</if>>cum.  <<if $futa_inspection_blue_balls>>That may not be a bad thing considering that if it had turned her on, it may have pushed her over the edge.  Actually now that we know this we can leverage it.  If she gets too close to cumming, I want you to rush to feed her some pre-cum.  It should cool her down enough to prevent her orgasm."  She hands the spoon to the student with the mechanical counter.<</if>><<if $futa_inspection_ruined_orgasms>>Let's all document this on our surveys when we have free time."<</if>>
+
+"Thank you." Ms. Darwin whispers in your ear so only you can hear it.\
+<<chardetail "Ms. Darwin" "She fed Tiffany some of her own fluids, but Tiffany did not like it.">><<chardetail "Tiffany" "She does not like the taste of her own fluids.">><</linkreplace>>
+
+[[Continue->FutanariInspectionEnd5]]
+
+
+:: FutanariInspectionEnd5
+<<if (not $futa_inspection_scrotum_sensitivity) or (not $fp_cbt)>>\
+	<<if $futa_inspection_blue_ball>>\
+		<<goto "FutanariInspectionEnd6">>\
+	<<else>>\
+		<<goto "FutanariInspectionEnd7">>\
+	<</if>>\
+<<else>>\
+You and Ms. Darwin walk to Bailey's group to see what they're up to.  Bailey appears to be in a deep squat with Olivia behind her.  Olivia is gripping Bailey's scrotum from behind and pulling them back behind her legs.  Every few seconds Olivia punches the testicles with her free hand and making Bailey grunt.
+
+"Olivia!" Ms. Darwin scolds.
+
+"Before we're too quick to judge," you interrupt, "let's look at the mechanical counter."  You grab it from a student and smile as you read it then hold it up to Ms. Darwin.  "<<if $futa_inspection_blue_balls>>9 drops<</if>><<if $futa_inspection_ruined_orgasms>>2 orgasms<</if>> is rather impressive, wouldn't you agree?  If Bailey was not enjoying this I would expect 0.  But Bailey's enjoyment is not the point.  Maximum <<if $futa_inspection_blue_balls>>pre-<</if>>cum extraction is.  And this group is working within the confines of the survey question."
+
+"Yeah, but..."  Ms. Darwin is about to argue then she walks over to Bailey from the side and starts rubbing her shoulder.  "Are you OK, dear?"  Bailey nods her head without turning to face the teacher.  She seems to be in a trance.
+
+You notice that there seems to be a student kneeled in front of Bailey's legs on the other side of her so you move to her front to see what this student is doing.  The student has her palm facing up below Bailey's penis and vigorously strokes it with her other hand.  You wonder, why the open palm?  Then you see the point: A drop of pre-cum falls onto the student's fingertips and she lifts her hand to Bailey's face.  "Lick," she commands.  Bailey sticks out her tongue and licks the palm clean.
+
+"Thank you, ma'am."
+
+The student notices you there and starts to explain.  "Olivia told Bailey that she has to lick every drop off my hand as punishment."<<if $futa_inspection_ruined_orgasms>>
+
+You hear Bailey moan in pleasure as she nears her 3rd orgasm.  The student between her legs stops stroking and cups her hand under Bailey's penis.  You hear the soft pats of Olivia's ball punches increase in frequency and Bailey's moans shift to groans of pain.  Her knees start to tremble.  Then, a nice flow of semen dribbles out of her penis into the student's palms.  The punching noises continue to increase in volume and frequency.
+
+The student lifts her fingertips to Bailey's mouth and tilts her palm down to let gravity pour the semen onto her tongue.  Some semen spills between her fingertips so she spreads her fingers and let's Bailey lick the sides.
+
+The student looks over Bailey's shoulder and says, "She swallowed it all."  Olivia nods then slows her punching to the rate she was going before Bailey came.  You are impressed by Olivia's sadism.  She seems to be increasing the pain to encourage Bailey to drink her semen as fast as possible and it is working very effectively.<</if>>
+
+"Very creative," you say as you walk to the 3rd student and give the mechanical counter back.  "Whatever you're doing seems to be working.  Keep it up!"
+
+<<if $futa_inspection_blue_balls>>\
+	[[Continue->FutanariInspectionEnd6]]\
+<</if>>\
+<<if $futa_inspection_ruined_orgasms>>\
+	[[Continue->FutanariInspectionEnd7]]
+<</if>>\
+<</if>>
+
+
+:: FutanariInspectionEnd6
+Fifa's group seems rather tame compared to the other groups you've inspected.  The trans girl's tan, Filipina body stands with her head bent down.  Kira is behind her and another student is in front.  The one in front strokes her shaft and cups her balls while Kira seems to be giving her a shoulder massage.
+
+But, Fifa has an expression of displeasure.  Her breathing is heavy, her eyes are closed, and she's rubbing her belly.
+
+"Everything alright, Fifa?" you ask.
+
+"It hurts, <<maam>>," she complains.
+
+"Oh, I see," you reply.  "I think you may be experiencing a condition called 'blue balls'.  It occurs when you have prolonged sexual arousal without ejaculation.  An orgasm would make her feel better, unfortunately it would be forbidden."
+
+You ask the student to squeeze Fifa's balls a little and you see the great discomfort on Fifa's face.  "Yep," you say, "Definitely blue balls.  I can tell by how tender she is down there.  Perhaps you should stop cupping her testicles altogether."
+
+<<img "fifa_blue_balls.png">>
+
+"Principal $name, can we please cum Fifa?  She's in a lot of pain."
+
+"'Fraid not, dear.  The experiment is to produce as much pre-cum as you can.  To induce an orgasm would ruin it.  She must endure it until the end of class, no matter how uncomfortable."
+
+Kira hugs a naked Fifa from behind to console her.  "You can do it, it's just 10 more minutes!"  Fifa begins whimpering on hearing how much time is left in the class.
+
+[[Continue->FutanariInspectionEnd7]]<<chardetail "Fifa" "She had painful blue-balls during the trans girl survey.">>
+
+
+:: FutanariInspectionEnd7
+You walk to all the other groups<<if $futa_inspection_blue_balls>> and see their trans girls are in similar shape<</if>>.  No more smiling faces.  Many complaining about aches and pains or begging the students for <<if $futa_inspection_blue_balls>>release<</if>><<if $futa_inspection_ruined_orgasms>>them to stop.  They don't want to cum anymore<</if>>.  5 minutes pass and you go around the room checking the mechanical timers and are ecstatic to see how much <<if $futa_inspection_blue_balls>>pre-<</if>>cum has been produced.
+
+The results are better than expected.  It's amazing how much you can learn in a 60 minute class when you focus and study.  You look forward to going over the results with Ms. Darwin later.
+
+You whisper into Ms. Darwin's ear and she nods then tells the class they need to do one last assignment before it ends.  "The only flaw with this class is that each student only got to experience the transfer student they were assigned to.  Unfortunately, there's not enough time to have every student give the survey to every transfer student.  But, I think we have //just// enough time left to get a little taste of what it would be like if you were assigned to a different one.
+
+"I want all the transfer students to stand up and put their hands behind their back.  I also want every one of my students to form a line in front of a transfer student. When you've given her penis a little kiss, move on to the next until you've kissed all the transfer students.  OK?"
+
+A chaotic mess ensues with all the students running from transfer student to transfer student, kissing penises.  The assignment was a little vague and as a result, some students merely kiss the penis head and others give multiple kisses up and down the shaft.<<if $futa_inspection_ruined_orgasms>>  Two students kiss each side of Fifa many times simultaneously and it actually causes her to have another ruined orgasm all over the floor.<</if>>
+
+When the bell rings, you make the transfer students put their clothes back on without a final release.  They look extremely unhappy about the condition they've been left in, but you explain that it would be obscene for them to masturbate on school property (without permission) and if any of them are caught doing so they will be severely punished.  They'll have to wait until they get to their dorms, which is in a few hours.
+
+[[Office]]
+

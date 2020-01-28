@@ -1,0 +1,222 @@
+:: FootMeasure
+<<set $finished_foot_measure to true>>\
+You enter Mrs. Eigen's class right before it starts and watch her as she sits at her desk, writing some notes.  She's a skinny, middle aged woman with thick glasses.  How much longer are you going to have to wait there before she notices you?  Just when it starts getting awkward, she says, "Hello, Principal $name," without looking up.
+
+You say hello as you walk up to her and ask, "What's the agenda for today?"
+
+"Well," she replies, "I was thinking we could have a very low pressure class today to give the students a little reprieve from the normal stresses they experience in their other classes."
+
+You raise an eyebrow, "Oh? Are you sure that's wise?  Remember, the survival of this school depends on the donations from the Anonymous Benefactor.  He seems to donate more when they are - how did you word it? - 'stressed'."
+
+"I know, I know.  But hear me out.  Maybe if we lay off the pressure and give gentle guidance, the students could really surprise you and come up with something creative.  It could be something the Anonymous Benefactor really likes that we wouldn't have thought of on our own."
+
+"Hmm," you grab your chin and look to the side. This seems too risky.  You tell her, "We're hanging on by a thread here..."
+
+Mrs. Eigen stands up and with both palms on her desk.  In a polite but direct tone, she interrupts, "We've been hanging on by a thread for a month.  If we keep doing what we're doing, we'll be hanging on by a thread for another month.  I think the only way to break out of this pattern is to experiment.  And isn't experimentation what you've been encouraging us do in our classes anyway?  Please, just give it a chance and if it doesn't work out, I'll go back to something more traditional."
+
+It's difficult to argue with that logic.  "I suppose you have a point and I appreciate your candor.  Earlier you mentioned some sort of 'gentle guidance.'  What did you mean by that?"
+
+She looks at you and smiles then opens her drawer, pulls out a bunch of measuring equipment, and places it on her desk.  "I'll tell the students to pick a body part of their choosing and spend the class measuring as many aspects of it that they can come up with.  One person will measure the other's body part."
+
+Left to their own devices, you doubt the students will come up with something appealing to the Anonymous Benefactor.  You envision every student measuring each other's hands or some other unsexy body part.  You're about to express your concern but when you look at Mrs. Eigen you see how excited she is about her idea.
+
+You sigh, fake a smile, and say, "Let's see how it goes.  And, thank you for trying to experiment.  As you mentioned, I always appreciate that."
+
+[[Continue->FootMeasure2]]<<nobr>>
+<<run $cameraPassagePool.push("CaseyKiraDate")>>
+<<run $cameraPassagePool.push("CaseyStealsPanties")>>
+<<chardetail "Mrs. Eigen" "She ran a laissez faire class where the students could choose which of their body parts to measure.">>
+<</nobr>>
+
+
+:: FootMeasure2
+You hate to say, 'I told you so', but it looks like your initial fears were justified.  The students break up into groups and measure each others hands, elbows, noses, etc.  All of which are unlikely to excite the Anonymous Benefactor.
+
+You make eye contact with Mrs. Eigen across the room and see a concerned look on her face.  Maybe it was a mistake to give the students this much freedom.  Yes, everyone looks happy and playful, but that doesn't keep the school doors open.
+
+You walk to her side so you're both facing the class and whisper out of the corner of your mouth.  "Do you see any pairs doing anything the Anonymous Benefactor would like?"
+
+Mrs. Eigen anxiously scans the room.  With a frown she says, "I'm sorry... I really thought at least one pair would do something interesting with the assignment.  Maybe I should give a pair direct guidance like I normally do."  She chews on her nail as she thinks about that.  Forcing a pair to do something would be akin to admitting defeat.  She exhales a slow breath, walks to a pair, and starts talking to them.  You can't make out the words but the longer Mrs. Eigen talks, the gloomier they get.
+
+Something interesting catches your eye.  You walk up to Mrs. Eigen and tap her on the shoulder.  "Where's Casey's pair?"
+
+She turns and sees that Casey is the only student sitting in the back row and she appears to be laughing.  Mrs. Eigen replies, "That's odd, I don't know." She says to the pair, "Hold on a second, girls." When you and Mrs. Eigen walk over to Casey, you see a relieved expression on the faces of the students you just left.
+
+As you get closer, you realize that Casey is, in fact, with another student.  But her pair, Kira, is sitting cross legged on the floor so the other desks obscured your view of her.  You squint as you try to make sense of the situation.  One of Casey's sneakers is on the floor while the other is still on her foot.  They're giggling at each other as Kira attempts to pull off the second shoe and Casey coyly moves her dangling leg to evade Kira from capturing it.  They seem to be having even more fun than the rest of the class.
+
+When they notice Mrs. Eigen and you staring, they gasp.  Casey crosses her ankles and lifts them behind the desk seat so you can't see her missing shoe while Kira grabs it off the floor and hides it behind her back.
+
+You smile and do your best to soften the mood.  "I'm sorry to interrupt!  I had a real quick question though.  What were you two planning on measuring?"
+
+They look at each other and both say, "Umm.."  Are they trying to think of a lie?  Kira pouts and says, "I was going to measure her feet.  Are we in trouble for not starting?"
+
+You feel an elbow jab you in your side, turn your head, and see the source of the jab is Mrs. Eigen.  She has a massive grin on her face.
+
+Mrs. Eigen says to them, "Not at all!  What a creative idea!  We were just walking by.  Come, Principal $name.  Let's check on some other students.  Have fun, you two."  She hooks her arm under yours, speed walks a few desks away, and turns so your backs are facing them.  Barely able to contain her excitement, she whispers, "I told you so!  I told you one of them would do something exciting!  I knew it!"
+
+"OK, OK, you were right," you beam.  "Assuming the Anonymous Benefactor has a foot fetish, this should go over well."
+
+[[Although AB probably has a foot fetish, you have no personal interest in it.  You leave to go to your office.  You'll get a summary from Mrs. Eigen later.->Office]]
+
+[[You want to stick around to see how this plays out.->FootMeasure3]]<<nobr>>
+<<chardetail "Kira" "Kira measured Casey's feet in Mrs. Eigen's class">>
+<<chardetail "Casey" "Casey had her feet measured by Kira in Mrs. Eigen's class">>
+<</nobr>>
+
+:: FootMeasure3
+You tell Mrs. Eigen, "Let's pretend we're looking at another pair then watch them when they're distracted."
+
+She lets go of your arm and says, "Sounds like a plan, but let's be sneaky about it and split up.  They might stop if they know we're watching."
+
+You hear Kira giggle and take it as your cue to turn around and watch from a distance.
+
+Kira has one hand cupped around Casey's calf while she uses her other hand to try to pull off the remaining shoe before losing her grip.  Casey laughs while she tries to kick her leg free and yells, "No!"
+
+Ignoring the cry, Kira hooks two fingers between the shoe and foot and pulls it off.  She holds her trophy up with both hands and yells, "Yes!  I got your stupid shoe," then she spreads her arms and lets the shoe fall to the floor.
+
+"Give it back!" Casey yells as she touches Kira with her sock.
+
+"I'd rather take your sock instead!" Kira yells as she spins from her position on the floor to put her back between Casey's legs.  In that same motion she hooks her arm around Casey's outstretched leg and traps it against against her body.
+
+"What the.." Kira has a reputation for being pretty clumsy, but she pulled that off so fast Casey's leg was captured before she even knew what was happening.  In an attempt to free herself, Casey jabs the toes of her other foot into Kira's waist and wiggles them.
+
+As Kira bucks from the tickling, she says, "You really want to start a tickle fight when you're trapped in this position?"  She moves her fingertips like a spider against the arch of Casey's foot.
+
+Casey's eyes bug out as her whole body stiffens.  Reflex takes over and she tries to slide out through the bottom of the desk.  When she realizes Kira's body is blocking that path, she tries to escape out the top of the desk by pushing her palms against it. Unfortunately for Casey, Kira has her entire arm wrapped around the leg and Casey is laughing so hard she doesn't have enough strength to push herself out.  She resorts to pumping her leg back and forth.  There's a lot of force behind the kicks, but it's easy for Kira to move in step with the movements and continue to hold on.  With her leg pinned under Kira's arm, she's not going anywhere unless Kira lets go.  The high pitched squeals coming from Casey draw the attention of the entire class but they're both too involved to notice.
+
+"Stop!" Casey yells, almost out of breath.  "I'm gonna pee!"
+
+She keeps tickling.  "What do I get if you stop?"
+
+"Sock!" Casey can't even speak complete sentences anymore.
+
+"Prooooomise?" Kira asks in a drawn out way to extend the tickle torture.
+
+"Yes! Oh my.. I promise!  Please!"
+
+Kira relaxes her grip and Casey's leg slumps to the floor.  When Casey looks up and notices all the other students staring at her, she blushes, but you elbow Mrs. Eigen in the ribs so she'll do something about it. After bolting to the front of the class, she says, "Attention everyone."  The words draws everyone's focus from Kira and Casey.  "Remember to stay in your pairs and to focus on your //own// work."  There's a slight pause before the other students turn around to focus on their assignment.
+
+When Kira faces Casey, Casey's eyes are welling with tears and her face is flush, but she also has a huge grin on her face.  When she can breathe, she sits up, wipes her eyes on her sleeve, then she pokes Kira's tummy gently with her foot and playfully says, "Jerk."
+
+Casey and Kira look at each other for a while without doing anything.  Eventually, Kira breaks the ice by asking, "Can I measure it?"
+
+[[Continue->FootMeasure4]]
+
+:: FootMeasure4
+Kira clears her throat as her face turns serious.  She holds out her palm and Casey obediently places her calf into it.  Then, Kira slides her fingers into the back of the sock and pulls down until the heel is exposed.  She looks up and teases, "Do you, like, moisturize every hour?"  Though you're far away, it looks soft and there isn't a hint of dryness or cracked skin.
+
+"Shut up, dork." Casey retorts.
+
+Kira holds Casey's heel with both hands and slips her thumbs underneath the sock at the arch.  "I'm gonna take it off now."  Kira bites her tongue and lower lip as she focuses on her work.  She applies pressure with massage-like force to Casey's arch and sees the toes spread then curl.  Kira looks up and sees Casey biting her lower lip, too.  They bashfully smile at each other before breaking eye contact.  Kira loosens her grip to let gravity drop the foot an inch lower in her hands.  Because Kira's thumbs are underneath the sock, this pulls the sock off her foot another inch.  Kira continues the massage at the new location.
+
+Casey moans and a quick smirk flickers on Kira's face, but she doesn't look up to make eye contact this time.  The sensation is so intense, Casey makes a fist and chews on her knuckles to contain a squeal from escaping her mouth.
+
+Kira continues this a few more times: She lets the foot drop, this pulls the sock up, and she massages the new spot.  Eventually the sock falls off and Casey's glistening, purple toe nails are revealed.  Kira massages the ball of the foot making the toes spread to her whim.  This allows her to inspect the nails at different angles.  Casey's feet must have a fresh coat of polish because it's so shiny and there are no visible chips.  She decides to ask Casey if she does her own nails but stops short when she sees the expression on her face.
+
+Casey is looking down at Kira with her index fingernail in her mouth.  Her demeanor is so relaxed her face almost looks sleepy.  Without a word, she naughtily smiles and extends her other socked foot to Kira.
+
+Kira repeats the same process on the other foot until the sock comes off.  When it does, Kira uses the nail on her index finger to trace a line from the ball of her foot to the arch.  Casey reacts by looking at the ceiling and pushing against her desk.  Her toes curl tight until the fingernail completes its journey.
+
+"Tickles?" Kira asks.
+
+Casey breathes heavily a before whispering, "No."  She looks around to check that nobody's watching, then she stares deep into Kira's eyes.
+
+Kira lifts the other foot with one hand and points her index finger at it with the other.  "Again?" 
+
+Casey is too embarrassed to ask for it, so she puts her index finger in her mouth and tries to say yes with her eyes, but Kira tilts her head like she doesn't understand.  You've noticed Kira often fails to read between the lines.  Once she sees that Kira's not getting it, Casey blushes, looks at her desk top, and says, "OK, if you want."  
+
+Kira traces her nail across foot and watches Casey's expression with wonderment.  She slowly closes her eyes as she takes her finger out of her mouth and tilts her head up toward the ceiling.  A hum-like moan escapes her mouth.  As soon as she realizes she made that sound her eyes pop open in embarrassment.  Either Kira doesn't hear it or she doesn't care.  She's not even looking at Casey's face. Instead, she begins tracing her finger from the heel back up to the toes.
+
+Casey grabs onto her desk and moans, "Oh, wow."  As Kira starts tracing figure eights up and down Casey's foot, Casey closes her eyes and slips back into a state of bliss.
+
+[[Continue->FootMeasure5]]
+
+:: FootMeasure5
+Periodic moans escape Casey's open mouth, and because her eyes are closed, Kira apparently feels comfortable enough to experiment and see what else Casey might like.  She moves her nose to the foot and quietly sniffs it while she continues to trace.  You watch her take her time as she sniffs the toes, the arch, and then the heel.  Since Kira doesn't have any reaction, you surmise it must not smell that bad.
+
+You notice how Casey's toes wiggle as the nail traces the arch.  Kira waits for a moment and gives the big toe a quick smooch.  It twitches on contact but Casey doesn't seem to notice her own involuntary response.  A little smile from Kira informs you it doesn't have an offensive taste, so she kisses the tip of the next toe.
+
+When Casey opens her eyes, she sees Kira's mouth by her feet.  With a breathy voice, she says, "What are you doing?"  But as soon as she asks, her head rolls back and she starts moaning again.  The tracing feels too good.
+
+Mrs. Eigen walks up to you and whispers, "Did you see what just happened?"
+
+You ask, "You mean that Kira started incorporating her mouth without being told?"
+
+"Not just that, but Casey seems to be loving it."  She blushes and says, "Honestly, it looks like it feels pretty good.  Where did Kira learn that?"  
+
+You shrug then frown at something that catches your eyes.  A pair in the back is staring at Casey and Kira and one of them has a look of disgust on her face. You point and tell Mrs. Eigen, "Can you please tell those students to focus on their task?"  After nodding, Mrs. Eigen rushes to shield their view.
+
+Kira kisses the pinky then goes back toward the big toe, kissing each one along the way.  When Casey notices her toes are being touched, she opens her eyes and sees that Kira has been kissing them.  She teases, "Gross, you weirdo!" then starts wiggling her toes in a faux attempt to avoid the kisses.
+
+"Does it feel goo..."  Kira's question trails off before she can finish it because she gets distracted by Casey's wiggling toes.  She looks up and tells Casey to keep doing that, then with her tracing hand, she pinches the big toe so she can feel it move back and forth.  A smile flickers on Kira's face.  Apparently, there's something amusing about the way the big toe tries to free itself from her grip.  Next, Kira crooks her index finger and sticks the back of it under the toes as they all squirm.  Every time Casey squeezes her toes, it looks like a little hand trying to hold on to her finger.
+
+Casey interrupts, "Wait, umm..."  She exhales sharply and breaks eye contact to say, "Can I tell you a secret?"  Kira smiles.  "Promise not to tell anyone?"  After Kira nods enthusiastically, Casey says, "Don't think I'm weird, but I kinda-"  She finishes the sentence with an upward inflection like she's asking a question: "-Liked the kissing?"
+
+Kira's eyes light up.  Finally, someone's being direct and saying what they think.  Without saying a word, Kira snatches the heel and wraps her lips halfway around the big toe.  This open mouth kiss is more passionate than any of the others, and after a few seconds of suction, she uses her tongue to follow the crease behind the knuckles.
+
+Casey closes her eyes shut, grabs her own thighs, and says, "Fuck," under her breath.  Embarrassed by her unintentional outburst, she covers her mouth with both hands and checks to make sure nobody heard it.  She sees Kira looking back at her with an open mouthed smile.  Casey scoffs then teases, "Oh, so you think you can judge //me// for having a dirty mouth when you just had a foot in yours?"
+
+"Don't make me bite you," Kira says as she daintily gnaws on the big toe, flicking her tongue like a snake against the underside.  "You like that?" Kira asks with her mouth full.
+
+After checking once again that nobody's watching, Casey says, "It tickles, but in a good way."
+
+[[Continue.->FootMeasure6]]
+
+:: FootMeasure6
+Kira releases the big toe from her mouth and slides her tongue between it and the index toe.  It's so intense, Casey squeals and curls her toes.  You see the gentle pressure of the contraction squeeze Kira's tongue, and as she licks, the little digits tap against her upper lip.
+
+Changing gears, Kira kisses from the heel to the balls of the feet, then traces figure eights with her tongue.  With shuddered breath, Casey slowly raises her fingertips to her mouth and rests her index and middle finger on her lip.  It's clear she's zoning out as stares down at Kira.  After a few heavy breaths, Casey draws the tip of her middle finger away from her mouth and practically sucks on her index fingertip, but her mouth is open wide enough for you to see her tongue grazing the end of it. 
+
+When Kira nibbles and sucks along one side of the foot and uses her nails to tickle the other side, it pushes Casey over the edge.  She slides her butt down the chair until she's supporting her weight on her shoulders, her back parallel to the ground.  When Casey recovers, she shivers and says something you can't make out.  Whatever it was, Kira reacts by frowning and saying, "But, I thought it felt good."
+
+"It does," Casey says as she pushes herself upright.  "But... like... too good.  You know?"  When Kira shakes her head, Casey winces, cups her mouth, and says, "It feels... naughty.  Like we shouldn't be doing it."
+
+As Kira looks around the room, you turn your back to pretend you aren't watching.  In a needy tone, she says, "Yeah but, I don't think anybody cares."
+
+Casey scans the room herself and says, "It's just so... So public, you know?"
+
+With a grin, Kira says, "So, if it were more private...?"
+
+Rubbing the back of her neck, Casey says, "I dunno... Maybe."  When Kira frowns, Casey asks, "Why?"
+
+"Well, um, everyone always brushes me off.  You're the first to- to let me try to, uh..." Her sentence trails off when she notices Casey blush, then she shakes her head.  There's a pause like she's trying to think of the right words to say, then with some excitement in her voice, she says, "You're the first person here who doesn't treat me like a burden."
+
+A smile flickers on Casey's face before she frowns.  "Is that how everyone else treats you?"
+
+After a shrug, Kira says, "Feels that way.  They're always saying, 'maybe later' until I go away.  You're the first not to."
+
+Casey looks down at Kira and says, "Aww."<<if $casey_pantiless>>
+
+But then Kira says, "Hey, how come you aren't wearing panties?"
+
+Casey's eyes widen as she sits up straight.  "How did you know?"
+
+"Well, you opened your legs when you slid down the chair.  Plus, I've been down here lifting your legs the whole time, so..."
+
+"Did anyone else see?" Casey asks while clenching her knees together.  "Is that why everyone's looking at us?"  You look around and conclude she's being paranoid.  Nobody's watching them but you and Mrs. Eigen.
+
+Kira shrugs and says, "I don't think so.  Just me."  A smirk grows on her face.
+
+Casey glares at Kira suspiciously before she explains.  "Principal $name took them from me.  But don't tell anyone, OK?"\
+<</if>>
+
+[[Continue->FootMeasure7]]
+
+:: FootMeasure7
+<<set $has_ruler to true>>\
+Panic sets in when they realize there's only 3 minutes left of class and they haven't measured anything because they were told they'd be punished if they don't complete the assignment.  While Kira multitasks to measure every part of Casey's foot, you walk over to Mrs. Eigen and say, "Maybe we should throw them a life preserver."
+
+As you both walk over, Kira looks up at you with terror in her eyes.  Before Kira has a chance to give an excuse, you snatch the ruler from her hand, making them both gasp.  "It's OK darling," Mrs. Eigen says as she kneels down to Kira's height.  "You did great.  I'm going to give you both an 'A.'"
+
+Confused, Kira says, "But we barely have any measurements."
+
+Casey nudges Kira with her foot then mouths the words, "Shut up."
+
+Cradling Kira's chin, Mrs. Eigen uses her thumb to wipe some saliva off the corner of her lip.  "Don't worry about it, Honey.  I promise you won't be punished.  Doesn't that make you happy?"
+
+Kira rubs the other corner of her mouth, smiles, and says, "Yes ma'am!" then she gives Mrs. Eigen a big hug.  "Thank you!"
+
+The rest of the class is relatively uneventful.  As you walk back to your office, you're thankful Mrs. Eigen's experiment worked out and have a strange sense of pride that Kira and Casey were able to come up with that idea all on their own.  Half way down the hall, you realize you still have the ruler in your hand so you stuff it in your <<purse>> as you think about how you're going to describe what happened to the Anonymous Benefactor.
+
+[[Office->Office]]
+

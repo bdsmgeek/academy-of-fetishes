@@ -1,0 +1,437 @@
+:: CostumeShow
+<<set $finished_costume_show to true>>\
+At about 1pm, you hear a knock on your dorm door.  It's Ms. Monet, but she's dressed in such a strange way. You squint at her to make sense of the situation.  She's completely nude, except for fig leaves on her nipples and vagina.  
+
+"Ms. Monet?"
+
+She makes no attempt to cover her nudity.  "You didn't forget about the show, did you?"
+
+"Uh, no.  Just... Well, nobody told me when to show up."
+
+She taps her forehead and says, "Oh, how silly of me.  I was so busy, I forgot to have someone tell you.  Well..."  After a quick glance to see that you're properly dressed, she says, "We've been waiting for about 20 minutes in the gym.  Are you ready now?"
+
+You look over your shoulder to see if you left the stove on, then say, "I suppose so.  I wouldn't want to keep you and the students waiting any longer than necessary."
+
+As the two of you walk toward the gym, Ms. Monet moves a little faster than you to get you to pick up your pace.  Along the way, you ask, "Are you dressed as Eve?"
+
+"Why yes," she says with a smile.  She stops short and shakes her shoulders side to side, jiggling her breasts.  "Do you like it?"  
+
+Since she's inviting it, you take an opportunity to look her up and down.  The fig leaves are flat and only adhered to her nipples, so it's easy to see her areolae from the side. Although there's a fig leaf glued to her crotch, she doesn't have one on her bottom.  If you were behind her and her legs were open, you'd be able to see her labia.  
+
+Once she realizes you're not just taking a cursory glance, she lifts her arms above her head.  The motion raises her breasts, and you note how tight her body is for her age.  She seems to enjoy the attention you're giving her.  "Yes," you say.  "It's... very nice.  Are the students dressed like this?"
+
+After putting her arms down, she winks at you and says, "You'll see," then she starts walking toward the gym without you.  On each step, her butt cheeks jiggle, and it takes you a moment to realize you need to catch up.  
+
+[[Continue.->CostumeShow2]]
+\ <<chardetail "Ms. Monet" "During the costume show, she was dressed as Eve.">>
+
+:: CostumeShow2
+When you enter the gym, there's an empty stage with an empty podium.  There's only one row of seats and it's only occupied by teachers.  Behind the stage is a large black curtain and you can tell the students are behind it because Sarah's got her head poking out.  When she sees you, her head disappears and the waving curtains are the only evidence she was ever there in the first place.  The gym is massive so the curtain can't stretch from one end to the other, but it's obvious you're not supposed to look behind it, so you take your seat with the rest of the teachers.  They saved you one right at the center.
+
+Ms. Monet makes her way up the stage, grabs a mic off the podium, and steps to the side, letting everyone see her body.  "Welcome." She looks back at the curtain and says, "We've put a lot of effort into this show, so I'm glad you could all join us."  Facing forward, she tilts her chin up and says, "Dim the lights, please."  Behind the curtain, you hear a light switch click, and every other light in the gym turns off.  It's still pretty bright, but it sets the appropriate mood.  
+
+"Good," Ms. Monet says.  She smiles and says, "I'll be your Emcee tonight, but I admit I didn't really prepare for this part because we were so busy with the costumes.  Maybe I should explain what we're going to do."   She looks inward, then she says, "No... no... Perhaps it's best we just get into it?  Yeah, I think that's the way to go."  She pulls the mic away from her face, looks over her shoulder, and whispers, "Are you ready?" to the curtain.  You don't hear a response, but Ms. Monet faces the audience with a smile. <<include "CostumeShowNextScene">> 
+
+:: CostumeShowNextScene
+<<nobr>>
+<<if (not $finished_cs_cowgirl)>>
+    <<include "CostumeShowCowgirl">>
+<<elseif $fs_religious and (not $finished_cs_nun)>>
+    <<include "CostumeShowNun">>
+<<elseif (not $finished_cs_piercings)>>
+    <<include "CostumeShowPiercings">>
+<<elseif $fs_bondage and (not $finished_cs_twins_bondage)>>
+    <<include "CostumeShowTwinsBondage">>
+<<elseif (not $finished_cs_kitty)>>
+    <<include "CostumeShowKitty">>
+<<elseif (not $finished_cs_flower) and $fo_saw_anal>>
+    <<include "CostumeShowFlower">>
+<<else>>
+    <<include "CostumeShowEnd">>
+<</if>>
+<</nobr>>\
+
+:: CostumeShowKitty
+<<set $finished_cs_kitty to true>>\
+<<if not $fo_saw_anal>>\
+"I'm sorry to say, this next act is our last.  But, I'm hoping it'll be something special and leave you wanting more.  Introducing... Felicia!"\
+<<else>>\
+"Introducing... Felicia!"\
+<</if>>
+
+You're a little confused, because you don't have a student named Felicia.  Instead, Mia comes out dressed like a white cat girl with blue hair.  She's only wearing three articles of clothing:  Long gloves with cat paws for hands, long boots with cat paws for feet, and a headband with cat ears.  The rest of her body is covered in white body paint, but you can see more skin than paint.   Technically, her crotch and nipples are covered, but it's easy to spot the crease where her labia meet and the scrunched up texture of her areolae.  Her breasts are mostly bare and out in the open, except two stripes of paint that curve from the sides of her rib cage to her nipple in the shape of a 'U.'
+
+<<img "mia_felicia_costume.png">>
+
+She smiles and bows to the audience, cupping her breasts under her forearm.  After the teachers clap, Mia gets on all fours and starts crawling around and meowing.  Behind the curtain, a toy mouse attached to the end of a fishing pole pops out.  When Mia notices it, she turns her bottom to the audience to play with it.  Whenever she pounces on the toy and pins it to the floor, her bottom sticks up straight in the air, and from this position, you notice the white paint has started to run near her vagina.  She's so excited by her performance, she's getting wet from it.
+
+"Uh-oh," Ms. Monet says, "It looks like this kitty's in heat."  As Ms. Monet approaches, Mia looks at her with a furrowed brow.  With her middle finger, the teacher swipes up Mia's crotch, making Mia gasp, sit flat on her bottom, and turn to face the audience.  Ms. Monet shows the juice off to you and the audience.  It's a little goopy since it's mixed with body paint.  
+
+When Mia realizes her wetness has become the focus of the show, she blushes and scoots back toward the curtain.  "Isn't that adorable?"  Ms. Monet asks.  The teacher looks over her shoulder, points her middle finger at Mia, and says, "Here kitty, kitty.  Don't worry, the paint's non-toxic."
+
+Before Mia budges, she glances at the audience, but she only sees encouraging faces.  With a smile, Mia sighs, then on all fours, she crawls toward the moist finger.  When she gets to the finger, she tries to wrap her mouth around it, but Ms. Monet pulls it away and says, "Nuh, uh, uh!  Like a kitty."  After taking a moment to think what that means, Mia sticks out her tongue and then is permitted to lick the finger clean.  Each lick is slow with Mia curling her tongue back into her mouth to swallow.  She acts like she's trying to seduce the finger.  
+
+At first, Mia genuinely seemed embarrassed and it makes you think this part wasn't planned.  But now she seems to be playing along and going with the flow.  
+
+<<if $fs_watersports or $fs_scat>>\
+The curtains open up and a box full of kitty litter slides to the center of the stage.  The box is wide enough for a person, but it's very short, only about 6 inches off the ground.  Ms. Monet notices it before Mia does, so she pets the top of Mia's head, points at the box, and says, "Time to do your business for the nice people."  Mia smiles as she approaches the box, leading you to believe this part was planned. 
+
+    <<if $fs_watersports>>\
+        [[Continue.->CostumeShowKittyLitterUrine]]\
+    <<else>>\
+        [[Continue.->CostumeShowKittyLitterScat]]\
+    <</if>>
+<<else>>\
+[[Continue.->CostumeShowNextScene]]
+<</if>>
+\ <<chardetail "Mia" "She dressed as a cat girl during the costume show.">>
+
+:: CostumeShowKittyLitterUrine
+Mia squats in the box, facing the audience and making sure her crotch is visible.  When she licks her lips and looks around, you do the same.  Most of the teachers are smiling, but there are a few that have neutral expressions.  Perhaps they're not looking forward to what's about to happen.
+
+Into the mic, Ms. Monet says, "If we're all quiet and don't make the kitty skittish, maybe she'll tinkle for us."  Mia looks at Ms. Monet and nods.  She then squints and tries to concentrate on her task.  It's quiet in the gym, except for someone clearing their throat and another teacher coughing into their hand.  
+
+Nothing happens and Mia's lip quivers once.  She looks up and over the heads of the audience to pretend they're not there.  To help, Ms. Monet starts to making a hissing sound into the mic, the sound of urine.  Mia closes her eyes and nods twice in appreciation.  After a few more seconds, a trickle of golden urine spills out of Mia's crotch.  The liquid removes a line of white body paint, revealing the plump skin underneath.  
+
+A few seconds later, urine sprays out of Mia's crotch in a strong stream.  Some of it ricochets against her fat labia, making a wet mess on her lips, but Mia opens her eyes and smiles anyway, happy she was able to perform in front of all these people.  
+
+Once Mia's able to make her own hissing sounds with her body, Ms. Monet stops making artificial ones with her mouth and lets everyone enjoy the show.  Mia holds her chin up high and watches each of the teacher's reactions.  Most are clapping to encourage her behavior.  
+
+When her flow stops, her crotch is a mess because it's slick with urine.  But, she's unable to wipe herself with those thick paw gloves.  Ms. Monet says, "Would anyone like to wipe our resident kitty?"  A few teachers raise their hands but Ms. Monet picks you.
+
+When you get on the stage, the teacher hands you some wet wipes.  You approach Mia.  There isn't a hint of nervousness on her face, in fact, she welcomes you by sticking her hips out as you approach.  You begin to unfold the wet wipe, and Ms. Monet whispers into your ear.  "Keep it folded."  Ms. Monet shrugs and grins.  "Mia's idea."
+
+The wet wipe is only one inch squared, so it barely fits in your palm.  When you swipe up Mia's slit, your fingers caress her labia.  Your hand makes so much contact with her flesh, you're fondling her more than cleaning her.  Her crotch feels like it's burning up.  Mia bites her lower lip, moans, and looks into your eyes.  Without breaking eye contact, she smiles and meows.  
+
+On your second swipe, you dip your fingers into her vagina as you pass by.  It feels so wet, you think it's urine at first, but then you realize it's too viscous for that to be possible.  Your expression must of changed, because Mia breaks eye contact and blushes.  She seems to enjoy being cleaned, if you can even call it 'cleaning.'
+
+Having used both sides of the wet wipe, Ms. Monet gives you a fresh one, and you try to clean off Mia's clitoris.  There's no point in this because it's dry, but you wanted to feel how hard it is.  You're as gentle as you can be, but the nub feels like a pencil eraser between your fingers.  She's so wet, you decide to see what will happen if you give it a little tweak.  Mia reacts with a load moan and her legs begin to wobble.  If you're not careful, she might topple over.  
+
+After a few more wipes, you decide she's as clean as she's going to get, and stand up.  Ms. Monet thanks you for helping and the teachers clap as you sit back down.  From your seat you notice all the body paint has been wiped off of Mia's crotch, not that it did a good job of covering her body in the first place, but she looks even more nude now.  
+    
+<<if $fs_scat>>\
+[[Continue.->CostumeShowKittyLitterScat]]\
+<<else>>\
+[[Continue.->CostumeShowKittyEnd]]\
+<</if>>
+\ <<chardetail "Mia" "She peed in a litter box during the costume show.">>
+
+:: CostumeShowKittyLitterScat
+Mia faces her back to the audience, gets on all fours, and tries to spread her cheeks, but she can't make a grip with her gloves on.  When Ms. Monet sees the problem, she places the mic on the floor, walks over, and parts Mia's cheeks for her.  
+
+You have a clear view of Mia's crotch and anus.  Mia or a peer tried to paint her sphincter white, but they were unable to coat the little crevices between her wrinkles.  With her anus spread out like this, it looks like someone tried to paint the sun, but they only had white paint to do it.  
+
+On the side of Mia's body, Ms. Monet's bent over, facing the opposite direction as her.  The teacher scans the audience, smiles, and says, "Come on, kitty.  Make for the nice people.  They're waiting for you." When Mia's anus bulges out, Ms. Monet says, "Ooh," and smiles at you.  Mia sighs, and her anus relaxes.  "Try again, darling."
+
+This time, the anus pushes out for a few seconds, then it starts to gape, revealing a brown circle behind the hole.  This circle widens until it reveals itself as the pointy end of a firm turd.  You're not sure if Ms. Monet sees it because she bends over to give one of Mia's butt cheeks a kiss, then turns up her crinkled nose abruptly.  With a nasally voice, she says, "Good job.  Push.  Push!"
+
+The fecal matter pushes out of Mia's rectum like it's on a conveyor belt, then it snaps off and plops into the sand, making a dull thud, an indication of how firm and heavy it is.  Some of the audience claps.  Others look disgusted.  It takes a few seconds before Mia's sphincter closes, and while it's gaped, you think you see more scat within her bowels.  
+
+"Now for the wiping," Ms. Monet says.  She lifts up a roll of toilet paper that was sitting in a corner of the box and tears off a piece.  The turd looked like it had a clean break, and Ms. Monet only has to wipe once before she's satisfied.  She shows the wipings to the audience, and from what you can see, it looks clean.  Ms. Monet chuckles and says, "Well, kitties aren't known to be dirty animals."
+
+<<linkreplace "Give her a stage direction to lick Mia's potentially dirty anus." t8n>>\
+You cup your mouth and say, "Give her a tongue bath!" The teachers at your side giggle at your suggestion.  
+
+There's a moment where Ms. Monet doesn't say anything except for, "Uh..." but then she says, "OK, I can do that."  After a pause, her head disappears between Mia's cheeks.  With a slow upward motion, she tilts her head up, and you hear Mia moan.  The teacher gives her student one more slow swipe, and Mia wiggles her bottom like it tickles, but she moans even louder than the first time.  
+
+When Ms. Monet turns around to face you, she has her tongue out and it's covered in white paint.  She crawls on her hands and knees toward you until she gets to the edge of the stage, and Ms. Darwin leans in to sniff Ms. Monet's tongue.  She giggles and says, "Pew."  When you lean in, you smell a hint of feces.  There's something earthy about it.
+
+Once Ms. Monet's scuttled sideways to let everyone smell, she looks at the ceiling, closes her eyes, and swallows.  She sticks out her tongue again, revealing there's still some faded body paint on it.\
+<</linkreplace>>
+
+[[Continue.->CostumeShowKittyEnd]]
+\ <<chardetail "Mia" "She pooed in a litter box during the costume show.">>
+
+:: CostumeShowKittyEnd
+With Mia's performance over, she stands at the front of the stage, gives a bow, and runs off behind the curtain.  The teachers all clap, waiting for the next costume.
+
+<<include "CostumeShowNextScene">>
+
+
+:: CostumeShowNun
+<<set $finished_cs_nun to true>>\
+"Introducing Casey and Kira!"  
+
+When the curtain opens and the two students walk through, the first thing you notice is how conservative they're dressed.  Casey is wearing a nun costume and Kira's dressed in something frumpy.  She's probably supposed to be a peasant or something.  They stand shoulder to shoulder and bow at the audience.  When the teachers begin to clap, you clap along out of reflex.
+
+Casey and Kira turn to face each other, then Kira gets on her knees and prays.  Her eyes are wide as she looks into Casey's eyes.  A large wooden cross attached to a rosary sways from Casey's wrist as she reaches down to stroke Kira's cheek with her hand.  With the same hand, Casey reaches into a pocket, pulls out a sacramental wafer, and places it on Kira's tongue.  The two stare into each others eyes with such an intense look, it makes you feel uneasy.  The religious themes aren't helping.  
+
+"Tell me how you sinned," Casey asks.
+
+Kira clears her throat and says, "I, uh... I've soiled some rosary beads."  There's an awkward pause until Casey taps Kira's thigh with her shoe.  It seems that Kira's forgotten what she's supposed to do next.  A second later, she says, "Oh yeah!" turns her back to the audience,  bends forward, and places her face on the ground with her bottom in the air.  Casey lifts up the back of Kira's frock, revealing her bare bottom.  You look to your right and see a row of smiling teachers with their eyes glued to the scene.  
+
+When Casey says, "Show me, Child," Kira reaches back to spread her cheeks, showing off her private parts to the teachers.  Her anus is tight and wrinkled, but her labia have a vertical gape between them, allowing you to see her full clit hood.  The bottom of it pokes out, and there's already some wetness around her slit.
+
+After kneeling to Kira's side, Casey crooks a finger and fishes around in Kira's vagina.  This lasts for about 15 seconds, and Kira lets out some embarrassing grunts as she's fingered, but she continues to hold her cheeks open the whole time.  When Casey begins to pull her finger out, there's a rosary necklace hooked around it.  For dramatic effect, Casey pulls the rosary out of Kira's vagina as slow as she can, revealing it's much larger than a normal necklace.  
+
+As Kira's vagina spits out beads, the hole looks like it's vibrating.  A teacher says, "Wow," as the necklace seems to get longer and longer.  Casey has to stand up and back away to continue pulling.  In the end, the necklace turns out to be about 5 feet long.  As it slips out of Kira, it makes a click-clack sound on the stage floor.
+
+<<img "kira_nun_costume.png">>
+
+Casey lifts her arm up into the air to show how long it really is.  The whole thing dangles about two feet from the floor and all the beads glisten with Kira's juices.  "I think these are too soiled," Casey says.  "We'll have to give them away."  A couple teachers on each side of you stand up and raise their hands, begging for the beads.  Casey throws it to her right, and two teachers go for it like they're catching the bouquet at a wedding.  In the end, Ms. Tink gets it.  She raises it in the air and the other teachers clap for her as she takes her seat.  
+
+When you face the stage, Casey and Kira are standing again, facing the audience.  They bow and run behind the curtain.
+
+"Well," Ms. Monet says, "wasn't that nice?  They came up with that idea all on their own, you know." She looks at the curtain and says, "Who do we have next?  Oh yeah, that's right."
+
+[[Continue.->CostumeShowNextScene]]
+\ <<chardetail "Kira" "She was dressed as a peasant during the costume show.">>
+\ <<chardetail "Casey" "She was dressed as a nun during the costume show.">>
+
+:: CostumeShowTwinsBondage
+<<set $finished_cs_twins_bondage to true>>\
+When the previous act has left, Ms. Monet says, "Now introducing <<if $has_mothers>>Hannah, Anna, and Mom<<else>>Hannah and Anna<</if>>!"
+
+Anna comes out in front, dressed in black leather crotchless chaps, a corset, high heeled boots up to her thigh, elbow length gloves, a massive strapon, and black leather hat, and a crop in one hand.  Clearly, she's trying to look like a dominatrix.  Her breasts are barely covered by nipple jewelry, and although she's crotchless, the strapon prevents you from seeing her vulva.
+
+Behind her follows <<if $has_mothers>>Hannah and their mother, lead by two leashes around their necks.  It's easy to identify mom, because her body is wider, taller, and more buxom.  They're both wearing <<else>>Hannah follows, lead by a leash around her neck.  She wears <</if>> full body latex, a corset, and a latex hood.  The <<if $has_mothers>>hoods have<<else>>hood has<</if>> an open mouth, open eyes, nostril holes, and a ponytail in the back.  <<if $has_mothers>>Both of them have<<else>>She has<</if>> a dental gag that keeps <<if $has_mothers>>their<<else>>her<</if>> mouth held open, a neck corset that keeps <<if $has_mothers>>their<<else>>her<</if>> chin held high, a binder that keeps <<if $has_mothers>>their<<else>>her<</if>> arms straight behind <<if $has_mothers>>their<<else>>her<</if>> back, and six inch thigh high ballet heels. Although Anna's dressed in complete black, <<if $has_mothers>>Hannah's dressed in white with a red corsets, and their mom is dressed in red with white corsets.<<else>>Hannah's dressed in white with red waist and neck corsets.<</if>>  There's zippers along the breasts and crotch, but they're zipped up tight.
+
+<<if $has_mothers>>Their heels and binders <<else>>Her heals and binder <</if>>make it challenging to walk, and Anna drags <<if $has_mothers>>them<<else>>her<</if>> a little faster than <<if $has_mothers>>they<<else>>she<</if>> would like. <<if $has_mothers>>They <<else>>She <</if>> almost topple over as they step to the front of the stage. <<if $has_mothers>>Anna stands between them and they all try to take a bow, <<else>>When they both get to the front of the stage, they try to bow, <</if>> but only Anna's costume has enough flexibility to allow it.  The teachers clap and seem excited to see what's going to happen next.
+
+[[Continue.->CostumeShowTwinsBondage2]]
+<<if $has_mothers>>\
+\ <<chardetail "Anna" "She was dressed as a dominatrix during the costume show and she made out with her sister and mother.">>
+\ <<chardetail "Hannah" "She was dressed as a latex slave during the costume show and she made out with her sister and mother.">>
+<<else>>\
+\ <<chardetail "Anna" "She was dressed as a dominatrix during the costume show and she made out with her sister.">>
+\ <<chardetail "Hannah" "She was dressed as a latex slave during the costume show and she made out with her sister.">>
+<</if>>
+
+:: CostumeShowTwinsBondage2
+Anna turns, places her crop on Hannah's mouth, and says, "Tongue!"  Obediently, Hannah's tongue pops out past the gag.  <<if $has_mothers>>\
+Anna faces her mother and does the same thing.  "Face each other."  In their uncomfortable heels, it takes three steps to turn, but the mother and daughter do as their commanded.  "Touch tongues."  Anna's voice is monotone when she gives these commands.  She sounds like a real domme.  
+
+As the two shuffle together, Ms. Monet says, "These lovely costumes were mostly Anna's idea.  It was relatively easy to get Hannah to agree, but Mom took a little more convincing."  Anna and Mom's outfits are so restrictive, they can only take little steps toward each other.  Someone from the crowd woos as the two get closer.  Unsatisfied with their pace, Anna gives them both a firm swat on their behinds.  
+
+When the two are an inch away from each other, their mouths don't align because Mom's too tall.  She has to get herself in a high squat and take one final step forward before her tongue touches her daughter's.  Mom winces and closes her eyes as she licks her daughter's tongue.  
+
+"Aw," Ms. Monet says, "isn't that lovely?  I should add that Anna kept the performance a secret from her mother and sister.  They had no idea they'd be kissing each other during the performance."  
+
+Anna takes that as a cue to unzip her sister and mother's crotch.  The zipper runs from the navel to the top of their butt cracks.  To unlock her sister, Anna has to stand behind her and reach between her legs.  When unzipped, Hannah's bottom springs out from the tight latex.  The costume is so constricting, it looks like it'll be impossible to zip her up again.  Before moving on to her mother, Anna fondles Hannah's crotch.  She grunts through her gag, but doesn't stop making out with Mom.
+
+After unzipping her Mom, Anna stands at their sides, putting them between the audience and her.  She reaches around their backs, and for a moment, it looks like she's posing for a family photo, but then Anna's arms slide down their backs and she fingers them.  Hannah and Mom squirm as much as they can in their costume, but they keep their tongues touching.  After about 10 seconds of fingering, you hear Ms. Monet's heavy breathing over the mic.  
+
+Anna removes her hands from their crotches and shows off her shiny middle fingers to the crowd.  The audience claps, and Anna returns her fingers from where they came.  With her arms wrapped around her mom and sister, like an obscene family hug, Anna leans in and does her best to meet tongues with them.  
+
+While the three of them make out, Ms. Monet realizes her breath is audible and apologizes.  Their kissing and fingering goes on for five minutes before Mom's legs start to shake.  It's not clear if her muscles are giving out or she's so worked up she can no longer stand, but shortly after, Anna puts an end to this.  
+
+Once again, she shows off her middle fingers to the crowd.  They're much more sloppy and wrinkled than the first time.  Before the three of them take a bow, she slides the finger she had in her mom's vagina across Hannah's tongue and vice versa.  
+<<else>>\
+"Face me."  When their eyes meet, Anna smiles, points at her own lips, and says, "Kiss."  It takes 10 seconds for Hannah to scuttle her way over to Anna, even though there's only five feet of distance between them.  You're pretty sure Hannah could walk faster than that, but she seems to be stalling.  Either way, it does an effective job of building the tension.  
+
+Unsatisfied by Hannah's pace, Anna swats her crotch with the crop, making Hannah yelp.  She speeds up after that, and Anna waits for their faces to meet with an open mouth and a tilted head.  Hannah's tongue slides into Anna's mouth like it's docking, and immediately after, you hear slurping sounds.  
+
+All the passion seems to be coming from Anna's side.  She cups the back of Hannah's head with her free hand, moaning as she sucks on her sister's tongue.  Through her eye holes, Hannah looks at the audience and sees a lot of encouraging faces.  
+
+They stop making out, Anna throws her crop to the side, and she turns her sister to face the audience.  With one swift tug on a zipper, she frees Hannah's right breast, and it springs forth like it couldn't breathe in there.  From behind, Anna massages her sister's breast with one hand while she unzips the other breast with her other hand.  When both breasts are bare, Anna's hands make their way to her sister's crotch and unzip that, too.  
+
+It's hard to read Hannah's reaction to all this because you can only see her eyes.  But it looks like she's staring above the audience instead of at them.  Anna holds on to her floppy strapon in one hand and positions it into Hannah's vagina.  It's much too big to fit at first, and Hannah lets the audience know it with her painful grunts.  When the tip pops in, Hannah lets out an audible gasp.
+
+From that point forward, Anna bucks her hips.  The dildo's so large, the sisters have to stand three feet away from each other, and it bends on every thrust.  Hannah closes her eyes like she's accepting her fate, but after a few seconds, she starts to moan.  When she opens her eyes and looks at the audience, you can tell she's getting worked up by this.  <<if $fp_nipple>>
+
+Ms. Monet walks up to them with two clothespins in her hand.  This seems like it was planned ahead of time.  She gives the audience a knowing smile, then clips each clothespin onto Hannah's nipples.  Hannah grunts and jiggles her breasts after each one is applied.<</if>>
+
+Anna's thrusts are mostly for show.  The dildo is so floppy that she can't create much friction inside her sister's vagina.  After some time, she dismounts, slaps her sister's bottom, then gives her a mild kiss on the cheek.  She wraps both arms around Hannah and almost lifts her up with a tight bear hug, almost like she's saying, //that was fun//.  Once you get a good look at it, you see the tip of the strap on is shiny with Hannah's juices.  
+
+Anna bows, then she leads her sister off stage by her leash.  In your opinion, it was a rather abrupt ending, but the audience seems to have really enjoyed the show.  <</if>>
+
+[[Continue.->CostumeShowNextScene]]
+
+:: CostumeShowPiercings
+<<set $finished_cs_piercings to true>>\
+Ms. Monet says, "Next up, we've got a punk rocker!"
+
+Olivia bursts out the curtains.  Her hair is dyed purple and gelled into a spiky Mohawk, and she's wearing a black leather jacket with a red anarchy symbol spray painted on her lapel.  She twirls around, revealing a larger symbol on her back.  The denim shorts she's wearing are so cut up, you can see her black nylons through them.  If she were to sit down, her shorts would probably split in half.
+
+After taking a few steps forward, she squats and flips off the audience with both hands and her tongue out.  <<if $fs_piercings>>You notice it's got a large stud through it.  <</if>>
+
+When Olivia notices you there, her whole demeanor changes.  She puts her hands behind her back and blushes, then says, "I was just kidding, sorry."
+
+Ms. Monet comes over to her side and says, "We know dear.  It's a costume party, so we're here to pretend."
+
+With her chin tucked in, Olivia gives you a quick glance and says, "Yeah, but, I don't want to get in trouble."
+
+A couple teachers groan at the way Olivia's breaking the fourth wall, so you cup your mouth and say, "You're not going to get in trouble for pretending to be rude."
+
+Olivia looks at Ms. Monet, then you, then says, "Really?  Oh, OK.  Can I- Can I start over?"
+
+When Ms. Monet says sure, Olivia scurries behind the curtain again.
+
+[[Continue.->CostumeShowPiercings2]]
+<<if $fs_piercings>>\
+\ <<chardetail "Olivia" "She dressed as a punk rocker for the costume show and had real vulva piercings.">>
+<<else>>\
+\ <<chardetail "Olivia" "She dressed as a punk rocker for the costume show and had fake vulva piercings.">>
+<</if>>
+
+:: CostumeShowPiercings2
+Ms. Monet looks at the curtain and asks, "Ready?" When she gets an affirmative, she says, "Once again... Olivia!"
+
+Just like before, Olivia dashes out and flips off the audience.  This time, she flings off her jacket and throws it at Mrs. Eigen, revealing a mesh top with no bra underneath.  Olivia lifts up one of her breasts and pretends to lick it in a vulgar manner, but she's wearing skull and cross bone pasties, so her tongue slides over the sticker.  
+
+She twirls and takes a step back, then she grabs the fly of her shorts with both hands and tears them off her into two denim pieces.  The only thing covering her crotch now is her black nylons.  She turns her back to the audience, you hear a tear, and then she faces you with her hand covering her crotch.  Some of the teachers groan.  Olivia asks, "You want to see this, you pigs?!"
+
+Most of the teachers clap.  Ms. Darwin whistles between her fingers like she's at a strip club.  
+
+Olivia says, "Fuck you!" at the same time she moves her hand away.  
+
+You're surprised by what you see.  Olivia has piercings all the way up each labia. <<if not $fs_piercings>>You thought you told Ms. Monet no piercings.  It takes you a second to think about what to do.  You don't want to interrupt the show, so you look at Ms. Monet and mouth the words, //Are those real?//  Fortunately, she notices you, smiles, and shakes her head.<<else>>Each piercing is filled with a curved barbell that connects one lip to the other, forming a metal ladder that holds her labia together.  She's also got a tiny barbell through her clit hood with two spiky ends like a miniature mace.  You're not sure why she picked that kind of jewelry for her clit.  It looks uncomfortable.<</if>>
+
+Olivia kneels with her knees on the edge of the stage, thrusts the air, and pumps her fists.  If she weren't crotchless, it would look like something a rock star would do.  Ms. Monet says, "Olivia wanted everyone to know you're allowed to touch at this part."  Like a pack of rabid dogs, the teachers gather around the star and slide their hands up and down Olivia's inner thighs.  When there's not enough room for everyone, the teachers start to fondle her chest.  Everyone seems eager to get a feel for those piercings, but Olivia continues to thrust like she doesn't even notice.  
+
+<<img "olivia_punk_rocker.png">>
+
+After a few seconds of this, Olivia breaks character and gasps.  You have a feeling someone took it too far and tried to finger her. If you're right, it must have took some effort to slide between the barbells.  They created a pretty good seal and kept Olivia's labia closed, so the teacher must have really wanted to get in there.  With an annoyed look, Olivia slides back on the stage, stands up, and flips Mrs. Ball off,   but then she has a subtle smirk on her face, so you can tell she's more surprised by the teacher's audacity than anything.  After pretending to spit on the floor, Olivia says, "Fuck you!" to no one in particular, then walks through the curtain, flipping everyone off behind her back one last time before it closes.
+
+The teachers look like they had a lot of fun with that.  Unfortunately, they were so quick to act, you didn't get a chance to participate<<if $fs_piercings>>, but you think you hear one of them whispering that Olivia's nipples felt like they were pierced, too<</if>>.
+
+[[Continue.->CostumeShowNextScene]]
+
+:: CostumeShowCowgirl
+<<set $finished_cs_cowgirl to true>>\
+<<set _is_hucow to (not $finished_hucow_transformation)>>\
+When the stage is empty, Ms. Monet says, "Introducing... Jessie the Cowgirl!"
+
+Jessie parts the curtain like she's stepping through saloon doors.  There are two water pistols in her hands.  She aims one at the audience and squirts toward them, but the stream is too weak to land anywhere but the stage.  When she steps forward, you get a closer look at her costume.  She's wearing two dark brown leather gloves, a light brown top, white ass-less chaps with black splotches to look like cow hide, a pair of black panties, a red scarf, a leather hat, and a holster for her guns.  Her leather top is in the shape of a bra, revealing her cleavage and tummy<<if $hucow>>, and there are sheriff badges on each breast, right where her nipple would be<</if>>.  The one part of this outfit that isn't revealing is her brown leather duster, but it's open in the front.
+
+With a menacing look, she scans the audience, then starts spraying them with her guns.  <<if $hucow>>Some of the liquid sprays on your face, and when you wipe it off, you realize she's spraying milk, not water.  <</if>>  After holstering her two guns, she takes off her duster and turns around, giving you a nice glimpse of her bottom.  It was hard to tell from the front, but now you can see she's wearing a thong.  When she gives her cheek a slap, it's so thick it jiggles for a second.  
+
+She turns her head so you can see the profile of her face and gives everyone a little smile.  Then, she unhooks her bra and slings it over her shoulder, but from the way she's standing, you can only see her <<if $hucow>>thick<</if>> back<<if _is_hucow>> and the sides of her massive breasts<</if>>.
+
+<<if $hucow>>\
+[[Continue.->CostumeShowCowgirlLactation]]
+<<else>>\
+[[Continue.->CostumeShowCowgirlStriptease]]
+<</if>>
+\ <<chardetail "Jessie" "She was dressed as a cowgirl for the costume show.">>
+
+:: CostumeShowCowgirlLactation
+<<set _is_hucow to (not $finished_hucow_transformation)>>\
+Without revealing her chest, Jessie runs through the curtains.  Her act was only a couple of minutes and had no nudity, so the teachers seem a little perturbed.  Ms. Monet's outfit is far more revealing and she was only standing a few feet away.  
+
+Just as the teachers start to murmur, Jessie comes back out with two metal buckets covering her chest like a burlesque dancer would with a fan.  It seems her act isn't over yet.  From behind the curtain, someone kicks out a wooden stool, and it slides across the stage before Jessie stops it with her foot.  She plops her bottom down on it, causing her breasts to jiggle behind the buckets, then with a sly grin she asks, "Is anyone thirsty?"
+
+<<if _is_hucow>><<img "jessie_cowgirl_costume_hucow.png">><</if>>
+
+Most of the teachers raise their hands, but Jessie picks Ms. Waterloo and you to come up.  When you're all on stage, Ms. Waterloo smiles and asks, "Uh, how should we do this?"  
+
+Without exposing her nipples to the crowd, Jessie scoops one breast into the bucket and then the other one.  Her breasts are so engorged, they land against the back of each bucket with a dull thud.   It takes a moment to get the balance right, but she's able to balance the bottom of the buckets on top of her thighs.  Anyone else would have to hold each bucket against their chest like a bra.  
+
+Now that her hands are free, she looks up, points in a bucket, and whispers, "You can just squeeze them in here, but don't lift them out of the bucket."  She nods toward the audience.  "I want to tease them."  The buckets are precariously balanced, supported only by the weight of her breasts, so Jessie wraps her arms around them to hold them in place like she's giving them a big hug.
+
+<<if _is_hucow>>Jessie's breasts are so large, they line the bottom of the bucket like a liquid.  Some of her areola is visible, but her nipple is hidden, pressed against the pail.  You have an urge to feel how heavy her breasts are, so you slide your hand along the inside of the bucket until her breast is resting on your palm. \
+<<else>>\
+You have an urge to feel how heavy her breasts are, so you reach into the bucket cradle her breast from behind, but you don't lift it out. \
+<</if>>  Her skin is warm to the touch and smooth throughout, and when you squeeze, it's so taut there's some resistance, like it wants to spring back to its original shape.  The longer you feel around, the more wetness you feel on your hand.  She's so full, it feels like you could squeeze any part of it and produce some milk.  You take your hand out of the bucket, grab the base of the breast with both hands, and see if you can touch your thumbs and fingers together.  <<if _is_hucow>>Not even close.  You'd need a third hand.<<else>>Almost.  If you tried hard, your fingers might be able to touch, but it might hurt Jessie so you don't try it.<</if>>
+
+Jessie watches Ms. Waterloo as she grabs the other breast, and the two of you explore Jessie at your own pace, trying to balance the most efficient way to produce milk with the technique that feels best to her.  <<if _is_hucow>>Since there isn't any space between Jessie's nipple and the bucket, whenever you squeeze, the sound of milk spraying against it is so gentle it's almost inaudible.<<else>>Each time you squeeze, a few thin lines of milk spray out and hit the front of the bucket, making a pleasant zipping sound.<</if>>  
+
+Ms. Monet prances to the three of you and stands on her tiptoes to get a good look into your bucket.  With a grin, she raises the mic to her mouth and says, "Ooh, I'm getting thirsty just watching this.  And, uh, I hope this isn't out of line, but your breasts look lovely.  What do you say we give the audience a teeny tiny peak?" Jessie looks up at Ms. Monet, bites her bottom lip with a mischievous grin, and shakes her head.  "Well, I tried."  She addresses the audience.  "I guess this'll have to do for now.  You'll have to use your imagination.  But, this should help:"  Ms. Monet sticks the microphone near the top of the bucket, amplifying the sound of milk spraying against the metal.  
+
+Part of the fun is seeing the audience's reactions.  With their eyes glued on the action, they seem to be getting as worked up as Jessie.  Ms. Monet puts the microphone above Ms. Waterloo's bucket and asks the audience, "Can you hear the difference?  Close your eyes and see if you can guess."  Not everyone follows the suggestion.  A couple teachers just want to watch.  
+
+After a couple of minutes of this, Jessie shudders on every breath, and Ms. Monet moves the mic up to Jessie's mouth to capture the sultry noise.  When Jessie hears herself on the speakers, she blushes and tips her hat down to block the top portion of her face.  It provides as much privacy as one could hope for when sitting in front of an audience.  
+
+Whereas you focus on squeezing the area around the nipple, Ms. Waterloo strokes up and down the topside of the breast, going up to Jessie's shoulder.  It looks more like a massage than a milk extraction technique, but earlier you heard on the microphone that even this is producing milk.  It's a testament to how full Jessie is.
+
+Looking down, Jessie smiles and says, "Mmm, that looks like enough."  You and Ms. Waterloo have to remove your hands from the buckets, then Jessie spins until her back is facing the audience.  She places the pails on the floor, looks over her shoulder, and walks through the curtain with a smug grin on her face.  You get the sense that she's not coming back this time.  Since her breasts were submerged in her own milk, white droplets make a path to where she stepped through the curtain.  
+
+Even though Jessie was just milked in public, she found a way to avoid showing off her nipples to the audience, and you see a lot of antsy faces out there.  Everyone looks like they want more.  As a consolation prize, Ms. Monet says, "We're going to pass around these buckets if anyone would like a sip.  But don't be greedy. Make sure to leave some behind so everyone gets a sip."  
+
+You and Ms. Waterloo carry a bucket back to your seats.  It looks like there are about two inches of milk in your bucket, enough to fill <<if _is_hucow>>a whole<<else>>a half<</if>> glass.  You wonder if there's more or less in Ms. Waterloo's bucket.  
+
+<span class="options">\
+<<linkreplace "You drink some of Jessie's milk." t8n>><<replace ".options">>\
+You lift the back of the bucket and pour some milk into your mouth.  Because the bucket's rim is so wide, it's hard to get it all into your mouth, and some of it splashes on your cheeks, but really it's the taste that stands out to you.  It's sugary, much sweeter than cow's milk, and it also has a fruity flavor to it.  The fact that it's warm and thinner than regular milk is off putting at first, but that's probably because it's unfamiliar, not because it's bad.  On your second tip, you conclude the fruity flavor is similar to cantaloupe.  You can tell the others are anxious to get a taste, so you pass the bucket and wipe off your cheeks.
+
+When everyone who's interested takes a sip of Jessie's milk, Ms. Monet retrieves the buckets and says, "Well, that was nice, wasn't it?  We've got a lot more acts for you today.  Are you ready for the next one?"
+
+[[Continue.->CostumeShowNextScene]]
+<</replace>><</linkreplace>>
+
+<<linkreplace "You pass the bucket without taking a drink." t8n>><<replace ".options">>\
+When everyone who's interested takes a sip of Jessie's milk, Ms. Monet retrieves the buckets and says, "Well, that was nice, wasn't it?  We've got a lot more acts for you today.  Are you ready for the next one?"
+
+[[Continue.->CostumeShowNextScene]]
+<</replace>><</linkreplace>>
+</span>
+
+:: CostumeShowCowgirlStriptease
+Jessie takes off her hat and covers her chest with it, then she bends over and touches the floor with her other hand.  In this position, you have a good view of her ass and the underside of her cleavage, but the hat prevents you from seeing her nipples.  You're reminded of some weeks back when Jessie was forced to do this move in PE class under more stressful circumstances.  Well, it seems like she's been practicing, because her torso is nearly between her legs.
+
+She gyrates and bounces her hips in a suggestive manner, wobbling her cheeks in the audiences' face.  You keep trying to catch a peek at her vulva or anus, hoping for her thong to slip from all the erratic movements, but to your frustration, it stays in place for as long as you watch, and after a minute of teasing, you wonder if she's taped it down so it can't move.  
+
+You're so distracted by her backside, you failed to notice she's been lowering her hat toward the floor the whole time.  Now only her nipples are covered, but you have a clear view of each tear-dropped shaped globe jiggling as she moves her hips.  She slows down her movements and her breasts start to sway side to side, threatening to slide off the brim of the hat and expose her nipples to everyone.  
+
+Because of Jessie's fair skin, her breasts have an almost creamy complexion without any marks or blemishes.  Sometimes, a movement will swing her breasts away from each other, creating small gap between them, but gravity always brings the globes back together.  When the two breasts kiss, the gap turns into a thin vertical line.
+
+Jessie lifts her one hand off the floor so she's balancing herself with just her legs.  It seems strenuous, because her legs quiver to hold this position.  You turn and notice Mrs. Ball smirking with her chin held high.  With Jessie's free hand, she strums the underside of her breast.  Her fingers glide across her supple skin, and the way they make little imprints on her breast indicates how soft they really are.
+
+Somehow, she's kept her nipples hidden this whole time. "Want me to drop the hat?" she asks the audience.  A few teachers look around, hoping someone will say yes.  Eventually, a couple do.  When Jessie drops her hat, she reveals two sheriff badge pasties on her nipples that she's been wearing the whole time.  You hear someone groan, frustrated they're still being teased.  
+
+With both hands free, Jessie squeezes and strokes her breasts in all sorts of ways.  She grabs each one near the pasties and shakes them side to side, making them crash into each other.  Then, she shakes her hips back and forth to make her breasts swing toward and away from the audience.  Finally, she places both hands on the floor with her breasts between her arms, squishing them together and making them pop out.  This goes on for at least a minute, and although her nipples are hidden, it seems to be having an effect on everyone around you.
+
+Jessie spanks her own butt, spread her cheeks for a moment, then stands up, faces the audience, and waves at them.  She blows them a kiss, says, "I hoped you liked that!" and walks through the curtains.
+
+"My," Ms. Monet says, "I don't think I've ever seen something so..."  She looks down at her own outfit then says, "Well, I'm not one to talk.  But, that was quite creative even though it didn't show any of the fun bits, hm?  Are we ready for the next act?"  
+
+[[Continue.->CostumeShowNextScene]]
+
+:: CostumeShowFlower
+<<nobr>>
+<<set $finished_cs_flower to true>>
+<<if $has_futa_students>>
+    <<set _fflower to "Luna">>
+    <<chardetail "Luna" "She was dressed as a flower for the costume show and Amy gave her a blowjob.">>
+    <<chardetail "Amy" "She was dressed as a bee for the costume show and gave Luna a blowjob.">>
+    <<chardetail "Olivia" "She was dressed as a flower for the costume show Amy pollinated her ass with Luna's semen.">>
+<<else>>
+    <<set _fflower to "Sarah">>
+    <<chardetail "Sarah" "She was dressed as a flower for the costume show and Amy gave her oral sex.">>
+    <<chardetail "Amy" "She was dressed as a bee for the costume show and gave Sarah oral sex.">>
+    <<chardetail "Olivia" "She was dressed as a flower for the costume show Amy pollinated her ass with Sarah's vaginal juices.">>
+<</if>>
+<</nobr>>\
+"I'm sorry to say, this next act is our last.  But, I'm hoping it'll be something special and leave you wanting more.  Introducing _fflower, Amy, and Olivia!"
+
+The three girls walk through the curtain holding hands and bow in unison.  Amy, the shortest of the three, stands in the middle dressed like a sexy little bee: She's wearing a black latex top that covers as much as a bra would.  Her yellow and black skirt is inappropriately short.  If she were wearing underwear, which she isn't, you'd be able to see her panties.  Instead, you can see the bottom of her two puffy labia and the way they meet to form a slit.  The only reason you can tell she's supposed to be a bee is because she's wearing a headband with two yellow puff balls on it that are supposed to be antennae, and she's got clear wings attached to her black bra.
+
+The other two girls on Amy's sides are dressed as sexy flowers.  They're wearing bracelets and necklaces with sunflower petals and flowery tiaras.  Their bodies are painted green like stems, their breasts are painted like flowers, and they have a lei wrapped around their hips.  <<if $has_futa_students>>Luna appears to be wearing a vibrating cock ring with sunflower petals around it, too.<</if>>  The three girls turn around and bow to the curtain, revealing that they're each wearing a vibrating butt plug.  You can tell that Amy's and _fflower's plug is tiny, but Olivia's seems massive and is having an affect on her ability to move around.
+
+Pleasant and relaxing music plays over the speakers.  The girls face the audience again and Amy pretends to buzz over to _fflower, leaving Olivia by herself.  
+
+Ms. Monet narrates what's going on:  "It's our little bee's job to carry the pollen from one flower to the next."  Amy turns her back to you, kneels in front of _fflower, and <<if $has_futa_students>>wraps her lips around the tip of her penis.  Luna's so massive, Amy looks like a snake unhinging its jaw.<<else>>buries her face in Sarah's crotch.<</if>>  As _fflower lifts her chin toward the ceiling and sighs, you see her nostrils flare.  You take a moment to think about how nerve wracking it must be to perform in front of all these people.  Not just for _fflower, but for all the acts.  
+
+Amy seems like she's improved her technique a lot.  She reaches around _fflower's bottom and plays with the butt plug as she sucks.  You wonder if this was rehearsed or if this is the first time they've tried performing the act, but either way, it doesn't take long before _fflower starts moaning.
+
+[[Continue.->CostumeShowFlower2]]
+
+:: CostumeShowFlower2
+<<nobr>>
+<<if $has_futa_students>>
+    <<set _fflower to "Luna">>
+<<else>>
+    <<set _fflower to "Sarah">>
+<</if>>
+<</nobr>>\
+Ms. Monet chimes in again.  "Isn't that cute?  And look at their outfits."  She walks over to Amy, who's kneeling on the floor, then places her finger against the back of Amy's butt plug, pushing it in and making sure it's nice and snug.  "The plugs were Olivia's idea.  Originally, she wanted everyone's to match, but nobody could fit the one Olivia wanted. In the end, she chose to wear the big one for herself."  <<if $fs_piercings>>It looks like Olivia's piercings have been replaced with flower shaped studs, but you're too far away to be sure.<<else>>You notice Olivia removed her fake piercings for this act.<</if>>
+
+The teacher walks over to Olivia, has her turn around and bend over, then has Olivia expel the plug.  It's so large, it looks like Olivia's birthing something.  Her anus bulges out as it pushes, and when the plug falls out of her, Ms. Monet catches it in both arms like a baby.  You hear the powerful vibrations through the air.  Olivia's gape doesn't close all the way, and you can see the bright red folds deep inside her.  They look tender to the touch, but Ms. Monet doesn't hesitate to push the dildo all the way back in, making Olivia grunt and her legs tremble.  The teacher repeats the process a few more times, pumping the massive plug in and out of Olivia's body until she spots some wetness in her crotch.  "Ooh, look at that," Ms. Monet says as she points.  "Our little flower can water herself."  Ms. Monet speeds up, pumping the dildo harder and faster.  Each time it's swallowed up to the base, Olivia grunts a little louder.  
+
+Suddenly, Olivia squeals and sprays juices on the floor.  You're not sure if it's urine or vaginal, but either way, it seems like Olivia has lost control of her body and orgasmed.  As she cums, Ms. Monet holds the butt plug in so Olivia's anus can suckle on it.  It almost looks like Olivia's body is trying to push it out, but the teacher holds it in place until the twitching stops.  
+
+Soon after Olivia's orgasm, _fflower begins to cum, too.  <<if $has_futa_students>>Amy backs her head up an inch or two but continues stroking the shaft.  She opens her mouth and sticks out her tongue to catch as much sticky globs as she can.  Overall, she's successful, but a lot of sperm paints her face, too.<<else>>Amy buries her face even deeper into Sarah's crotch and slowly motorboats it, covering her face in all the juices.  <</if>>  When the orgasm's ended, she has to close her eyes when she shows the audience because her face is shiny and sticky.
+
+"What wonderful timing," Ms. Monet says.  She walks over to Amy and guides her by the arm to Olivia, who's still bent over with the oversized plug in her ass.  "And now, the little bee will pollinate our flower."  Ms. Monet yanks the plug out of Olivia like she's a waiter lifting a metal dome off a fancy meal at a restaurant.  <<if $has_futa_students>>Amy bends over Olivia's ass, opens her mouth, and lets all the milky slime slide off her tongue and into the hole.  Whatever sperm lands on Olivia's cheeks, Ms. Monet pushes in with her fingers.  <<else>> Amy bends over Olivia's ass, sticks out her tongue, and reveals that she's been holding some of Sarah's vaginal juices in her mouth this whole time.  Gravity slides the slime off her tongue and onto Olivia's butt cheek.  This was intended to land inside Olivia, so Ms. Monet helps by pushing it in the hole with her finger.  Then, Amy uses Olivia's ass like a napkin to wipe off all the juices on her face.  This smears it around Olivia's cheeks, making them glisten with wetness.<</if>>  Ms. Monet plugs Olivia back up again, sealing the juices inside her body.  
+
+Facing the audience, Ms. Monet says, "Wasn't that lovely?  Let's hear it for our bee and our two flowers."  As everyone claps, the three girls face the audience, hold hands, and give them one final bow before exiting through the curtain.
+
+[[Continue.->CostumeShowNextScene]]
+
+:: CostumeShowEnd
+When the last act has left the stage, Ms. Monet says, "I hope you liked our little show.  The girls and I worked very hard on it, and I'm happy to say I was more of a facilitator than anything.  Most of the ideas were their own, I just helped where I was needed.  How about we give our students a round of applause?" When the teachers clap, all the students run on stage, hold hands, and take a bow like they would at the end of a play.  Once the applause has died down, Ms. Monet says, "Once again, I hope you enjoyed our little show.  We're going to clean up around here, then we'll be free to enjoy the rest of our weekend."
+
+You decide to stick around and help clean up some trash.  But, like everyone, you're anxious to go back to your room to relax.
+
+[[Go back to your room.->Office]]
+

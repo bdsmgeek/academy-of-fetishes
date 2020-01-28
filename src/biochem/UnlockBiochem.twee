@@ -1,0 +1,137 @@
+:: UnlockBioChem
+<<set $week to 5>>AB really likes what transpired during that last week and has decided to give you a huge bonus on the condition that you start a biochemistry class with the teacher of their choosing.  Her name is Mrs. Curie and she was recently fired from her job for testing chemicals on humans in unethical ways.  As a result, AB feels she's a perfect fit for this position.
+
+You've researched Mrs. Curie a bit on your own and are a little skeptical of what you read in her papers.  They border on science fiction.  Chemicals that can affect a person's libido?  Artificial hormones to change people's bodies?  Most of it doesn't seem possible.
+
+[[Continue->UnlockBioChem2]]<<nobr>>
+	<<if $fp_scat>>
+		<<run $cameraPassagePool.push("MiaToiletScat")>>
+	<</if>>
+	<<charadd "Mrs. Curie">>
+<</nobr>>
+
+:: UnlockBioChem2
+The next week you give Mrs. Curie a tour of the school and some of AB's assistants set up her lab.  Unlike Ms. Tink, she has never worked with AB before, though she knows of their existence.  That's a little disappointing as you were hoping to pry a little about AB's background.
+
+She seems to settle into her daily routine quickly, but she's obsessed with her work.  Rather than teach, she requests some initial alone time where she can put her head down and research without the students distracting from her work.
+
+You're a little hesitant, but she assures you she was on the cusp of something very creative before she got fired, something you'd be very interested in.  You decide to give her a chance to see what she'll come up with.
+
+[[Office->UnlockBioChem3]]
+
+:: UnlockBioChem3
+A week passes.  You're looking over some spreadsheets when you hear a knock on the door.  "Come in," you call.
+
+In walks Mrs. Curie.  She's wearing a pristine lab coat and some protective goggles on the top of her head.  She sits down across from your desk and looks pleased with herself.
+
+"Looks like you have some good news?" you say.
+
+"I do!  The good news is that I think I can come up with a compound that can induce lactation.  As you know, lactation can be induced by lowering a progesterone and estrogen while increasing prolactin levels."
+
+"Uhh," you say, "actually, I didn't know that."
+
+Her smile momentarily turns to a frown.  "Oh.  Anyway, I've found a completely different compound that can induce lactation.  You're probably wondering why we wouldn't just use the hormone therapy that already works, right?"
+
+"Uh..."
+
+She interrupts before you can answer. "Well the thing is, this new compound - I call it Novae Nubhim - is much more effective.  It will produce much more breast milk and it will produce it sooner than hormone therapy."  She steeples her fingers and taps them together.  "Well?  What do you think?"
+
+<<if $fp_lactation>>[[This is intriguing.  You ask her to tell you more.->HucowIntro]]
+
+<</if>>\
+[[Lactation?  You're not really into that.  Pass.->UnlockBioChem4]]
+
+:: HucowIntro
+<<set $finished_hucow_transformation to false>>\
+<<set $hucow to true>>\
+<<set $visit_hucow_scene_in_x_office_visits to 1>>\
+Before you can even reply, Mrs. Ball bursts into your office dragging Jessie by her ear.  She lowers her hand, forcing Jessie to kneel on the floor.  Jessie says, "Ow, ow, ow," as she's yanked to the ground.
+
+"Shut up," Mrs. Ball yells.  She turns to you and says, "Principal $name.  Jessie has had another uniform violation and refused to take her punishment.  I demand that something be done about her insolence."
+
+"Excuse me," you say with an authoritative tone.  "Can't you see I'm in a meeting?"
+
+Mrs. Ball squints and looks down to Mrs. Curie.  She hadn't even noticed she was in the room.  "Oh," Mrs. Ball replies.  "S-sorry..."  She blushes a bit and you think you can make out a smirk on Jessie's face.  Mrs. Ball grunts and squeezes her ear harder, making her hiss through her teeth.  "I'll just wait outside your room I guess."
+
+Mrs. Curie holds up her hand and says, "If I may, what punishment were you going to dole out?"
+
+Mrs. Ball turns around, swinging Jessie with her.  "I was going to make her wear a nipple clamp until tomorrow's class."
+
+Mrs. Curie asks Jessie, "Stupid question: Why did you refuse the punishment?"
+
+Jessie looks side to side and shrugs with furrowed eyebrows.  "Uh... because it would hurt?"
+
+"Of course!" Mrs. Curie says.  "And nobody likes to be punished, but if you had to be, you don't want it to hurt, right?"
+
+"What are you getting at," Mrs. Ball asks.
+
+Mrs. Curie reaches into her lab coat and pulls out a bottle of pills.  She looks up at it and shakes, causing them to rattle.  "This is an alternative form of punishment.  I think it is - forgive the pun - an easier pill to swallow."
+
+There's a pause in the room until Jessie asks, "What does it do?"
+
+Mrs. Curie smiles.  "Part of the punishment is for you to figure that out on your own.  But I assure you it's a lot less painful than wearing a nipple clamp for 24 hours.  What do you say?"
+
+Mrs. Ball barks, "It's not up to her!"
+
+Jessie is the bustiest girl in school and you are a little curious how her breasts would look when engorged with milk.  You ask her again, "What do you say, Jessie?"
+
+"It won't cause permanent damage?"
+
+Mrs. Curie says, "You may ache a little bit, but there won't be permanent damage."
+
+Jessie looks Mrs. Curie up and down as if to judge her character.
+
+You chime in, "It's the pills or the clamp.  I'll let you decide."
+
+"Nothing permanent?" Jessie asks Mrs. Curie.
+
+"No permanent damage, I promise."
+
+[[Continue->HucowIntro2]]<<chardetail "Jessie" "She's taking Mrs. Curie's lactation pills every night.">>
+
+:: UnlockBioChem4
+You do your best to smile as you say, "That sounds wonderful, Mrs. Curie, but I think it would be in the student's best interest if we were to avoid experimenting on them with this drug."
+
+Mrs. Curie pauses with her mouth open then looks down at the floor.  "I'm sorry, I thought you would appreciate my work."
+
+You walk to her side and place a hand on her shoulder.  "I do appreciate it!  I really do.  It's just not the right fit for our school.  But, I don't want this to dissuade you.  I encourage you to come up with creative ideas, just like that one.  Only... different."
+
+She looks up at you and purses her lips then says, "I feel foolish working on this in secret for so long.  I should have told you earlier because I wasted a lot of time and your money."
+
+"No, no, no," you say.  "Don't feel that way.  I love surprises, too.  It comes with the risk that I may reject your idea, but I don't want that to stop you from experimenting."
+
+She puts her hand on yours and exhales loudly then nods.  "OK, I'll think of something else."
+
+She stands up and walks out the door, a little less excited than when she entered.  Before it closes you yell, "Remember! Don't let this discourage you.  It was a creative idea, just not a perfect fit."
+
+[[Office]]<<chardetail "Mrs. Curie" "You did not experiment with her lactation pill.">>
+
+
+:: HucowIntro2
+"OK," Jessie says, "I'll take the pills."
+
+"Wonderful," Mrs. Curie says as she clasps her hands together.  She opens the pill bottle and hands one to Jessie then grabs a carafe of water on your desk and pours her a glass.  "Now remember, you have to take one every day.  Come to my class after school so I can watch you do it and document your progress."
+
+"Actually," you interrupt, "I'd like Jessie to stop by my office after class instead."  You hold out your hand and Mrs. Curie hands you the bottle.  Her smile returning to neutral tells you she's not happy with what you said.
+
+Jessie swallows the pill and asks, "For how long?"
+
+"Until I've determined your punishment has been doled out," you say.  You turn to Mrs. Curie. "Don't worry.  I'll do a good job documenting her progress."  That ominous phrasing makes Jessie frown.
+
+Mrs. Curie stands up and lifts Jessie's chin.  "Stick out your tongue so we can be sure you swallowed."  Once Mrs. Curie is satisfied, you notice her stare at Jessie's large chest.  She smiles, looks up, and says, "Remember, take 1 pill every day."
+
+Mrs. Ball says, "Now if you don't mind, I've left the rest of my students alone and they're probably up to no good."  You nod and Mrs. Ball drags Jessie out of the room by her ear.
+
+"Was that the lactation pill," you ask.
+
+"Yes, it was 5 mg of Novae Nubhim.  Truth be told, I may have made some promises I can't keep.  I've only tested it on animals and they can't really tell me if it hurts."  You open your mouth in shock but she interrupts, "Don't worry, we can stop at any time."
+
+"Remind me why you left your previous job again," you ask sarcastically.
+
+"Because I found my dream job here," she says with a smile.  Then she looks at the top of her wrist and says, "I must be going."  Weird thing is she isn't wearing a watch.  She walks to the door and says, "Ta-ta" before closing it behind her.
+
+You shake your head.  Hopefully Mrs. Curie knows what she's doing, but she hasn't instilled you with confidence.
+
+[[Office]]\
+<<chardetail "Mrs. Curie" "She gave you lactation pills (Novae Nubhim) to give to Jessie each night.">>
+

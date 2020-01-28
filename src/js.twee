@@ -1,0 +1,296 @@
+:: Story JavaScript [script]
+Config.saves.version = 10105;
+State.initPRNG("seedForPRNG");
+setup.versionString = function() {
+    var versionNumber = Config.saves.version;
+    var minorPatch = parseFloat(versionNumber / 100).toFixed(2);
+    if (minorPatch >= 100) {
+        var missingMajor = minorPatch.toString().substring(1);
+        return "1." + missingMajor;
+    } else {
+        return "0." + minorPatch;
+    }
+}
+var toggleImageVisibility = function() {
+    Engine.play(passage(), true);
+}
+Setting.addToggle("showImages", { label: "Show Images:", default: true, onChange: toggleImageVisibility});
+setup.localStorage = window.localStorage;
+setup.yearbook = {};
+
+if (setup.localStorage.getItem("yearbook")) {
+    setup.yearbook = JSON.parse(setup.localStorage.getItem("yearbook"));
+}
+
+setup.newYearbookDetails = {};
+setup.loadYearbookMetadata = function(save, fieldName, clearTo) {
+	if (save.metadata && save.metadata[fieldName]) {
+    setup[fieldName] = save.metadata[fieldName];
+  } else {
+    setup[fieldName] = clearTo;
+    // loading should clear the array, otherwise, 
+    // we risk someone earning achievement(s)
+    // then loading a save with 0 achievements 
+    // and keeping the achievement(s) from before
+  }
+}
+setup.isTeacherName = function(characterName) {
+	return characterName.startsWith("Ms. ") || characterName.startsWith("Mrs. ") || characterName.startsWith("Nurse ");
+}
+setup.getTeacherNames = function() {
+	var sortedNames = Object.keys(setup.yearbook).sort();
+	return sortedNames.filter(function(name) {
+		return setup.isTeacherName(name);
+	});
+}
+setup.getStudentNames = function() {
+	var sortedNames = Object.keys(setup.yearbook).sort();
+	return sortedNames.filter(function(name) {
+		return !setup.isTeacherName(name);
+	});
+}
+/*
+The yearbook is structured like this:
+    {
+        "Ms. Darwin": [{detail: "Detail", seen: false},...]
+    }
+
+All yearbook data has a format of this:
+    {detail: string, seen: boolean}
+The string is the detail, the boolean is if it's been seen before.
+*/
+setup.ybAdd = function(characterName) {
+	if (setup.yearbook[characterName] === undefined) {
+		setup.yearbook[characterName] = [{
+            "detail": undefined, //this way we know if the player has seen the character description
+            "seen": false
+        }];
+        setup.flickerYearbookButton = true;
+	}
+    setup.localStorage.setItem("yearbook", JSON.stringify(setup.yearbook));
+}
+setup.ybAddDetail = function(characterName, detail) {
+	if (setup.yearbook[characterName] === undefined) {
+		setup.ybAdd(characterName);
+	}
+	if (setup.newYearbookDetails[characterName] === undefined) {
+		setup.newYearbookDetails[characterName] = [];
+	}
+	setup.newYearbookDetails[characterName].push({"detail": detail, "seen": false});
+    setup.localStorage.setItem("yearbook", JSON.stringify(setup.yearbook));
+}
+setup.isNewYearbookEntries = function() {
+	var sortedNames = Object.keys(setup.yearbook).sort();
+    for (var i = 0; i < sortedNames.length; i++) {
+        if (setup.isNewYearbookEntriesFor(sortedNames[i])) {
+            return true;
+        }
+    }
+    return false;
+}
+setup.isNewYearbookEntriesFor = function (name) {
+    for (var j = 0; j < setup.yearbook[name].length; j++) {
+        if (!setup.yearbook[name][j].seen) {
+            return true;
+        }
+    }
+    return false;
+}
+$(document).on(':passageend', function () {
+    var yearbookButton = $("li a[data-passage='Yearbook']").parent();
+    var highlightFunction = function () {
+        yearbookButton.effect("highlight", {}, 1000);
+        $(".stowed").effect("highlight", {}, 1000);
+    }
+    if (setup.flickerYearbookButton) {
+        window.setTimeout(highlightFunction, 1000);
+        setup.flickerYearbookButton = false;
+    }
+    if (setup.isNewYearbookEntries()) {
+        yearbookButton.css('background-color', 'green');
+    } 
+});
+Macro.add("breasts", {
+    skipArgs : false,
+    tags     : null,
+    handler  : function () {
+            try {
+                if (State.variables.mc_breasts === this.args[0]) {
+                    jQuery(this.output).wiki(this.payload[0].contents);
+                    return;
+                }
+            } catch (ex) {
+                return this.error("bad evaluation: " + ex.message);
+            }
+        }
+    }
+);
+Macro.add("crotch", {
+    skipArgs : false,
+    tags     : null,
+    handler  : function () {
+            try {
+                for (var i = 0; i < this.args.length; i++) {
+                    if (State.variables.mc_crotch === this.args[i]) {
+                        jQuery(this.output).wiki(this.payload[0].contents);
+                        return;
+                    }
+                }
+            } catch (ex) {
+                return this.error("bad evaluation: " + ex.message);
+            }
+        }
+    }
+);
+Macro.add("hasPenis", {
+    skipArgs : false,
+    tags     : ["otherwise"],
+    handler  : function() {
+            try {
+                if (State.variables.mc_crotch === "penis" || State.variables.mc_crotch === "both") {
+                    jQuery(this.output).wiki(this.payload[0].contents);
+                } else if (this.payload.length === 2) {
+                    jQuery(this.output).wiki(this.payload[1].contents);
+                }
+            } catch (ex) {
+                return this.error('bad expression: ' + ex.message);
+            }
+        }
+    }
+);
+Macro.add("noPenis", {
+    skipArgs : false,
+    tags     : ["otherwise"],
+    handler  : function() {
+            try {
+                if (State.variables.mc_crotch === "vagina") {
+                    jQuery(this.output).wiki(this.payload[0].contents);
+                } else if (this.payload.length === 2) {
+                    jQuery(this.output).wiki(this.payload[1].contents);
+                }
+            } catch (ex) {
+                return this.error('bad expression: ' + ex.message);
+            }
+        }
+    }
+);
+Config.saves.onSave = function (save) {
+    save.metadata = {
+			yearbook: setup.yearbook,
+			newYearbookDetails: setup.newYearbookDetails,
+		};
+};
+Config.saves.onLoad = function (save) {
+    setup.loadYearbookMetadata(save, "yearbook", {});
+    setup.loadYearbookMetadata(save, "newYearbookDetails", {});
+    if (save.version === undefined || save.version < 1700) {
+        setup.migrateYearbookDataFor(setup.yearbook);
+        setup.migrateYearbookDataFor(setup.newYearbookDetails);
+    }
+    for (var i = 0, len = save.state.history.length; i < len; ++i) {
+        var mv = save.state.history[i].variables;
+      
+        if (mv.cameraPassagePool === undefined) {
+            mv.camerasSetup = false;
+            mv.cameraPassagePool = [];
+        } 
+        if (save.version === undefined || save.version < 10103) {
+            if (mv.mc_male) {
+                mv.mc_gender = "male";
+            } else {
+                mv.mc_gender = "female";
+            }
+        }
+        if (save.version === undefined || save.version < 2000) {
+            mv.images_seen = [];
+        }
+        if (save.version === undefined || save.version <= 2501) {
+            mv.office_visit_count = 0;
+        }
+        if (save.version === undefined || save.version < 2802) {
+            save.state.seed = "seedForPRNG";
+        }
+
+    }
+};
+setup.migrateYearbookDataFor = function(yearbook) {
+	var sortedNames = Object.keys(yearbook).sort();
+    for (var i = 0; i < sortedNames.length; i++) {
+        var entries = yearbook[sortedNames[i]];
+        for (var j = 0; j < entries.length; j++) {
+            var oldDetail = entries[j];
+
+            entries[j] = {
+                "detail": oldDetail,
+                "seen": true
+            };
+        }
+        entries.unshift({"detail": undefined, "seen": true});
+    }
+    
+}
+setup.testPassage = function (name) {
+    session.delete('state');
+    Config.passages.start = name;
+}
+setup.showGalleryImage = function(imagesSeenIndex) {
+    var nextImage = parseInt(imagesSeenIndex) + 1;
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlay-background").style.display = "block";
+    document.getElementById("close-image").style.display = "block";
+    if (imagesSeenIndex >= State.variables.images_seen.length - 1) {
+        $('#overlay').empty().wiki('<img src="images/' + State.variables.images_seen[imagesSeenIndex] + '" onclick="SugarCube.setup.hideGallery()"/>');
+    } else {
+        $('#overlay').empty().wiki('<img src="images/' + State.variables.images_seen[imagesSeenIndex] + '" onclick="SugarCube.setup.showGalleryImage(' + nextImage + ')"/>');
+    }
+};
+
+setup.hideGallery = function() {
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("overlay-background").style.display = "none";
+    document.getElementById("close-image").style.display = "none";
+};
+setup.makeImageGroups = function() {
+    var imagesPerRow = 6;
+    var imageGroups = [];
+    var groupIndex = -1;
+    for (var i = 0; i < State.variables.images_seen.length; i++) {
+        if (i % imagesPerRow === 0) {
+            groupIndex++;
+            imageGroups[groupIndex] = [];
+        }
+        imageGroups[groupIndex][i % imagesPerRow] = State.variables.images_seen[i];
+    } 
+    return imageGroups;
+}
+setup.removeCameraScene = function (cameraSceneName) {
+    var sceneIndex = State.variables.cameraPassagePool.indexOf(cameraSceneName);
+    if (sceneIndex > -1) {
+        State.variables.cameraPassagePool.splice(sceneIndex, 1);
+    }
+}
+$('<a href="https://www.patreon.com/AcademyOfFetishes" target="_blank"><img src="images/patreon-medium-button.png" title="Support Academy of Fetishes/></a>').appendTo("#story-author");
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-100010915-1', 'auto');
+ga('set', 'checkProtocolTask', null); // Disable file protocol checking.
+ga('set', 'checkStorageTask', null); // Disable cookie storage checking.
+ga('set', 'historyImportTask', null); // Disable history checking (requires reading from cookies).
+ga('send', 'pageview');
+window.pageviewSent = true;
+
+// scrollbar for newgrounds
+if (document.location.href.toLowerCase().indexOf("newgrounds") !== -1) {
+    $("html").css({ width: "640px", height: "480px", "overflow-y": "auto" });
+    $("#ui-overlay").css({ width: "640px", height: "480px", top: "0", left: "0", position: "absolute" });
+    $("#ui-bar").css({ height: "480px" });
+    $("#story").css({ width: "590px", height: "480px", margin: "0 0 0 50px", "overflow-y": "auto" });
+    $("#ui-bar.stowed ~ #story").css({ margin: "0 0 0 50px" });
+    $("#passages").css({ margin: "50px 16px 50px 0" });
+    $(document).on(":passagerender", function (ev) { $("#story").scrollTop(0); });
+}
+

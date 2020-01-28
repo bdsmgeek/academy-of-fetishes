@@ -1,0 +1,190 @@
+:: Start
+<<img "in_game_banner.png">>
+! You must be 18 years of age or older to play
+! All Characters Depicted are 18 years or older
+
+''[[Continue->FetishPicker]]''
+
+
+<a href="http://academyoffetishes.com/changelog.md" target="_blank">Version: <<print setup.versionString()>> (Click for changelog)</a>
+
+This is a work of fiction. Names, characters, places, and incidents are the products of the author's imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is entirely coincidental.
+
+
+:: CreateYourCharacter
+
+! Create your character
+
+Your last name is: <<textbox "$name" "Shepard">>
+
+Preferred pronouns: <<listbox "$mc_gender" autoselect>>
+<<option "He/Him/His" "male">>
+<<option "She/Her/Hers" "female">>
+<<option "They/Them/Theirs" "enby">>
+<</listbox>>
+
+You have:
+<label><<checkbox "$mc_breasts" false true >> Breasts</label> 
+<<listbox "$mc_crotch" autoselect>>
+<<option "Penis" "penis">>
+<<option "Vagina" "vagina">>
+<<option "Both" "both">>
+<</listbox>>
+
+[[Start the game.->Beginning]]
+
+:: Beginning
+You ask, "Mrs. Darwin, is it?"
+
+"Miss," she says.
+
+"Ah, my apologies.  I wanted to thank you for accepting the job on such short notice.  Please, sit.  Now then, I know you are an experienced biology teacher but how much do you know about our school?"
+
+[[School Background->SchoolIntro1]]<<charadd "Ms. Darwin">>
+
+:: SchoolIntro1
+"Well," Ms. Darwin says, "I know from our phone conversation that this is an all-girls school.  In fact, you don't even allow male teachers."
+
+"Mm-hm."
+
+"And it's in the middle of nowhere."
+
+"That's right.  The nearest town is 20 miles away and the students sleep in campus dorms.  If you accept the job, you'll be sleeping in the teacher's dormitory."
+
+"And," before continuing, Ms. Darwin pauses. "I don't mean to offend, but I was a little weirded out that you exchanged my mobile phone with another one and took my keys."
+
+"Ah, yes," you say.  "Sorry about that.  If you decline the job your mobile phone and keys will be returned to you, of course.  You probably noticed your new phone has no data and limited functionality.  It keeps the staff and students focused on their tasks. The mobile phone exchange is a strict requirement for anyone that stays or visits with us.
+
+"As for your keys," you say, "well this is actually for your protection.  The students can be a little... mischievous.  We've caught few pick pocketing in the past.  I'd hate for one of them to steal your belongings."
+
+You sense she's uncomfortable with your answer, but she doesn't contend it.  After clearing her throat, she says, "I tried to find more information on the website, but it's pretty barren.  I really don't know anything else about the place."
+
+[[More School Details->SchoolIntro2]]
+
+:: SchoolIntro2
+You say, "I don't want to scare you off, Ms. Darwin, but I think I would be doing you a disservice if I didn't tell you more.  You see, Saint Mary's School is funded as an experiment to educate delinquent students.  None of their crimes are violent, so rest assured, you'll be in no danger.  But, technically, this school is a minimum security prison.
+
+"As such, we're left to our own devices with the assumption that we're giving these students an education they otherwise wouldn't receive.  But... because we've been left to our own devices, we've been free to experiment with our teaching methods.  Do you understand?"
+
+[[Continue->SchoolIntro3]]
+
+
+:: SchoolIntro3
+"Yes, I think I do," Ms. Darwin says.
+
+You furrow your brow. "I don't think you do.  Come.  Let's look in on a class that's in session."  You open a drawer in your desk, drop your <<purse>> in, and lock it.
+
+You pass many classrooms on your walk, all of them abandoned long ago.  Inside, the desks are stacked on each other and covered in dust.
+
+"Our funding is limited, so we had to cut back on most of our classes.  But last month all turned around.  That's one of the reasons we're so excited to have you here.  For me it symbolizes a turning point in our financial hardship."
+
+[[Continue->IntroArtClass1]]
+
+
+:: IntroArtClass1
+"Before I continue," you say, "Let's take a quick peek on the art class that's in session."  You stand back so you both can look through the window.
+
+There's a group of students facing their lecturing teacher.  The muffled conversation cannot be made out but suddenly the teacher starts disrobing.  Ms. Darwin's head bobs back in surprise.
+
+"Now you understand," you say.
+
+With a neutral expression, she says, "I wasn't prepared to see nudity, but it still looks like a normal art class to me.  Art classes have nude models all the time... Although it is a little unusual that in this case the teacher is the model.  Is that because of the budget cuts?"
+
+You smile without answering. "Let me ask you something.  Are you easily offended?"
+
+"Why?" she waits for a reply that never comes and speaks again to break the silence. "No, not at all."
+
+You smile. "Then Let's step into this class and watch for a minute."
+
+You open the door and let Ms. Darwin walk in first.
+
+[[Continue.->Name Picked]]
+
+:: Name Picked
+The art teacher yells, "Hello, Principal $name!" from across the room.  She walks up to Ms. Darwin and reaches for a handshake.  "And you must be Ms. Darwin.  I'm so happy to have you on board.  These students can be a real challenge."
+
+Ms. Darwin puts all her mental energy into making eye contact and not looking at the nude body in front of her.  Her focus shifts to the students.  They fidget in their seats while avoiding eye contact with anyone else in the room.
+
+"Ms. Monet," you say, "I wanted to give Ms. Darwin a demonstration on what we do here and I'm a little disappointed that in the few minutes we've been standing outside, your lecture has not lived up to our school's standards."
+
+[[Continue->IntroArtClass3]]<<chardetail "Ms. Monet" "She was nude when you introduced her to Ms. Darwin.">>
+
+:: IntroArtClass3
+Ms. Monet frowns for a moment but then perks up. "I was just about to show the students something that I think is exactly what you're looking for.  I think you'll be very pleased with it!"
+
+"Very well then, continue."
+
+"OK students.  I want you all to grab a new piece of sketch paper for this.  Remember for this piece I want you to focus on realism, OK?"  Then Ms. Monet does something that Ms. Darwin would have never expected.
+
+[[Continue->FullBridge]]
+
+
+:: FullBridge
+In full nudity, she lays on her back and lifts her hips up off the ground into a full bridge.
+
+Ms. Darwin's face twists.  She's probably never seen something this depraved in a classroom before.  The students' faces look disgusted and dejected.
+
+"OK students!" Ms. Monet says so cheerfully it sounds as if she is baking a cake. "You know what to do!"
+
+The students put their heads down and start sketching the lewd scene in front of them.
+
+[[Continue->FullBridge2]]<<chardetail "Ms. Monet" "She did a full bridge pose in front of her class... in the nude.">>
+
+
+:: FullBridge2
+You say, "Very good, Ms. Monet.  Although this pose doesn't seem very practical.  I'm not sure how long you can hold it."
+
+Ms. Darwin looks side to side as her nostrils flare.  You hope she doesn't bolt out of the room.
+
+"Touche," Ms. Monet says, her voice already straining a little.  "I don't know how long I can hold this position so we'll need a quick change of plans.  Darlings, I think it would be best if you sketched off of a photo."
+
+[[Continue->FullBridgePhoto]]
+
+
+:: FullBridgePhoto
+The students react to this as if they've done it a hundred times before.  They get out of their desks, pull out their mobile phones, and form a loose line in front of Ms. Monet.  The girl in the front of the line bends forward, snaps a close up picture of their teacher's vulva, then walks back to her desk so she can continue sketching off of the photo.
+
+<<img "full_bridge_resized.png">>
+
+When all the students had taken a photo, Ms. Monet slowly lowers herself flat on the floor, then stands up.
+
+[[Continue->ArtClassOutro]]
+
+
+:: ArtClassOutro
+Ms. Monet walks over to one of her students to take a peek at their work.  She ruffles the student's hair and nonchalantly says to Ms. Darwin, "Yeah, they can be a real handful but this work is incredibly rewarding.  As an art teacher I've always been the creative type and every day I'm inspired and encouraged to do something new and unique for the class."
+
+She continues, "You OK, honey?  You look a little shaken up.  Don't worry!  I remember how nervous I was my first day here.  But now, you couldn't pay me to do anything else.  Not for a million bucks."
+
+"Thank you Ms. Monet," you say, "Ms. Darwin, Let's continue our conversation."
+
+You walk out of the class and into the halls.
+
+[[Continue->AnonymousBenefactor]]
+
+
+:: AnonymousBenefactor
+You say, "I can tell you're shocked and confused by what you've just seen.  Allow me to explain.  Last month the school was on the brink of bankruptcy and an Anonymous Benefactor offered to give a small donation if a lewd act took place in our school.  The timing was perfect and, in my mind, there was only one rational choice.
+
+"In their mind, that first experiment went very well and the Anonymous Benefactor wanted more.  Today, our relationship is practically symbiotic: Our school gets enough funding to survive and they get stories, pictures, and videos to fuel their perversion.  They seem to have no limits.
+
+"Do you know why we picked you, Ms. Darwin?  By we, I mean the Anonymous Benefactor and I."
+
+[[Continue->Blackmail]]
+
+
+:: Blackmail
+You stop walking when you've reached the biology classroom and say, "We picked you because you seemed like the perfect candidate:  You're female, you're a biology teacher, and... you've committed crimes that could put you in prison for a very long time."
+
+Ms. Darwin's face shifts from disgust to anger.
+
+"I'm sorry to bring that up," you smirk, "but I could tell from the look on your face that you'd be unlikely to cooperate if I merely asked.  Let's put these unpleasantries behind us and pretend it was never said.  I really would prefer to get off on the right foot with you."
+
+Ms. Darwin looks around and ponders her predicament.  Her expression gradually shifts from anger to... well not acceptance, but something more neutral.
+
+"Good," you say.  "I'll visit before your class starts so we can come up with something //really// creative for your students.  Don't forget you've got a great support network here.  You can ask me or any of the teachers for help at any time.  Since this will be your first class, I'll check up on you before it starts.  If you do a really good job maybe the Anonymous Benefactor will donate enough for us to have a teacher's lounge or a swimming pool."
+
+You smile and put a hand on Ms. Darwin's shoulder, then turn to walk back to your office.
+
+[[Office->Office]]
+

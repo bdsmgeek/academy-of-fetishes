@@ -1,0 +1,83 @@
+:: AnnaInOffice
+<<set $finished_anna_in_office to true>>\
+You're wrapping up some work in your office when you hear a knock at the door.  "Come in!" The door opens and Anna enters.  You flash her a smile and say, "Well this is a welcome surprise.  I don't have many students visiting me in my office."  After standing, you extend your arm to a chair to invite her to sit down.
+
+When Anna sits, she flattens out her skirt and looks around your office with a frown on her face.
+
+"Something wrong," you ask.  "You look troubled."
+
+"It's..." she sighs.  "It's kind of embarrassing to talk about, actually."  
+
+Mirroring her frowning expression, you say, "Well if you're comfortable telling me, I'll do whatever I can to help."
+
+"It's more of a question."  She hunches in the chair, puts a fist between her legs, and massages her knuckles with her other hand.  "You know when we wore sensory deprivation equipment?"  Before continuing, she begins to sway back and forth in the chair.  "Something happened that night and I really want to know who was in the room with me.  I asked Casey, since she took care of me, and she keeps dodging the question and acting really weird.  But- but she said that you were there?"
+
+You weigh your options before you reply.  If you lie and tell Anna you weren't there, she may never discover that she was 69ing her sister that night.  But if you tell her you were there, she will learn the truth.  You're not sure how she'll react to that, but it's clear that Anna enjoyed herself that night.  Maybe if you can get her to admit it to herself, she'd be interested in pushing the envelope with her sister.
+
+[[Tell Anna you weren't there that night.|AnnaInOfficeNo][$anna_pursues_hannah to false]]
+
+[[Tell Anna you were there that night.|AnnaInOffice2][$anna_pursues_hannah to true]]
+
+:: AnnaInOfficeNo
+
+You furrow your brow and say, "She said that?"
+
+"Yes..."
+
+"Well," you look to the side then back at her.  "I'm afraid she's mistaken.  Or maybe she's intentionally misleading you?  I don't know what happened that night because I wasn't there."
+
+Anna looks into your eyes and studies you for a moment, then she flattens her skirt as she looks to the side.  She says, "I guess... You'd tell me if you were there, wouldn't you?"  You say yes, but you're not sure if she's convinced.  Either way, she gets up and walks out the door, but before she leaves she turns and asks, "Do you want me to shut the door?"  Her eyes look glossy.
+
+"Please," you reply.
+
+[[Office]]\
+<<chardetail "Anna" "You told her you don't know who she 69'd when she was wearing sensory deprivation equipment.  She may never find out.">>
+
+
+:: AnnaInOffice2
+"To tell you the truth, I was there."  After saying that, you see Anna's about to ask you another question but you interrupt to try and steer the conversation.  "But before I get into the details of it, may I ask you, what did you think of that night?"
+
+Her knuckles go white from tightly gripping the bottom of her skirt and she starts to cry.  "Was it Hannah?" she asks.  
+
+To buy yourself some time, you say, "Hannah?"
+
+"Why else would Casey hide it?  <<if $has_mothers>>I know it wasn't my mom, she wasn't wearing a mask and I felt a mask!  <</if>>And Hannah has been acting weird ever since.  It was with her, wasn't it?"
+
+When she folds her arms over her stomach and doubles over, you run to the other side of the desk and sit on a chair by her side.  "Hey, hey, hey," you say as you rub her back.  "Don't cry."
+
+She flinches from your touch, stands up, and wipes her eye with the heel of her palm.  "Don't cry?  You tricked me into fucking my sister!"  
+
+She gets up, but just as she's about to storm out of the room, you grab her hand and say, "Hold on."  You point at her chair and say, "Sit."  She covers her face with her hand as she plops herself down, then you face your knees toward her and say, "The moment you took your mask off you seemed happy and wanted to talk to Casey about it.  Why were you happy then?"
+
+She glares at you, snorts, then says, "You know why."
+
+"I think I do, but I'm not certain.  Is it because... before you learned the truth, you enjoyed yourself?"
+
+She doesn't answer, she just grimaces, hugs herself, and doubles over to sob, but this time you know better than to touch her.  You wait with discomfort while she cries it out of her system.  She doesn't sit up when she stops, but she says, "I wish you lied."
+
+[[Continue.->AnnaInOffice3]]\
+<<chardetail "Anna" "You told her she 69'd her sister, Hannah, when she was wearing sensory deprivation equipment.">>
+
+
+:: AnnaInOffice3
+You wait for her to continue talking, but she doesn't say anything, so you say, "You never answered my original question.  What did you think of that night?  I mean... when it was happening."
+
+She sits up in her chair, looks at you with her red face, then snaps, "Can we just not?"
+
+"I'm sorry.  Take all the time you need."
+
+It's awkward, but you wait.  Eventually she sighs deeply with her eyes closed and says, "Have you ever randomly had a dream about someone and when you woke up you had a crush on them?"
+
+"Maybe." You tilt your head and look up as you say, "I can't recall."
+
+She says, "Well it's happened to me."  She turns her head from you, sniffles as she wipes her nose with her index finger, then says, "That night in the dorm was like a dream.  And since then, I've had a crush on someone, but I didn't know who it was."  Her chin quivers as she says, "It was so nice that first day.  Exciting, really.  All I could think about is who it was.  But when I talked to Casey and she looked so scared...  Deep down I knew who I had a crush on."  She swallows hard and looks at you with her bloodshot eyes.  "I wish you lied."
+
+You reach for the Kleenex box on your desk and hand it to her, then pat her thigh and say, "Hannah had a good time that night too, you know.  Even after she knew it was you."
+
+Anna slumps in the chair and looks like she may burst into tears again.  With a quivering chin, she says, "She was sad when she took the mask off."
+
+"This is a lot to take in," you say.  "You'll feel better in the morning though.  I'm almost certain of it."  She nods without making eye contact and slowly shuffles out of the room. 
+
+When she's gone, you wonder how you're going to progress their relationship.  You were planning on asking if Ms. Tink could create some new devices for you.  Maybe there'd be some way to incorporate them into this.
+
+[[Office]]

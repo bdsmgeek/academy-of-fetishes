@@ -1,0 +1,120 @@
+:: Yearbook [noskip]
+! Yearbook
+!! Teachers
+<<set _teacherNames to setup.getTeacherNames()>>\
+<<for _i to 0; _i lt _teacherNames.length; _i++>>
+	<<set _name to _teacherNames[_i]>>
+    \<<set _seen to !setup.isNewYearbookEntriesFor(_name)>>
+    \<<charDetailsButton _name _seen>>
+
+\<</for>><<if _teacherNames.length eq 0>>//Empty, for now//<</if>>
+!! Students
+<<set _studentNames to setup.getStudentNames()>>\
+<<for _i to 0; _i lt _studentNames.length; _i++>>
+	<<set _name to _studentNames[_i]>>
+    \<<set _seen to !setup.isNewYearbookEntriesFor(_name)>>
+    \<<charDetailsButton _name _seen>>
+		
+\<</for>><<if _studentNames.length eq 0>>//Empty, for now//<</if>>
+
+<<back "Back to current scene">>
+
+
+:: CharacterData [noskip]
+! $character_name
+!! Background
+<<nobr>>
+	<<if ndef $character_backgrounds[$character_name]>>
+		<<run throw "Character background not found for " + $character_name>>
+	<</if>>
+	<<print $character_backgrounds[$character_name]>>
+<</nobr>>
+!! Details
+<<set _details to setup.yearbook[$character_name]>>\
+<<for _i to 0; _i lt _details.length; _i++>>\
+<<run _details[_i].seen to true>>\
+<<if def _details[_i].detail>>\
+* <<print _details[_i].detail>>\
+<</if>>
+\<</for>><<if _details.length eq 1>>//Empty, for now//
+<</if>>
+<<back>>
+<<run setup.localStorage.setItem("yearbook", JSON.stringify(setup.yearbook))>>\
+
+:: ProcessNewYearbookDetails
+<<nobr>>
+<<set _charsWithNewDetails to Object.keys(setup.newYearbookDetails)>>
+<<for _i to 0; _i lt _charsWithNewDetails.length; _i++>>\
+	<<set _charWithNewDetails to _charsWithNewDetails[_i]>>
+    <<set _originalYearBookSize to setup.yearbook[_charWithNewDetails].length>> 
+	<<run setup.yearbook[_charWithNewDetails] = setup.yearbook[_charWithNewDetails].concat(setup.newYearbookDetails[_charWithNewDetails])>>
+    <<run setup.yearbook[_charWithNewDetails] = _.uniqBy(setup.yearbook[_charWithNewDetails], function(d) {return d.detail})>>
+    <<run _newEntriesNotJustDuplicates to setup.yearbook[_charWithNewDetails].length gt _originalYearBookSize>>
+    <<if _newEntriesNotJustDuplicates>>
+        <<run setup.flickerYearbookButton = true>>
+    <</if>>
+<</for>>
+
+<<set setup.newYearbookDetails to {}>>
+<</nobr>>\
+
+:: CharDetail [widget]
+<<widget chardetail>><<nobr>>
+<<run setup.ybAddDetail($args[0], $args[1])>>
+<</nobr>><</widget>>\
+
+
+:: CharAdd [widget]
+<<widget charadd>><<nobr>>
+<<run setup.ybAdd($args[0])>>
+<</nobr>><</widget>>\
+
+:: CharacterDetailsButton [widget]
+<<widget charDetailsButton>><<nobr>>
+/* <<charDetailsButton charName seen>> */
+<<capture $args[0] $args[1]>>
+    <<if $args[1]>>
+        <<button $args[0] "CharacterData">>
+            <<set $character_name to $args[0]>>
+        <</button>>
+    <<else>>
+        <span class="unseen">
+            <<button $args[0] "CharacterData">>
+                <<set $character_name to $args[0]>>
+            <</button>>
+        </span>
+    <</if>>
+<</capture>>
+<</nobr>><</widget>>
+
+
+:: YearbookInit
+<<set $character_backgrounds to {
+	"Ms. Darwin": "Ms. Darwin is the new biology teacher.  She joined the school without knowing much about it so you and the other teachers must show her the ropes.",
+	"Ms. Monet": "Ms. Monet is the art teacher.  She's creative, she enjoys her job, and she's an exhibitionist.  It's not her exhibitionism that got her into trouble.  She's always kept that within her art class where it's somewhat of a gray area.  Rather, you caught her embezzling 1000s of dollars from the school's petty cash.  When you blackmailed her over it, she apologized profusely and you've since both made up and actually have grown to trust her again.",
+	"Mrs. Ball": "Mrs. Ball is the PE teacher.  She's mean, sadistic, and unattractive.  Your relationship is rather precarious because Mrs. Ball hates it when anyone contradicts her, but, unfortunately for her, that is sometimes your job.  Actually, she doesn't get along with many people and the students are terrified of her.\n\nYou probably could blackmail her over the way she torments the students, but there hasn't been a need to bring up that unpleasant conversation.  You usually stay out of her hair during her lessons and when she punishes someone, and that keeps her happy.  Besides, you need her around because she's a valuable disciplinarian who keeps the school in order.",
+	"Ms. Tink": "Ms. Tink is a teacher hired by the Anonymous Benefactor.  You haven't had to blackmail her to stay, she just seems to enjoy building lewd devices.  When she was young she grew up on a farm.  There, her inventions automated a lot of her daily chores, but she soon got bored and moved to the city.",
+	"Mrs. Eigen": "Mrs. Eigen is a retired CPA who now works as a math teacher at Saint Mary's.  As you'd expect, she's extremely logical, but she's also very kind.  She doesn't bring as much enthusiasm to the table as Ms. Monet, but she's always interested in experimenting with her lessons.\n\nWith the help of the Anonymous Benefactor, you discovered she was embezzling money at her previous job but never got caught.  You used this information to blackmail her to stay at Saint Mary's.", 
+	"Mrs. Curie": "Mrs. Curie was hired by the Anonymous Benefactor as the biochemistry teacher.  She was fired from her previous job for ethical reasons and is happy to work at Saint Mary's where there are far less restrictions on the experiments she's allowed to run.\n\nShe has a strong work ethic and tends to care more about her experiments more than the well being of the people she's subjecting them to.",
+	"Ms. Waterloo": "Ms. Waterloo was hired by the Anonymous Benefactor as a swim coach.  In her file you've found shaky evidence of her being inappropriate with students at previous schools, but nothing concrete.  She's a skinny African American and a little shorter than average so you have to look down to chat with her.  Not exactly the kind of person you'd describe as having a 'swimmer's body', but she is a great swimmer.\n\nShe's extremely intelligent.  After receiving a fully paid scholarship for her swimming ability, she graduated with a master's degree in counseling psychology.  She also has a good personality and gets along with most people.",
+	"Nurse Neadle": "Nurse Neadle was hired a couple of weeks before Ms. Darwin and was the first faculty member recommended to you by AB.  There was a nurse before her, but she quit once funding dwindled and you had to make cutbacks to keep the school open.\n\nIt's very important to have a nurse on staff, but the school is small and the students don't get in a lot of fights.  As a result, Nurse Neadle has a lot of free time on her hands and you haven't had much opportunity to interact with her.\n\nWhenever you do talk, she seems very concerned for the students' well being.  You don't know much about her background, but apparently she's worked as a phlebotomist for 1 year and was a gynecological assistant for 2 years.  At least, that's what AB told you.  You were so desperate for a nurse you never ran a background check on her.",
+	"Mia": "Mia is one of your most open-minded and brightest students.  She has a good attitude about most classes and you get the feeling she might actually enjoy being at Saint Mary's.\n\nShe's of Japanese descent, but she was born and raised in America.\n\nShe's at Saint Mary's because she was convicted of disorderly conduct, disturbing the peace, and indecent exposure.  The way she tells it, she got really drunk at 2am, woke up her neighbors, and flashed anyone who came outside to see the source of the commotion.",
+	"Olivia": "Olivia is a recalcitrant who hates authority.  Before she was at Saint Mary's, she got in countless fights with her fellow students.  Eventually, one of her victims pressed charges and she was convicted of assault and battery.  She'll only admit to ever losing one fight where her opponent subdued her by pulling on her hair.  She's kept it short ever since.  It gives her face an androgynous appearance, but her body is very feminine.",
+	"Casey": "Casey is a Latina who grew up in a deeply religious household spending her whole upbringing being repressed and controlled by her parents.  She had a pattern of stealing nudie magazines from liquor stores and got away with it until her mom found her stash and turned her in to the authorities.\n\nShe was convicted of shoplifting and theft.",
+	"Kira": "Kira is a sweet, chubby, Caucasian girl convicted of stalking.  She was driving a friend to school and got in an accident.  Kira was unscathed, but her friend suffered permanent nerve damage that caused chronic pain.  Kira was obsessed with making the girl feel better and became so clingy the girl eventually filed a restraining order which Kira violated multiple times.\n\nAs this story demonstrates, Kira's heart is usually in the right place, but she can be physically and socially inept.",
+	"Amy": "Amy is a very petite and innocent Caucasian girl who was convicted of vandalism, but you doubt her the legitimacy of the conviction.  According to her record, she was with a group of friends who were vandalizing property, but the police showed up and the group ran away.  All of them, that is, except for Amy.  Apparently she just stood there and began crying.  When she was taken in for questioning, she had a can of pink spray paint in her sweater, but she swears she never used it.  Unfortunately for her, a jury found her guilty.",
+	"Sarah": "Sarah was abandoned by her parents when she was young and raised by her 18 year old Aunt who was in way over her head.  During that time, Sarah longed for the safety and stability an adult guardian.\n\nShe became proficient in computing at school, even though she could never afford one at home.  Eventually she taught herself to hack and was able to make a good living by phishing for people's credit card numbers.\n\nOnce her mom, Claire, learned of Sarah's financial success, she wanted back into Sarah's life.  Sarah, desperate for a mature caretaker, was happy to oblige.\n\nSarah was convicted of computer crimes.",
+	"Jessie": "Jessie grew up largely being ignored and left to her own devices.  She fell into the wrong crowd and started taking hard drugs.  This eventually got her into trouble and she's been convicted of a drug possession charge.\n\nHer long, straight, red hair with her green eyes makes you think she may be of Irish descent.  But, being ignored by her family, not even she can confirm this.  She's easy to get along with and the only person that seems to dislike her is Mrs. Ball, the PE teacher, who is often insulting Jessie about her large breasts.",
+	"Hannah": "Hannah is the identical twin sister of Anna.  They're both tall, skinny, and blond.  Once they noticed the perverted changes that were taking place at the school, they distanced themselves from each other to avoid being forced into incestuous acts, but this has put a strain on their relationship.\n\nThe twins are very similar to each other in appearance, but Hannah seems a little more perceptive and a little more sexually repressed than her sister.\n\nBefore they were convicted and sent to Saint Mary's, they would break into houses together and rob them.  They were both caught on the scene at the same time.",
+	"Anna": "Anna is the identical twin sister of Hannah.  They're both tall, skinny, and blond.  Once they noticed the perverted changes that were taking place at the school, they distanced themselves from each other to avoid being forced into incestuous acts, but this has put a strain on their relationship.\n\nThe twins are very similar to each other in appearance, but Anna seems a little less perceptive and a little more sexually open-minded than her sister.\n\nBefore they were convicted and sent to Saint Mary's, they would break into houses together and rob them.  They were both caught on the scene at the same time.",
+	"Claire": "Claire was a young mother who could not handle the stress of raising her child, Sarah, and gave her to her sister to raise.  In her words, she eventually felt mature enough to take care of Sarah and came back into her life.  Though, the timing of this is certainly suspicious.  Sarah was making a lot of money from stealing people's credit card numbers on the internet.  They both got caught and were convicted of computer crimes.\n\nDespite the abandonment, Sarah seems to adore her mother, and Claire seems to have taken up a more traditional maternal role in Sarah's life.",
+	"Yuki": "Yuki's a rail thin Asian woman with long black hair and bangs.  She's the mother of Mia and shares her open-mindedness to the extreme.  Her hypersexuality lead her to be convicted of sexual assault, prostitution, and you suspect she's guilty of other crimes she's never been on trial for.",
+	"Eva": "Eva is a young mother of a little boy.  She's not much older than the other students and they think of her as more of a big sister than a peer.\n\nShe was convicted of forgery and identity theft.",
+	"Beth": "Beth is Amy's mother and by all accounts she's a good one.  She was convicted soon after Amy for pyramid schemes and white collar crimes.",
+	"Lucy": "Lucy is a chubby, Caucasian trans girl from Saint Joseph's.  Saint Joseph's is not a prison like your school, but a lot of its students are convicted criminals that have served their time but are still deemed unfit for society.  As a result, the relatively innocent trans girls are often abused.  You imagine Saint Mary's must be a welcome change.",
+	"Luna": "Luna is a tall, muscular African-American trans girl from Saint Joseph's.  Saint Joseph's is not a prison like your school, but a lot of its students are convicted criminals that have served their time but are still deemed unfit for society.  As a result, the relatively innocent trans girls are often abused.  You imagine Saint Mary's must be a welcome change.",
+	"Tiffany": "Tiffany is a short Asian-American trans girl from Saint Joseph's.  She has a bad case of phimosis.  Saint Joseph's is not a prison like your school, but a lot of its students are convicted criminals that have served their time but are still deemed unfit for society.  As a result, the relatively innocent trans girls are often abused.  You imagine Saint Mary's must be a welcome change.",
+	"Bailey": "Bailey is a tall, Caucasian trans girl from Saint Joseph's.  Saint Joseph's is not a prison like your school, but a lot of its students are convicted criminals that have served their time but are still deemed unfit for society.  As a result, the relatively innocent trans girls are often abused.  You imagine Saint Mary's must be a welcome change.\n\nThere's rumors she inflicts a lot of self pain. Perhaps it's a coping mechanism to deal with the stresses of everyday life at Saint Joseph's.",
+	"Fifa": "Fifa is a medium sized, fit, bronze colored, Filipina trans girl from Saint Joseph's.  She still has her foreskin, but unlike Tiffany, she does not have a case of phimosis.  Saint Joseph's is not a prison like your school, but a lot of its students are convicted criminals that have served their time but are still deemed unfit for society.  As a result, the relatively innocent trans girls are often abused.  You imagine Saint Mary's must be a welcome change."
+}>>
+

@@ -1,0 +1,343 @@
+:: UnlockHolyWeek
+<<set $week to 6>>\
+At the end of the week, you receive an email from AB.  It says, "Dear Principal $name,
+
+"Thank you for all the wonderful stories you shared this week.  The students seem to be advancing nicely, but I think we might want to slow that down for a change.  What I mean is, how about we have a 'chaste' week?  A week where all the students must be in chastity devices.  I'll leave the details up to you."
+
+Hmm.  You sit in your chair and think for a while.  Simply putting the girls in chastity for a week seems a little boring.  It might be fun to add a little teasing into the mix.  For example, maybe if the goal were to sexually frustrate the students while they're in chastity.  Perhaps you could coat the inside of the chastity devices with some of Mrs. Curie's aphrodisiac.  And, maybe you should adjust the curriculum to turn the students on as much as possible.  
+
+Then again, you're sure if you told AB you weren't interested in doing this, they'd understand.
+
+[[You would like the students to be in chastity devices.|UnlockHolyWeek2][$chastity to true]]
+
+[[You probably shouldn't put the students in chastity.  Tell AB you're not interested.|Office][$chastity to false]]
+
+:: UnlockHolyWeek2
+After a few minutes of thinking about it, you come up with some really creative ideas.  But, you're not sure how easy it would be to implement them, so you decide to talk to an expert: Ms. Tink, the engineering teacher.  In the middle of her class, you pull her aside and explain AB's request, and she's so excited she dismisses everyone early so she can chat with you without distraction.  After about 15 minutes of bouncing ideas off of each other, you come up with a variety of special chastity devices, but it's up to you to choose which ideas you want her to build.  
+
+Ms. Tink explains that, if you choose any of the devices below, she'll only have enough time to make about one of each.  But, the rest of the students will be in standard chastity devices: That doesn't cost her any time because she already has boxes full of them in storage.  Which special devices would you like her to make?
+
+A solid plate chastity belt.  Anal would be the only form of stimulation: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_anal" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_anal" false>> No</label>
+<<if $anna_pursues_hannah>>\
+A chastity belt with vaginal, anal, and breast electro-stim, for forced orgasms: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_estim" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_female_estim" false>> No</label>
+<<else>>\
+    <<set $cd_female_estim to false>>\
+<</if>>\
+A belt with speculums to keep the anal and vaginal cavities open and accessible: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spread" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spread" false>> No</label>
+<<if $fp_peehole>>\
+A chastity belt with a catheter tube.  The other end of the tube will be inserted into the student's anus, giving them an enema with their own urine: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_urine_enema" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_urine_enema" false>> No</label>\
+<<else>>\
+    <<set $cd_urine_enema to false>>\
+<</if>>
+
+<<if $has_futa_students>>\
+The following can be made, specifically for the trans students:
+A solid plate cage.  Anal would be the only form of stimulation: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_anal" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_anal" false>> No</label>
+An uncomfortably tight cage and metal bra with electro-stim for forced orgasms: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_estim" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_estim" false>> No</label>
+<<if $fp_peehole and $fp_cbt>>\
+A cage with a metal urethra tube and sharp spikes inside: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spikes" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_spikes" false>> No</label>\
+<<else>>\
+    <<set $cd_spikes to false>>\
+<</if>>
+A stretching device that pulls the flaccid penis backward and toward the anus: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_stretch" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$cd_trans_stretch" false>> No</label>
+<<else>>\
+<<nobr>>
+    <<set $cd_trans_anal to false>>
+    <<set $cd_trans_estim to false>>
+    <<set $cd_spikes to false>>
+    <<set $cd_trans_stretch to false>>
+<</nobr>>\
+<</if>>\
+
+[[Continue.->UnlockHolyWeek3]]
+
+:: UnlockHolyWeek3
+With that out of the way, you walk over to Mrs. Curie's classroom, but class has already ended for the day and she's nowhere to be found.  You scour the building and find her with the rest of the teachers in the teacher's lounge.
+
+After you've explained your idea to everyone, you're surprised to see most of them excited by it.  Ms. Monet says, "Ooh, could we have a big ceremony where we get to put the devices on the girls?  You know, make a big deal about putting them on and do everything in public?"  
+
+Mrs. Eigen says, "Can we all get duplicates of the keys, so we can give them 'breathing room' during our class?"
+
+As you nod, Ms. Waterloo says, "I bet I could get someone to cum in chastity," under her breath.
+
+"Actually," you say, "I wanted to talk to Mrs. Curie about that.  That aphrodisiac cream of yours... It makes people extremely turned on, but it also makes them orgasm at the drop of a hat.  Is there a way we could reduce the effects?"
+
+"Sure," Mrs. Curie says. "That would be rather simple, really.  We just dilute the aphrodisiac in water."
+
+You stroke your chin and smile, then Mrs. Eigen says, "The students aren't going to be too happy about this, you know.  I think some of them may revolt."
+
+"Are you kidding," Mrs. Ball says then scoffs.  "You clearly haven't been paying attention.  At this point, they're completely pliable.  If you don't believe me, maybe you should attend one of my classes."
+
+"Maybe in one of your classes," Ms. Darwin says, "but I barely have control in mine."
+
+Nurse Neadle says, "Put the aphrodisiac in their drinking water."
+
+Everyone pauses, then someone says, "Will that work?"
+
+"Yes," Mrs. Curie says.  "It can be ingested and work just fine.  And, we could dilute it enough that you won't notice a flavor or smell."
+
+"Well, how will we avoid drinking it?"
+
+"For one day, just put it in the water served at the cafeteria, and serve some dry food along with it," Nurse Neadle says.  "Cornbread or something.  We could have the ceremony as a surprise right after lunch." 
+
+Everyone stares at you to see what you'll say.  It seems they've already decided the plan could work.  "Sounds like a plan.  We'll do it this Monday."  The teachers smile at you then have chaotic conversations with each other about what they're going do after the ceremony.  Some of the ideas are so filthy, you get a little turned on just hearing about them.
+
+[[Continue.->UnlockHolyWeek4]]
+
+:: UnlockHolyWeek4
+
+That Monday, when you visit the cafeteria, the teachers are already huddled up with their backs to a wall, trying to spot who's drunk the water.  They look very suspicious, but before you break it up, you ask if everyone's taken a sip yet.  Apparently, they've been keeping track, and every student has.
+
+"Good," you say.  "Now, why don't you all go to the gym and prepare for the ceremony?  Seems a little weird, you gals standing around here."
+
+When the teachers leave, you scan the room.  The students look normal, and you start to wonder if the aphrodisiac was actually in their water.  But, you remind yourself that the aphrodisiac's effects took a while when it was concentrated, so maybe it'll take even longer when diluted.
+
+Lunch comes to an end, and as the students are busing their trays, you announce that a surprise assembly is happening immediately, and instead of their next class, they are to go straight to the gym.  At first, everyone seems uncomfortable by the interruption, but they quickly file to the gym in an orderly fashion.
+
+To ensure nobody sneaks out, you walk behind everyone and enter the gym last.  A giant banner hangs from the back wall and reads, "Welcome to Holy Week!"  The bleachers are pulled out for the students to sit on, and in front of the banner, the teachers are standing on a large stage, looking down at the students and smiling.  At the middle of the stage is a podium and to the side of that is a large table with a sheet draped over it, covering up what's underneath.  The students look uneasy, and  Casey looks around with a weary smile on her face.
+
+You stand at the stage, pull out some note cards, and say, "Welcome to Holy Week."  The teachers look at you and clap.  There's something exciting about that, but you're not sure why.  You go into a little speech you prepared, talking about what Holy Week is all about, mentioning how there's an emphasis on penance.
+
+As you speak, you notice the students fidgeting in their seats.  They appear to be blushing and sweating at their temples.  The aphrodisiac must be taking effect.  Then again, the signs are somewhat subtle, so maybe you're the only one who notices.  You turn to Mrs. Curie, but she just smiles and holds her chin high.  When you face the crowd again, there's quite a few students fanning their faces.  You continue by saying, "For this week, your engineering teacher and I have come up with special outfits to wear. The good news is, you won't be required to wear your normal uniform." 
+
+Ms. Tink stands in behind the table to your side.  When you gesture toward her, and say, "Ms. Tink," she slides the sheet off the table, revealing all the chastity equipment underneath.  It's a landscape of black leather, cold metal, and latex.
+
+You flip to the next card and read it aloud.  "Because... These will be your outfits."  A smattering of applause from the teachers.  The next card is a student's name and the device they will be wearing.  "Casey.  Standard chastity belt."  The teachers all clap, but the students don't react much.  They're either too scared to move, or unsure of how to take this.  
+
+You beckon Casey to join you on stage.  "Come on.  Yes, that's right."  Once she's by you, she crosses her arm over her stomach and steps behind you so the podium will cover her body.  You reach behind her and guide her, by the small of her back, to stand by your side so the rest of the students can see.  "Do you know what to do next, dear?"  
+
+Casey shrugs then holds out her palms like she's expecting a gift. "Are you going to give me my new uniform?"
+
+"More than that," you say with a warm smile.  "We'd like you to put it on."
+
+"Here?  In front of all these people?"
+
+[[Continue.->UnlockHolyWeek5]]
+\ <<chardetail "Casey" "She wore a standard chastity belt during holy week.">>
+
+:: UnlockHolyWeek5
+Ms. Monet steps forward and rubs the back of Casey's hand to soothe her.  "Don't worry, honey.  Everyone else will be doing it, too.  There's no reason to be embarrassed." Casey seems preoccupied by Ms. Monet's caress, and she has to shake her head to focus.  "Would you like me to help you into it?"
+
+The student looks at you with a frown, then at Ms. Monet.  "Won't everyone see me naked?"
+
+"Just your bottom," Ms. Monet says.  She almost touches her thumb and forefinger together then says, "And only for a smidge.  Because, when you've got the chastity belt on, nobody can see you naked.  We'll lock it up tight to ensure that.  You won't even be able to touch yourself."
+
+In the middle of the teacher's explanation, Casey gets distracted by Ms. Monet's caress and starts watching the back of her hand.  It's not clear if she even heard the words.  After two fast breaths through her nose, Casey winces like the gentle touch pains her, blushes, and yanks her hand away.  She holds her arm behind her back, steps away from the Ms. Monet, and says, "OK, I'll do it," to Ms. Tink.
+
+The teachers all clap, and the sudden outburst startles the student, but during the moment of confusion, you gently guide her back to where she should be standing.
+
+You nod at Ms. Monet and she kneels at Casey's side, and looks up at her. "May I help you," the teacher asks as she reaches up toward Casey's skirt.  Casey doesn't answer, but she places a hand on Ms. Monet's shoulder for balance.  The student looks like she may fall over, perhaps the aphrodisiac is making it difficult to focus.
+
+When Ms. Monet peels down the panties, Casey blushes and pins her skirt down, but shortly after, Ms. Monet slides the skirt off, too.  The students are eerily quiet, but you hear someone from the audience cough.  Ms. Monet looks up and grins at Casey, then stares at her vulva, trying to get a quick peek of it from behind Casey's hand.  If everything goes according to plan, this will be Ms. Monet's last chance to see it for a week.
+
+Ms. Tink comes forward with a standard chastity belt.  No frills, just leather and shiny metal trim.  It doesn't even come with a bra.  Most of the teachers bend forward to watch Ms. Tink put it on, but with her expertise, the belt is tightened and padlocked almost immediately.  You doubt any of the teachers could have learned anything from that, so you tell Ms. Tink to slow down next time.
+
+Some of the teachers whisper to each other.  Nurse Neadle says, "Does it work?"  She furrows her brow.  "Can she masturbate?"
+
+[[Continue.->UnlockHolyWeek6]]
+
+:: UnlockHolyWeek6
+"Go on," you say to Casey.  "See if you can slip your finger under the chastity belt."
+
+Casey looks to her sides and needs some encouragement before she reaches under her shirt and feels around.  She grunts a few times, then sighs.  You realize your heart is thumping in your chest.  If Casey can still touch herself with the chastity device on, this was a huge waste of time and resources.  Thankfully, she looks at you and shakes her head.  Some of the teacher's clap, and two of them shake Casey's shoulders, as if they were congratulating her.  As Casey's wobbles back and forth, you think you see a smile on her face.
+
+The two teacher's who were shaking Casey get a little handsy and try to lift up her shirt from the back so they can inspect the chastity belt, but Casey spins around and pats her shirt down.  "As the first to wear the device," you say, "would you mind showing the students how it works?" Another teacher runs up and lifts the shirt from the front.  
+
+Casey's overwhelmed.  Three teachers probe her, tugging on her shirt and trying to slip their fingers behind the belt.  Like a rag doll, they force her to bend over with her bottom facing the other students.  Casey places her hands on the floor for support.  You lean forward against the podium so you can take a look, too.  The back of the chastity belt is as thin a thong bikini.  While one teacher holds Casey in place by the back of her neck, the other two spread her cheeks wide.
+
+You pause to admire the view, but try to downplay how lewd it is. "As you can see, the belt is no more revealing than one of the swimsuits you'd wear in Ms. Waterloo's class."  That's not really true.  The swimsuits cover much more of the bottom.  The two teachers pry Casey's cheeks apart to see if they can spot the slight discoloration of her anus, but the device is a little too thick to see it, though barely.  Casey's legs begin to shake from all the attention, and she whines as she tries to shut her legs to avoid the teacher's probing.  "Uh, OK.  Turn her around."
+
+Casey looks flush, but the teachers ignore that and lift up her shirt.  You say, "There's a leather strap around her waist that's held in place by the shape of her hips."  It looks like a leather belt lined with metal.  At the center of the belt is another strap that runs perpendicular from the front all the way to the back.
+
+<<img "casey_chastity_belt.png">>
+
+As you talk, a few new teachers come up and try to wiggle their fingers under the chastity belt by the vulva, but the crotch widens to make access impossible.  "As you can see, the padlock is near the top of the crotch and keeps the device on you.  The lock is small, so it shouldn't be too uncomfortable when sleeping."
+
+Once everyone's proven to themselves that Casey's vulva can't be reached, you say, "Thank you, Casey.  You may sit down, now."  The teachers clap, and since Casey seems wobbly, Ms. Monet walks the student back to her seat, rubbing the back of her hand the whole way.  When Casey sits down, she looks relieved.  
+
+Normally, you suspect, the students would fuss at least a little bit about this treatment, but the aphrodisiac seems to be making them more docile than usual.  They even seemed somewhat curious about Casey's nudity when she stripped.
+
+[[Continue.->UnlockHolyWeek7]]
+
+:: UnlockHolyWeek7
+<<nobr>>
+<<if ndef $cd_intro_scenes>>
+    <<set $cd_intro_scenes = []>>
+    <<if $cd_female_anal>><<run $cd_intro_scenes.push("cd_female_anal")>><</if>>
+    <<if $cd_female_estim>><<run $cd_intro_scenes.push("cd_female_estim")>><</if>>
+    <<if $cd_spread>><<run $cd_intro_scenes.push("cd_spread")>><</if>>
+    <<if $cd_urine_enema>><<run $cd_intro_scenes.push("cd_urine_enema")>><</if>>
+    <<if $cd_trans_anal>><<run $cd_intro_scenes.push("cd_trans_anal")>><</if>>
+    <<if $cd_trans_estim>><<run $cd_intro_scenes.push("cd_trans_estim")>><</if>>
+    <<if $cd_spikes>><<run $cd_intro_scenes.push("cd_spikes")>><</if>>
+    <<if $cd_trans_stretch>><<run $cd_intro_scenes.push("cd_trans_stretch")>><</if>>
+<</if>>
+<</nobr>>\
+<<if $cd_intro_scenes.length is 0>>\
+    <<goto "UnlockHolyWeek8">>
+<<elseif $cd_intro_scenes.length > 0>>\
+    <<set _passage_name to $cd_intro_scenes.shift()>>\
+    <<include _passage_name>>
+
+    <<if _passage_name isnot "cd_spread">>\
+        [[Continue.->UnlockHolyWeek7]]
+
+        [[Call all the rest of the girls up at the same time so you can skip past the intros.->UnlockHolyWeek8]]
+    <</if>>
+
+<<else>>\
+    [[Continue.->UnlockHolyWeek8]]
+<</if>>
+
+:: cd_female_anal
+You read off the next card.  "Amy.  Exposed anus."  
+
+Two teachers walk off the stage and grab Amy by each arm to bring her by the table.  As they hold her in place, two other teacher's strip off her panties and skirt like hungry animals.  When Ms. Tink hands them the chastity belt, they struggle to put it on.
+
+"Ms. Tink," you say.  "If you don't mind, could you help them out?  But, go slow so they can learn how to do it."
+
+Once it's on, you have Amy model it for the rest of the students by bending over.  This is similar to Casey's, but the back of the chastity belt has a ring that connects both ends of the strap, giving visibility and access to Amy's anus.  Ms. Darwin seems particularly interested in the ring, and she practically pushes the other teachers out of the way so she can trace the inside of it, brushing against Amy's sensitive anus as she feels.  Amy's legs shake as another teacher ooh's and ah's.  
+
+You clear your throat and say, "We've got a lot of students and chastity belts to put on," and the teachers rush Amy off stage.  
+\ <<chardetail "Amy" "She wore a chastity belt that exposed her anus during holy week.">>
+
+:: cd_female_estim
+You flip to the next card.  "Hannah. Electrical Stimulation." When Hannah stands up, she looks pale as she shuffles to the stage.
+
+Ms. Tink stands in front of the table with the device in her hands.  "This device looks like a normal chastity belt, but it has electrodes at erogenous zones.  It also comes with a metal bra to stimulate the nipples."  
+
+One teacher tears off Hannah's top while another pulls her skirt down.  For a moment, she stands naked in front of the whole school, covering her breasts and vulva with her hands.  As she tries to back up, Ms. Tink quickly covers her with the bra and the belt, fastening them securely.
+
+"Just a second," Ms. Tink says as she grabs a remote control by the table.  She turns a dial and says, "There." Hannah gasps, lifts her head up, and kneels on the floor.  She winces and murmurs through her closed mouth.  She doesn't necessarily look like she's in pain, but she's definitely incapacitated.  "Hold on a sec."  Ms. Tink twists the dial in the opposite direction and Hannah sighs and bows her head.  "I think we started her off a little too high."  The teacher looks at you and smiles, then says, "We can work our way back up to that."
+
+In the end, Ms. Tink leaves the controls at a very low setting and hands them to you.  Even the low setting's enough for Hannah to need a teacher to guide her back to her seat.
+\ <<chardetail "Hannah" "She wore a chastity belt that electrically stimulated her erogenous zones during holy week.">>
+
+:: cd_urine_enema
+The next card says, "Kira. Urine enema."
+
+Once Kira's on stage, her skirt and panties are removed.  Nurse Neadle kneels in front of her with a catheter in her hand and says, "This'll sting for a bit, but you'll get used to it."  She carelessly lubricates it, and doesn't give Kira much time to realize what's about to happen.  Parting Kira's labia, the nurse slides the catheter in.  Kira gasps and squeezes Nurse Neadle's shoulder, but the nurse ignores Kira's pain and slides the tube in another couple of inches.  
+
+When urine dribbles out of the tube and pitter-patters on the floor, a few teacher's clap.  Fortunately, one of them has the sense to pinch the end closed so it doesn't make more of a mess.  Ms. Tink injects a liquid into the tip the teacher's holding, thereby inflating a small balloon in Kira's bladder.  The balloon is wider than Kira's urethra, preventing the catheter from falling out.
+
+Next, Ms. Tink goes to table and brings Kira's belt to the teachers.  It's almost the same as the standard belt, but it's made entirely of latex and has a tiny hole in the front.  There's almost no back to it.  It consists of two straps, split like a V, giving easy access to the anus.  From behind, it resembles some strap-ons you've seen.
+
+As Ms. Tink puts the belt on, Nurse Neadle threads the catheter through the hole and keeps the tube pinched at the tip so it doesn't leak.  
+
+This belt doesn't have a lock, so a teacher cuffs Kira's arms behind her back so it can't be taken off.  The cuffs are made out of shiny latex and completely cover the hands so Kira won't be able to grab on to anything.  As if she were talking to herself, the teacher says, "We wouldn't want you to pull the tube out of the other end now, would we?"  
+
+"Other end?" Kira asks.  She's about to find out what the teacher meant by that.
+
+Before Kira's completely cuffed, Mrs. Curie kneels behind her, dips her gloved index finger into a container of lube, and spreads it on Kira's anus.  Through most of this process, the teachers have been very efficient, almost machine-like in their coordination.  But it takes some time for Mrs. Curie to loosen Kira's anus up enough for her finger to slide in.  During this time, Kira's eyes tear up as she faces the audience in front of her because all her friends are there to witness her violation.  It'd probably be much easier if Mrs. Curie had Kira bend over, but the teachers don't seem to think of that.
+
+When Kira's loose enough, Mrs. Curie reaches between Kira's legs, grabs the catheter tube, and pushes the tip into Kira's hole.  Once it's in, she looks up at Kira to see if there's a reaction.  There isn't one, so Mrs. Curie furrows her brow and slides the tube deeper into Kira's rectum.  There isn't much slack left, but when Mrs. Curie slides it in one more time, Kira closes her eyes and crinkles her nose.
+
+"Is it working," Nurse Neadle asks.  She steps behind Kira to join Mrs. Curie.  The catheter tube is transparent but it's full of liquid so it's difficult to tell if liquid is flowing.  There's some slack in the tube as it dangles between Kira's legs.  The nurse inspects it, hoping to spot a bubble flowing through.  After a few seconds, she looks at you and shrugs.
+
+"Hmm," Mrs. Curie says.  She slides her index finger back into the anus, above the tube, crooks her finger, and pulls down to create some slack.  Some urine dribbles out of Kira's ass and the teacher's all cheer.
+
+You say, "Just a reminder, if any student removes this tube, they will be severely punished."
+\ <<chardetail "Kira" "She wore a chastity belt that pumped her own urine into her anus during holy week.">>
+
+:: cd_spread
+Of all the students so far, Olivia's chastity belt is the easiest to put on, because she comes up to the stage almost willingly.  You notice she's been chewing on her nails.  <<if $fo_relaxant_urethra or $fo_ass eq "relaxant">>Thankfully, after checking her diaper, you see it's clean, so she doesn't have to wash off first.  That allows you to get right into it.<</if>>
+
+Her belt is rather special.  It only provides protection from clitoral stimulation, because two adjustable speculums are embedded at the bottom of the belt.  They can be opened and closed via two screws.  Since Olivia probably can't get her hands on a screw driver, you're confident she'll stay pried open as wide as you or a teacher want.  Ms. Tink spreads Olivia's vagina until she grunts, then spreads her anus until she grunts again.  The staff and you all came to an agreement that you'd gradually spread her throughout the week so she doesn't overextend herself.
+
+"Why don't you show everyone how it looks," you say.  When a teacher helps Olivia bend over, you bend over yourself to get a look at the two holes.  Like healthy gums, everything looks nice and pink.  Each hole is spread to about the size of a ping-pong ball.  Ms. Tink has a skinny little dildo, and she demonstrates how she can slide it all the way in each hole without even touching the sides.
+
+<<img "olivia_chastity_belt.png">>
+
+As the teachers giggle and discuss possibilities, Mrs. Ball kneels directly behind Olivia and makes the tell tale sounds of someone hocking up a loogie.
+
+<span class="olivia-spit">\
+<<linkreplace "Stop Mrs. Ball before she spits." t8n>>\
+    <<replace ".olivia-spit">>\
+        You stop Mrs. Ball before she spits and have another teacher walk Olivia back to her seat. <<if $fo_relaxant_urethra or $fo_ass eq "relaxant">>You decide to leave her diaper off this week, but she'll return to them next week. <</if>>
+
+    [[Continue.->UnlockHolyWeek7]]
+
+    [[Call all the rest of the girls up at the same time so you can skip past the intros.->UnlockHolyWeek8]]
+    <</replace>>\
+<</linkreplace>>
+
+<<linkreplace "Let Mrs. Ball spit into Olivia." t8n>>\
+    <<replace ".olivia-spit">>\
+       When the glob of saliva and snot shoots into Olivia's rectum, Olivia grunts and tries to stand, but a teacher holds her in place by the back of her neck.  All the teachers laugh and crowd behind Olivia, blocking your view.  You leave the podium to so you can see what happened, but when you part the teachers, there's no evidence of the loogie.
+
+    "What happened," you ask.
+
+    "It went right in," Ms. Darwin says with a smile.  "I can't even see it."
+
+    Mrs. Ball stands up tall and booms.  "I have great aim.  I'll bet a pack of cigarettes I could do it again two feet back."  
+
+    "Alright, alright," you say.  "Save it for the class.  We've got a lot more students left."
+
+    Mrs. Ball helps Olivia back to her seat, but as she walks down the steps, some of the loogie dribbles down her inner thigh.  <<if $fo_relaxant_urethra or $fo_ass eq "relaxant">>You decide to leave her diaper off this week, but she'll return to them next week. <</if>>
+
+    [[Continue.->UnlockHolyWeek7]]
+
+    [[Call all the rest of the girls up at the same time so you can skip past the intros.->UnlockHolyWeek8]]
+    <</replace>>\
+<</linkreplace>>\
+</span>
+\ <<chardetail "Olivia" "She wore a chastity belt with speculums that spread her vagina and anus during holy week.">>
+
+:: cd_trans_estim
+Fifa's cage is intentionally too small for her.  When she gets on stage, Ms. Darwin can't even stuff it all in, gives up, and asks another teacher for help.  The cage comes with a matching bra of solid plate metal that's too tight for Fifa's chest.  Both are just lewd enough, with Fifa's nipples visible, but not her areola, and a few strips of missing metal on the underside of the shaft of the cage that reveal some of the sensitive skin.  These strips are so thin, only someone with long nails would be able to reach the skin on the other side.  The testicles are covered in a metal dome and the cage is curved down, making an erection very painful.
+
+Once everything's packed inside, Ms. Tink draw's everyone's attention to the wires hanging from the cage and bra.  When she holds up a control and twists a knob, Fifa closes her eyes and sighs.  Ms. Tink says, "Nice, hmm?  It's electro-stimulation."  
+
+The teacher turns to you and says, "I think we should keep it at a low hum all day long, but never let her orgasm."  She shrugs as she hands you the controls.  "But that's your decision."
+
+"That's the plan," you reply with a smile.  You hope to keep Fifa in a constant state of blue balls.
+\ <<chardetail "Fifa" "She wore a chastity belt that electrically stimulated her erogenous zones during holy week.">>
+
+:: cd_trans_anal
+Lucy's cage is completely solid so it gives no access to her penis or testicles.  The shaft curves down, making an erection very painful.  You put a solid metal bra on her so she can't stimulate her breasts.  But, she does have easy access to her anus.  Your hope is that someone this week, maybe even a student, will figure out a way to give her an anal orgasm.  
+\ <<chardetail "Lucy" "She wore a chastity belt that exposed her anus during holy week.">>
+
+:: cd_spikes
+Since Bailey's a masochist, you decided to put her into a chastity belt that looks like a miniature iron maiden.  That is to say, it's lined with spikes.  If she gets hard in her cage, these spikes will poke her shaft and head at all angles, but even when she's soft, she'll be uncomfortable because her penis will be resting on a bed of these needles.
+
+What's more, the cage has a tiny speculum at the tip.  It'll slide into her pee hold and open it up.  How much the speculum opens is controlled by a little screw.  Ms. Tink thought it was better than a dial, this way the teachers can be in full control of how wide to spread it, not Bailey or one of the other students: It's not easy for them to get their hands on a screw driver unless you're in Ms. Tink's classroom, and she keeps good track of her inventory.
+\ <<chardetail "Bailey" "She wore a chastity belt with spikes on the inside.  The device also spread her urethra.">>
+
+:: cd_trans_stretch
+Luna's cage is one of the more complex ones.  To put it on, Ms. Tink first has to assemble a metal tube, about an inch tall, around the middle of Luna's shaft.  You're not really sure how it works, but Ms. Tink says with some light suction, it'll stay in place and won't slide around.  "Basically," she says, "it's like one of those pumps for checking your heart rate, but it's not enough pressure to cause any pain or damage.  Neat thing is, the pump itself is detachable, so Luna won't have to walk around with a tube and a bulb swinging between her legs."
+
+Once Ms. Tink has created enough suction for the tube to stay put, she gets behind Luna and pulls the flaccid penis between Luna's legs, then up until it almost reaches the top of Luna's crack.  It's as if she were giving Luna a wedgie with her own penis.  "Almost done," Ms. Tink says.  "We just gotta connect this canister to the back of her bra, so it stays in place.  Mrs. Waterloo?  Would you help me out?"
+
+Ms. Waterloo puts a metal bra on Luna then grabs two leather straps off the table.  The tube has flat metal 'wings' on the side with holes on them.  Ms. Waterloo threads each strap through a hole and ties the other end through the back of Luna's bra.  Once the straps are pulled tight, Ms. Tink stands back and says, "Tada!"
+
+<<img "luna_chastity.png">>
+
+"Wow," Ms. Monet says, "look at the front."  They have Luna face the audience so everyone can see, but with the device on, she looks clumsy as she turns.  Since Luna's penis is pulled taut between her legs, her scrotum is divided in half by the shaft, and a testicle bulges out on either side.  It reminds you of a cartoon drawing of an elephant's head.  
+
+A teacher gently pokes the testicle on the left and says, "Wow, there's not much room for the little guy to move around."
+
+"Mm-hmm," Ms. Tink says.  "Anyway, we can tighten these straps throughout the week and see how far Luna can stretch.  Maybe we can make her even longer."
+
+When a teacher walks Luna back to the bleachers, she prefers to stay standing, for obvious reasons.
+\ <<chardetail "Luna" "She wore a chastity belt that pulled her penis back and stretched it up between her crack for holy week.">>
+
+:: UnlockHolyWeek8
+The other students all wear standard chastity devices, and they reacted much like Casey did when hers was put on.  You're looking forward to visiting some classes to see what activities your teachers come up with.
+
+[[Office]]

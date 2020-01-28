@@ -1,0 +1,179 @@
+:: PassageDone
+<<script>>
+var nonInteractive = 0;
+if (window.pageviewSent) {
+	nonInteractive = 1;
+	pageviewSent = false;
+}
+ga('send', { 
+    'hitType': 'pageview', 
+    'page': '/' + State.passage,
+    'title': State.passage,
+    'nonInteraction': nonInteractive
+ });
+
+$(".passage").append("<span class='passage-finished-rendering' style='display: none'>finished-rendering</span>");
+
+<</script>>
+
+
+:: PassageReady
+<<script>>
+$(".passage .passage-finished-rendering").remove();
+<</script>>
+
+
+:: StoryMenu
+<<if passage() !== "Yearbook" && passage() !== "CharacterData">>[[Yearbook]]<</if>>
+
+<<if !tags().includes("noskip")>><<link "Skip Scene">>
+<<script>>
+Dialog.setup();
+Dialog.wiki(Story.get("SkipSceneDialog").processText());
+Dialog.open({top: 300});
+<</script>>
+<</link>>
+<</if>>
+<<if $images_seen.length > 1>>
+[[Gallery]]
+<</if>>
+
+[[Credits]]
+
+:: Credits [noskip]
+
+! Author, Game Designer, and Programmer:
+!! Academy of Fetishes (yep, same name as the game)
+If you're interested in the latest news or you'd like to show your support, please check out <a href="https://www.patreon.com/AcademyOfFetishes" target="_blank" onclick="ga('send', 'event', 'visit-patreon', 'credits')">my Patreon</a> :)
+
+! Artist
+!! FlowerDaddy
+If you'd like to see more art by FlowerDaddy, see their <a href="https://flowerdaddy.tumblr.com/" target="_blank">Tumblr</a>, <a href="https://www.hentai-foundry.com/pictures/user/FlowerDaddy" target="_blank">Hentai Foundry</a>, and <a href="https://www.furaffinity.net/user/flowerdaddy/" target="_blank">Fur Affinity</a> accounts!
+
+<<back>>
+
+:: SkipSceneDialog
+Immediately skip this scene and go back to your office?
+
+<<button "Yes" Office>>\
+	<<script>>
+ga('send', 'event', 'passage', 'skipped', State.passage, {
+	'dimension1': State.passage,
+	'metric2': 1
+});
+	Dialog.close();
+	<</script>>\
+<</button>>\
+<<print "         ">>\
+<<button "No">>\
+	<<run Dialog.close()>>\
+<</button>>
+
+
+:: StoryAuthor
+<<script>>
+var patreonConversion = function() {
+	return ga('send', 'event', 'visit-patreon', 'sidebar-image', State.passage);
+}
+$('<a href="https://www.patreon.com/AcademyOfFetishes" target="_blank"><img src="images/patreon-medium-button.png" title="Support Academy of Fetishes"/></a>').bind("click", patreonConversion).appendTo("#story-author");
+<</script>>
+
+:: Ms [widget]
+<<widget Ms>><<nobr>>
+<<if $mc_gender === "male">>Mr.\
+<<elseif $mc_gender === "female">>Ms.\
+<<else>>Principal\
+<</if>>
+<</nobr>><</widget>>\
+
+:: Maam [widget]
+<<widget Maam>><<nobr>>
+<<if $mc_gender === "male">>Sir\
+<<elseif $mc_gender === "female">>Ma'am\
+<<else>>Principal\
+<</if>>
+<</nobr>><</widget>>\
+
+:: maam [widget]
+<<widget maam>><<nobr>>
+<<if $mc_gender === "male">>sir\
+<<elseif $mc_gender === "female">>ma'am\
+<<else>>Principal\
+<</if>>
+<</nobr>><</widget>>\
+
+:: Her [widget]
+<<widget Her>><<nobr>>
+<<if $mc_gender === "male">>His\
+<<elseif $mc_gender === "female">>Her\
+<<else>>Their\
+<</if>>
+<</nobr>><</widget>>\
+
+:: herthem [widget]
+<<widget herthem>><<nobr>>
+<<if $mc_gender === "male">>him\
+<<elseif $mc_gender === "female">>her\
+<<else>>them\
+<</if>>
+<</nobr>><</widget>>\
+
+:: her [widget]
+<<widget her>><<nobr>>
+<<if $mc_gender === "male">>his\
+<<elseif $mc_gender === "female">>her\
+<<else>>their\
+<</if>>
+<</nobr>><</widget>>\
+
+:: She [widget]
+<<widget She>><<nobr>>
+<<if $mc_gender === "male">>He\
+<<elseif $mc_gender === "female">>She\
+<<else>>They\
+<</if>>
+<</nobr>><</widget>>\
+
+:: she [widget]
+<<widget she>><<nobr>>
+<<if $mc_gender === "male">>he\
+<<elseif $mc_gender === "female">>she\
+<<else>>they\
+<</if>>
+<</nobr>><</widget>>\
+
+:: shestheyre [widget]
+<<widget shestheyre>><<nobr>>
+<<if $mc_gender === "male">>he's\
+<<elseif $mc_gender === "female">>she's\
+<<else>>they're\
+<</if>>
+<</nobr>><</widget>>\
+
+:: Purse [widget]
+<<widget purse>><<nobr>>
+<<if $mc_gender === "male">>briefcase\
+<<elseif $mc_gender === "female">>purse\
+<<else>>briefcase\
+<</if>>
+<</nobr>><</widget>>\
+
+:: img [widget]
+<<widget 'img'>><<nobr>>
+    <<run $images_seen.push($args[0])>>
+    <<if settings.showImages>>
+        [img["images/" + $args[0]]]
+    <<else>>
+    //Hidden Image.  Change your settings to view.//
+    <</if>>
+<</nobr>><</widget>>\
+
+:: OneTimeLink [widget]
+<<widget onetimelink>>\
+<<if !hasVisited($args[1])>>\
+    <<link $args[0] $args[1]>><</link>>
+
+<</if>><</widget>>\
+
+:: PassageFooter
+

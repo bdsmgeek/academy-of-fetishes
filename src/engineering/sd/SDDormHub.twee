@@ -1,0 +1,38 @@
+:: SDDormLinks
+Which one do you want to visit?
+
+<<if $olivia_likes_mia>>\
+    <<if (not $finished_sd_dorm_romantic)>>\
+        [[Mia's room still has its lights on.->SDDormRomantic]]  Through the window you see a hooded Olivia sitting on the floor with her back against the bed.  She's spooning Mia who's sitting between her legs.  Olivia's clothed but Mia is completely naked.\
+    <</if>>\
+<<else>>\
+    <<if $fp_sleep and (not $finished_sd_olivia_sleep)>>\
+        [[The lights are off in Mia's room.->SDDormSleep]]  You look through the window and see Olivia sprawled out on her back and sleeping on the floor.  Maybe Mia would be interested in playing a game with you?
+
+    <</if>>\
+<</if>>\
+<<if $fp_twin and (not $finished_sd_dorm_twins)>>You search for the twins and find them both sound asleep in their owner's rooms.  Both of them are hooded.  A smile grows on your face when you realize you could [[trick them into "interacting" with each other->SDDormTwins]], even though they'd never consent to the idea if given the choice.
+
+<</if>>\
+<<if $sd_mom_horny and (not $finished_sd_dorm_mom)>>You walk past a room with its lights on.  When you look through the window, you see Sarah laying on her stomach facing her mom.  Her mom is on her back with her legs spread.  You squint to make sure you're really seeing what you're seeing.  This can't be what it looks like.  [[You decide to investigate.->SDDormMom]]
+
+<</if>>\
+<<if $amy_trusts_luna and (not $finished_sd_luna_dorm)>>There's a light on in Amy's room, but you don't see her inside.  Instead, you see Luna's muscular back facing you.  She's completely nude except for her socks and she's thrusting her hips back and forth.  You look down at her feet again and count four of them.  It's at this point you realize she is having doggy style sex.  [[You enter the room.->SDDormLuna]]
+
+<</if>>\
+[[On second thought, you decide to go back to your room and sleep->SDEnd]]
+
+
+:: SDDormRevisit
+You go back to the dormitory hallway to check on the students and their pets.  <<include "SDDormLinks">>
+
+
+:: SDDormStart
+Usually when school ends, you stay in the teacher's dormitory for the rest of the night.  But tonight, you are unable to sleep.  You sigh and look at the clock.  It's 1am.  The hooded pets are sleeping with their owners and you can't stop thinking about what they might be doing with each other.  So you get up, put your skeleton key around your neck, and walk outside to the student's dormitory in your silk pajamas.
+
+When you get inside, you walk the dark halls.  The door of each room has a little window you can peer in.  You look for signs of life. Most but not all of the rooms are dark.  <<include "SDDormLinks">><<nobr>>
+    <<if $olivia_likes_mia and $fp_peehole and $fp_pee>>
+        <<run $cameraPassagePool.push("OliviaMiaUrethraPlay")>> 
+    <</if>>
+<</nobr>>
+

@@ -1,0 +1,67 @@
+:: UnlockTransferStudents
+You send an email to the Anonymous Benefactor to inform them of how the week went, and when you get to your office the next morning you have a reply to it.
+
+"Dear Principal $name,
+
+"I'm glad to hear about the school's activities.  I would encourage you and your staff to think of more educational games in the future.
+
+"I've talked to some of my 'connections' and they, too, are impressed with how well your students are coming along.  They would like to transfer some of their more challenging students to your school, if you would take them.
+
+"I'm aware that your school cannot financially support an influx of students, so I will be donating a large sum to help.  Which group of students would you be interested in transferring to your school?
+
+"-AB"
+
+<<if $fp_mom or $fp_trans>>\
+[[Continue->UnlockTransferStudents2]]\
+<<else>>\
+[[Continue->Week2Intro]]\
+<</if>>
+
+
+:: UnlockTransferStudents2
+The Anonymous Benefactor has given you these choices.  Which students will you choose?
+
+<<if $fp_mom>>\
+''Mothers'': These delinquent mothers are trying to get their lives on track.  Most have daughters in your school.  The mothers and daughters will probably be paired or grouped together during class activities.
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_mothers" true checked>> Yes</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_mothers" false>> No</label>
+
+<<else>>\
+    <<set $has_mothers to false>>\
+<</if>>\
+<<if $fp_trans>>\
+''Trans girls'': These are effectively male to female transgendered students.  They are absolutely, 100% feminine, except they have a penis and testicles instead of a vagina.
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_futa_students" true checked>> Yes</label>
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$has_futa_students" false>> No</label>
+
+<<else>>\
+    <<set $has_futa_students to false>>\
+<</if>>\
+[[Continue.->UnlockTransferStudents3]]
+
+:: UnlockTransferStudents3
+<<nobr>>
+    <<if $has_futa_students and $has_mothers>>
+        <<set _title to "mothers and trans girls">>
+    <<elseif $has_futa_students>>
+        <<set _title to "trans girls">>
+    <<elseif $has_mothers>>
+        <<set _title to "mothers">>
+    <<else>>
+        <<goto "Week2Intro">>
+    <</if>>
+<</nobr>>\
+You type an email to the Anonymous Benefactor requesting the transfer of the _title. They should arrive at the beginning of next week.
+
+[[Office->Week2Intro]]
+
+
+:: Week2Intro
+<<set $week to 2>>That week flew by fast.  Thankfully, your staff are pulling their weight and you have enough funds to last another week.  But, the Anonymous Benefactor is keeping you on a tight leash financially.  You have enough funds for this week, but you don't have enough for the week after that.
+
+You schedule a meeting with your staff and inform them that they'll have to increase the perversity if the school is going to survive.  The more creative they get, the easier it will be to convince the Anonymous Benefactor to donate.
+
+[[Continue->Office]]
+
+
+

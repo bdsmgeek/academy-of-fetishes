@@ -1,0 +1,81 @@
+:: AbInsideSchool
+<<set $finished_ab_inside_school to true>>\
+When school's about to end, you receive an email from AB. 
+
+"Dear Principal $name,
+
+"I was excited to hear about Mrs. Curie's lubrication class and how you chose \
+<<nobr>>
+    <<set _alt_lube to "">>
+    <<switch $fo_vagina>>
+    <<case "placebo">> traditional lube
+    <<case "menthol">> menthol lube
+    <<case "semen">> semen as lube
+    <<case "relaxant">> muscle relaxant lube
+    <</switch>>
+     for Olivia's vagina.
+<<if (not $fp_anal_fisting)>>
+        <<if $fo_vagina is "menthol">>\
+        <<set _alt_lube to "relaxant">>
+         But, why didn't you choose the muscle relaxant lube?  
+        <<else>>
+        <<set _alt_lube to "menthol">>
+         But, why didn't you choose the menthol lube?  
+        <</if>>
+<<else>>
+    <<if $fo_ass isnot "spicy">>
+    <<set _alt_lube to "spicy">>
+     But maybe you should have thought of using the spicy lube in her vagina instead.  
+    <<elseif $fo_vagina isnot "menthol">>
+    <<set _alt_lube to "menthol">>
+     But maybe you should have thought of using the menthol lube in her ass instead.  
+    <<else>>
+    <<set _alt_lube to "relaxant">>
+     But maybe you should have thought about using the relaxant in her vagina instead.  
+    <</if>>
+<</if>>
+That one seems far more interesting.  
+<</nobr>> Regardless, when you have time, please provide more details to your last email.  For example, how did the students react?  Did Olivia enjoy it in any way?
+
+" -AB"
+
+That's fair, as you usually provide more information in your other emails.  You spend a few minutes typing up a more detailed account, but midway through, you pause.  Something's not right...  
+
+With your heart fluttering, you scrutinize your original email.  As suspected, you never listed out what lube there was to choose from.  How could AB possibly know there was _alt_lube?  The only explanation is that AB must be Mrs. Curie!
+
+But what to do with this newfound information?  Confront her?  Pretend not to know?  You consider what to do next, but you keep seesawing between thinking you found AB and thinking there must be some other explanation.  If you don't get some answers now, you won't be able to sleep tonight.  You rush from your office toward Mrs. Curie's class.  
+
+[[Continue.->AbInsideSchool2]]
+
+:: AbInsideSchool2
+You knock on Mrs. Curie's door instead of letting yourself in.  Mrs. Curie is there, teaching her class. Seeing you, she smiles. "Hello Principal $name.  Interested in joining us?"
+
+You clear your throat and realize you hadn't planned this far in advance.  This isn't like you.  The only choice you have is to wing it.  "Could I- Could I speak with you a moment?  Outside?"
+
+Mrs. Curie frowns. "Yes, that would be fine."  She turns to the students. "Class is over in a few minutes, but Jessie, let's have you lead the class until it ends."
+
+In the hall, Mrs. Curie says, "Is everything alright?"
+
+Something occurs to you: What if after confronting Mrs. Curie/AB, she decides to stop funding the school and it has to shut down?  The teachers would have to find new jobs and the students would have to be released.  That would be a disaster.  Sure, you'd love to know that Mrs. Curie is AB, but it's not worth sacrificing everything.  If only there were some way to confirm Mrs. Curie is AB without letting her know that you know.
+
+"Principal $name?" Mrs. Curie says.
+
+You focus.  "Yes... um, I was just wondering.  Uh..."  Mrs. Curie squints at you and tries to read your expression.  "Ah, yes.  I was just wondering, did you tell anyone about the details of that gaping class where the students made their own lube?"
+
+She rubs the back of her neck and looks around. "No, I don't believe so. Actually, no, definitely not.  Why?  What's this about?  You never told me I shouldn't."  
+
+You smile and sigh as classes end and students fill the hall, feeling content knowing that you finally discovered who AB is.  You have no idea what to do with this information, but you can deal with that on another day.  "You're right.  I was just curious.  Sorry, just... never mind."  You’re too flustered to come up with a decent excuse anymore, so you head back to your office, leaving Mrs. Curie utterly confused.
+
+[[Continue.->AbInsideSchool3]]
+
+:: AbInsideSchool3
+You don't walk more than two steps before overhearing something that stops you in your tracks.  Three students are gossiping in a circle, and the topic is Olivia and how she was gaped in Mrs. Curie's class.  In their opinion, she kind of deserved it.  You realize another group is talking about the incident, too.  It's become this week's drama.
+
+That means...  If all the students are talking about what happened to Olivia, anyone at the school could have overheard the details, and that means anyone could be AB!  You groan as you continue on to your office.   Just when you thought you had this figured out, everyone at the school becomes a suspect.  
+
+On the bright side, at least you know that AB is someone in the school.  That's new information.  Just as you’re cheering up, you realize, //What if AB isn't in the school at all?  What if it's just a mole that sends AB information?  What if it's a student?//
+
+Annoyed, you slam your office door behind you.  OK, so you don't know if AB is in the school or if it's someone working for AB, but at least you know someone is here.  That's something, right?  Or is it? It doesn't feel like much to go off of.  The only thing you can do is keep doing what you've been doing.  In time, AB is sure to slip up again.  
+
+[[Office]]
+\ <<chardetail "Mrs. Curie" "You thought she was AB because she knew some information that only AB would know.  But then you realized, everyone at school was talking about that information.">>

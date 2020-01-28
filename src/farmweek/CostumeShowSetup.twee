@@ -1,0 +1,76 @@
+:: CostumeShowSetup
+<<set $finished_costume_show_setup to true>>\
+There's a knock on your office door.  "Come in!"  
+
+When the door opens, you see a cheerful Ms. Monet enter.  "Hello, Principal $name.  I had a great idea, and I was wondering if you'd be interested in it."
+
+After placing your pen on your desk to give her your full attention, you say, "Sure.  What were you thinking?"
+
+"Well," she says, "it would probably take the rest of the week to do, that's why I wanted to get your OK before I started.  I was thinking the girls could design and create their own costumes, then over this weekend, we could have a fashion show at the gym to put them on display."
+
+You say, "So the girls would model their own costumes or have others model them?"
+
+"Oh, I was thinking they'd model their own.  They've been getting really raunchy lately, and I think they're capable of coming up with some naughty ideas, but I'll be there if they need any guidance.  Wouldn't it be more sexy to know they came up with their own ideas?"
+
+"I suppose it would," you say.  
+
+Ms. Monet smiles at you, waiting for your confirmation.
+
+[[Sure, let's have a costume show.->CostumeShowSetup2]]
+
+[[I'd rather spend time relaxing on the weekend.->CostumeShowSetupNo]]
+
+:: CostumeShowSetup2
+<<set $costume_show_allowed to true>>\
+"Sure," you say, "that sounds like a great idea."
+
+"Really?"  Ms. Monet shakes her head and smiles.  "I'm so glad you thought so, too.  They're going to make great costumes, I'm sure of it.  Oh... Well here's the thing. I plan to give them guidance, but I'd like some guidance from you.  What I mean is, should there be some limits to these costume ideas.  For example, would you want any of these... 'harder' elements in the show?"
+
+Religious themes: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_religious" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_religious" false>> No</label>
+<<if $anna_pursues_hannah>>\
+Bondage gear with latex: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_bondage" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_bondage" false>> No</label>
+<<else>>\
+<<set $fs_bondage to false>>\
+<</if>>\
+Piercings: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_piercings" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_piercings" false>> No</label>
+<<if $fp_pee>>\
+Watersports (pee): 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_watersports" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_watersports" false>> No</label>
+<<else>>\
+<<set $fs_watersports to false>>\
+<</if>>\
+<<if $fp_scat>>\
+Scat: 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_scat" true checked>> Yes</label> 
+&nbsp;&nbsp;&nbsp;&nbsp;<label> <<radiobutton "$fs_scat" false>> No</label>
+<<else>>\
+<<set $fs_scat to false>>\
+<</if>>
+
+[[Continue.->CostumeShowSetup3]]
+\ <<chardetail "Ms. Monet" "She planned a costume show with all the students.">>
+
+:: CostumeShowSetup3
+Ms. Monet says, "Great!" as she backs away.  "Don't worry, leave everything to me.  It's going to be a great show."
+
+You smile and believe that to be true because she's right about one thing: The students have been getting rather raunchy as of late.  You wonder what they'll come up with.  
+
+When Ms. Monet leaves the room, you pick up your pen and continue your work.
+
+[[Office]]
+
+:: CostumeShowSetupNo
+<<set $costume_show_allowed to false>>\
+"Honestly," you say, "I think the students would prefer to keep their weekends to themselves.  I know I would." She looks sad to hear that, so you say, "How about you make the costumes this week, but we forego the fashion show on the weekend?  That way the students get some time off to unwind?"
+
+She purses her lips as she nods, thanks you, then steps out of your office.
+
+[[Office]]
+\ <<chardetail "Ms. Monet" "She wanted to plan a costume show with all the students but you turned her down.">>

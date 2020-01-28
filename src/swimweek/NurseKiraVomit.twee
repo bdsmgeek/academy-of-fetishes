@@ -1,0 +1,110 @@
+:: NurseKiraVomit
+The school only has one nurse and her name is Nurse Neadle.  Outside her office's door are four folding chairs that could be used as a waiting room, but the teachers are pretty strict and don't usually let students leave during their classes.  As a result, these chairs are usually empty, but as luck would have it, Nurse Neadle is sitting on one of them, filing her nails.
+
+With your arm around Kira's back, you walk toward the nurse until she hears your footsteps and looks up.  When she sees Kira, she frowns, hops off her chair, and helps you carry her.  She grunts and says, "What happened here?  Feeling a little sick?"
+
+Kira says, "Yeah," as she's helped through the door.
+
+The nurse's office is a little cramped, but it seems sterile enough.  In the center of the room is an examination table with about 4 feet of walking space on all sides.  You and the nurse help Kira lay down on the table.  When she's settled, she rubs her hands up and down her distended belly and groans.
+
+"We'll be right back, honey," Nurse Neadle says to Kira.  She nods toward the door to tell you she wants to talk outside.  When you've got some privacy, she says, "What is it, is something wrong with the baby?"
+
+You try not to, but you can't help but scoff.  "No, she just ate too much.  She's not even pregnant."  
+
+Nurse Neadle touches her finger to her lip then says, "Oops.  Well, good thing I asked you first instead of her.  That would have been embarrassing."  She turns slightly away from you and rubs her chin as she says, "That's a much better problem to have, anyway.  I'll just perform a gastric lavage-"  She clicks her tongue then says, "No wait, we haven't received the Ewald tubes yet.  Well that's probably fine, I'll just do it the old fashioned way."  After nodding to herself she looks at you and smiles.  "I think I've got this under control.  Normally, this is the part where I'd ask for some privacy for the patient, but I know your school is a little more... shall we say, 'open minded'?  You're free to watch the procedure if you're interested."
+
+"Procedure?" you say.  "She just ate too much.  What are you going to do to her?"
+
+She shakes her head and smiles.  "Ah, sorry.  I may have made it sound more grandiose than it is.  We just need to expel the contents of her stomach until she's comfortable.  I'll simply trigger her gag reflex with a tongue depressor."
+
+"You mean make her vomit?"
+
+Nurse Neadle smiles and nods.  "Then she'll feel all better.  Of course, if she just wants to lay there and wait it out, that's fine too.  I doubt anyone else will need me today."
+
+[[Let Nurse Neadle use her best judgement without your presence.  You go back to your office.->Office]]
+
+[[Watch Nurse Neadle help Kira vomit.->NurseKiraVomit2]]\
+<<chardetail "Nurse Neadle" "She helped Kira to vomit after she ate too much.">>\
+<<chardetail "Kira" "With Nurse Neadle's help, she vomited when she ate too much.">>
+
+:: NurseKiraVomit2
+<<set $kira_vomited to true>>\
+Once you and Nurse Neadle step back into the office, she turns her back to Kira to put on a latex glove. "Hello Kira.  I'm Nurse Neadle and it's a pleasure to meet you.  Heard you have quite the tummy ache?"
+
+Kira exhales slowly as she turns her head to face the nurse, then says, "Uh huh."
+
+"What'd you eat," the nurse asks, partially distracted as she puts on the second glove.
+
+"Chocolate muffins."
+
+"Chocolate muffins, huh?" She turns around and lifts Kira's shirt up, just enough to expose her mid section, and gently presses her fingertips against it.  "How many did you eat?"
+
+Kira grunts at the prodding, then says, "Like a billion."
+
+"I can feel that," she says with a grin then she takes her hands of Kira's stomach.  "This is the first time I've had someone in here for overeating, you know."  Kira slowly exhales and shakes her head.  "Well, you've got 2 options.  I'm afraid to say you can either throw it up or you can poo it out.  Since you ate so much, the latter might be a little uncomfortable. By that I mean both the waiting and the actual process of pooing it out, but you'll probably be fine.  Which do you want to do?" 
+
+Kira glances at you, blushes, then quickly looks away.  "I dunno.  Which do you think I should do?"
+
+Nurse Neadle says, "Hm, I think if I were you, I'd choose to throw up.  It's a little icky, but you'll be feeling better in no time."
+
+Kira winces and holds her breath as she says, "Kay, let's do it then."
+
+"Sounds good to me," the nurse says. She pushes a button on the side of the table which causes half the table to slowly tilt up.  It rises until Kira is lifted into a sitting position.  
+
+[[Continue.->NurseKiraVomit3]] 
+
+:: NurseKiraVomit3
+Nurse Neadle removes a tongue depressor from a cylinder container on her counter top then smiles as she shows it to Kira.  "It'll be easy and painless," the nurse says.  "I'm going to use this to tickle the back of your throat, and then, well, you know the rest."  Kira looks down for a second, then she nods.  "It won't hurt or anything and you'll feel //much// better when it's all out of you.  Promise.  Now say 'ah.'"
+
+Kira says, "But won't it make a huge mess?"
+
+Nurse Neadle laughs and says, "Wow, that was foolish of me.  Here."  She pulls out a huge glass bowl from a cabinet and places it on Kira's lap.  "Can you hold that in place for me?  Otherwise, just do your best to try and relax.  Now say 'ah.'"  
+
+Kira glances at you and frowns, then whispers to the nurse, "Does <<she>> have to be here?"
+
+"Uh huh!"  Nurse Neadle says it so matter-of-factly that Kira just accepts it like it's non-negotiable.  Before she looks away from you, Kira sighs, then turns her attention to the nurse and opens her mouth.
+
+The nurse bends over the bowl and looks down at Kira while she moves the tongue depressor toward her mouth.  When the stick hits the back of Kira's throat she immediately gags, pushes the tongue depressor away, and holds her hand over her mouth with her eyes bugged out.
+
+"Oh, dear," Nurse Neadle says as she shakes her head.  "We don't like that at all, do we?  You sure you want to do this?"  Kira looks shaken up, but she nods.  The nurse smiles and says, "You're a trooper."
+
+Kira's respiratory rate increases as the depressor passes her teeth.  The nurse seems to move it slower than last time, maybe so it's less of a shock.  It seems to work because Kira doesn't gag as dramatically.  In fact, she barely coughs, that is until Nurse Neadle twirls the stick around and tickles a larger surface area on the back of her throat. 
+
+It causes Kira's whole body to hunch forward as she retches, but nothing comes out.  You note the way the nurse's thumb and forefinger dance before Kira gags a second time.  It's a much more violent gag than before.  Her arms tremble and hug the bowl, as if holding it provides some sort of comfort.  
+
+The nurse pulls the stick out then says, "You're doing great, you know.  Again?"  Kira nods.  This time when she retches her tongue shoots out of her mouth and loops around the stick.  All her neck muscles contract and she lets out a belch that sounds so vile you almost gag.  It turns out to be another dry heave, and when it's over, she pushes the stick away to take a break.  <<if $fp_spit>>You notice her eyes have begun to water and after a quick sniffle, she spits into the bowl.  It's odd that it appears clear and thin as if she were spitting water, not saliva.  <</if>>She looks up at you with her teary eyes then looks at the wall.
+
+[[It's obvious she wants you to leave.  You go back to your office and give her some privacy.->Office]]
+
+[[Perhaps you should stay and give Kira some moral support.->NurseKiraVomit4]]
+
+:: NurseKiraVomit4
+You do your best to comfort Kira by saying, "Just imagine how good you'll feel when this is over."
+
+Nurse Neadle looks at you and says, "She's going to feel so much better."  When she turns back to Kira, she reaches across the bowl with her left hand and says, "Maybe it'll be easier if you held my hand?"  There isn't any hesitation on Kira's part.  "Good.  Now let's get that ick out of you, mm?"
+
+Nurse Neadle bites on the tip of her tongue and smiles as she slides the stick in a little further than before.  Without warning, Kira doubles over the same way someone would if they were punched in the gut.  She lets out a disgusting noise that seems to come from deep down within her bowels.  It sounds like someone screaming as they gargle and you realize you're listening to her stomach churn as it compresses all its contents upward.  Sticky brown and black chunks of chocolate muffin coated in mucus hurl out of her mouth with such surprising force that Kira partially overshoots the bowl and the top half of her vomit sprays all over Nurse Neadle's medical scrubs.  Before the force of sick even has a chance to subside, Kira looks up at the nurse and apologizes with her teary eyes, but the nurse just stares back at her calmly and massages Kira's hand with her thumb.  
+
+<<img "kira_vomit.png">>
+
+As you gasp with your hand over your mouth, your initial thought is how impressive it is that Nurse Neadle didn't even flinch.  After about a second, the force of vomit diminishes and the rest lands directly in the bowl, but it splashes everywhere and the splatters of it land on the linoleum floor, making an outline of the bowl.  As the last of it leaves her mouth, the nurse tilts her head and slowly shakes it as she looks down at Kira.  There's an almost loving expression on the nurse's face as she says, "It's fine," then whispers, "I don't mind."  
+
+Since Kira's still looking up, when the flow of vomit stops it pools at the back of her throat and she has to use her tongue to push the last of it out.  Although the filth is pretty chunky, the thinner parts of its make up dribble down Kira's chin, trace her neck, and run behind her shirt.  <<if $fp_spit>>Only then does she bow her head and start hawking thick, discolored loogies into the bowl.  A tear runs down the side of her cheek.  After spitting again, she<<else>>She<</if>> pulls her hand back, perhaps to wipe her mouth, but Nurse Neadle is still holding onto it.  The abrupt movement shakes the bowl loose from Kira's other arm and it falls, shattering to pieces on the floor.  Vomit flows out in all directions and you quickly hop up on the counter to prevent it from splashing on your shoes but you realize you were being overly dramatic.
+
+Kira's jaw drops as she looks at the floor then slowly looks up at the nurse.  "I'm //so// sorry!  I-I-," Kira blurts out a short cry then sniffles it away.  "I was so distracted, I forgot you were holding onto-"
+
+"Completely my fault," Nurse Neadle says in a soothing tone as she shakes her head and pushes back a lock of Kira's hair.  "I should have been the one holding onto the bowl.  Not you.  And if I let go of your hand, it wouldn't have even happened."  She smiles and removes a strand of hair from Kira's mouth, then just stares at her for a second.  The length of eye contact is almost inappropriate, but right before it gets to that point the nurse says, "So! Do you feel better?"
+
+Kira looks down and fidgets with her fingers, then she chuckles as she says, "Yeah.  I guess so."
+
+"Aw, that's the only thing that matters."  Nurse Neadle removes one of her gloves and brushes a tear off of Kira's cheek.  "Those aren't tears of sadness, are they?"
+
+"No," Kira says as she sniffs and looks at the wall.  "It's just from puking."
+
+"Good!"  She turns to you and says, "Well, Kira's feeling better and I imagine watching me clean up these shards of glass won't be too interesting, but you're free to stay if you want."
+
+You smile and say, "I appreciate the offer, but I think I should be heading back to my office."
+
+"I understand," she says with a grin and a nod.  "I'll send Kira back to class as soon as she's feeling up to it.  Maybe let her shower off first though, huh?"
+
+[[Office]]

@@ -1,0 +1,60 @@
+:: SDEnd
+<<set $finished_sd_dorm to true>>The next day, things are relatively uneventful.  You pass the time waiting for the engineering class to start.  Today will be the day that the girls take their hoods off.
+
+[[Go to Ms. Tink's engineering class->SDEnd2]]
+
+:: SDEnd2
+Ms. Tink smiles and says, "This is definitely the longest I've seen any students wear these hoods."  She walks around and inspects a few.  "Some look a little soiled, but other than that, they seem to be holding up fine."  She holds up a key, "Who would like to go first?"
+
+She unlocks a hood and pulls it off.  The student squints from the bright classroom lights and gasps.  "I'm unlocked?!  Thank god."  Her owner rubs her back as they talk about their experience.
+
+"Who's next?"
+
+<<if $olivia_likes_mia>>Mia raises her hand.  "Can I do it," she asks.  Ms. Tink obliges and Mia stands Olivia up.  Mia scribbles a little note on a piece of paper and places it into Olivia's hand.  It's clear how confused this makes her.
+
+Mia unlocks the hood but stands in front of Olivia while taking it off.  She lifts off the ears first and says, "Close your eyes, it's going to hurt."  Then pulls off the rest.  When the hood is removed, Olivia smiles with her eyes closed.
+
+She opens them slowly and her eyes focus on Mia.  Olivia gives her a big hug and Mia whispers something into her ear.  They break their embrace and Olivia unfolds the little note in her hand and read is.
+
+"Aww!" Olivia says as she gives Mia another hug.<<else>>When Ms. Tink unlocks Olivia, Mia stands up and takes a few steps back.  When Olivia's eyes adjust to the light, she looks for Mia and glares at her.  She mouths something you can't make out and then sits by one of her friends.  Mia appears a little shaken up by whatever she said.<</if>> <<if $amy_trusts_luna>>Ms. Tink unlocks Amy and Luna stands to lift the hood.  When her eyes adjust, Amy rushes to Luna and gives her a big hug around her waist.  They look longingly into each other's eyes as Luna strokes her hair.
+
+Amy seems to ignore everyone else around her. She asks, "Can you bounce me again?"
+
+Luna looks around the room and blushes, then whispers, "Later."
+
+With a grin, she holds on to Luna's pinky and swings her hand side to side.<</if>> <<if $sd_dorm_twin_kidnap>>Hannah and Anna are sitting next to each other so Ms. Tink unlocks one after the other.
+
+When Hannah's eyes focus on her surroundings, she doesn't appear to celebrate like when the other students are unlocked.  On the other hand, Anna is ecstatic and doesn't notice her sister's mood at first.  She fidgets her legs as she looks around then leans in to Hannah and whispers, "Did you have fun?"  Hannah frowns and her shoulders slump.  "What?  What's wrong?"
+
+Hannah does her best to muster a smile then says, "Nothing.  Did you?"
+
+"Yeah!  It was great."  Anna looks at Casey and says, "Did you... have fun?"
+
+After nodding, Casey immediately breaks eye contact, blushes, and looks at the floor.
+
+"I've got some questions about last night," Anna says with a smile.  "Can we talk later?"
+
+"Later?" Casey asks.  Her jaw tightens then she shakily says, "OK."
+
+Anna looks around, confused by everyone's reactions.\
+<</if>><<if $sd_mom_soup_orgasm>>When Sarah's mom's hood is taken off, she blushes.  "Can you ever forgive me for what happened in the cafeteria?"
+
+Sarah looks a little uncomfortable but reassures her it's not her fault.  She adds, "Let's not talk about this again."  Her mom enthusiastically agrees.<</if>><<if $finished_sd_dorm_mom>>When Sarah's mom's hood is taken off, she blushes.  "Can you ever forgive me for what happened in the cafeteria?"  Sarah smiles and reassures her it's not her fault.
+
+You walk over to mom and ask, "Did you sleep alright?"
+
+Mom sits up straight and her nostrils flare.  "I slept alright.  Why do you ask?"
+
+"Because," Sarah interrupts, "you know... the... the... floor can be so uncomfortable."<</if>>
+
+<<if $finished_sd_dorm_romantic>>You walk over to Olivia.  Mia's asking if she can try the hood on.  You interrupt and ask if you can see the note.  She looks up at you frightened and holds it to her chest.  When you stick out your hand she nervously places it in your palm.
+
+"Can I keep it," she pleads.
+
+You read it and smile.  "That's very sweet," you say as you hand it back to her.
+
+It said, I wanted to be the first thing you saw.<</if>>
+
+[[Office]]
+
+

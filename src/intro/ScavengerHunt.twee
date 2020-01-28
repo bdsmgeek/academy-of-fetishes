@@ -1,0 +1,428 @@
+:: ScavengerHunt
+<<set $finished_scavenger_hunt to true>>As promised, you show up to Ms. Darwin's class early.  You knock on the inside of the door and she looks up.
+
+"Oh, hello, Principal $name.  I didn't see you there."  A slight frown is on her face. "I haven't really been told the schedule, is my first class about to start?"
+
+"That's right, thanks for waiting here so patiently.  We have about 15 minutes to prepare.  I want this to be a gentle introduction to what it's like to teach here.  I've thought of everything so you can just sit back and experience it.  But, after this I expect us to collaborate on your curriculum and with enough time for you to come up with your own plans."
+
+"Actually, because I've taught biology for years, I already have enough experience to lean on to come up with a class for today."
+
+"I understand," you say, "but that experience is not Saint Mary experience.  And we do things very... different here.  Do you understand?"
+
+Ms. Darwin zones out for a moment and stares off into space.  She says, "Yes... I've seen that first hand.  I suppose what I had planned would not be up to your standards."
+
+"Very good," you smile warmly.  "Now this is an exercise we were going to do before our previous biology teacher quit last month.  We planned out everything but then she left and we didn't get a chance to do it.  It's rather simple, really."
+
+You go to the teacher's desk and open up a drawer.  At this point, you're more familiar with the classroom than Ms. Darwin is, so you sift through the drawer and pull out a stack of papers and place it on the desk.  From another drawer, you pull out multiple scotch tape dispensers, tweezers, scissors, and calipers.
+
+<<img "scavenger_hunt_desk.png">>
+
+[[Continue->ScavengerHunt2]]\
+<<run $cameraPassagePool.push("SarahMasturbate")>>
+
+
+:: ScavengerHunt2
+Ms. Darwin swallows hard then asks, "What are those for?"
+
+You reply, "This is a little game that is fun, educational, and will also help the students bond with each other.  It's called, 'The Anatomy Scavenger Hunt.'"  You pause for Ms. Darwin to ask questions but she just stares at you blankly.
+
+"Here's how it works," you say.  "These worksheets have tasks that need to be completed.  There's two pages and each task will teach the students something about their bodies."
+
+Ms. Darwin picks up a sheet and reads to herself silently.  Her face turns sour then she looks up and says, "I can't ask these students to do this, it would be illegal!"
+
+"Your concern is noted.  If it should ever come to that - and it won't - you are being coerced by the Anonymous Benefactor.  But it will never come to that.  Thanks to the Anonymous Benefactor, word will never get out."
+
+Ms. Darwin continues reading the sheet a bit.  She mutters under her breath, "This is disgusting."
+
+"I didn't want to bring this up again," you say, "but, if you're unable to teach to our standards, you will be punished.  Remember our earlier conversation?"
+
+Ms. Darwin grits her teeth and says, "I understand.  I will run the scavenger hunt."
+
+"Lovely," you smile.  "I think you and your students will get a lot out of it."
+
+[[Continue->ScavengerHunt3]]<<chardetail "Ms. Darwin" "You made her run a 'scavenger hunt' class where the girls had to measure each other's body parts.">>
+
+
+:: ScavengerHunt3
+Some time passes and the classroom fills with students.  Each one sits at their desk and politely waits for class to start.  When everyone is present, Ms. Darwin addresses them.  "Welcome.  My name is Ms. Darwin.  It's nice to meet you all.  I look forward to getting to know you all better in the future.  How about we start with role call?"
+
+When the introductions are out of the way, Ms. Darwin says, "OK for today's class we're going to play a game called 'The Anatomy Scavenger Hunt'.  Casey, was it?  Take these sheets and pass them around to the others."
+
+As each student reads the handouts they go pale.  "OK," Ms. Darwin continues, "you are going to use these tools on my desk to complete all of these tasks.  Before we get started, does anyone have any questions?"
+
+Casey raises her hand and speaks without being called.  "Do we //really// have to do this?"  The rest of the class clamors in agreement.
+
+"Now class," Ms. Darwin raises her voice over the crowd, "this is for your education.  Every student needs to have the skills to answer these questions if they are to graduate Saint Mary's."  You nod at Ms. Darwin but the ruckus continues.
+
+"Enough!," you yell.  The students jump and turn to look at you.  "Anyone who does not participate in this class shall be punished.  And, if the class does not finish the assignment, you will all be punished.  Do I make myself clear?"  That seems to have quieted the class.  "Ms. Darwin, please continue."'
+
+"Thank you, Principal $name.  OK, one last thing.  I've been told that the whole class should work as a team to answer these questions.  The tasks are designed to be answered in the order they are presented.  We have 30 minutes to complete the game.  Shall we begin?"
+
+[[Continue->ScavengerHunt4]]<<chardetail "Casey" "She passed out the lewd scavenger hunt papers in Ms. Darwin's class.">>
+
+
+:: ScavengerHunt4
+The clock is ticking.  "The first task says, 'Find the student with the panties that have the shortest length at the crotch.  Measure from leg hole to leg hole.'"  There was a little diagram to explain:
+
+<<img "scavenger_hunt_panties.png">>
+
+One student suggests, "I think we should measure Amy, first.  She's the smallest so she probably has the smallest panties."
+
+"Actually," you reply, "I'm afraid that the only way to be sure we found the smallest is to measure everyone."
+
+Ms. Darwin says, "We'll pair and have students use these calipers to measure then switch."
+
+"Wait!," Olivia yells.  "I've been here long enough to know what they're trying to make us do.  It's whatever bullshit is the most humiliating."
+
+"Language!" you chide.
+
+She continues.  "Sorry.  But let's face it.  If we take our panties off and then measure them it'll be much faster than measuring them while they're on our bodies."
+
+A month ago, they would have never agreed to do this without threat of severe punishment, but by now your faculty has been sexualizing their classroom activities every day and the students' principles have somewhat eroded.  That said, there's still a long way for them to grow.  They still complain and do their best to hide their nudity with their skirts when they lay their panties on Ms. Darwin's desk.  How many more months will it take before they don't mind being nude in public, you wonder. /* TODO: Scene if Casey has her panties off */
+
+[[Continue->ScavengerHuntRibbonPanties]]<<charadd "Olivia">><<charadd "Amy">>
+
+
+:: ScavengerHuntRibbonPanties
+<<if $ribbon_around_panties>>It is easy to tell which one is the thinnest without even measuring.  One of the panties has a ribbon tied around it so the smallest point of the crotch is no longer than a centimeter.
+
+One of the students says, "Whose panties are those?"
+
+"Mine," Mia answers.
+
+"Why do you have a ribbon tied around your panties," Ms. Darwin asks Mia.
+
+"Ms. Monet said I wasn't allowed to take it off or clean them until I get back to the dorms.  It's really uncomfortable."  The students frown sympathetically,  especially the ones who had been in Ms. Monet's class.  They knew that those were not Mia's juices.
+
+Ms. Darwin turns to you and asks, "Does this count as the thinnest crotch or do we have to measure it with the ribbon off?"
+
+[["You have to take the ribbon off."]]
+
+[["That counts as the thinnest crotch."]]<<chardetail "Mia" "When Ms. Monet tied ribbons around a random pair of panties, those panties happened to belong to Mia.  Ms. Monet made Mia wear them with the ribbons on outside of class.">>
+<<else>><<goto "ScavengerHuntMeasurePanties">><</if>>
+
+
+:: "You have to take the ribbon off."
+You tell Ms. Darwin, "You have to take the ribbon off."
+
+Mia grabs her panties and unties the ribbons, but it's very challenging because it's so slippery.  When she finishes her fingertips have a sheen on them.
+
+Mia chuckles a little and pretends to wipe her fingers off on the nearest student.  "Rawr!"
+
+"Ew! Gross, Mia.  Get away from me."
+
+Mia grins.  "I was just kidding."  She sticks out her tongue then wipes her fingers off on the back of her skirt.
+
+[[Continue->ScavengerHuntMeasurePanties]]<<nobr>>
+<<set $ribbon_around_panties to false>>
+<<set $mia_scavenger_dirty_fingers to true>>
+<</nobr>>
+
+
+:: "That counts as the thinnest crotch."
+You say, "That counts as the thinnest crotch."  That saves the class a lot of time.  Now they can move on to the next task.
+
+[[Continue->ScavengerHunt5]]
+
+
+:: ScavengerHuntMeasurePanties
+With the panties lying on the teachers desks, the students measure them.  They turn a sheet over and pool their measurements together.  Then a student says, "Looks like the 5th panties are the thinnest.  Whose is this?"
+
+"That's mine," says Amy.
+
+"I told you!" a student shouts.
+
+"It doesn't matter!  We still had to measure to be sure."
+
+"Remember to all write 'Amy' for the answer on your sheets," Ms. Darwin says.
+
+[[Continue->ScavengerHunt5]]<<chardetail "Amy" "She had the smallest panty crotch when measured in Ms. Darwin's scavenger hunt class.">>
+
+
+:: ScavengerHunt5
+Mia says, "The next task says, 'Find the two people in the class that have the most similar length of left labia minora.  It must be measured while fully extended.'  What's labia minora?"
+
+Olivia points at her paper.  "Look there, dummy.  It has a picture."
+
+<<img "labia_minora_instructions.png">>
+
+"Don't call me dumb!" Mia pushes Olivia with the hand she had previously wiped off on her skirt.
+
+"Don't touch me with your gross hands!"
+
+Another girl yells, "Stop fighting!  We only have 20 minutes left!"  That gets the students back on track.
+
+"OK," Ms. Darwin asks, "What do you think is the best way to do this?"
+
+"Can we just write down Hannah and Anna?  They're twins so it's going to be them."  Ms. Darwin faces you for your decision.
+
+You say, "Even identical twins like Hannah and Anna aren't exactly the same.  The only way to be sure is to measure everyone."
+
+Olivia says, "Let's break into pairs and measure each other.  Also... I think we should take off our skirts.  They'll only get in our way."  There are groans, but everyone agrees.
+
+You interrupt the class and say, "I'll choose the pairs."
+
+<<if $fp_twin>><<linkreplace "Make the twins pair together" t8n>><<set $has_twins_paired to true>>You make Hannah and Anna pair together.  They don't look thrilled about it.<</linkreplace>>
+
+<</if>>\
+[[Continue->ScavengerHunt6]]<<charadd "Hannah">><<charadd "Anna">>
+
+
+:: ScavengerHunt6
+You walk around the class to inspect each pair's technique.  Most of the girls are standing with their legs spread.  A few sit on the desk.  They lightly pinch and extend their left labia minora so their pair can use the calipers to measure its length.  Many of the measurer's faces are mere inches away from the crotch of their pair because you have to get close to take an accurate measurement.  <<if $has_twins_paired is true>>
+
+You stop when you reach Hannah and Anna who have not started the task.
+
+You say, "If you don't complete the task, you will be punished."
+
+Anna says, "I don't want to do this with my sister.  It's weird."
+
+"Then I'm afraid you will be punished."
+
+"Hrmph!" Anna says, "Fine, we'll do it!"
+
+"Very good," you smile.  "Anna, get on all fours on Ms. Darwin's desk."
+
+"It's OK, we can do it standing."
+
+"No, you'll do it on all fours.  And next time don't hesitate or you'll be punished much worse than this, I promise."
+
+The only room on the desk is between two other pairs that are already sitting on it so Anna climbs between them.  It's challenging because the hard desk makes the position very uncomfortable.  Anna's position draws the attention of the other pairs and they stop what they are doing to see what's going on.
+
+Anna knows what to do next.  She reaches between her legs to extend her labia.
+
+You lightly swat her hand away.  "Let Hannah do that."
+
+The twins are mortified.  Hannah starts to protest, "But..."  The other students have come up with a decent system that minimizes physical contact but you're forcing the twins to maximize it.
+
+"Go on, Hannah."  You push Hannah's shoulder to guide her to her sister.  "Time to measure."
+
+On all fours, Anna's legs are relatively closed so it does not give easy access.  Hannah whispers to her sister, "Anna, spread your legs."
+
+You correct them, "When you find it, then you can spread."  A grimace appears on Hannah's face.
+
+She lifts her right hand toward her sister's vulva and inserts her finger between her sister's outer lips.  The contact forces a small grunt out of Anna's mouth.  Hannah fondles her sister in search of the left labia minora.  First she finds the right but once she sees she has the wrong one she lets go in search of the other.  It takes a few seconds but when she finds it she pinches it lightly and extends it so that you can see.
+
+"Very good.  Anna, you may spread your legs."  As she does, Hannah's grip slips and she loses the inner lip.  "Oh!" Hannah says then she quickly scrambles toward her sister's vagina to find it again.  Anna grunts once again during the search, but it takes less time to find than the first time.
+
+You pick up a free caliper off the desk and hand it to Hannah.  She measures with her left hand and with her right hand keeps her sister's labia minora fully extended.  "OK, I got the measurement."  Hannah picks up her paper and writes a number on the back of it.
+
+"Good," you say.  "OK Anna, you come off the desk.  Hannah, now you lay on it face up.  Yes, just like that.  But cross your legs in the air."
+
+This position makes it very difficult for Anna to access her sister's inner lips because her legs squish everything closed tight.  Anna doesn't hesitate because she knows if she does she risks more punishment.  With her left index finger and thumb she gently pries her sister's labia majora open.  Then she slips her right index finger and thumb in the middle to search for her sister's left labia minora.  It is very difficult to grab and takes a few tries.  Hannah is completely silent during the whole ordeal but she's holding her breath with her eyes closed.  When Anna gets a grip on what she is looking for, she extends it to show you.
+
+<<img "twins_measure_inner_lip.png">>
+
+"Excellent.  I knew you could do it," you say to Anna as you pat her on the head.  "Hannah, you may spread your legs."  Anna makes sure to keep a tight grip on her sister's labia so she doesn't lose it.  There is plenty of room on both sides of the desk now because the other pairs have finished long ago and the entire class is just waiting for the twins.
+
+Anna looks down at Hannah while she fully spreads her legs to each side.  Although she should have seen it coming, Anna just now realizes she is staring directly into her sister's vagina.  To your surprise, it is glistening a little inside.  Anna looks up into her sister's face who immediately blushes.
+
+"Just measure me," Hannah says, wanting to get this over with.
+
+Anna has to put her face close to Hannah's vulva to see the measurement.  It has a musty odor that smells familiar.  Once Anna takes the measurements the twins stand up and avoid making eye contact with each other.<<nobr>>
+
+<<chardetail "Hannah" "While her twin sister, Anna, was on all fours, she measured Anna's labia minora">>
+<<chardetail "Hannah" "She got visibly turned on when Anna measured her.">>
+<<chardetail "Anna" "She measured her twin sister, Hannah, while Hannah was on her back with her legs in the air.">>
+<</nobr>><</if>>
+
+"Ahem," Ms. Darwin says to break the silence.  "It looks like everyone has their measurements.  Let's pool them and see who is the most similar."
+
+[[Continue->ScavengerHunt7]]
+
+
+:: ScavengerHunt7
+Surprising no one, it turns out that Hannah and Anna are the most similar in length.
+
+"OK, we have 13 minutes left and two questions left."
+
+"Wait," you stop the class.  "The task said, 'Find the two people in the class,' not the two students.  There's still someone in the class who hasn't been measured."  You look toward Ms. Darwin.
+
+"What?  Me?" <<noPenis>>She asks in anger, "What about you?"
+
+"I'm not in the class, I'm just visiting."  You smirk.
+
+<</noPenis>>"Quickly," a student interrupts, "We only have 13 minutes left.  I don't want to be punished!"
+
+Ms. Darwin looks at the pleading student.  She sighs and says, "OK, don't say I never did anything for you."  Her fingers fumble as she unbuttons her slacks and pulls them down to the floor.  When she peels off her underwear, her thick pubic hair mound is exposed to the class.  Embarrassed, she says, "I wasn't expecting anyone to see me like this today."
+
+Mia takes the initiative to jump between her teacher's thighs with a caliper.  With her other hand she grabs her teacher's left labia minora and extends it.
+
+"Hey!" Ms. Darwin shouts.  "That's highly inappropriate<<if $mia_scavenger_dirty_fingers>>, and your hands are dirty<</if>>!"
+
+"Sorry, Ms. Darwin," Mia apologizes.  "But, I got the measurement.  Hannah and Anna still are the most similar."
+
+Ms. Darwin has a look on her face that says, I'll deal with you later as she bends down to put her pants back on.
+
+You tell her, "You should read the next task more carefully this time."
+
+She squints and smiles at you sarcastically.  "I'll be sure to do that."
+
+[[Continue->ScavengerHunt8]]\
+<<chardetail "Ms. Darwin" "She has an unshaven pubic region.">>
+
+
+:: ScavengerHunt8
+A student reads aloud, "Tape a 1 cm pubic hair to your sheet."  The student looks up slowly at Ms. Darwin.  "You're the only one in the class with pubic hair.  It's a uniform violation for us to have hair."
+
+Ms. Darwin turns to you, "Your uniform policy mentions pubic hair!?"
+
+"Mm-hm," you nod.  "This is for sanitary reasons."
+
+Ms. Darwin rolls her eyes and turns to the class.  OK, give me those tweezers.  I'll pluck a hair for each of you and you can individually cut them to 1 centimeter."
+
+She kicks her pants and panties to the side and sits on her desk with her legs spread.  A single file line of students forms in front of her.  They wait their turn with anticipation to be handed one of their teacher's pubic hairs.
+
+Hannah goes up first.  Ms. Darwin uses a tweezer to pluck one of her pubic hairs out of her mound then releases it into Hannah's hand.  But, it sticks to the tweezer so Hannah has to pinch it to get it off.  She grabs a ruler, scissor, and tape and runs back to her desk.  The next student comes up to receive another of their teacher's obscene hair.
+
+Back at her desk, Hannah is having trouble because the curly hair is difficult to measure with a straight ruler.  She comes up with a good idea.  If she lays it flat on her paper then tapes over it, it would be much easier to measure.  Then it's a simple matter of cutting out the piece of paper so that only a centimeter of the pubic hair remains.  She announces this technique to the class and they all use it.
+
+Hannah was the first to finish the task.  She sniffs her fingers and her head bobs back in disgust.  "Why aren't there ever any sinks in these classrooms?" she yells.
+
+Once all the students have received their pubic hair, Ms. Darwin puts her pants back on.  When the whole class finishes you can feel the room fill with excitement and anticipation.  "What's the last one?  Somebody read it."
+
+[[Continue->ScavengerHunt9]]
+
+
+:: ScavengerHunt9
+Olivia reads, "'Everyone in the class must make their clitoris wet and stamp it on their page to make an imprint.  You must not wet your clitoris with your own bodily fluids.'  What the fuck! Who thinks of this shit?"
+
+"Language!" you yell at Olivia.  "If one more person curses you'll all be severely punished."
+
+"Sorry, Principal $name.  And sorry, Mia," Olivia says sarcastically, "There's no picture of a clitoris on here."
+
+"Shut up, I know what a clitoris is!  We have 6 minutes left.  Let's hurry!  The best way I can think of doing this is to just spit on each other."
+
+"I'm sorry," you say, "While technically that would be following the rules, I'm going to have to forbid it.  We can't have people spitting all over the floors.  It would ruin the classroom.  You can use spit, but no spitting."  A few students groan.
+
+[[Continue->ScavengerHunt10]]
+
+
+:: ScavengerHunt10
+Olivia says, "OK we have 5 minutes left.  We need to move quick.  Let's just get over it because being punished is going to be 1000 times worse than being humiliated.  I can think of two options and both of them are bad:
+
+1. We lick each other's clits
+2. If someone's wet, they finger themselves and then rub it on our clits"
+
+Someone says, "Isn't this more unsanitary than pubic hair?"
+
+"Shut up," Olivia says. "Is anybody wet?"
+
+<<if $has_twins_paired is true>>Hannah glares at her sister and uses her eyes to plead with her not to say anything.
+
+<</if>>If anyone is, nobody wants to admit it.  Olivia sighs, "OK, option 1, it is.  We have two ways to go about this.  A person can take one for the team and lick the rest of us or we split into pairs again and everyone has to do it."  <!-- TODO: Have a choice between these two options -->
+
+"Well in the first option, how does the 'licker' make their imprint?"
+
+"I guess someone will have to volunteer to lick them after they're done."
+
+"Fuc... I mean, screw it.  I'll volunteer." Mia says.
+
+The whole room exhales a sigh of relief.  Olivia leads the group. "OK everyone, get on your back and lay shoulder to shoulder.  But leave enough room so that you can spread your legs.  Hold onto your paper so you can take your imprint as soon as you get licked."
+
+[[Continue->ScavengerHunt11]]\
+<<chardetail "Mia" "She volunteered to lick everyone's clits during Ms. Darwin's scavenger hunt.">>
+
+
+:: ScavengerHunt11
+The girls line up.  You note that the way they're coordinating together is actually quite impressive.  You stand over Amy, the smallest girl in the school, because she's the first to be licked.  Mia gets on all fours and crawls between Amy's legs.
+
+"Sorry, but I have to do this." Mia says.  She sticks out her tongue and grazes the girl's hood which makes her tense up.  As Mia climbs over the legs to move to the next girl, Amy presses her paper against her clitoris.
+
+You inspect the imprint.  "This is your clitoris hood, not your clitoris.  Mia, you're going to have to do it again."
+
+Mia groans and climbs back to Amy.  "Hey guys, lift your legs up when I'm passing through so I don't have to climb over you, OK?"  Time is of the essence.  She reaches for the girl's hood and pulls it back with her own fingers.  Then she sticks out her tongue and grazes the clit with it.  Amy tenses up harder this time.  "Is this good enough?" Mia asks you.
+
+You bend over to grab the paper out of Amy's hands.
+
+<<linkreplace "The imprint needs to be wetter." t8n>><<set $wet_imprint to true>>Mia groans in frustration.  She pulls the clit hood back again, but this time, instead of licking, she puckers her lips around the girl's clit and sucks it into her mouth.  Then she relaxes her jaw and lathers the clit with her tongue.
+
+The girl squeezes her legs until they press against Mia's body.  She grabs Mia's head and pulls it away, but not completely, and says, "Gentler, please."
+
+"Sorry, but I'm done now, anyway."
+
+Amy makes an imprint and hands you the paper.
+
+"Is that good enough," Mia asks you with a little bit of a tone.
+
+"Perfect," you say.<</linkreplace>>
+
+[[Continue->ScavengerHunt12]]
+
+
+:: ScavengerHunt12
+You inform the students that there are only 2 minutes left.
+
+Mia moves from student to student <<if $wet_imprint is true>>sucking their clits<<else>>licking their clits<</if>>.  Although you're standing next to Amy, you can tell when contact is made because their bodies tense up and squirm.  Everyone is trying to be as quiet as possible but many can't help but moan when they get <<if $wet_imprint is true>>sucked<<else>>licked<</if>>.
+
+<<img "mia_licking_clits.png">>
+
+When Mia's about 3 quarters done you tell the class, "Remember, the task is for everyone, not just the students."
+
+Ms. Darwin says, "Shoot!" then she runs to the end of the group and lays down so she will be the last one.  She kicks her pants and panties off while on her back.
+
+When Mia gets to her teacher, Mia's face is completely flush.  On her journey to get there, she has <<if $wet_imprint is true>>sucked<<else>>licked<</if>> the clitorises of 14 of her classmates.  The bottom half of her jaw is wet and by the way she rubs it, you can see it aches a bit.  Mia doesn't hesitate.  She buries her face in her teacher's mound.
+
+"Wait, wait, wait," Ms. Darwin pushes her face away.
+
+"60 seconds," you yell.
+
+"Here," Ms. Darwin uses both hands to part her pubic hair so it doesn't interfere.  She turns her head to the side, shuts her eyes, grimaces, and whispers, "OK, now go."
+
+<<if $wet_imprint is true>>Mia places her soft lips around her teacher's clitoris and a slurping sound is made as Mia creates a suction.
+
+Ms. Darwin gasps and yells, "Oh my god!"  You notice some of the other students blush and Ms. Darwin's toes twitch in a rhythmic fashion, a clear indicator of each of Mia's licks.  She grabs Mia's head but, unlike her classmates, Ms. Darwin holds it in place instead of pushing away.<<else>>Mia sticks out her tongue to a sharp point and slowly moves it toward her teacher's clitoris.  When contact was made, Ms. Darwin lets out a little yelp.  With as little surface area as possible, Mia moves her tongue up and down to coat her teacher's clit in a thin sheen of saliva.  She hears her teacher let out an "ah" that sounds like she was getting into a hot tub.<</if>>
+
+"Ahem," you interrupt the scene, "30 seconds left."
+
+[[Continue->ScavengerHunt13]]<<chardetail "Ms. Darwin" "Mia licked her clit during the scavenger hunt.">>
+
+
+:: ScavengerHunt13
+"Sorry Ms. Darwin, but you gotta do this or we'll be punished."  When Mia stands up and places her feet on both sides of Ms. Darwin's face, you can see that Mia is insanely wet.
+
+"20 seconds," you yell.
+
+The other students stand up and watch the scene unfold.  "I need you guys to hold me for balance," Mia yells.  2 students hook an arm under each of her legs and lower her into an otherwise precarious squatting position.
+
+<<img "mia_lifted_to_darwin.png">>
+
+Ms. Darwin lifts her head but is unable to reach Mia's clitoris at that height.  Another student runs behind Ms. Darwin and gives her neck support but she still can't reach.
+
+Ms. Darwin yells, "Let me sit up!  You two, let go of her and she can bend her knees to spread in front of me."  As soon as Mia gets in that position the student who was there to give neck support shoves Ms. Darwin's face into Mia's crotch.  It doesn't go as planned because Ms. Darwin's mouth is aligned with Mia's vagina, not her clit.
+
+Mia lowers her body to realign and starts moaning to the caress of her teacher's tongue.  The student who was giving neck support releases her teacher.
+
+"5..."
+
+One of the student's that was carrying Mia earlier says, "Her paper's over there.  Bring it!"
+
+"3..."
+
+As it's handed to the student she grabs Ms. Darwin by the hair and pulls her neck back off Mia's clit.  Ms. Darwin groans painfully.  You see hair stuck to her face and Mia's juice is smeared all over it.
+
+"1..."
+
+The student presses the paper against Mia's clit and makes an imprint.  You walk up to the group and extend your hand to see the paper.  Pausing for dramatic effect, you say, "Well done."
+
+The entire class breathes a sigh of relief and cheers a little bit.  You say, "I'm very proud of you all.  You did a great job.  This was an impressive show of teamwork."
+
+[[Continue->ScavengerHunt14]]
+
+
+:: ScavengerHunt14
+Mia wipes off her face and yells, "Every one of you... jerks was wet before I got to you!  If you weren't such liars I wouldn't have had to do that!  We could have used our own lubrication!"
+
+"Oh yeah," Olivia says while pointing at Mia's soaked vagina, "I don't see you complaining out of your other lips."
+
+"Shut up! I didn't like it..."
+
+"Yeah right..."
+
+Ms. Darwin interrupts, "Olivia, stop antagonizing Mia.  Mia, we're all extremely grateful that you did what you did.  Right class?"  Everyone agrees, including Olivia.  Ms. Darwin uses her sleeve to wipe her face off a bit.  "OK, then let's just get along, shall we?  We still have about 20 minutes left of class.  Why don't we all take a bathroom break to clean up and I'll teach something fun with whatever time we have left."
+
+You smile at Ms. Darwin.  "I think you did a great job with these students today.  You should be proud of yourself.  I knew that I picked the right teacher for this job."  Ms. Darwin brushes off some sticky hair from her face and can't hold back a little smile.  "I have to get back to my office, but enjoy the rest of the class.  That goes for all of you!"
+
+[[Office]]<<charadd "Olivia" "She teased Mia for getting wet after licking everyone's clits at the end of Ms. Darwin's scavenger hunt.">>
+
+

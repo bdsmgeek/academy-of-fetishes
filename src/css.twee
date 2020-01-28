@@ -1,0 +1,81 @@
+:: Story Stylesheet [stylesheet]
+.passage img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.unseen button {
+    background-color: green;
+}
+#gallery-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#gallery {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#gallery img {
+    cursor: pointer; /* Add a pointer on hover */
+}
+#close-image {
+    display: none;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    z-index: 4;
+    cursor: pointer; /* Add a pointer on hover */
+}
+#overlay-background {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none; /* Hidden by default */
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */    
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+sup {
+    display: inline-block;
+    margin: 0 .2em 0 .5em;
+    padding: .1em .6em;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #242729;
+    text-shadow: 0 1px 0 #FFF;
+    background-color: #e1e3e5;
+    border: 1px solid #adb3b9;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.2),0 0 0 2px #FFF inset;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    sup {
+        display: none;
+    }
+} 
+
+.hidden {
+    display: none;
+}
