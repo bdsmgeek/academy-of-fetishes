@@ -1,6 +1,0 @@
-::  HucowPuffiesEndEarly
-<<set $finished_hucow_transformation to true>><<include "HucowPuffiesEndEarlyDialog">>
-
-A little upset with yourself, you decide to call it a night.  You put Jessie's shirt back on and have Mrs. Curie take her back to her room.  It takes 3 hours to clean up the mess in your house before you can go to sleep.
-
-[[Office]]<<chardetail "Jessie" "You stopped giving her lactation pills.">>

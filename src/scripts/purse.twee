@@ -1,7 +1,0 @@
-::  Purse [widget]
-<<widget purse>><<nobr>>
-<<if $mc_gender === "male">>briefcase\
-<<elseif $mc_gender === "female">>purse\
-<<else>>briefcase\
-<</if>>
-<</nobr>><</widget>>\

@@ -1,4 +1,0 @@
-::  CharAdd [widget]
-<<widget charadd>><<nobr>>
-<<run setup.ybAdd($args[0])>>
-<</nobr>><</widget>>\

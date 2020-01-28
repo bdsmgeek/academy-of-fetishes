@@ -1,4 +1,0 @@
-::  CharDetail [widget nobr]
-<<widget chardetail>>
-<<run setup.ybAddDetail($args[0], $args[1])>>
-<</widget>>\

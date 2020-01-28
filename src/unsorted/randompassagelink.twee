@@ -1,8 +1,0 @@
-::  RandomPassageLink
-<<if $cameraPassagePool.length gt 0>>\
-	<<link "Check the security cameras.">>\
-		<<set _passageName to $cameraPassagePool.pluck()>>
-		<<goto _passageName>>
-	<</link>>
-
-<</if>>\

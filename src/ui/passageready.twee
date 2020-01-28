@@ -1,4 +1,0 @@
-::  PassageReady
-<<script>>
-$(".passage .passage-finished-rendering").remove();
-<</script>>

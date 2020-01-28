@@ -1,6 +1,0 @@
-::  BirthdayPartyMomsLaps
-<<set $bp_m_laps to true>>\
-<<set $bp_m_lay to false>>\
-You say, "//Who's comfortable with// sitting between their mother's legs?  Scoot all the way back."  It seems like everyone's comfortable with that, <<if $anna_pursues_hannah>>but since Hannah and Anna have one mother to share, Anna sits in her mother's lap and Hannah stays by her side.<<else>>except Hannah and Anna.<</if>>
-
-<<include "BirthdayPartyMomsLinks">>

@@ -1,7 +1,0 @@
-::  ChastityBreakLinksSnippet
-<<if not hasVisited("ChastityBreakShowers")>>[[Visit the showers during a break.->ChastityBreakShowers]]
-
-<</if>>\
-<<if not hasVisited("ChastityBreakRestrooms") and $fp_pee>>[[Visit the restrooms during a break.->ChastityBreakRestrooms]]
-
-<</if>>[[Go back to your office.->Office]]

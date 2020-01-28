@@ -1,6 +1,0 @@
-::  OneTimeLink [widget]
-<<widget onetimelink>>\
-<<if !hasVisited($args[1])>>\
-    <<link $args[0] $args[1]>><</link>>
-
-<</if>><</widget>>\

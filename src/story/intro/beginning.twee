@@ -1,8 +1,0 @@
-::  Beginning
-You ask, "Mrs. Darwin, is it?"
-
-"Miss," she says.
-
-"Ah, my apologies.  I wanted to thank you for accepting the job on such short notice.  Please, sit.  Now then, I know you are an experienced biology teacher but how much do you know about our school?"
-
-[[School Background->SchoolIntro1]]<<charadd "Ms. Darwin">>
