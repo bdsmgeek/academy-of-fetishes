@@ -12,4 +12,4 @@ Miss Darwin is an experienced biology teacher and the first teacher you encounte
 
 ### Miss Monet (Art)
 
-Miss Monet is an art teacher. Her teaching methods usually involve the use of art suplies or relevant items such as cameras or 
+Miss Monet is an art teacher. Her teaching methods usually involve the use of art supplies or relevant items such as cameras or 
